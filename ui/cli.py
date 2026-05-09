@@ -157,6 +157,67 @@ def cmd_status(args):
     console.print(table)
 
 
+def cmd_investigate(args):
+    from rag import investigator
+
+    tool = args.tool
+    topic = " ".join(args.topic) if args.topic else ""
+    if tool == "patterns":
+        with console.status("[bold green]Detecting patterns..."):
+            r = investigator.detect_patterns()
+        console.print(Panel(str(r.get("patterns", r))[:2000], title="Patterns", border_style="cyan"))
+    elif tool == "hotspots":
+        with console.status("[bold green]Finding hotspots..."):
+            r = investigator.find_hotspots()
+        for cl in r.get("clusters", []):
+            console.print(f"[cyan]Cluster {cl['cluster_id']}[/]: {cl['total_incidents']} incidents at {', '.join(cl['locations'])}")
+    elif tool == "timeline":
+        with console.status("[bold green]Analyzing timeline..."):
+            r = investigator.timeline_analysis()
+        console.print(Panel(Markdown(r.get("analysis", "")), title="Timeline", border_style="cyan"))
+    elif tool == "report":
+        if not topic:
+            console.print("[yellow]Usage: ufoai investigate report <topic>[/]")
+            return
+        with console.status(f"[bold green]Generating report: {topic}..."):
+            r = investigator.generate_report(topic)
+        console.print(Panel(Markdown(r.get("report", "")), title=f"Report: {args.topic}", border_style="green"))
+    elif tool == "connections":
+        if not topic:
+            console.print("[yellow]Usage: ufoai investigate connections <doc>[/]")
+            return
+        with console.status("[bold green]Finding connections..."):
+            r = investigator.cross_reference(topic)
+        if "error" in r:
+            console.print(f"[red]{r['error']}[/]")
+            return
+        for rd in r.get("related_documents", []):
+            console.print(f"  [cyan]{rd['source_file'][:50]}[/] | {rd['agency']} | {rd['location']} | {rd['relevance']}")
+    elif tool == "anomalies":
+        with console.status("[bold green]Scoring anomalies..."):
+            r = investigator.score_anomalies()
+        for s in r.get("scores", []):
+            score = s.get("score", 0)
+            icon = "🔴" if score > 60 else "🟡" if score > 30 else "🟢"
+            console.print(f"{icon} {s.get('title','')[:50]} — {score}")
+    elif tool == "contradictions":
+        with console.status("[bold green]Finding contradictions..."):
+            r = investigator.find_contradictions()
+        for c in r.get("contradictions", []):
+            console.print(f"  [yellow]{c}[/]")
+    elif tool == "entities":
+        if not topic:
+            console.print("[yellow]Usage: ufoai investigate entities <doc>[/]")
+            return
+        r = investigator.extract_entities(topic)
+        console.print(Panel(str(r.get("entities", {}))[:2000], title="Entities", border_style="cyan"))
+
+
+def cmd_tui(args):
+    from ui.tui import main
+    main()
+
+
 def cmd_shell(args):
     from rag.chain import ask
 
@@ -222,6 +283,13 @@ def main():
 
     sub.add_parser("shell", help="Interactive query shell")
 
+    p_inv = sub.add_parser("investigate", help="AI investigation tools")
+    p_inv.add_argument("tool", choices=["patterns", "hotspots", "timeline", "report",
+                                         "connections", "anomalies", "contradictions", "entities"])
+    p_inv.add_argument("topic", nargs="*", help="Topic or document name")
+
+    sub.add_parser("tui", help="Launch Textual TUI")
+
     args = parser.parse_args()
 
     commands = {
@@ -233,6 +301,8 @@ def main():
         "search": cmd_search,
         "status": cmd_status,
         "shell": cmd_shell,
+        "investigate": cmd_investigate,
+        "tui": cmd_tui,
     }
 
     if args.command in commands:
