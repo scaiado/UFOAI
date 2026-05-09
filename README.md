@@ -4,6 +4,8 @@
 
 Built on the [Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)](https://www.war.gov/UFO/) — the first-ever public release of declassified UAP files by the U.S. Department of War (Release 01, May 8, 2026).
 
+https://github.com/user-attachments/assets/ufoai-preview.gif
+
 ---
 
 ## Architecture

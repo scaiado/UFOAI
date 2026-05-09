@@ -82,7 +82,7 @@ with tab_dash:
         fig = px.pie(values=list(agency_data.values()), names=list(agency_data.keys()),
                      title="Documents by Agency", hole=0.4,
                      color_discrete_sequence=px.colors.qualitative.Set2)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
     with col2:
         desc_text = " ".join(c.get("description", "") or c.get("text", "")[:200] for c in chunks if c.get("chunk_type") == "metadata")
