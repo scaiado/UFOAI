@@ -82,3 +82,8 @@ class UFOAIApp(App):
 if __name__ == "__main__":
     app = UFOAIApp()
     app.run()
+
+
+def main():
+    app = UFOAIApp()
+    app.run()
