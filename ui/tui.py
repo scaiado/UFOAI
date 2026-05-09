@@ -8,33 +8,22 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from textual.app import App, ComposeResult
 from textual.binding import Binding
 from textual.containers import Horizontal, Vertical
-from textual.widgets import Header, Footer, Input, Static, RichLog
-from textual.suggester import Suggester
-from rich.panel import Panel
+from textual.widgets import Header, Footer, Input, Static, TextArea
 
 from config import PROCESSED_DIR
-
-
-class CommandSuggester(Suggester):
-    async def get_suggestion(self, value: str) -> str | None:
-        commands = [":ask ", ":search ", ":help", ":status", ":quit", ":patterns", ":hotspots", ":timeline"]
-        for cmd in commands:
-            if cmd.startswith(value.lower()):
-                return cmd
-        return None
 
 
 class UFOAIApp(App):
     CSS = """
     #sidebar { width: 28; border-right: solid green; }
     #content { width: 1; }
-    #log { height: 100%; }
-    #cmd { margin: 1; }
+    #output { height: 100%; }
+    TextArea { height: 100%; }
     """
 
     BINDINGS = [
         Binding("q", "quit", "Quit", show=True),
-        Binding("l", "clear_log", "Clear", show=True),
+        Binding("l", "clear", "Clear", show=True),
     ]
 
     def __init__(self):
@@ -47,42 +36,52 @@ class UFOAIApp(App):
             with Vertical(id="sidebar"):
                 yield Static(self._sidebar_text())
             with Vertical(id="content"):
-                yield RichLog(id="log", highlight=True, markup=True, auto_scroll=True)
+                yield TextArea(id="output", read_only=True)
         yield Input(placeholder="Type command...", id="cmd")
         yield Footer()
-
-    def on_mount(self) -> None:
-        log = self.query_one(RichLog)
-        log.write("[cyan]Welcome to UFOAI TUI[/]")
-        log.write("[cyan]Type :help for commands[/]")
 
     def _sidebar_text(self) -> str:
         p = PROCESSED_DIR / "all_chunks.json"
         if p.exists():
             data = json.loads(p.read_text())
             n = len(data)
-            return f"[cyan]UFOAI[/]\n\n[n]Chunks: {n}\n\n[cyan]Commands[/]\n:ask\n:search\n:status\n:help\n:quit"
-        return "[cyan]UFOAI[/]\n\n[red]No data[/]"
+            return f"UFOAI\n\nChunks: {n}\n\nCommands:\n:ask\n:search\n:status\n:help\n:quit"
+        return "UFOAI\n\nNo data"
 
-    def action_clear_log(self) -> None:
-        self.query_one(RichLog).clear()
+    def action_clear(self) -> None:
+        ta = self.query_one(TextArea)
+        ta.read_only = False
+        ta.clear()
+        ta.read_only = True
 
     async def on_input_submitted(self, event: Input.Submitted) -> None:
         cmd = event.value.strip()
         self.query_one(Input).value = ""
-        log = self.query_one(RichLog)
-        log.write(f"[green]>[/] {cmd}")
+        ta = self.query_one(TextArea)
 
+        response = self._handle_command(cmd)
+        ta.read_only = False
+        if ta.text:
+            ta.text = ta.text + "\n" + f"> {cmd}\n" + response
+        else:
+            ta.text = f"> {cmd}\n{response}"
+        ta.read_only = True
+        ta.scroll_to_end()
+
+    def _handle_command(self, cmd: str) -> str:
         if cmd == ":quit":
             self.exit()
+            return "Goodbye!"
         elif cmd == ":help":
-            log.write(Panel("Commands: :ask, :search, :status, :help, :quit"))
+            return "Commands: :ask, :search, :status, :help, :quit"
         elif cmd == ":status":
-            log.write(f"Loaded {len(self.chunks)} chunks")
+            return f"Loaded {len(self.chunks)} chunks"
         elif cmd.startswith(":ask "):
-            log.write("[yellow]RAG query not implemented in minimal mode[/]")
+            return "[yellow]RAG query not implemented in minimal mode[/]"
+        elif cmd.startswith(":search "):
+            return "[yellow]Search not implemented in minimal mode[/]"
         else:
-            log.write("[yellow]Unknown command[/]")
+            return f"Unknown command: {cmd}"
 
 
 if __name__ == "__main__":
