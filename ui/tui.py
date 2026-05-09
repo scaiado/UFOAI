@@ -57,7 +57,7 @@ class UFOAIApp(App):
     .sidebar-title { text-style: bold; color: $accent; padding: 0 1; }
     """
 
-BINDINGS = [
+    BINDINGS = [
         Binding("/", "focus_command", "Command", show=True),
         Binding("ctrl+q", "quit", "Quit", show=True),
         Binding("ctrl+l", "clear_log", "Clear", show=True),
@@ -67,17 +67,6 @@ BINDINGS = [
         super().__init__()
         self.chunks = []
         self.title = "UFOAI - UAP Intelligence Terminal"
-
-    def on_mount(self) -> None:
-        self.query_one(RichLog).write(Panel(
-            "[bold cyan]UFOAI[/] - UAP Intelligence Terminal\n"
-            "Type [bold]:help[/] for commands or press [bold]/[/] to focus command bar.\n"
-            "Use [bold]Tab[/] for autocomplete.",
-            border_style="cyan"))
-        self.query_one(Input).focus()
-        p = PROCESSED_DIR / "all_chunks.json"
-        if p.exists():
-            self.chunks = json.loads(p.read_text())
 
     def action_focus_command(self) -> None:
         self.query_one(Input).focus()
