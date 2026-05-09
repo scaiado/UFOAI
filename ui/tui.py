@@ -13,6 +13,12 @@ from config import PROCESSED_DIR
 
 
 class UFOAIApp(App):
+    CSS = """
+    Screen { overflow: hidden; }
+    Static { padding: 1; }
+    Input { margin: 1; }
+    """
+
     BINDINGS = [
         Binding("q", "quit", "Quit", show=True),
     ]
@@ -32,14 +38,17 @@ class UFOAIApp(App):
             self.exit()
         elif cmd == ":help":
             status.update("Commands: :status :help :quit | Type and press Enter")
+            self.refresh()
         elif cmd == ":status":
             p = PROCESSED_DIR / "all_chunks.json"
             n = 0
             if p.exists():
                 n = len(json.loads(p.read_text()))
             status.update(f"Loaded {n} chunks. Commands: :status :help :quit")
+            self.refresh()
         else:
             status.update(f"Unknown: {cmd}. Commands: :status :help :quit")
+            self.refresh()
 
 
 if __name__ == "__main__":
