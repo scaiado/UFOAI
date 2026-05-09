@@ -26,8 +26,9 @@ class CommandSuggester(Suggester):
 
 class UFOAIApp(App):
     CSS = """
-    #sidebar { width: 30; border-right: solid green; }
+    #sidebar { width: 28; border-right: solid green; }
     #content { width: 1; }
+    #log { height: 100%; }
     #cmd { margin: 1; }
     """
 
@@ -46,9 +47,14 @@ class UFOAIApp(App):
             with Vertical(id="sidebar"):
                 yield Static(self._sidebar_text())
             with Vertical(id="content"):
-                yield RichLog(id="log", highlight=True, markup=True)
+                yield RichLog(id="log", highlight=True, markup=True, auto_scroll=True)
         yield Input(placeholder="Type command...", id="cmd")
         yield Footer()
+
+    def on_mount(self) -> None:
+        log = self.query_one(RichLog)
+        log.write("[cyan]Welcome to UFOAI TUI[/]")
+        log.write("[cyan]Type :help for commands[/]")
 
     def _sidebar_text(self) -> str:
         p = PROCESSED_DIR / "all_chunks.json"
