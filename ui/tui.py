@@ -47,67 +47,34 @@ class UFOAIApp(App):
     CSS = """
     Screen { layout: grid; grid-size: 1; grid-rows: auto 1fr auto; }
     #main { layout: horizontal; }
-    #sidebar { width: 30; border-right: solid $primary; overflow-y: auto; }
+    #sidebar { width: 32; border-right: solid $primary; overflow-y: auto; }
     #content { width: 1fr; overflow-y: auto; padding: 0 1; }
     #command-bar { height: 3; border-top: solid $primary; }
-    #command-input { width: 100%; }
+    #command-input { width: 100%; background: $surface; }
+    Input { margin: 1 2; }
     .sidebar-item { padding: 0 1; height: 1; }
     .sidebar-item:hover { background: $primary 20%; }
     .sidebar-title { text-style: bold; color: $accent; padding: 0 1; }
     """
 
-    BINDINGS = [
+BINDINGS = [
         Binding("/", "focus_command", "Command", show=True),
-        Binding("q", "quit", "Quit", show=True),
+        Binding("ctrl+q", "quit", "Quit", show=True),
         Binding("ctrl+l", "clear_log", "Clear", show=True),
     ]
 
     def __init__(self):
         super().__init__()
         self.chunks = []
-        self.title = "🛸 UFOAI — UAP Intelligence Terminal"
-
-    def compose(self) -> ComposeResult:
-        yield Header()
-        with Horizontal(id="main"):
-            with Vertical(id="sidebar"):
-                yield Static(self._sidebar_text(), id="sidebar-content")
-            with Vertical(id="content"):
-                yield RichLog(id="log", highlight=True, markup=True)
-        with Horizontal(id="command-bar"):
-            yield Input(placeholder="Type a command (/ for commands)...", id="command-input",
-                        suggester=CommandSuggester())
-        yield Footer()
-
-    def _sidebar_text(self) -> str:
-        p = PROCESSED_DIR / "all_chunks.json"
-        if p.exists():
-            data = json.loads(p.read_text())
-            n = len(data)
-            agencies = set(d.get("agency", "") for d in data if d.get("agency"))
-            locs = set(d.get("incident_location", "") for d in data if d.get("incident_location") and d.get("incident_location") not in ("N/A", "Unknown"))
-            return (f"[bold cyan]UFOAI Status[/]\n"
-                    f"Chunks: {n}\n"
-                    f"Agencies: {len(agencies)}\n"
-                    f"Locations: {len(locs)}\n\n"
-                    f"[bold cyan]Commands[/]\n"
-                    f":ask <question>\n"
-                    f":search <query>\n"
-                    f":patterns\n"
-                    f":hotspots\n"
-                    f":timeline\n"
-                    f":report <topic>\n"
-                    f":connections <doc>\n"
-                    f":status\n"
-                    f":quit")
-        return "No data loaded.\nRun pipeline first."
+        self.title = "UFOAI - UAP Intelligence Terminal"
 
     def on_mount(self) -> None:
         self.query_one(RichLog).write(Panel(
-            "[bold cyan]UFOAI[/] — UAP Intelligence Terminal\n"
-            "Type [bold]:help[/] for commands or [bold]/[/] to focus command bar.\n"
+            "[bold cyan]UFOAI[/] - UAP Intelligence Terminal\n"
+            "Type [bold]:help[/] for commands or press [bold]/[/] to focus command bar.\n"
             "Use [bold]Tab[/] for autocomplete.",
             border_style="cyan"))
+        self.query_one(Input).focus()
         p = PROCESSED_DIR / "all_chunks.json"
         if p.exists():
             self.chunks = json.loads(p.read_text())
