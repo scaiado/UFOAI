@@ -66,7 +66,6 @@ class UFOAIApp(App):
         else:
             ta.text = f"> {cmd}\n{response}"
         ta.read_only = True
-        ta.scroll_to_end()
 
     def _handle_command(self, cmd: str) -> str:
         if cmd == ":quit":
