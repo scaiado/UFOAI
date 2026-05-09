@@ -36,6 +36,13 @@ class UFOAIApp(App):
         
         if cmd == ":quit":
             self.exit()
+            return
+        elif cmd.startswith(":ask "):
+            status.update(f"[ASK] Query not implemented yet. Try :status")
+            self.refresh()
+        elif cmd.startswith(":search "):
+            status.update(f"[SEARCH] Not implemented yet. Try :status")
+            self.refresh()
         elif cmd == ":help":
             status.update("Commands: :status :help :quit | Type and press Enter")
             self.refresh()
