@@ -33,7 +33,7 @@ AGENCIES = ["FBI", "Department of War", "NASA", "Department of State", "AARO"]
 
 
 class CommandSuggester(Suggester):
-    def _get_suggestion(self, value: str) -> str | None:
+    def get_suggestion(self, value: str) -> str | None:
         for cmd in COMMANDS:
             if cmd.startswith(value.lower()):
                 return cmd
