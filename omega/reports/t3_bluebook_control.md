@@ -112,3 +112,97 @@ single identified path to a properly powered T3.
 4. Kinematic descriptors are regex over OCR of bureaucratic forms, where
    recall is lower and noisier than over catalog prose — which is itself part
    of why the two corpora differ.
+
+---
+
+# 8. T3 COMPLETED AT ADEQUATE POWER — AND IT IS NULL
+
+The targeted fetch finished: **5,253 case texts**, giving a T3 dataset of
+**2,390 cases (UNID = 120, RES = 2,270)** across 21 years with ≥2 cases in
+both arms. This supersedes §3–§4, which ran on n = 50.
+
+## 8.1 Result
+
+| arm | n | H(k₂\|k₁) | shuffled null | gain | p |
+|---|---|---|---|---|---|
+| UNIDENTIFIED | 120 | 2.4886 | 2.5481 ± 0.0415 | +0.0595 | 0.0815 |
+| RESOLVED | 2,257 | 2.6486 | 2.6840 ± 0.0079 | **+0.0354** | **0.0017** |
+
+Size-matched comparison (resolved subsampled to n = 120):
+
+| quantity | value |
+|---|---|
+| UNIDENTIFIED gain | +0.0567 bits |
+| size-matched RESOLVED gain | +0.0347 ± 0.0467 bits |
+| one-sided p (UNID ≥ RES) | **0.2727** |
+
+## 8.2 Power — the test is now adequate
+
+| quantity | value |
+|---|---|
+| sd of the size-matched resolved gain | 0.0467 bits |
+| **minimum detectable difference** (α=0.05, ~80% power) | **0.1169 bits** |
+| the effect Phase 6 suggested | **0.112 bits** |
+
+**MDD ≈ target effect.** Unlike the n = 50 run, this test could have detected
+the Phase 6 effect size had it been present. It is not present.
+
+> **T3 is settled. Unidentified Blue Book cases do not carry more kinematic
+> sequence structure than resolved ones (p = 0.27), at a power level that
+> would have detected the hypothesised effect.** The one test designed to be
+> immune to all six documented failure modes — narration, selection,
+> contamination, self-reference, geocoder convergence, marginal-to-stratified
+> collapse — returns null.
+
+## 8.3 T3d: no descriptor distinguishes the arms
+
+Ten descriptors, Fisher exact, Bonferroni α = 0.005:
+
+| descriptor | UNID | RES | ratio | p | verdict |
+|---|---|---|---|---|---|
+| k_ascend | 21.7% | 13.2% | 1.64 | 0.0133 | nominal |
+| k_fast | 15.8% | 8.9% | 1.79 | 0.0146 | nominal |
+| k_rotate | 17.5% | 13.8% | 1.27 | 0.279 | null |
+| k_hover | 31.7% | 26.7% | 1.19 | 0.246 | null |
+| k_vanish | 73.3% | 66.8% | 1.10 | 0.163 | null |
+| k_pace / k_turn / k_erratic / k_split / k_descend | — | — | 0.79–1.00 | 0.50–1.00 | null |
+
+**None survives correction.** The two nominal survivors then die under year
+stratification — the sixth failure mode, holding yet again:
+
+| descriptor | strata | MH odds ratio | z | p |
+|---|---|---|---|---|
+| k_fast | 21 | 1.479 | +1.53 | 0.126 |
+| k_ascend | 21 | 1.486 | +1.72 | 0.086 |
+
+## 8.4 The decisive version of the narrative-convention finding
+
+At n = 2,257 the **RESOLVED** arm shows *statistically significant* sequence
+structure: +0.0354 bits, p = 0.0017.
+
+> **Acknowledged balloons, aircraft, meteors and satellites carry the same
+> kinematic grammar, at the same magnitude, as the unknowns.** The structure
+> is real and measurable — and it is a property of describing a receding
+> aerial object, not of the object being unexplained.
+
+And the magnitude scales with how narrative the writing is:
+
+| corpus | register | sequence structure |
+|---|---|---|
+| Hatch catalog prose (Phase 6) | compiler narrative | **+0.2504 bits** (p=0.0005) |
+| Blue Book case text, resolved | bureaucratic form + OCR | +0.0354 bits (p=0.0017) |
+| Blue Book case text, unidentified | bureaucratic form + OCR | +0.0595 bits (p=0.08) |
+
+A **7× gradient** from compiler prose to case record, with the resolved and
+unidentified arms of the case records indistinguishable from each other. The
+"grammar of departure" lives in the writer.
+
+## 8.5 Standing
+
+With T3 null at adequate power, the catalog-based programme is complete. Every
+major claim tested in this project is either falsified or explained by a
+mundane mechanism, and the control designed to be immune to all identified
+artifacts found nothing. The §6 proposal (checkbox mark detection to raise the
+labelled arm fivefold) is **no longer necessary for T3** — the test is
+adequately powered as run. It would only be needed to chase an effect smaller
+than 0.117 bits, and no hypothesis in the literature predicts one.
