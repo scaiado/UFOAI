@@ -76,8 +76,23 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     ev = json.load(open(MC))["events"]
     rows = []
+    # WIDENED CRITERION. The SMP code alone misses canonical sampled cases:
+    # Delphos 1971 and Trans-en-Provence 1981 -- the best-instrumented trace
+    # case in the literature, with actual GEPAN laboratory analysis -- carry
+    # DRT/LND/TRC/VEG but NOT SMP. Cash-Landrum carries only RDA/TRC. So SMP
+    # does not reliably track "material was collected" and the SMP-only set is
+    # an undercount. Criterion widened to: SMP, or a physical-substrate code
+    # (DRT soil/dirt, TRC traces, VEG plants, RDA radiation) accompanied by
+    # evidence in the text that something was taken, measured or analysed.
+    TOOK = re.compile(r"\bsampl|collect|took\s+(a|some|soil|samples)|gathered|"
+                      r"analys|assay|laborator|tested|examined by|sent to|"
+                      r"measured|geiger|counts per|residue|fragment", re.I)
+    SUBSTRATE = {"DRT","TRC","VEG","RDA","SMP"}
     for e in ev:
-        if "SMP" not in (e["attrs"] or []): continue
+        attrs = set(e["attrs"] or [])
+        if "SMP" not in attrs:
+            if not (attrs & SUBSTRATE): continue
+            if not TOOK.search(e["description"] or ""): continue
         d = e["description"] or ""
         chain = " ".join(
             (r.get("text","") + " " + r.get("url",""))
@@ -144,7 +159,9 @@ def main():
                         r["credibility"], "|".join(r["sample_types"]),
                         "|".join(r["custodian_candidates"]), "|".join(r["analysis_mentioned"]),
                         r["collector_named"] or "", r["priority_score"], r["extant_status"]])
-    print(f"[t1] SMP-coded events: {len(rows)}")
+    print(f"[t1] candidate sampled events (widened criterion): {len(rows)}")
+    print(f"[t1]   of which SMP-coded: {sum(1 for r in rows if 'SMP' in r['trace_codes'])}")
+    print(f"[t1]   recovered by widening: {sum(1 for r in rows if 'SMP' not in r['trace_codes'])}")
     print(f"[t1] wrote retained_sample_custody.{{json,csv}}")
     print(f"\n  custodian candidates identified from citation chains:")
     co = collections.Counter(o for r in rows for o in r["custodian_candidates"])

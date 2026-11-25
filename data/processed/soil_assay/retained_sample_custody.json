@@ -1,5 +1,5 @@
 {
- "n": 348,
+ "n": 434,
  "scope_limit": "extant/custody/assay columns are UNVERIFIED; the archives that would settle them (CUFOS, APRO, GEPAN/SEPRA, university collections) are not reachable from this environment",
  "samples": [
   {
@@ -57,6 +57,55 @@
    "priority_score": 71.18
   },
   {
+   "event_id": "OMEGA-000259",
+   "named_case": "Delphos",
+   "date": "1971-11-02",
+   "lat": 39.272224,
+   "lon": -97.772227,
+   "location": "",
+   "country": "",
+   "n_catalogs": 6,
+   "provenance_depth": 13,
+   "credibility": 6.0,
+   "sample_types": [
+    "soil",
+    "metal/residue",
+    "oily/chemical",
+    "biological/tissue"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "NICAP",
+    "CUFOS",
+    "FSR",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "A famous UFO close encounter leaving physical evidence occurred on this day at a farm one mile northeast of Delphos, Kansas. Sixteen-year-old Ron Johnson was tending the family sheep with his dog at around seven p.m. when he saw a mushroom-shaped UFO appear in the night sky. The object was covered with multicolored lights on its metallic surface. It hovered only a few feet above the ground only 75",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "Overmeire",
+    "UFOEvidenceHall"
+   ],
+   "priority_score": 68.8
+  },
+  {
    "event_id": "OMEGA-000230",
    "named_case": null,
    "date": "1961-04-18",
@@ -101,6 +150,150 @@
     "rr0"
    ],
    "priority_score": 55.86
+  },
+  {
+   "event_id": "OMEGA-000474",
+   "named_case": null,
+   "date": "1968-07-31",
+   "lat": -21.200001,
+   "lon": 55.583336,
+   "location": "['La Plaine des Cafres', 'R\u00e9union', 'Indian Ocean', 'Madagascar', 'La Soucoupe Volante']",
+   "country": "",
+   "n_catalogs": 6,
+   "provenance_depth": 11,
+   "credibility": 8.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue",
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "GEPAN/SEPRA/GEIPAN",
+    "FSR",
+    "LDLN",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": "Farmer Luce",
+   "trace_codes": [
+    "LND",
+    "RDA",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "9:00 a.m. Farmer Luce Fontaine is collecting grass for his rabbits at La Plaine des Cafres on the island of R\u00e9union \\(in the Indian Ocean east of Madagascar\\), when he sees an oval-shaped object about 75 feet away. It is sitting about 15 feet from the ground on a flange of metal; a similar structure protrudes from its top. The cylinder has two blue ends and a transparent center through which he ca",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia",
+    "NICAP",
+    "Overmeire"
+   ],
+   "priority_score": 55.12
+  },
+  {
+   "event_id": "OMEGA-000075",
+   "named_case": null,
+   "date": "1965-08-19",
+   "lat": 42.266669,
+   "lon": -79.083337,
+   "location": "['Cherry Creek, New York', 'Niagara Falls Air Force Base', 'Lockport Air Force Station']",
+   "country": "",
+   "n_catalogs": 8,
+   "provenance_depth": 15,
+   "credibility": 9.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "NICAP",
+    "CUFOS",
+    "Project Blue Book",
+    "USAF/military",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "8:20\u20139:00 p.m. Harold Butcher, 16, is milking the cows in his father\u2019s barn in Cherry Creek, New York, and listening to radio station WKBW. Just outside, a 3-year old bull is tied by its nose to a metal pipe. Harold hears the bull make a noise \u201clike I have never heard come from an animal before.\u201d Looking out the window, he sees the animal is bending the pipe. Simultaneously, he sees a metallic-loo",
+   "catalogs": [
+    "BlueBookUnknowns",
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia",
+    "NICAP",
+    "UFOEvidenceHall",
+    "rr0"
+   ],
+   "priority_score": 54.53
+  },
+  {
+   "event_id": "OMEGA-000271",
+   "named_case": "Trans-en-Provence",
+   "date": "1981-01-08",
+   "lat": 43.505558,
+   "lon": 6.488889,
+   "location": "FRANCE, Trans en Provence",
+   "country": "",
+   "n_catalogs": 7,
+   "provenance_depth": 19,
+   "credibility": 9.0,
+   "sample_types": [
+    "vegetation",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "GEPAN/SEPRA/GEIPAN",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "botanical"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) At around 5 pm, Renato Nicola\u00ef, who was working in his garden, saw an object that was round, about 2.50m in diameter and 1.70m in height, slightly curved and lead-colored. At its base there were 4 portholes. The craft was hovering 50 cm above the ground, motionless. After a minute, the witness approached and the object flew away vertically, very quickly, without making any",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "Overmeire",
+    "UFOEvidenceHall",
+    "rr0"
+   ],
+   "priority_score": 47.24
   },
   {
    "event_id": "OMEGA-000013",
@@ -148,6 +341,100 @@
     "rr0"
    ],
    "priority_score": 46.55
+  },
+  {
+   "event_id": "OMEGA-000138",
+   "named_case": null,
+   "date": "1967-05-20",
+   "lat": 49.716669,
+   "lon": -95.316671,
+   "location": "['Falcon Lake, Manitoba', 'Misericordia Hospital in Winnipeg', 'Mayo Clinic in Rochester, Minnesota']",
+   "country": "",
+   "n_catalogs": 8,
+   "provenance_depth": 14,
+   "credibility": 9.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "NICAP",
+    "CUFOS",
+    "FSR",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "INJ",
+    "LND",
+    "RDA",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "12:15 p.m. [Stefan Michalak](https://www.findagrave.com/memorial/204651773/stefan-michalak) is quartz prospecting near Falcon Lake, Manitoba, when he sees two red, glowing, cigar-shaped objects in the sky. One object begins to hover then move away, while the other lands on a large, flat rock 160 feet away. The landed object is more than 35 feet wide and 10 feet thick with a 3-foot high cupola. It ",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia",
+    "NICAP",
+    "Overmeire",
+    "UFOEvidenceHall",
+    "rr0"
+   ],
+   "priority_score": 42.56
+  },
+  {
+   "event_id": "OMEGA-000190",
+   "named_case": null,
+   "date": "1966-09-13",
+   "lat": 46.211113,
+   "lon": -97.833338,
+   "location": "",
+   "country": "",
+   "n_catalogs": 7,
+   "provenance_depth": 12,
+   "credibility": 6.0,
+   "sample_types": [
+    "vegetation",
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "NICAP",
+    "CUFOS",
+    "Project Blue Book",
+    "USAF/military"
+   ],
+   "analysis_mentioned": [
+    "radiological"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "At 7:30 a.m. a 12-year-old boy, Randy Rotenberger, saw a silvery-gray ellipsoid object with a clear bubble dome protruding from its top; it hovered about a mile away, then landed with a falling leaf motion near a farm between Gwinner and Stirum, North Dakota within 300 yards of him. It made a low-pitched whine during the five-minute sighting. It had tripod landing gear, two red lights, two white a",
+   "catalogs": [
+    "BlueBookUnknowns",
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia",
+    "NICAP",
+    "rr0"
+   ],
+   "priority_score": 41.23
   },
   {
    "event_id": "OMEGA-000046",
@@ -246,6 +533,138 @@
    "priority_score": 38.57
   },
   {
+   "event_id": "OMEGA-000227",
+   "named_case": null,
+   "date": "1957-07-30",
+   "lat": 43.350002,
+   "lon": -80.300004,
+   "location": "Galt, Ontario, Canada",
+   "country": "",
+   "n_catalogs": 7,
+   "provenance_depth": 10,
+   "credibility": 6.0,
+   "sample_types": [
+    "soil",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)",
+    "metallurgical"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "INJ",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "A great deal of excitement was generated in the community when a group of frightened teenagers came within inches of a spaceship. Jack Stephens, a very trustworthy young man according to his parents and teachers, said the party of 5 had accidentally stumbled upon the object, complete with portholes, as it rested on 2 ball shaped landing gears in a field outside town. Additional proof of the incide",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia",
+    "Majestic",
+    "NICAP",
+    "Trace"
+   ],
+   "priority_score": 38.57
+  },
+  {
+   "event_id": "OMEGA-000970",
+   "named_case": null,
+   "date": "1975-07-06",
+   "lat": 43.105558,
+   "lon": -80.327782,
+   "location": "CANADA, near London (Ontario)",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 7,
+   "credibility": 8.0,
+   "sample_types": [
+    "soil",
+    "vegetation",
+    "oily/chemical",
+    "biological/tissue"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "university/lab",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) (Source: Canadian Northeastern Ufo Organization) A UFO landed on the land of farmer Joseph Borda. The provincial police arrived to investigate and took samples of a strange blue-green substance. According to the ufology group investigator, Thomas Grey, this farmer had seen a UFO topped with a luminous dome in his field while he himself was busy on a tractor doing a spreadi",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "Overmeire"
+   ],
+   "priority_score": 36.86
+  },
+  {
+   "event_id": "OMEGA-002767",
+   "named_case": null,
+   "date": "1986-01-29",
+   "lat": 44.583335,
+   "lon": 135.58334,
+   "location": "['Dalnegorsk, Primorsky Krai, Russia', 'Height 611 (also known as Mount Izvestkovaya)', 'Tunguska event']",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 4,
+   "credibility": 5.0,
+   "sample_types": [
+    "soil",
+    "metal/residue",
+    "oily/chemical",
+    "radiation reading",
+    "biological/tissue"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)",
+    "botanical"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "7:50 p.m. Inhabitants of Dalnegorsk, Primorsky Krai, Russia, see a reddish ball about half the size of the full moon. The ball is flying soundlessly parallel to the ground. It is later determined that its speed is approximately 34 mph and that it is about 2,300\u20132,625 feet in altitude. When the object reaches Height 611 \\(also known as Mount Izvestkovaya\\) it starts to descend and then crashes into",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 34.68
+  },
+  {
    "event_id": "OMEGA-000022",
    "named_case": null,
    "date": "1909-05-18",
@@ -289,6 +708,225 @@
     "rr0"
    ],
    "priority_score": 34.58
+  },
+  {
+   "event_id": "OMEGA-000822",
+   "named_case": null,
+   "date": "1953-07-01",
+   "lat": 39.850002,
+   "lon": -2.5,
+   "location": "SPAIN, Villares del Saz (Cuenca)",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 9,
+   "credibility": 6.0,
+   "sample_types": [
+    "metal/residue",
+    "photographic"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "FSR",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Observation at around 2 pm. Three small men came out of a hatch in the upper part of the UFO, approached the witness, and spoke to him. One of them gave the child a light tap on the cheek and then went back into the object, which flew away at great speed. (Henry DURRANT: \"First Investigations of ET Humanoids\" - Laffont 1977 - pp. 175 and 179) A 14-year-old illiterate cowhe",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia",
+    "Overmeire"
+   ],
+   "priority_score": 32.64
+  },
+  {
+   "event_id": "OMEGA-001611",
+   "named_case": null,
+   "date": "1972-06-26",
+   "lat": -32.783335,
+   "lon": 26.650001,
+   "location": "['Braeside Farm', 'Fort Beaufort, Eastern Cape, South Africa']",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 8,
+   "credibility": 10.0,
+   "sample_types": [
+    "soil",
+    "vegetation",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "FSR",
+    "university/lab",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "8:00 a.m. Bennie Smit, the new owner of Braeside Farm 9 miles from Fort Beaufort, Eastern Cape, South Africa, is alerted to a \u201cfiery red ball hovering at tree-top level\u201d by his hired hand Boer de Klerk. Its color changes to bright green and then to whitish yellow, with flames shooting out. Smit dashes home, grabs a rifle, and calls the police. He shoots at the object, but the bullets have little e",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "rr0"
+   ],
+   "priority_score": 31.58
+  },
+  {
+   "event_id": "OMEGA-001636",
+   "named_case": null,
+   "date": "1975-02-10",
+   "lat": 40.583335,
+   "lon": -74.16667,
+   "location": "['Annadale, Staten Island, New York']",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 4,
+   "credibility": 6.0,
+   "sample_types": [
+    "soil",
+    "vegetation",
+    "oily/chemical",
+    "water"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "7:00 p.m. Two 15-year-old boys in Annadale, Staten Island, New York, see a glowing ball, 20 feet in diameter, hovering about 400 feet away above some trees near a frozen pond. The brilliant orange mass compresses itself from football-shaped to basketball-shaped over a period of 10 minutes then suddenly disappears. Another witness who is walking a German shepherd dog around the same time reports th",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP"
+   ],
+   "priority_score": 31.12
+  },
+  {
+   "event_id": "OMEGA-000992",
+   "named_case": null,
+   "date": "1979-05-01",
+   "lat": -33.500002,
+   "lon": -68.41667,
+   "location": "['Vizcacheras oil fields', 'Mendoza province', 'Andes mountains', 'La Pintada', 'Cuesta de los Terneros', 'San Rafael']",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 6,
+   "credibility": 9.0,
+   "sample_types": [
+    "soil",
+    "oily/chemical",
+    "water"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "4:00 a.m. YPF company engineers at the Vizcacheras oil fields in a remote area of Argentina\u2019s Mendoza province accessible only to employees are awakened by goats bleating in a corral. When they go outside to investigate, they see a UFO hovering silently about 230 feet from the encampment and 65 feet above the ground. They wave a lantern and the UFO seems to respond by blinking a light, then slowly",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "UFOEvidenceHall"
+   ],
+   "priority_score": 30.75
+  },
+  {
+   "event_id": "OMEGA-004772",
+   "named_case": null,
+   "date": "1975-11-02",
+   "lat": 44.172224,
+   "lon": -93.244449,
+   "location": "['Medford, Minnesota', 'University of Kansas in Lawrence']",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 5,
+   "credibility": 10.0,
+   "sample_types": [
+    "soil",
+    "vegetation",
+    "metal/residue",
+    "oily/chemical",
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "FSR",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "RDA",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Night. Witnesses in Medford, Minnesota, including Helen Kay, see a brilliant orange-red light go behind a building, where they suspect it has landed. At the location, they find a bare spot, 12 feet square, of burned grass and ashy residue. At some distance away they see a red ball of light above the trees and try to catch up with it by car but it eludes them. Soil samples from the alleged landing ",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB"
+   ],
+   "priority_score": 30.36
   },
   {
    "event_id": "OMEGA-000968",
@@ -337,6 +975,141 @@
    "priority_score": 30.24
   },
   {
+   "event_id": "OMEGA-000003",
+   "named_case": null,
+   "date": "1980-12-28",
+   "lat": 52.111114,
+   "lon": 1.388889,
+   "location": "['RAF Woodbridge', 'Capel Green', 'Orfordness Lighthouse']",
+   "country": "",
+   "n_catalogs": 8,
+   "provenance_depth": 34,
+   "credibility": 10.0,
+   "sample_types": [
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "USAF/military",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "radiological"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "DRT",
+    "INJ",
+    "LND",
+    "RDA",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Around 12:00 midnight. USAF A1C [Larry Warren](http://www.therendleshamforestincident.com/Larry%5FWarren.html) claims he is on patrol at RAF Woodbridge with other servicemen who are bringing lighting equipment to a large clearing called Capel Green. At 12:30 a.m., he is directed into the woods to \u201cinvestigate a disturbance.\u201d They soon come to a large field where about 40 military personnel are gat",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Majestic",
+    "NICAP",
+    "Overmeire",
+    "UFOEvidenceHall",
+    "rr0"
+   ],
+   "priority_score": 29.26
+  },
+  {
+   "event_id": "OMEGA-000132",
+   "named_case": null,
+   "date": "1964-12-21",
+   "lat": 38.450002,
+   "lon": -78.86667,
+   "location": "['US Highway 250', 'Fishersville, Virginia']",
+   "country": "",
+   "n_catalogs": 7,
+   "provenance_depth": 14,
+   "credibility": 9.0,
+   "sample_types": [
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "Project Blue Book",
+    "FSR"
+   ],
+   "analysis_mentioned": [
+    "radiological"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "RDA",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "5:00 p.m. Driving east on US Highway 250, Horace Burns is approaching Fishersville, Virginia, when an enormous object appears from the north and descends slowly in a gradual slant. Just before it crosses the highway 200 feet in front of him, the UFO narrowly misses power lines. It is so huge that when it passes nearly in front of him, it fills his entire windshield. The UFO comes down gently and l",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "Overmeire",
+    "UFOEvidenceHall",
+    "rr0"
+   ],
+   "priority_score": 29.26
+  },
+  {
+   "event_id": "OMEGA-002435",
+   "named_case": null,
+   "date": "1957-11-06",
+   "lat": 36.033335,
+   "lon": -84.016671,
+   "location": "['Dante, Knoxville, Tennessee', 'Oak Ridge National Laboratory']",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 8,
+   "credibility": 5.0,
+   "sample_types": [
+    "soil",
+    "vegetation",
+    "oily/chemical",
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "6:30 a.m. [Everett Orain Clark](https://www.findagrave.com/memorial/186597176/everette-orain-clark), 12 , of Dante, Knoxville, Tennessee, lets his dog Frisky outside and sees an object like an elongated egg in a field 300 feet away from his house. 20 minutes later, he calls to bring the dog back and sees Frisky with other dogs on the other side of the road close to the object. Clark walks toward t",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Overmeire"
+   ],
+   "priority_score": 29.17
+  },
+  {
    "event_id": "OMEGA-001667",
    "named_case": null,
    "date": "1977-07-12",
@@ -375,6 +1148,48 @@
     "Overmeire"
    ],
    "priority_score": 28.77
+  },
+  {
+   "event_id": "OMEGA-002263",
+   "named_case": null,
+   "date": "1949-10-14",
+   "lat": 33.366668,
+   "lon": -116.850006,
+   "location": "['San Diego County, California', 'Point Loma, California', 'Palomar Gardens Caf\u00e9']",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 6,
+   "credibility": 4.0,
+   "sample_types": [
+    "radiation reading",
+    "photographic"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "MUFON",
+    "Project Blue Book",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)",
+    "radiological"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "RDA",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "1:15 p.m. [Harley C. Marshall](http://palomarskies.blogspot.com/2009/04/who-are-you-callin-dummy.html)[,](http://palomarskies.blogspot.com/2009/04/who-are-you-callin-dummy.html) manager of public relations at Palomar Observatory in San Diego County, California, is driving away from the observatory when he sees a perfect \u201cV of V\u2019s\u201d formation of about 16\u201318 silver objects without tails or wings over",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "NICAP"
+   ],
+   "priority_score": 28.21
   },
   {
    "event_id": "OMEGA-000064",
@@ -508,6 +1323,90 @@
    "priority_score": 27.37
   },
   {
+   "event_id": "OMEGA-001607",
+   "named_case": null,
+   "date": "1970-07-25",
+   "lat": 46.022224,
+   "lon": 1.533333,
+   "location": "FRANCE, Jabreilles-les-Bordes",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 10,
+   "credibility": 6.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "MUFON",
+    "LDLN"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Etienne G\u00e9ry, 16 years old, an apprentice baker, decided in the afternoon to go for a walk with the hope of discovering mushrooms. He took a familiar route, climbing a small slope. He passed the summit, the vegetation was very dense at this time, the ferns almost reaching the size of a man. Suddenly, between the ferns he distinguished something abnormal: a kind of dome of ",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Overmeire"
+   ],
+   "priority_score": 26.39
+  },
+  {
+   "event_id": "OMEGA-001739",
+   "named_case": null,
+   "date": "1982-10-21",
+   "lat": 48.383336,
+   "lon": 6.183334,
+   "location": "['Nancy, Meurthe-et-Moselle, France']",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 6,
+   "credibility": 6.0,
+   "sample_types": [
+    "vegetation",
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "GEPAN/SEPRA/GEIPAN",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)",
+    "botanical"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "12:35 p.m. An oval object about 3 feet in diameter descends into a garden in Nancy, Meurthe-et-Moselle, France, and hovers about 3 feet off the ground. After 20 minutes the object takes off silently. The witness, a cellular biologist, reports that when the UFO rises up, the grass under it stands up straight. In the afternoon, the witness notes that two amaranth plants located near the UFO have des",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Overmeire",
+    "rr0"
+   ],
+   "priority_score": 26.07
+  },
+  {
    "event_id": "OMEGA-000236",
    "named_case": "Valensole / Masse",
    "date": "1965-07-01",
@@ -597,6 +1496,47 @@
     "rr0"
    ],
    "priority_score": 25.92
+  },
+  {
+   "event_id": "OMEGA-000459",
+   "named_case": null,
+   "date": "1966-04-23",
+   "lat": 42.333335,
+   "lon": -71.083337,
+   "location": "['Dorchester, Massachusetts', 'Kalnicki apartment', 'Boston']",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 7,
+   "credibility": 9.0,
+   "sample_types": [
+    "vegetation",
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "radiological"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "10:45 p.m. On hearing a listener call in a live UFO sighting on WMEX radio, Jeanne Kalnicki of Dorchester, Massachusetts, goes to the window with her two daughters and sees an oval, domed UFO with a ring of blinking red lights bobbing up and down above a building across the street. A yellow light is on top of the dome and alternately flashes on when the red lights blink off. It moves across the st",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "Overmeire"
+   ],
+   "priority_score": 25.6
   },
   {
    "event_id": "OMEGA-001520",
@@ -772,6 +1712,87 @@
    "priority_score": 23.94
   },
   {
+   "event_id": "OMEGA-000885",
+   "named_case": null,
+   "date": "1963-10-12",
+   "lat": -33.200002,
+   "lon": -62.600003,
+   "location": "ARGENTINA, between Monte Maize and Isla Verde",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 9,
+   "credibility": 6.0,
+   "sample_types": [
+    "vegetation"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "CUFOS",
+    "FSR",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": "Ernesto Douglas",
+   "trace_codes": [
+    "INJ",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) At dawn, in a driving rain, Eugenio Douglas was driving his coal truck. Suddenly he saw a bright point on the road, a single blinding light was approaching. He stopped and pulled off to the side. He got out of the truck: the light had disappeared. Through the rain he saw a round object about 35 feet high, an opening appeared and three men wearing what looked like antenna h",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia",
+    "Overmeire"
+   ],
+   "priority_score": 23.94
+  },
+  {
+   "event_id": "OMEGA-000753",
+   "named_case": null,
+   "date": "1957-11-13",
+   "lat": 39.02778,
+   "lon": -76.600004,
+   "location": "['State Hospital at Crownsville, Maryland', 'Fort George G. Meade', 'Air Research and Development Center in Baltimore']",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 7,
+   "credibility": 8.0,
+   "sample_types": [
+    "metal/residue",
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "An object explodes over the State Hospital at Crownsville, Maryland, and two or three burned pieces of metal fall on the hospital grounds. It is recovered by employees William A. Zick and J. Caswell. The pieces are checked for radiation and confiscated by army intelligence officers at Fort George G. Meade. They are apparently sent to the Air Research and Development Center in Baltimore. An ARD col",
+   "catalogs": [
+    "Dolan",
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "HostileFawcett",
+    "Johnson"
+   ],
+   "priority_score": 23.55
+  },
+  {
    "event_id": "OMEGA-001360",
    "named_case": null,
    "date": "1950-06-17",
@@ -812,6 +1833,45 @@
     "NICAP"
    ],
    "priority_score": 23.34
+  },
+  {
+   "event_id": "OMEGA-005877",
+   "named_case": null,
+   "date": "1959-02-21",
+   "lat": 54.538891,
+   "lon": 18.550001,
+   "location": "POLAND, Gdynia",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 4.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue",
+    "oily/chemical",
+    "biological/tissue"
+   ],
+   "custodian_candidates": [
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "SUB",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Dock workers at the Gdynia port see a glowing object fall into the middle of the harbor basin and their description is so precise that the exact location of where it fell can be determined. The maritime authorities then send three divers who enter the icy water and first announce that their search is hampered by a thick cloud of mud. They eventually manage to surface with ",
+   "catalogs": [
+    "Hatch_UDB",
+    "Overmeire"
+   ],
+   "priority_score": 23.18
   },
   {
    "event_id": "OMEGA-000418",
@@ -899,6 +1959,90 @@
    "priority_score": 22.62
   },
   {
+   "event_id": "OMEGA-000265",
+   "named_case": null,
+   "date": "1975-11-07",
+   "lat": 47.500002,
+   "lon": -111.166672,
+   "location": "['Malmstrom AFB, Great Falls, Montana', 'Judith Gap, Montana', 'K-7 area near Judith Gap, Montana', 'Great Falls']",
+   "country": "",
+   "n_catalogs": 6,
+   "provenance_depth": 9,
+   "credibility": 10.0,
+   "sample_types": [
+    "soil"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "USAF/military"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "3:00 p.m.\u2013November 8, 9:53 p.m. Remote electronic sensors trigger an alarm at Malmstrom AFB, Great Falls, Montana, indicating that something is violating security at several missile launch sites. Underground, in the launch control facility, two officers note the signal, but there is no TV surveillance topside. A missile security helicopter checks the area and Sabotage Alert Teams consisting of 4\u20136",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "UFOEvidenceHall",
+    "rr0"
+   ],
+   "priority_score": 22.61
+  },
+  {
+   "event_id": "OMEGA-001513",
+   "named_case": null,
+   "date": "1962-05-12",
+   "lat": -38.350002,
+   "lon": -62.86667,
+   "location": "['Bahia Blanca', 'Jacinto Ar\u00e1uz, La Pampa, Argentina', 'Puerto Belgrano Naval Base', 'Universidad Nacional del Sur']",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 10,
+   "credibility": 8.0,
+   "sample_types": [
+    "vegetation"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "NICAP",
+    "CUFOS",
+    "FSR"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "4:10 a.m. Three truckers \\(Valentino Tomassini, Guro Tomassini, and Humberto Zenobi\\) are driving from Bahia Blanca to Jacinto Ar\u00e1uz, La Pampa, Argentina, when they see a lantern-like light resting in a nearby field. It brightens and dims alternately. As they slow down, a row of 20\u201330 lights come on. When they approach to within 210 feet of the object, it rises up and crosses the road at a height ",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia"
+   ],
+   "priority_score": 22.33
+  },
+  {
    "event_id": "OMEGA-000486",
    "named_case": null,
    "date": "1977-01-27",
@@ -939,6 +2083,167 @@
     "Overmeire"
    ],
    "priority_score": 22.18
+  },
+  {
+   "event_id": "OMEGA-001788",
+   "named_case": null,
+   "date": "1998-08-10",
+   "lat": -31.516668,
+   "lon": 150.683341,
+   "location": "Australia, Quirindi (near Tamworth, New South Wales)",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 5,
+   "credibility": 8.0,
+   "sample_types": [
+    "vegetation",
+    "oily/chemical",
+    "photographic"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) (Investigators: Moira McGhee, Bill Chalker, Bryan Dickeson, Diane Harrison, Robert Frola UFO Group: INUFOR, UFOIC, UFOR(NSW), UFOICQ) Mrs. Eunice Stansfield, 61, had just finished having tea in the garden with her daughter Noelene. It was about 1 pm, and she was bringing the cups into the house when she heard her daughter say \"Oh no, here it comes!\" Coming out of the house",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Overmeire"
+   ],
+   "priority_score": 21.75
+  },
+  {
+   "event_id": "OMEGA-001697",
+   "named_case": null,
+   "date": "1978-09-17",
+   "lat": 43.316669,
+   "lon": 11.350001,
+   "location": "['Torrita di Siena, Italy', 'Via Pi\u00e9 agli Orti', 'Ispra']",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 6,
+   "credibility": 8.0,
+   "sample_types": [
+    "soil",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "FSR",
+    "LDLN"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "INJ",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "8:00 p.m. Hairdresser Rivo Faralli hears an explosion like a rifle shot at Torrita di Siena, Italy. He goes to visit his mother on the other side of town, who has also heard the noise and seen a flash of light that causes the lights and TV to go out. When Faralli is driving home at 9:00 p.m. on the Via Pi\u00e9 agli Orti, the engine and lights of his car die. He feels paralyzed as he watches a domed di",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "NICAP",
+    "UFOEvidenceHall"
+   ],
+   "priority_score": 21.58
+  },
+  {
+   "event_id": "OMEGA-003537",
+   "named_case": null,
+   "date": "1990-07-18",
+   "lat": 41.883335,
+   "lon": -72.96667,
+   "location": "",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 3,
+   "credibility": 6.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "A woman in New Hartford, Connecticut was lying awake in bed at 2:00 a.m. when she noticed bright flashing lights over her backyard. She went to the window and witnessed a small domed disc hovering 100 feet away and descending over the corner of the lawn. The object maneuvered a few seconds without actually touching down. She noted that it had flashing red, yellow, and white lights around its botto",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP"
+   ],
+   "priority_score": 21.11
+  },
+  {
+   "event_id": "OMEGA-001659",
+   "named_case": null,
+   "date": "1977-05-03",
+   "lat": 51.600002,
+   "lon": 0.127778,
+   "location": "",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 8,
+   "credibility": 8.0,
+   "sample_types": [
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "FSR",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": "Hainault Forest",
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "At 3:55 a.m. police in Hainault Forest, England took an emergency telephone call. The caller said that some strange UFO was over the forest near the small lake. Two policemen were directed to the scene. Arriving, they proceeded along the lake road and noticed a \"large bright red light\" across on the eastern shore. They stopped, exited their vehicle, and then observed a \"bell tent\" shaped thing, ab",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Overmeire"
+   ],
+   "priority_score": 21.05
   },
   {
    "event_id": "OMEGA-000043",
@@ -1022,6 +2327,83 @@
     "NICAP"
    ],
    "priority_score": 20.42
+  },
+  {
+   "event_id": "OMEGA-001477",
+   "named_case": null,
+   "date": "1957-09-10",
+   "lat": -23.433334,
+   "lon": -45.066669,
+   "location": "Ubatuba, Brazil",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 14,
+   "credibility": 7.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "NICAP",
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Approximate date. Anonymous witnesses saw a disk dive down and explode, showering the area with flaming fragments. Some samples were gathered, sent to a Brazilian newsman, analyzed by friends of Dr. Fontes, of Rio, and were found to consist of surprisingly pure magnesium.",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "HostileFawcett",
+    "Magonia"
+   ],
+   "priority_score": 20.3
+  },
+  {
+   "event_id": "OMEGA-002285",
+   "named_case": null,
+   "date": "1950-09-26",
+   "lat": 39.950002,
+   "lon": -75.150004,
+   "location": "USA, Philadelphia",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 5,
+   "credibility": 7.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "MUFON",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Two police officers patrolling in a car saw through the windshield an object slowly approaching the ground. The object seemed to them at first to be a parachute. Located at the tops of the trees it seemed to have a diameter of six feet. It landed in a nearby field. The police officers, after watching it for some time, wanted to take possession of it, but the object disinte",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Overmeire"
+   ],
+   "priority_score": 20.28
   },
   {
    "event_id": "OMEGA-000045",
@@ -1114,6 +2496,46 @@
     "rr0"
    ],
    "priority_score": 19.95
+  },
+  {
+   "event_id": "OMEGA-001026",
+   "named_case": null,
+   "date": "1943-09-00",
+   "lat": -31.916668,
+   "lon": -63.66667,
+   "location": "ARGENTINA, Oncativa (Laguna Larga)",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 6,
+   "credibility": 6.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "GEPAN/SEPRA/GEIPAN",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) It was very early, 04:00 this morning when Ren\u00e9 Navarro Ocampo was driving in his car on the road from Rosario to Cordoba. As he passed near Oncativa he suddenly saw an object on the road about 500 m from his vehicle. The object looked like an immense disk, wider than the road and it emitted a light of a bluish-green color. As soon as Ren\u00e9 Ocampo's car approached, the obje",
+   "catalogs": [
+    "Hatch_UDB",
+    "Magonia",
+    "NICAP",
+    "Overmeire",
+    "Rife_ch7"
+   ],
+   "priority_score": 19.84
   },
   {
    "event_id": "OMEGA-003374",
@@ -1243,6 +2665,44 @@
    "priority_score": 19.38
   },
   {
+   "event_id": "OMEGA-001653",
+   "named_case": null,
+   "date": "1977-01-06",
+   "lat": 45.516669,
+   "lon": -73.583337,
+   "location": "CANADA, Montreal",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 7,
+   "credibility": 7.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Mrs. Malboeuf, sitting in front of the window, saw at 1:15 a.m. an object in the shape of an ellipsoidal cap land on the flat roof of the third floor, 30 m away from her, on the other side of the street. A second later she saw two 2 m tall ufonauts, dressed in white and wearing helmets, arrive at the edge of the roof, examine the ground, the street, and the sky, and return",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Overmeire"
+   ],
+   "priority_score": 18.56
+  },
+  {
    "event_id": "OMEGA-000987",
    "named_case": null,
    "date": "1978-03-18",
@@ -1280,6 +2740,47 @@
     "Johnson",
     "NICAP",
     "UFOEvidenceHall"
+   ],
+   "priority_score": 18.43
+  },
+  {
+   "event_id": "OMEGA-001039",
+   "named_case": null,
+   "date": "1961-04-28",
+   "lat": 62.033336,
+   "lon": 34.583335,
+   "location": "USSR, Korb-Oz\u00e9ro (Karelia)",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 7,
+   "credibility": 8.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "APRO"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "SUB",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Around 9 pm, forest guard Vassili Brodski was walking along the 600 m long and 150 m wide frozen lake without seeing anything out of the ordinary. The next morning he walked back and found a stretched out ditch that started on the high bank and disappeared into the lake through a huge hole in the ice: the earth that had been excavated to make this 27 m long, 15 m wide and ",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "Majestic",
+    "Overmeire",
+    "rr0"
    ],
    "priority_score": 18.43
   },
@@ -1327,6 +2828,45 @@
    "priority_score": 18.2
   },
   {
+   "event_id": "OMEGA-000853",
+   "named_case": null,
+   "date": "1957-05-10",
+   "lat": 50.083336,
+   "lon": 2.694445,
+   "location": "FRANCE, Ayette (Pas de Calais)",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 7,
+   "credibility": 9.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) At 10:50 PM, Michel Fekete was riding his bicycle when he saw an object hovering 30 cm from the ground and next to him were 4 small men. The police found on the site fragments similar to lava. Six other witnesses confirmed this apparition, including Mr. and Mrs. Iklef and Lepot. The luminous object alternated between red and white pulsations, with the red phase being the l",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia",
+    "Overmeire"
+   ],
+   "priority_score": 17.41
+  },
+  {
    "event_id": "OMEGA-000927",
    "named_case": null,
    "date": "1967-08-23",
@@ -1366,6 +2906,80 @@
     "UFOEvidenceHall"
    ],
    "priority_score": 17.4
+  },
+  {
+   "event_id": "OMEGA-005637",
+   "named_case": null,
+   "date": "1954-12-13",
+   "lat": -22.883334,
+   "lon": -47.083336,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 8.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "UNKNOWN - no organisation in the citation chain"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Three gray discs performed acrobatics over farmland in Campinas, Sao Paulo state, Brazil at dusk. One peeled off from the others, diving low over the roof of a woman's house, where it dropped a liquid substance \"like silver rain.\" Chemical analysis revealed that the metallic material collected at the site was 90% tin with some other alloys. Jacques Vallee believes this case may provide clues to th",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 17.39
+  },
+  {
+   "event_id": "OMEGA-004495",
+   "named_case": null,
+   "date": "1959-11-02",
+   "lat": 38.583335,
+   "lon": -7.883334,
+   "location": "['Evora, Portugal', 'University of Lisbon']",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 4,
+   "credibility": 10.0,
+   "sample_types": [
+    "oily/chemical",
+    "biological/tissue"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "metallurgical",
+    "botanical"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "12:00 noon. A substance described as angel hair falls from two UFOs seen in Evora, Portugal, and is collected and analyzed under a microscope by a school director, Dr. Amaral, and later by armed forces technicians and scientists at the University of Lisbon. The scientists conclude that the substance is produced by a small insect or some strange kind of single-celled organism about 4 millimeters in",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB"
+   ],
+   "priority_score": 17.34
   },
   {
    "event_id": "OMEGA-002552",
@@ -1535,6 +3149,84 @@
    "priority_score": 16.8
   },
   {
+   "event_id": "OMEGA-006575",
+   "named_case": null,
+   "date": "1972-10-19",
+   "lat": 41.383335,
+   "lon": 69.000003,
+   "location": "USSR, Tashkent, Ryzl Lake",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 6.0,
+   "sample_types": [
+    "metal/residue",
+    "water",
+    "photographic"
+   ],
+   "custodian_candidates": [
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "INJ",
+    "LND",
+    "SUB",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Several witnesses observed a disk that seemed to be in distress above the lake. One of the witnesses noted the fall of silhouettes resembling vaguely wounded and disjointed men. The police who arrived at the scene discovered the body of a being that measured 1 m 34, with gray skin, and despite a long stay in the water showed no signs of putrefaction. He had a prominent bel",
+   "catalogs": [
+    "Hatch_UDB",
+    "Overmeire"
+   ],
+   "priority_score": 16.74
+  },
+  {
+   "event_id": "OMEGA-001737",
+   "named_case": null,
+   "date": "1982-09-17",
+   "lat": -11.616667,
+   "lon": -33.466668,
+   "location": "['200 miles off the coast of Brazil in the South Atlantic']",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 5,
+   "credibility": 10.0,
+   "sample_types": [
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "radiological"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "RDA"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "9:00 p.m. Capt. Stefan Freitag and the crew of the Romanian cargo ship Bosca are steaming 200 miles off the coast of Brazil in the South Atlantic when they see an object like a full moon, accompanied by a smaller, star-light object, which grows brighter and larger in size. Both objects disappear, leaving behind a shiny cloud. Then another moon-like object appears, during which a silent explosion t",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP"
+   ],
+   "priority_score": 16.53
+  },
+  {
    "event_id": "OMEGA-002495",
    "named_case": null,
    "date": "1965-08-16",
@@ -1618,6 +3310,86 @@
    "priority_score": 15.84
   },
   {
+   "event_id": "OMEGA-000899",
+   "named_case": null,
+   "date": "1966-03-20",
+   "lat": 42.350002,
+   "lon": -83.866671,
+   "location": "['Dexter Township, Michigan', 'Quigley Road']",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 8,
+   "credibility": 10.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "NICAP",
+    "CUFOS",
+    "Project Blue Book",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "7:30 p.m. After his dogs start making a racket, [Frank Mannor](https://www.findagrave.com/memorial/49963015/frank-e%5F-mannor) and his 26-year-old son Ronald see strange lights over a swampy area in Dexter Township, Michigan. They walk over to the area for a look, taking about 30 minutes, and see a pyramid-shaped object with a rounded top, corrugated surface, and blue, red, and white lights. Manno",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Magonia",
+    "Majestic",
+    "NICAP"
+   ],
+   "priority_score": 15.84
+  },
+  {
+   "event_id": "OMEGA-002939",
+   "named_case": null,
+   "date": "1954-10-13",
+   "lat": 43.766669,
+   "lon": 1.983333,
+   "location": "FRANCE, Graulhet (Tarn)",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 5,
+   "credibility": 10.0,
+   "sample_types": [
+    "metal/residue",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Mr. Carcenac observed a strange white object at a high altitude. He looked at it through binoculars and saw a kind of flexible, wavy disk moving very quickly. This thing exploded in mid-air while a much smaller object seemed to emerge from the mass, following its trajectory south. The fragments of the wavy disk scattered in the sky and began to fall gently like shreds of f",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "Overmeire"
+   ],
+   "priority_score": 15.6
+  },
+  {
    "event_id": "OMEGA-005131",
    "named_case": null,
    "date": "1871-10-04",
@@ -1652,6 +3424,42 @@
    "catalogs": [
     "Hatch_UDB",
     "Overmeire"
+   ],
+   "priority_score": 14.81
+  },
+  {
+   "event_id": "OMEGA-006346",
+   "named_case": null,
+   "date": "1968-11-03",
+   "lat": 29.733335,
+   "lon": -95.383338,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 9.0,
+   "sample_types": [
+    "metal/residue",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Two 15-year-old boys in Houston, Texas sighted a domed disc-shaped object with black dots, possibly windows, at 4:15 p.m. \"Angel hair\" residue was found in the aftermatch of the sighting, the \"\u2026substance is fibrous, elastic, relatively strong, somewhat sticky, and white in color.\"",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
    ],
    "priority_score": 14.81
   },
@@ -1696,6 +3504,82 @@
     "Overmeire"
    ],
    "priority_score": 14.7
+  },
+  {
+   "event_id": "OMEGA-001418",
+   "named_case": null,
+   "date": "1954-10-14",
+   "lat": 47.961113,
+   "lon": -0.977778,
+   "location": "Meral, Mayenne, France",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 4,
+   "credibility": 7.0,
+   "sample_types": [
+    "metal/residue",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "UNKNOWN - no organisation in the citation chain"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "A farmer was getting ready to leave his home when he saw an orange colored ball arrive and land on the ground not far from him. He approached the object and saw that it was a dome shaped disk with a flat bottom, and it emitted a blinding light which illuminated the field for about 600' around. The craft appeared to be translucent, and a dark shape could be seen silhouetted inside it. For approxima",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "Magonia",
+    "Trace"
+   ],
+   "priority_score": 14.3
+  },
+  {
+   "event_id": "OMEGA-003548",
+   "named_case": null,
+   "date": "1993-03-20",
+   "lat": 32.266668,
+   "lon": 34.916668,
+   "location": "",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 6,
+   "credibility": 8.0,
+   "sample_types": [
+    "metal/residue",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "UNKNOWN - no organisation in the citation chain"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Ziporet Carmel woke up earlier than usual and went to her kitchen in Kadima, Israel at 6:30 a.m. When she got there she noticed the room was bathed in a strange light. She went to check the grounds and when she walked around a storage shed she noticed what looked like a large fruit silo in a nearby field. As she took a closer look she noticed that the silver silo-like object was square in shape. I",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "Overmeire"
+   ],
+   "priority_score": 13.7
   },
   {
    "event_id": "OMEGA-006989",
@@ -1944,6 +3828,118 @@
    "priority_score": 13.06
   },
   {
+   "event_id": "OMEGA-006521",
+   "named_case": null,
+   "date": "1972-03-25",
+   "lat": 52.150002,
+   "lon": 5.283334,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 4.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "CUFOS",
+    "FSR"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "At 3:30 a.m. the witness was roused from sleep at his home in Soesterberg, Utrecht, The Netherlands by a loud humming sound and saw a bright light from his window. Looking out, he saw a blinding white light surrounded by a fog, and thought that his car was on fire. He ran out, started his car, and began to move it. His next recollection was that he found himself in a deserted moorland, and he stop",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 12.88
+  },
+  {
+   "event_id": "OMEGA-006592",
+   "named_case": null,
+   "date": "1973-01-14",
+   "lat": 51.800002,
+   "lon": -0.683333,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 6.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "A round flying object reportedly hit several trees in Mentmore, England at midnight. There were metal fragments found in a heap as well as strips of aluminum.",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 12.88
+  },
+  {
+   "event_id": "OMEGA-004699",
+   "named_case": null,
+   "date": "1971-01-03",
+   "lat": 65.96667,
+   "lon": 29.200001,
+   "location": "['Saapunki, Kuusano, Finland']",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 6,
+   "credibility": 8.0,
+   "sample_types": [
+    "radiation reading",
+    "photographic"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "FSR"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "6:15 a.m. Maun and Matta Talana are drinking coffee when they see a brilliant light approaching from the lake outside their home at Saapunki, Kuusano, Finland. It is about 33 feet in diameter and moving against the wind. Their electricity goes off briefly. Looking out the window, the Talalas see their whole yard bathed in light caused by a huge fireball about 60 feet away, which rises up and disap",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB"
+   ],
+   "priority_score": 12.83
+  },
+  {
    "event_id": "OMEGA-000828",
    "named_case": null,
    "date": "1954-12-09",
@@ -2145,6 +4141,46 @@
    "priority_score": 12.18
   },
   {
+   "event_id": "OMEGA-000989",
+   "named_case": null,
+   "date": "1978-12-06",
+   "lat": 44.516669,
+   "lon": 9.166667,
+   "location": "ITALY, Torriglia (Genoa)",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 10,
+   "credibility": 8.0,
+   "sample_types": [
+    "vegetation"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "FSR"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Fortunato Zanfretta, 26 years old, a security guard on board the Fiat 126 of the company, equipped with a radio in contact with the Genoa central, was making the rounds of the villas to be monitored. In front of one of them, he noticed white lights arranged in a triangle and, thinking he had to do with thieves, he stopped, turned off the engine and decided to alert the cen",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson",
+    "Overmeire"
+   ],
+   "priority_score": 12.18
+  },
+  {
    "event_id": "OMEGA-000011",
    "named_case": null,
    "date": "1973-10-11",
@@ -2267,6 +4303,83 @@
    "priority_score": 11.9
   },
   {
+   "event_id": "OMEGA-002981",
+   "named_case": null,
+   "date": "1955-07-22",
+   "lat": 39.12778,
+   "lon": -84.538893,
+   "location": "USA, Cincinnati (Ohio)",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 5,
+   "credibility": 6.0,
+   "sample_types": [
+    "vegetation",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "USAF/military"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "INJ",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) 5:30 p.m. A resident of Mt Adams observed an object shaped like a pear, flying low above his house. The object discharged a dark, reddish-brown, liquid substance which burned his arms and hands. A peach tree above which the object was located was found dead the next day, with the leaves and stems curled up, as if having suffered extreme frost. Plant samples and liquid were",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "Overmeire"
+   ],
+   "priority_score": 11.7
+  },
+  {
+   "event_id": "OMEGA-002130",
+   "named_case": null,
+   "date": "1960-04-12",
+   "lat": 29.950001,
+   "lon": -92.916671,
+   "location": "",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 3,
+   "credibility": 9.0,
+   "sample_types": [
+    "vegetation"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "Project Blue Book"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "LaCamp, Louisiana. At 9:00 p.m. Monroe Arnold, a physical scientist, saw a fiery-red disc that made a rumbling sound and exploded four or five times while flying through the sky for two to three seconds. It plowed through trees, struck the ground, bounced nine times, and resulted in explosions and flames. It left behind nine ground scars. An analysis of paint samples from the explosion proved inco",
+   "catalogs": [
+    "BlueBookUnknowns",
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 11.65
+  },
+  {
    "event_id": "OMEGA-000207",
    "named_case": null,
    "date": "1897-05-06",
@@ -2348,6 +4461,44 @@
     "Johnson"
    ],
    "priority_score": 11.59
+  },
+  {
+   "event_id": "OMEGA-000924",
+   "named_case": null,
+   "date": "1967-06-18",
+   "lat": 49.716669,
+   "lon": -95.083338,
+   "location": "['Clearwater Bay on Shoal Lake, Ontario']",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 4,
+   "credibility": 9.0,
+   "sample_types": [
+    "vegetation"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "CUFOS",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Late evening. A family is returning home by boat near Clearwater Bay on Shoal Lake, Ontario, when they notice a bright oval object hovering 50 feet above the treetops about a half-mile away. As they approach, the object turns an orange tinge and suddenly sweeps toward their boat at great speed. They beat a hasty retreat to the other shore, while the UFO returns to its original position. The same t",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "NICAP"
+   ],
+   "priority_score": 11.31
   },
   {
    "event_id": "OMEGA-002531",
@@ -2466,6 +4617,41 @@
     "Johnson"
    ],
    "priority_score": 11.31
+  },
+  {
+   "event_id": "OMEGA-006081",
+   "named_case": null,
+   "date": "1965-08-14",
+   "lat": -22.566668,
+   "lon": -44.966669,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 2,
+   "credibility": 6.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "On this day on the banks of the river in Cruzeiro, Santa Catarina province, Brazil, a little man only 28\" tall, introduced himself to a fisherman named Joao do Rio as a UFOnaut. He had large luminous eyes, and spoke perfect Portuguese. He gave Sr. do Rio an \"unearthly\" metal. The metal was given to the national railroad car factory for analysis. At 8:00 p.m. that same evening a motorist had a clos",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 11.18
   },
   {
    "event_id": "OMEGA-007418",
@@ -2590,6 +4776,44 @@
     "rr0"
    ],
    "priority_score": 11.02
+  },
+  {
+   "event_id": "OMEGA-006769",
+   "named_case": null,
+   "date": "1974-11-26",
+   "lat": -34.933335,
+   "lon": -57.950003,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 9.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "UNKNOWN - no organisation in the citation chain"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "A loud 110 decibel roar was followed by the sighting of a two-meter wide sphere or ovoid near the ground in a garden in La Plata, Buenos Aires province, Argentina at around 11:30 p.m. On the ground was found a 3.4 meter diameter ring plus numerous equilateral triangular marks that were one meter on a side. The grass and a tree top was burnt, and a silvery powder residue made up of Calcium Oxide wa",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 10.95
   },
   {
    "event_id": "OMEGA-018632",
@@ -2746,6 +4970,112 @@
     "Magonia"
    ],
    "priority_score": 10.44
+  },
+  {
+   "event_id": "OMEGA-018905",
+   "named_case": null,
+   "date": "1967-07-20",
+   "lat": -34.933335,
+   "lon": -58.416669,
+   "location": "GUERNICA, ARG",
+   "country": "Argentina",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 10.0,
+   "sample_types": [
+    "vegetation",
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "FSR"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "20+observer(s). 7M saucer spins. Stops over trees. S and Cu and Si fragments / 1600\u00b0 C. / r180p50.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 10.4
+  },
+  {
+   "event_id": "OMEGA-021635",
+   "named_case": null,
+   "date": "1976-08-06",
+   "lat": -22.116668,
+   "lon": -51.383336,
+   "location": "PRES.PRUDENTE, BRAZIL",
+   "country": "Brazil",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 5.0,
+   "sample_types": [
+    "metal/residue",
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Many observer(s). Saucer going down. Explodes. Fragments = airline(s)/airliner and Ni and Sb. Foil and plastic. / news.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 10.4
+  },
+  {
+   "event_id": "OMEGA-001800",
+   "named_case": null,
+   "date": "1950-11-29",
+   "lat": 36.016668,
+   "lon": -84.300004,
+   "location": "",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 4,
+   "credibility": 8.0,
+   "sample_types": [
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "NICAP"
+   ],
+   "analysis_mentioned": [
+    "radiological"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "RDA"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Between 5:00 and 11:00 p.m. radar targets were detected from Oak Ridge, Tennessee. Fighter planes were, scrambled but saw nothing. However, at 7:00 p.m. there were Geiger counter detections in the restricted area of Oak Ridge that indicated an abnormal increase in alpha and gamma ray radiation that could not be attributed to any known source. Officials in charge of Oak Ridge security held a two-da",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP"
+   ],
+   "priority_score": 9.8
   },
   {
    "event_id": "OMEGA-000017",
@@ -3002,6 +5332,153 @@
    "priority_score": 9.02
   },
   {
+   "event_id": "OMEGA-005632",
+   "named_case": null,
+   "date": "1954-12-07",
+   "lat": 43.333335,
+   "lon": -1.783333,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 9.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "A 26-year-old man riding a bicycle near a farm in Gainchurizqueta, Irun, Spain saw an object land nearby. It came from the sea on a north to south flight path, and passed within six meters. It was round, three meters in diameter, with a headlight and four fins. Traces: ground marks and metallic samples.",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 9.02
+  },
+  {
+   "event_id": "OMEGA-006527",
+   "named_case": null,
+   "date": "1972-04-22",
+   "lat": 40.300002,
+   "lon": -79.51667,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 9.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "At 8:15 p.m. several reports were made of fireballs and a disc seen for 15 minutes in the skies over East Greensburg, Lloydsville, Youngstown and Kiska Valley, Pennsylvania. It dropped debris, and metallic fragments were found.",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 9.02
+  },
+  {
+   "event_id": "OMEGA-007087",
+   "named_case": null,
+   "date": "1981-09-05",
+   "lat": 47.750002,
+   "lon": 0.133333,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 8.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "LDLN"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "A 50 meter wide, bell-shaped domed disc was seen on the ground by three witnesses in a forest in Mansigne, Sarthe, France. It emitted two beams of light. Ground traces and a powder residue were found at the landing site.",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 9.02
+  },
+  {
+   "event_id": "OMEGA-001936",
+   "named_case": null,
+   "date": "1975-01-05",
+   "lat": 49.283336,
+   "lon": -1.472222,
+   "location": "FRANCE, Laulne",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 6,
+   "credibility": 8.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "GEPAN/SEPRA/GEIPAN"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Yvon Vildier, 12 years old, went outside to the courtyard to urinate at around 7pm, turning on the outside light. He then saw, 120 meters away from the house in a field, a strange craft: he only saw the dome with a yellow, shining porthole, the rest being hidden by a hedge. He was struck with stupor and a few seconds later the object rose up, spinning, until it reached 100",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "Overmeire"
+   ],
+   "priority_score": 8.99
+  },
+  {
    "event_id": "OMEGA-000720",
    "named_case": null,
    "date": "1968-02-09",
@@ -3124,6 +5601,40 @@
    "priority_score": 8.87
   },
   {
+   "event_id": "OMEGA-018897",
+   "named_case": null,
+   "date": "1967-07-13",
+   "lat": 41.57778,
+   "lon": -83.616671,
+   "location": "MAUMEE, OH",
+   "country": "USA",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 10.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "APRO",
+    "Project Blue Book"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Blue Book. Car hits UFO! 92% Mg fragments. / r113p56+/ r180p50+/ APRO Jly'67.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 8.84
+  },
+  {
    "event_id": "OMEGA-019535",
    "named_case": null,
    "date": "1969-03-23",
@@ -3193,6 +5704,43 @@
     "NICAP"
    ],
    "priority_score": 8.74
+  },
+  {
+   "event_id": "OMEGA-006449",
+   "named_case": null,
+   "date": "1970-09-28",
+   "lat": 51.200002,
+   "lon": -2.15,
+   "location": "",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 2,
+   "credibility": 6.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "FSR"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Two hours later in Warminster, Wiltshire, England a man sighted an eleven-foot long beetle-shaped object that had landed on tripod landing gear by an old Roman road. Ground marks and metal fragments were found at the site.",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson"
+   ],
+   "priority_score": 8.69
   },
   {
    "event_id": "OMEGA-000916",
@@ -3511,6 +6059,44 @@
    "priority_score": 8.09
   },
   {
+   "event_id": "OMEGA-001933",
+   "named_case": null,
+   "date": "1974-05-20",
+   "lat": 42.933335,
+   "lon": -70.783337,
+   "location": "USA, Hampton (New Hampshire)",
+   "country": "",
+   "n_catalogs": 4,
+   "provenance_depth": 6,
+   "credibility": 6.0,
+   "sample_types": [
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "NICAP"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Around midnight the witness was swimming alone near the beach. Suddenly he saw a disc-shaped object approaching parallel to the ocean and descending vertically to the ground. The craft had a diameter of 15 to 18 m, was biconvex in shape, and on each face a circular edge occupied the center. It was equipped with several lights, and was resting on four feet ending in a kind ",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "Overmeire"
+   ],
+   "priority_score": 8.09
+  },
+  {
    "event_id": "OMEGA-004529",
    "named_case": null,
    "date": "1962-06-25",
@@ -3691,6 +6277,44 @@
    "custody_status": "UNVERIFIED - requires archive accession records",
    "modern_assay_feasible": "UNKNOWN until extant status established",
    "description": "7:25 a.m. Ten girls from the orphanage school in V\u0103lenii de Munte, Romania, watch two yellow-orange spheres above a hill to the southwest of town. After 10 seconds, they merge into one object and take the form of an elongated oval with an orange dome. It begins moving slowly toward the west-southwest, then accelerates and disappears behind the treeline after 40 seconds. Fresh marks are found in a ",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB"
+   ],
+   "priority_score": 7.73
+  },
+  {
+   "event_id": "OMEGA-004862",
+   "named_case": null,
+   "date": "1978-03-17",
+   "lat": 53.383336,
+   "lon": -2.616667,
+   "location": "['Sale, Greater Manchester, England', 'Daten Avenue, Risley', 'Universities Research Reactor building', 'Pudgate police station']",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 6.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "FSR",
+    "university/lab",
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "INJ",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "11:30 p.m. Service engineer Ken Edwards is driving back from a union meeting in Sale, Greater Manchester, England, on Daten Avenue, Risley, past the UK Atomic Energy Authority site. As he is approaching the roundabout near the Universities Research Reactor building and the UKAEA fire station, he notices a 7-foot-tall silver figure coming down a steep embankment to his left. Stopping his van, Edwar",
    "catalogs": [
     "EberhartUFOI",
     "Hatch_UDB"
@@ -3891,6 +6515,45 @@
    "priority_score": 7.45
   },
   {
+   "event_id": "OMEGA-004867",
+   "named_case": null,
+   "date": "1978-04-02",
+   "lat": 47.566669,
+   "lon": -52.983336,
+   "location": "['Bell Island, Newfoundland', 'Lance Cove', 'Cape Broyle', 'Los Alamos Scientific Laboratory, New Mexico']",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 7,
+   "credibility": 9.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "ANI",
+    "INJ",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Morning. A loud explosion on Bell Island, Newfoundland, causes damage to some houses and electrical wiring in the surrounding area. A number of TV sets in Lance Cove and other communities explode at the time of the blast. It is initially thought to be caused by ball lightning. Meteorologists state that atmospheric conditions at the time are not conducive to [lightning](https://en.wikipedia.org/wik",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB"
+   ],
+   "priority_score": 7.36
+  },
+  {
    "event_id": "OMEGA-000062",
    "named_case": null,
    "date": "1954-09-10",
@@ -3932,6 +6595,75 @@
     "rr0"
    ],
    "priority_score": 7.35
+  },
+  {
+   "event_id": "OMEGA-018268",
+   "named_case": null,
+   "date": "1964-08-22",
+   "lat": 62.750003,
+   "lon": 27.750001,
+   "location": "LAKE KALLAVESI, FINL",
+   "country": "Scandanavian and Finland",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 10.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "APRO"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Bent saucer drops hot fragment = Fe and O and Mn and Zr and Mn and Si and V and Ti / MJ#122.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 7.28
+  },
+  {
+   "event_id": "OMEGA-020132",
+   "named_case": null,
+   "date": "1972-08-27",
+   "lat": 48.300002,
+   "lon": -99.566671,
+   "location": "YORK, ND",
+   "country": "USA",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 8.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Separate observer(s). Night lights swings / pendulum. Goes and returns. Bald spot / field. Rocky fragments.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 7.28
   },
   {
    "event_id": "OMEGA-023839",
@@ -4077,6 +6809,44 @@
     "EberhartUFOI",
     "Hatch_UDB",
     "Overmeire"
+   ],
+   "priority_score": 7.02
+  },
+  {
+   "event_id": "OMEGA-002611",
+   "named_case": null,
+   "date": "1975-05-12",
+   "lat": 52.883336,
+   "lon": -103.566672,
+   "location": "['Peesane, Saskatchewan', \"Carson's farmhouse\"]",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 5,
+   "credibility": 7.0,
+   "sample_types": [
+    "vegetation"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "11:30 p.m. Lyle Carson is in his farmhouse 2.5 miles east of Peesane, Saskatchewan, when he and his wife observe a green light for 10\u201315 minutes. On May 14, Carson is checking some fences and he comes across a perfectly round circle of burned grass, 5 feet in diameter and 6 inches thick on the outside edge. The RCMP take photos and samples.",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Johnson"
    ],
    "priority_score": 7.02
   },
@@ -4267,6 +7037,40 @@
    "priority_score": 6.79
   },
   {
+   "event_id": "OMEGA-022243",
+   "named_case": null,
+   "date": "1978-08-30",
+   "lat": -33.316668,
+   "lon": -66.333336,
+   "location": "NEAR SAN LUIS, ARG",
+   "country": "Argentina",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 4.0,
+   "sample_types": [
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Small humanoids (or Greys) give man 'talk-box'. Smeared / liquid. Analysis = antiseptic.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 6.76
+  },
+  {
    "event_id": "OMEGA-003333",
    "named_case": null,
    "date": "1975-12-08",
@@ -4424,6 +7228,44 @@
    "priority_score": 6.53
   },
   {
+   "event_id": "OMEGA-004816",
+   "named_case": null,
+   "date": "1977-02-11",
+   "lat": 46.400002,
+   "lon": 15.050001,
+   "location": "['Gaberke, Slovenia']",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 8.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "CUFOS",
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "8:40 p.m. Health service cook Slavka Gorsek and her two children see an intense beam of light come through a bedroom window in their home in Gaberke, Slovenia. It illuminates the room briefly then goes out. The light is coming from an egg-shaped object about 8\u201311 feet wide that has landed only about 50 feet away behind a chicken coop. It is bright white with a green or blue center. For 2\u20133 minutes",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB"
+   ],
+   "priority_score": 6.44
+  },
+  {
    "event_id": "OMEGA-000448",
    "named_case": null,
    "date": "1962-10-28",
@@ -4575,6 +7417,114 @@
     "UFOEvidenceHall"
    ],
    "priority_score": 6.14
+  },
+  {
+   "event_id": "OMEGA-001075",
+   "named_case": null,
+   "date": "1980-08-21",
+   "lat": 32.800002,
+   "lon": -95.550005,
+   "location": "USA, East Texas",
+   "country": "",
+   "n_catalogs": 5,
+   "provenance_depth": 6,
+   "credibility": 7.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) The young woman is visiting her parents with her 18-month-old daughter. The baby is suffering from an ear infection and a skin rash. As her condition worsens, the mother decides at midnight to go home and drives the 100 km on deserted roads. Halfway there the car radio malfunctions and the headlights dim. The driver then has the impression of taking off. She sees the tops ",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP",
+    "Overmeire",
+    "UFOEvidenceHall"
+   ],
+   "priority_score": 5.95
+  },
+  {
+   "event_id": "OMEGA-004313",
+   "named_case": null,
+   "date": "1954-02-01",
+   "lat": 34.016668,
+   "lon": -117.950006,
+   "location": "['La Puente, California', 'Mount Wilson Observatory']",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 6.0,
+   "sample_types": [
+    "oily/chemical"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "10:00 a.m. Mrs. W. J. Daily of La Puente, California, sees a silvery, bright, round object through binoculars. It tilts, revealing a fiery-red bottom. The UFO spins and drifts away with an odd-looking vapor trail. A large amount of cobwebby substance falls on her property. She takes three samples to the Mount Wilson Observatory.",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB"
+   ],
+   "priority_score": 5.8
+  },
+  {
+   "event_id": "OMEGA-005209",
+   "named_case": null,
+   "date": "1947-07-07",
+   "lat": 34.716668,
+   "lon": -118.116672,
+   "location": "USA, Lancaster, March Field",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 6.0,
+   "sample_types": [
+    "vegetation"
+   ],
+   "custodian_candidates": [
+    "university/lab"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) (Las Vegas Review-Journal, July 8, 1947) A rotating disc is said to have fallen into a ravine behind the trees, near Lancaster. \"Fifteen or twenty trees caught fire,\" said the witness. A farmer by the name of Frits Godde denies it, he says that the ovoid and silver saucers were flying in a straight line towards Redlands, he told H.J. Stell, truck driver, who saw eight of t",
+   "catalogs": [
+    "Hatch_UDB",
+    "Overmeire"
+   ],
+   "priority_score": 5.8
   },
   {
    "event_id": "OMEGA-005786",
@@ -4763,6 +7713,41 @@
     "Overmeire"
    ],
    "priority_score": 5.8
+  },
+  {
+   "event_id": "OMEGA-017197",
+   "named_case": null,
+   "date": "1956-10-14",
+   "lat": 59.983336,
+   "lon": 18.622223,
+   "location": "VADDO, SWD",
+   "country": "Scandanavian and Finland",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 8.0,
+   "sample_types": [
+    "metal/residue"
+   ],
+   "custodian_candidates": [
+    "UNKNOWN - no organisation in the citation chain"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Metallic cylinder/cigar-shape / ovoid going down. Car malfunctions due to EME (electro-magnetic effects). Machined W-carbide fragment found. / r177p382.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 5.72
   },
   {
    "event_id": "OMEGA-018659",
@@ -5049,6 +8034,39 @@
     "UFOEvidenceHall"
    ],
    "priority_score": 5.22
+  },
+  {
+   "event_id": "OMEGA-017443",
+   "named_case": null,
+   "date": "1957-10-10",
+   "lat": 32.783335,
+   "lon": -108.216672,
+   "location": "SILVER CITY, NM",
+   "country": "USA",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 5.0,
+   "sample_types": [
+    "radiation reading"
+   ],
+   "custodian_candidates": [
+    "UNKNOWN - no organisation in the citation chain"
+   ],
+   "analysis_mentioned": [
+    "radiological"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "RDA"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Prospector. Distant brilliant red fireball hovers / 45m. High radiation/radioactivity / Geiger counter.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 5.2
   },
   {
    "event_id": "OMEGA-001831",
@@ -6245,6 +9263,43 @@
    "priority_score": 4.37
   },
   {
+   "event_id": "OMEGA-003430",
+   "named_case": null,
+   "date": "1979-01-24",
+   "lat": 32.500002,
+   "lon": -95.416671,
+   "location": "",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 3,
+   "credibility": 7.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "NICAP",
+    "MUFON"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "INJ",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Driving near Lindale, Texas at around 10:00 p.m. 20-year-old John Scott Cates had stopped his car and gotten out to relieve himself when a blue beam of light from the sky struck him. It caused his hair to stand up like an electric static charge. Two UFOs with a violet-red light moving between then appeared, and he experienced a six-hour long memory lapse. His next recollection was sitting in front",
+   "catalogs": [
+    "Hatch_UDB",
+    "Johnson",
+    "NICAP"
+   ],
+   "priority_score": 4.37
+  },
+  {
    "event_id": "OMEGA-003117",
    "named_case": null,
    "date": "1966-05-10",
@@ -6754,6 +9809,76 @@
     "Johnson"
    ],
    "priority_score": 3.73
+  },
+  {
+   "event_id": "OMEGA-019780",
+   "named_case": null,
+   "date": "1970-08-28",
+   "lat": 46.750002,
+   "lon": -71.900003,
+   "location": "NORTH / PORTNEUF, QB",
+   "country": "Canada",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 6.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "LDLN"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "1 observer. \"Fuse\" saucer lands. Angel hair analysis complicated. / r186#35.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 3.64
+  },
+  {
+   "event_id": "OMEGA-019870",
+   "named_case": null,
+   "date": "1971-05-04",
+   "lat": 61.105558,
+   "lon": 21.555557,
+   "location": "LAPPI, FINLAND",
+   "country": "Scandanavian and Finland",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 7.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Blazing ovoid lands. 3 pod marks-1 has black crud. Analysis unknown.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 3.64
   },
   {
    "event_id": "OMEGA-014892",
@@ -7618,6 +10743,42 @@
    "priority_score": 2.34
   },
   {
+   "event_id": "OMEGA-002763",
+   "named_case": null,
+   "date": "1984-09-07",
+   "lat": 53.866669,
+   "lon": 27.550001,
+   "location": "USSR, Belarus",
+   "country": "",
+   "n_catalogs": 3,
+   "provenance_depth": 5,
+   "credibility": 7.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "INJ",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) The crews of two Aeroflot planes encountered a UFO in the sky of Belarus. For the plane flying from Tbilissi to Tallinn, this encounter at 04:10 was only a curious event. For the one flying from Leningrad to Tbilissi, the whole affair took a bad turn. The observation was made at 04:50, and the Minsk controller, wanting confirmation, asked them to turn in the direction of t",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB",
+    "Overmeire"
+   ],
+   "priority_score": 2.34
+  },
+  {
    "event_id": "OMEGA-002801",
    "named_case": null,
    "date": "1994-09-13",
@@ -8022,6 +11183,110 @@
    "priority_score": 2.11
   },
   {
+   "event_id": "OMEGA-017448",
+   "named_case": null,
+   "date": "1957-10-17",
+   "lat": 39.583335,
+   "lon": -8.583334,
+   "location": "FATIMA, PORTUGAL",
+   "country": "Portugal",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 10.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "UNKNOWN - no organisation in the citation chain"
+   ],
+   "analysis_mentioned": [
+    "analysed (unspecified)"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Angel hair all over just like 1917. Samples taken for analysis.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 2.08
+  },
+  {
+   "event_id": "OMEGA-004414",
+   "named_case": null,
+   "date": "1955-10-27",
+   "lat": 36.066668,
+   "lon": -79.56667,
+   "location": "['Whitsett Elementary School, North Carolina', 'Burlington Industries']",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 4,
+   "credibility": 11.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Afternoon. [Hosea D. Lambeth](https://www.findagrave.com/memorial/204660895/hosea-dewood-lambeth), principal of Whitsett Elementary School, North Carolina, and about 100 students watch 10 objects like \u201csteel balls\u201d dart through the sky for 25 minutes. Light-colored wispy material in 2\u20133-inch strips falls from the sky at the same time. Nearby Burlington Industries tests a sample and declares it not",
+   "catalogs": [
+    "EberhartUFOI",
+    "Hatch_UDB"
+   ],
+   "priority_score": 2.0
+  },
+  {
+   "event_id": "OMEGA-004336",
+   "named_case": null,
+   "date": "1954-10-11",
+   "lat": 48.716669,
+   "lon": 6.633334,
+   "location": "FRANCE, Moncourt (not Doncourt) (Moselle)",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 3,
+   "credibility": 8.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "police/gendarmerie"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "LND",
+    "RDA",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) In the night, the inhabitants of an isolated farm a few hundred meters from the village were awakened by an abnormal whistling. Through the shutters they distinguished a blinding light, fixed on the side of the hill. A few minutes later they saw a luminous ball rise vertically and disappear quickly. Police report. At 1:30 a.m. farmers were awakened by a whistling in Doncou",
+   "catalogs": [
+    "Hatch_UDB",
+    "Overmeire"
+   ],
+   "priority_score": 1.93
+  },
+  {
    "event_id": "OMEGA-004401",
    "named_case": null,
    "date": "1954-11-28",
@@ -8307,6 +11572,43 @@
    "priority_score": 1.86
   },
   {
+   "event_id": "OMEGA-006247",
+   "named_case": null,
+   "date": "1967-08-04",
+   "lat": 37.733335,
+   "lon": -86.983337,
+   "location": "Philpot, KY",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 2,
+   "credibility": 6.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "NICAP"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "LND",
+    "TRC",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Nr. midnight. A man saw an object the size and shape of a large can (cylinder). Following a \"squealing sound\" and a slight explosion, it went straight up with flame coming from the bottom (exhaust). The object leveled off about 50-100 feet off the ground and flew away to the southeast. A scorched area 20 feet in diameter was found in the bean field where the object was seen (physical traces), and ",
+   "catalogs": [
+    "Hatch_UDB",
+    "NICAP"
+   ],
+   "priority_score": 1.86
+  },
+  {
    "event_id": "OMEGA-006364",
    "named_case": null,
    "date": "1969-01-29",
@@ -8444,6 +11746,41 @@
    "catalogs": [
     "Hatch_UDB",
     "NICAP"
+   ],
+   "priority_score": 1.86
+  },
+  {
+   "event_id": "OMEGA-007390",
+   "named_case": null,
+   "date": "1991-08-18",
+   "lat": -32.600002,
+   "lon": -60.16667,
+   "location": "Argentina, La Matanza (Victoria)",
+   "country": "",
+   "n_catalogs": 2,
+   "provenance_depth": 2,
+   "credibility": 8.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "LDLN"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "VEG"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "(Translated from French) Around the same time, in the \"Esuela Hogar General San Martin\" boarding school across the road, night watchmen and students saw a bright object land 200 meters from the refectory. They went out and approached it to within 40 meters. There the children and watchmen saw three humanoids come out of the craft. These beings seemed to float a few centimeters off the ground, whil",
+   "catalogs": [
+    "Hatch_UDB",
+    "Overmeire"
    ],
    "priority_score": 1.86
   },
@@ -9408,6 +12745,40 @@
    "custody_status": "UNVERIFIED - requires archive accession records",
    "modern_assay_feasible": "UNKNOWN until extant status established",
    "description": "Many observer(s). 2 fireballs going down / series. 10km loop through 3 towns and going southwest to sea slowly.",
+   "catalogs": [
+    "Hatch_UDB"
+   ],
+   "priority_score": 1.56
+  },
+  {
+   "event_id": "OMEGA-020552",
+   "named_case": null,
+   "date": "1973-10-17",
+   "lat": 41.061113,
+   "lon": -102.072227,
+   "location": "BIG SPRINGS, NE",
+   "country": "USA",
+   "n_catalogs": 1,
+   "provenance_depth": 1,
+   "credibility": 9.0,
+   "sample_types": [
+    "unspecified"
+   ],
+   "custodian_candidates": [
+    "CUFOS"
+   ],
+   "analysis_mentioned": [
+    "none mentioned in the record"
+   ],
+   "collector_named": null,
+   "trace_codes": [
+    "DRT",
+    "TRC"
+   ],
+   "extant_status": "UNVERIFIED - requires contact with the custodian archive",
+   "custody_status": "UNVERIFIED - requires archive accession records",
+   "modern_assay_feasible": "UNKNOWN until extant status established",
+   "description": "Several observer(s). 6 disks hover. Going quickly northeast. Angel hair falls. Samples. / Elmer Kral.",
    "catalogs": [
     "Hatch_UDB"
    ],
