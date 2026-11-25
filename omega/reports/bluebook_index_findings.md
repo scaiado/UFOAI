@@ -150,3 +150,120 @@ kinematic difference would be an **era** effect.
 **T3 will be stratified by year.** 21 years carry ≥5 cases in both arms,
 covering 642 of the 645 unidentified. Recorded here before the test runs so it
 cannot be mistaken for a post-hoc adjustment.
+
+---
+
+# 7. CORRECTION: the investigator-proximity mechanism does not hold
+
+§5 reported Ohio at OR 0.37 and I interpreted it as "a direct measurement of
+investigator bias — unidentified is a property of how much investigative effort
+reached a case." **Three follow-up tests do not support that mechanism.** The
+Ohio *anomaly* is real; my explanation for it was wrong.
+
+## 7.1 The distance gradient fails
+
+State centroids were derived for all 50 states from Hatch's geocoded records
+(matching both abbreviations and full names — a first attempt matched only 5
+states because Hatch writes "TUCSON, AZ" while the index writes "Watsonville,
+California", and that broken join must not be cited). 8,990 of 14,588 index
+rows assigned a state and a great-circle distance to Wright-Patterson AFB
+(39.826 N, 84.048 W).
+
+| band | n | unid | rate | 95% CI |
+|---|---|---|---|---|
+| 0–300 km | 1,494 | 27 | **1.81%** | [1.22, 2.58] |
+| 300–600 km | 917 | 40 | 4.36% | [3.18, 5.83] |
+| 600–1000 km | 2,420 | 96 | 3.97% | [3.24, 4.80] |
+| 1000–1500 km | 1,084 | 56 | 5.17% | [3.97, 6.60] |
+| 1500–2200 km | 1,156 | 72 | 6.23% | [4.94, 7.73] |
+| >2200 km | 1,919 | 96 | 5.00% | [4.09, 6.05] |
+
+Spearman ρ = +0.0511, p = 1.2e-06 — significant but negligible in size, and
+beyond the first bin the rate is flat at 4–6%.
+
+**Logistic regression, unidentified ~ distance + year:**
+
+| term | coef | se | z | p | OR |
+|---|---|---|---|---|---|
+| distance (per 1000 km) | +0.0295 | 0.0444 | 0.66 | **0.507** | 1.030 |
+| year (centred 1958) | −0.1350 | 0.0110 | −12.22 | <1e-30 | 0.874 |
+
+**The distance coefficient is null once year is controlled.** The marginal
+Spearman significance is the year effect again, exactly as in §4.
+
+## 7.2 The neighbour test kills the gradient outright
+
+| state | km to WPAFB | n | unid | rate |
+|---|---|---|---|---|
+| **Ohio** | 96 | 1,200 | 12 | **1.0%** |
+| **Indiana** | 181 | 180 | 14 | **7.8%** |
+| Kentucky | 188 | 118 | 2 | 1.7% |
+| West Virginia | 291 | 54 | 1 | 1.9% |
+| Michigan | 334 | 278 | 12 | 4.3% |
+| Illinois | 403 | 233 | 7 | 3.0% |
+| Pennsylvania | 555 | 297 | 14 | 4.7% |
+
+Indiana sits 181 km from Blue Book's headquarters with an unknown rate **nearly
+8× Ohio's**. A proximity-to-investigator gradient predicts both should be low.
+The effect is **Ohio-specific, not distance-dependent.**
+
+## 7.3 What Ohio actually is
+
+| property | Ohio | elsewhere | ratio | p |
+|---|---|---|---|---|
+| military observer | **2.1%** | **11.3%** | 0.19 | — |
+| insufficient data | 24.0% | 18.5% | 1.30 | 5.6e-06 |
+| aircraft | 20.1% | 15.8% | 1.27 | 1.9e-04 |
+| satellite | 7.5% | 5.4% | 1.40 | 2.9e-03 |
+| radar | 0.3% | 1.1% | 0.31 | 9.8e-03 |
+| **unidentified** | **1.0%** | **4.7%** | **0.21** | 2.4e-12 |
+
+And Ohio's volume is concentrated in the *late* era, when the corpus-wide
+unknown rate had already collapsed below 2%: 1966 (208 cases, 17.8% of all
+cases that year), 1967 (148), 1968 (97, 20.5%), 1969 (51, **32.3%**).
+
+> **Corrected mechanism.** Ohio is not a population of well-investigated cases;
+> it is a population of **late-era, overwhelmingly civilian, low-grade reports**
+> — 2.1% military against 11.3% elsewhere, elevated "insufficient data",
+> depressed radar. That is the signature of **civilian mail reaching the
+> project's publicly known address**, not of superior investigation. Living near
+> the HQ made you more likely to write in, and those letters were disposed of as
+> insufficient or routine.
+
+**What survives:** location strongly conditions disposition through **case
+mix** — who reports, by what channel, in which era. That is still a serious
+confound for anyone treating Blue Book unknowns as a sample of anomalous
+events. **What does not survive:** the claim that "unidentified" measures
+investigative effort, and any correction factor built on distance to
+Wright-Patterson. The effort-corrected unknown rate cannot be computed this
+way, because the distance coefficient is null.
+
+## 7.4 Green fireballs: hypothesis rejected
+
+I proposed that New Mexico's elevated unknown rate was the 1948–51 green
+fireball cluster. **The opposite is true.**
+
+| subset | n | unid | rate |
+|---|---|---|---|
+| New Mexico 1948–51 | 65 | 5 | **7.7%** |
+| New Mexico other years | 182 | 21 | **11.5%** |
+
+MH OR for New Mexico: **1.590** (p=0.033) full dataset → **1.958** (p=0.0063)
+*excluding* 1948–51. Dropping the green fireball period makes the effect
+*stronger*. The cluster is not the driver.
+
+## 7.5 Japan: the FEAF-chain explanation fails
+
+| theatre | n | unid | rate | MH OR | p |
+|---|---|---|---|---|---|
+| **Japan** | 115 | 17 | 14.8% | **2.01** | 0.016 |
+| Korea | 59 | 5 | 8.5% | 0.81 | 0.67 |
+| Guam/Pacific | 34 | 4 | 11.8% | 1.01 | 0.99 |
+| Alaska | 128 | 5 | 3.9% | 0.75 | 0.53 |
+| Europe (USAFE) | 207 | 11 | 5.3% | 0.77 | 0.41 |
+
+If the elevated Japanese rate were the Far East Air Forces investigative chain,
+Korea, the Philippines and Guam would be elevated too. They are not — Korea is
+*below* 1.0. **Japan is specifically elevated, and the theatre explanation is
+dead.** With 17 unidentified cases this may simply be small-n noise; it is
+flagged as open, not as a finding.
