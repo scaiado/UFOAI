@@ -1,0 +1,236 @@
+{
+ "corpus_issues": 860,
+ "corpus_chars": 72057926,
+ "results": {
+  "galesburg_1967": {
+   "id": "galesburg_1967",
+   "place": "Galesburg",
+   "year": 1967,
+   "month": 3,
+   "note": "6 catalogues, zero upstream roots",
+   "kind": "TARGET",
+   "place_mentions": 8,
+   "issues_with_place": 8,
+   "date_corroborated": 0,
+   "examples": [
+    {
+     "issue": "APRO__APRO_Bulletin_-_1967_01_00_-_January-February_djvu.txt",
+     "year_in_ctx": false,
+     "month_in_ctx": false,
+     "context": "he saw the same or similar object about a mile from the accident scene. Patton told police the object appeared to come within 100 feet of his car, also on Indiana 135. The press reported that it was the third sighting in that vicinity that night. Man Reported Struck By Falling Object Samuel S. Westf"
+    },
+    {
+     "issue": "MUFON__1970_08_djvu.txt",
+     "year_in_ctx": false,
+     "month_in_ctx": false,
+     "context": "g: added and nothing eects be = Quincy Morning Whig, “April be 1897. .. THEY SEE THE. ATRSHIP. Mysterious Object in the Heavens Viewed Last Thursday Night Niles, Mich. April 3--In many towns. in: ‘southwestern’ Michigan. citizens -aver thet last Thursday night ee saw ‘an airship hovering in the hea-"
+    }
+   ]
+  },
+  "texas_town_1966": {
+   "id": "texas_town_1966",
+   "place": "\\bTexas\\b",
+   "year": 1966,
+   "month": 9,
+   "note": "'a small town in Texas', 6 catalogues",
+   "kind": "TARGET",
+   "place_mentions": 3951,
+   "issues_with_place": 661,
+   "date_corroborated": 3,
+   "examples": [
+    {
+     "issue": "APRO__APRO_Bulletin_-_1975_06_00_-_Vol_23_No_8_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "July-September 1973 and January-June 1974 and forensic pathology, Coroner’s Office, San Francisco City and County, July-September 1971 and January 1972-December 1974. Dr. Daugherty’s military service includes General Medical Officer, U.S. Army, Major, July 1966-June 1969, William Beaumont Hospital, "
+    },
+    {
+     "issue": "IUR__Frontiers_of_Science_3_4__May_June_1981_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "ve the lie to the cliché that “no interesting cases are reliable, and no reliable cases are in- teresting.” No one has come up with a viable explanation for any of these ten, let alone the hundreds of others one July 14, 1952 USAF-RAF Bentwaters-Lakenheath, England Aug. 13-14, 1956 Salaz, et al. Lev"
+    },
+    {
+     "issue": "MUFON__2007_04_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "technician from August 1965 through September 1966. He remembers the area quite well. earlbeal@yahoo.com April 2007 Field Investigator’s Corner by Chuck Reever MUFON Director of Investigations Each month we publish the CMS Ranking Report for all State Directors. Congratulations to Kenneth E. Cherry "
+    }
+   ]
+  },
+  "dallas_1965": {
+   "id": "dallas_1965",
+   "place": "Dallas",
+   "year": 1965,
+   "month": 8,
+   "note": "5 catalogues",
+   "kind": "TARGET",
+   "place_mentions": 406,
+   "issues_with_place": 221,
+   "date_corroborated": 0,
+   "examples": [
+    {
+     "issue": "APRO__APRO_Bulletin_-_1952_07_15_-_Vol_1_No_1_djvu.txt",
+     "year_in_ctx": false,
+     "month_in_ctx": false,
+     "context": "id watcr we'd be in wor with Russia now, tool- predicted in ap GS Oe CD OD BO OR OF OF Eb 28 Ee UD EO GE OD US OP OD GB GD On em a8 QP ab Gh ae ae oD oO oe DID YOU KNOW?-= ---th-t on the samc day the water tank ot Tucumcari, Now Mexico ox~ ploded (last Decombcr 13) mystcr- ious oxplosions were fcl o"
+    },
+    {
+     "issue": "APRO__APRO_Bulletin_-_1952_09_15_-_Vol_1_No_2_djvu.txt",
+     "year_in_ctx": false,
+     "month_in_ctx": false,
+     "context": "ot connect object with lightinineg, for it ceno fron different direction then thet of tho lightring. Hays thought it night have been a shooting star un< til it paused ‘for less than a second’ then resunod speedy flizht, Horizontal novonont-==«no noisc. Texas, (no date)-==Ray Hickey of 423 W. Manning"
+    }
+   ]
+  },
+  "wpafb_1951": {
+   "id": "wpafb_1951",
+   "place": "Wright.?Patterson",
+   "year": 1951,
+   "month": 6,
+   "note": "5 catalogues; APRO begins 1952",
+   "kind": "TARGET",
+   "place_mentions": 291,
+   "issues_with_place": 147,
+   "date_corroborated": 0,
+   "examples": [
+    {
+     "issue": "APRO__APRO_Bulletin_-_1952_09_15_-_Vol_1_No_2_djvu.txt",
+     "year_in_ctx": false,
+     "month_in_ctx": false,
+     "context": "to belicve as truth. <A young man, formerly with the USAF, and at present in the reservo force es and planning on an army related the following story to your Director and a corroboreting wit- nesss In November of 1949» Xe. was on o sce my my wey to the West Coas mother, who was i111. I went by way o"
+    },
+    {
+     "issue": "APRO__APRO_Bulletin_-_1953_07_15_-_Vol_2_No_1_djvu.txt",
+     "year_in_ctx": false,
+     "month_in_ctx": false,
+     "context": "egories will be considered |as an independent group. As the bona-fide wmidentified aerial phen-|Director clearly stated to the In- Omen a « vestigator and the Astronomer, we RO hes at last succeeded in jcan and will cooperate to the best getting some sort of recognition jof ovr ability but must reta"
+    }
+   ]
+  },
+  "socorro_1964": {
+   "id": "socorro_1964",
+   "place": "Socorro",
+   "year": 1964,
+   "month": 4,
+   "note": "control: Zamora, heavily documented",
+   "kind": "CONTROL",
+   "place_mentions": 355,
+   "issues_with_place": 114,
+   "date_corroborated": 52,
+   "examples": [
+    {
+     "issue": "APRO__APRO_Bulletin_-_1964_05_00_-_May_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "f the Zamora sighting, which brought the UFO into sharp focus in the latter part of April, and the day-by-day, blow- by-blow account of the entire investiga- tion, which is as interesting, in some ways, as the sightings themselves. At 6:50 p.m. on Friday evening, 24 April, 1964, Patrolman Lonnie Zam"
+    },
+    {
+     "issue": "APRO__APRO_Bulletin_-_1964_07_00_-_July_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "case— if she could give the information or not. 5. To date, nothing has been heard from Mrs. Rust. APRO has no member close enough to Canyon Ferry to make a personal in- vestigation and the cost of telephone interviews is prohibitive. Because of the Rust’s and Davis’ lack of specific information on "
+    },
+    {
+     "issue": "APRO__APRO_Bulletin_-_1964_07_00_-_July_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "so graph- ically described in the press? It is our contention that Gallegos saw what he claims he saw, and we can THE A. P. R. O. BULLETIN think of no conventional explanation for it, which is also logical and reasonable. Why No Contact? Since April, 1964, and Lonnie Za- mora’s historic experience a"
+    }
+   ]
+  },
+  "exeter_1965": {
+   "id": "exeter_1965",
+   "place": "Exeter",
+   "year": 1965,
+   "month": 9,
+   "note": "control: Exeter NH",
+   "kind": "CONTROL",
+   "place_mentions": 145,
+   "issues_with_place": 52,
+   "date_corroborated": 4,
+   "examples": [
+    {
+     "issue": "IUR__Frontiers_of_Science_3_4__May_June_1981_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "xplanation for any of these ten, let alone the hundreds of others one July 14, 1952 USAF-RAF Bentwaters-Lakenheath, England Aug. 13-14, 1956 Salaz, et al. Levelland, Texas Nov. 2-3, 1957 Father Gill Boianai, Papua June 26, 1959 Betty and Barney Hill Whitefield, New Hampshire Sep. 19, 1961 Muscarello"
+    },
+    {
+     "issue": "IUR__Volume_13__number_6__November_December_1988_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "r/December 1978):9-10, and no, 133 (January/February 1979):9-10; Walter H. Greenawald, “San Fernando Valley UFO Sighting Wave: July & August 1979,” MUFON UFO Journal, no. 151 (September 1980):3-6; Stan Gordon, “Pennsylvania Wave,” MUFON UFO Journal, no. 224 (December 1986):7-8. 15. John G. Fuller, I"
+    },
+    {
+     "issue": "MUFON__2007_11_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "abduction event in Manhattan, along with several other witnesses (as detailed Continued on page 10 9 Romney and Giuliani Asked About UFOs Continued from page 9 publicly in Budd Hopkins’ 1996 book Witnessed). What is ironic about Giuliani’s exchange with the boy in New Hamp- shire is that it was in E"
+    }
+   ]
+  },
+  "kecksburg_1965": {
+   "id": "kecksburg_1965",
+   "place": "Kecksburg",
+   "year": 1965,
+   "month": 12,
+   "note": "control: Kecksburg PA",
+   "kind": "CONTROL",
+   "place_mentions": 241,
+   "issues_with_place": 46,
+   "date_corroborated": 41,
+   "examples": [
+    {
+     "issue": "IUR__IUR_Vol._30_No._1_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "I T Al kb TRUCK, THAT HAD J = 17 Choy, Lowel meaner, 6 Pée lata eee | Pi EEU T bos ee Peh LS Z27 A yachmend a on i PRA Nearby resident Bill Bulebush saw the object descend and located it before the military arrived. Artist's conception (above) by Charles Hanna of the object that crashed near Kecksbu"
+    },
+    {
+     "issue": "IUR__IUR_Vol._30_No._1_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "the editor, and 60659, USA. other editorial correspondence to /nternational UFO Reporter, Postmaster: Send Form 3579 to CUFOS, 2457 West Peterson Center for UFO Studies, 2457 West Peterson Avenue, Chicago, Avenue, Chicago, Illinois 60659. IUR + 30:1 5 FORTY YEARS OF SECRECY: NASA, THE MILITARY, AND "
+    },
+    {
+     "issue": "IUR__IUR_Vol._30_No._1_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "CRASH BY LESLIE KEAN his December marks the 40th anniversary of one of the most thoroughly researched and intrigu- ing crash/retrieval cases in America. Despite a top-notch investigation spanning more than three decades and world-wide attention in recent years from a new campaign probing the case, t"
+    }
+   ]
+  },
+  "tep_1981": {
+   "id": "tep_1981",
+   "place": "Trans.?en.?Provence",
+   "year": 1981,
+   "month": 1,
+   "note": "control: TEP, GEPAN NT-16",
+   "kind": "CONTROL",
+   "place_mentions": 25,
+   "issues_with_place": 19,
+   "date_corroborated": 5,
+   "examples": [
+    {
+     "issue": "IUR__IUR_Vol._31_No._2_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "August 29, 1967, Cussac (Cantal). Two children herd- ing cows saw little people around a landed sphere. As the sphere began to take off, the beings were sucked into it head first, and it left very quickly in a blinding light. The case was reopened and studied in depth in 1978 by Claude Poher. Januar"
+    },
+    {
+     "issue": "IUR__IUR_Vol._32_No._4_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "rnment that was itself spooked by the most famous radio hoax in history.\"—Jerome Clark. Ф Including the Original major newspaper, and a significant loss of life.” Memorial to the 19 38 IUR + 32:4 LANDÉVENNEC, May 20, 1974 BY JOEL MESNARD ne of the most significant UFO events in France Ох place in Tr"
+    },
+    {
+     "issue": "IUR__Volume_14__number_6__November_December_1989_djvu.txt",
+     "year_in_ctx": true,
+     "month_in_ctx": true,
+     "context": "to comprehend just what had happened. The explosive developments of recent years are all the more remarkable because they occurred in the absence of any major sighting waves, although the relative handful of reports included some of history's most significant UFO events: the Cash-Landrum CE2 (Decemb"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,825 @@
+{
+ "stems": 368,
+ "image_only": [
+  "Release_01/2024-04-30-Composite-Sketch",
+  "Release_01/DOW-UAP-D60-Mission-Report-Persian-Gulf-August-2020",
+  "Release_01/DOW-UAP-D63-Mission-Report-Strait-of-Hormuz-October-2020",
+  "Release_01/DOW-UAP-D65-Mission-Report-Persian-Gulf-July-2020",
+  "Release_01/FBI-Photo-B1",
+  "Release_01/FBI-Photo-B11",
+  "Release_01/FBI-Photo-B12",
+  "Release_01/FBI-Photo-B15",
+  "Release_01/FBI-Photo-B16",
+  "Release_01/FBI-Photo-B18",
+  "Release_01/FBI-Photo-B19",
+  "Release_01/FBI-Photo-B21",
+  "Release_01/FBI-Photo-B5",
+  "Release_01/FBI-Photo-B6",
+  "Release_01/NASA-UAP-D4-Apollo-11-Technical-Crew-Debriefing-1969",
+  "Release_01/NASA-UAP-D6-Apollo-17-Technical-Crew-Debriefing-1973",
+  "Release_03/CIA-UAP-010_REPORT_ON_CONVERSATIONS_WITH_SOVIET_SCIENTISTS_ON_SUBJECT_OF_UNIDENTIFIED_FLYING_OBJECTS_IS_THE_USSR",
+  "Release_03/FBI-UAP-D003_Digital-Rendering_Unresolved-UAP-Report_ColoradoSprings_2022",
+  "Release_05/FBI-UAP-D027_Digital-Rendering_Dark-Translucent-Triangle_2023",
+  "Release_05/FBI-UAP-D038_Digital-Rendering-1_Multiple-Red-Lights_2026",
+  "Release_05/FBI-UAP-D039_Digital-Rendering-2_Multiple-Red-Lights_2026",
+  "Release_05/FBI-UAP-D041_Digital-Rendering-1_Multiple-Red-Lights_2026",
+  "Release_05/FBI-UAP-D042_Digital-Rendering-2_Multiple-Red-Lights_2026"
+ ],
+ "no_derivatives": [
+  "Release_01/FBI-Photo-A1.png",
+  "Release_01/FBI-Photo-A2.png",
+  "Release_01/FBI-Photo-A3.png",
+  "Release_01/FBI-Photo-A4.png",
+  "Release_01/FBI-Photo-A5.png",
+  "Release_01/FBI-Photo-A6.png",
+  "Release_01/FBI-Photo-A7.png",
+  "Release_01/FBI-Photo-A8.png",
+  "Release_01/NASA-UAP-VM1-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM2-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM3-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM4-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM5-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM6-Apollo-17-1972.jpg",
+  "Release_03/FBI-UAP-D014_Digital-Rendering_Incident-1-1_Western-US-Event_2023.jpg",
+  "Release_03/FBI-UAP-D015_Digital-Rendering_Incident-1-2_Western-US-Event_2023.jpg",
+  "Release_03/FBI-UAP-D016_Digital-Rendering_Incident-2-1_Western-US-Event_2023.jpg",
+  "Release_03/FBI-UAP-D017_Digital-Rendering_Incident-2-2_Western-US-Event_2023.jpg",
+  "Release_03/FBI-UAP-D018_Digital-Rendering_Incident-2-3_Western-US-Event_2023.jpg",
+  "Release_03/FBI-UAP-D019_Digital-Rendering_Incident-2-4_Western-US-Event_2023.jpg",
+  "Release_03/FBI-UAP-D020_Digital-Rendering_Incident-2-5_Western-US-Event_2023.jpg",
+  "Release_03/FBI-UAP-D021_Digital-Rendering_Incident-1-3_Western-US-Event_2023.jpg",
+  "Release_03/FBI-UAP-D022_Digital-Rendering_Incident-2-6_Western-US-Event_2023.jpg",
+  "Release_03/FBI-UAP-D023_Digital-Rendering_Incident-2-7_Western-US-Event_2023.jpg",
+  "Release_04/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg",
+  "Release_04/NASA-UAP-D031_STS-80-Unidentified-Object-Image2_1996.jpg",
+  "Release_04/NASA-UAP-D032_STS-80-Unidentified-Object-Image3_1996.jpg",
+  "Release_05/FBI-UAP-D025_Digital-Rendering_Airborne-Triangle_2002.jpg",
+  "Release_05/FBI-UAP-D029_Digital-Rendering_Dark-Triangle-with-Lights_2011.jpg",
+  "Release_05/FBI-UAP-D031_Digital-Rendering_Large-Triangle-with-Red-Lights_2023.jpg"
+ ],
+ "unparsed_ids": [
+  "Release_01/059UAP00011",
+  "Release_01/059UAP00012",
+  "Release_01/059UAP00013",
+  "Release_01/18_100754_ General 1946-7_Vol_2",
+  "Release_01/18_6369445_General_1948_Vol_1",
+  "Release_01/2024-04-30-Composite-Sketch",
+  "Release_01/255_413270_UFO's_and_Defense_What_Should_we_Prepare_For",
+  "Release_01/255_t_763_r1b_transcripts",
+  "Release_01/331_120752_Numeric_Files_1944\u20131945_37153_German_Armament_Equipment_Documents",
+  "Release_01/341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399",
+  "Release_01/341_110677_Numerical_File_5-2500",
+  "Release_01/342_HS1-416511228_box186_319.1-Flying-Discs-1949",
+  "Release_01/38_143685_box7_Incident_Summaries_1-100",
+  "Release_01/38_143685_box7_Incident_Summaries_101-172",
+  "Release_01/38_143685_box7_Incident_Summaries_173-233",
+  "Release_01/59_214434_SP_16_[7.18.1963]",
+  "Release_01/59_64634_711.5612[7-2852",
+  "Release_01/65_HS1-101634279_100-DE-18221_Serial_844",
+  "Release_01/65_HS1-101634279_100-DE-26505",
+  "Release_01/65_HS1-834228961_62-HQ-83894_SUB_A",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_1",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_10",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_2",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_3",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_4",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_5",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_6",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_7",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_8",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Section_9",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Serial_130",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Serial_153",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Serial_164",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Serial_220",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Serial_403",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Serial_438",
+  "Release_01/65_HS1-834228961_62-HQ-83894_Serial_449",
+  "Release_01/FBI-Photo-A1.png",
+  "Release_01/FBI-Photo-A2.png",
+  "Release_01/FBI-Photo-A3.png",
+  "Release_01/FBI-Photo-A4.png",
+  "Release_01/FBI-Photo-A5.png",
+  "Release_01/FBI-Photo-A6.png",
+  "Release_01/FBI-Photo-A7.png",
+  "Release_01/FBI-Photo-A8.png",
+  "Release_01/FBI-Photo-B1",
+  "Release_01/FBI-Photo-B10",
+  "Release_01/FBI-Photo-B11",
+  "Release_01/FBI-Photo-B12",
+  "Release_01/FBI-Photo-B13",
+  "Release_01/FBI-Photo-B14",
+  "Release_01/FBI-Photo-B15",
+  "Release_01/FBI-Photo-B16",
+  "Release_01/FBI-Photo-B17",
+  "Release_01/FBI-Photo-B18",
+  "Release_01/FBI-Photo-B19",
+  "Release_01/FBI-Photo-B2",
+  "Release_01/FBI-Photo-B20",
+  "Release_01/FBI-Photo-B21",
+  "Release_01/FBI-Photo-B22",
+  "Release_01/FBI-Photo-B23",
+  "Release_01/FBI-Photo-B24",
+  "Release_01/FBI-Photo-B3",
+  "Release_01/FBI-Photo-B4",
+  "Release_01/FBI-Photo-B5",
+  "Release_01/FBI-Photo-B6",
+  "Release_01/FBI-Photo-B7",
+  "Release_01/FBI-Photo-B8",
+  "Release_01/FBI-Photo-B9",
+  "Release_01/NASA-UAP-VM1-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM2-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM3-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM4-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM5-Apollo-12-1969.jpg",
+  "Release_01/NASA-UAP-VM6-Apollo-17-1972.jpg",
+  "Release_01/Serial 5 Redacted_Redacted",
+  "Release_01/Serial-3_Redacted",
+  "Release_01/Serial-4-Redacted_Redacted",
+  "Release_01/USPER-Statement-Redacted",
+  "Release_01/Western_US_Event_Slides_5.08.2026",
+  "Release_03/DoW-UAP-D079_Narrative-1_Western-US-Event",
+  "Release_03/DoW-UAP-D080_Narrative-2_Western-US-Event",
+  "Release_03/DoW-UAP-D081_Narrative-3_Western-US-Event",
+  "Release_03/DoW-UAP-D082_Narrative-4_Western-US-Event",
+  "Release_03/DoW-UAP-D083_Narrative-5_Western-US-Event",
+  "Release_03/ICA-UAP-D001_Analysis_Colorado-Springs-UAP-Incident",
+  "Release_05/EOP-UAP-D001_NASC-Inquiry-into-Bahia-Brazil-Incident_November-13-1963",
+  "Release_06/LLE-UAP-D001_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023",
+  "Release_06/LLE-UAP-D002_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023",
+  "Release_06/LLE-UAP-D003_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023",
+  "Release_06/LLE-UAP-D004_Transcript-of-an-Unresolved-UAP-Report-Colorado-January-2024",
+  "Release_07/EOP-UAP-D002-Memo_on_Interagency_Coordination_for_the_Recovery_of_Foreign_Materiel-May_1963"
+ ],
+ "series": {
+  "CIA-UAP|D:pad3": {
+   "n": 11,
+   "min": 1,
+   "max": 29,
+   "missing": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "density": 0.3793,
+   "agency_styles": [
+    "D:pad3",
+    "bare:pad3"
+   ],
+   "verdict": "SUSPECT_MIXED_STYLE"
+  },
+  "CIA-UAP|bare:pad3": {
+   "n": 18,
+   "min": 2,
+   "max": 19,
+   "missing": [],
+   "density": 1.0,
+   "agency_styles": [
+    "D:pad3",
+    "bare:pad3"
+   ],
+   "verdict": "SUSPECT_MIXED_STYLE"
+  },
+  "DOE-UAP|D:pad3": {
+   "n": 5,
+   "min": 1,
+   "max": 5,
+   "missing": [],
+   "density": 1.0,
+   "agency_styles": [
+    "D:pad3"
+   ],
+   "verdict": "CLEAN_SINGLE_STYLE"
+  },
+  "DOS-UAP|D:bare": {
+   "n": 2,
+   "min": 1,
+   "max": 2,
+   "missing": [],
+   "density": 1.0,
+   "agency_styles": [
+    "D:bare",
+    "D:pad3"
+   ],
+   "verdict": "SUSPECT_MIXED_STYLE"
+  },
+  "DOS-UAP|D:pad3": {
+   "n": 2,
+   "min": 1,
+   "max": 2,
+   "missing": [],
+   "density": 1.0,
+   "agency_styles": [
+    "D:bare",
+    "D:pad3"
+   ],
+   "verdict": "SUSPECT_MIXED_STYLE"
+  },
+  "DOW-UAP|D:bare": {
+   "n": 155,
+   "min": 3,
+   "max": 213,
+   "missing": [
+    9,
+    11,
+    13,
+    15,
+    17,
+    21,
+    22,
+    24,
+    26,
+    29,
+    30,
+    31,
+    34,
+    36,
+    37,
+    39,
+    40,
+    41,
+    43,
+    45,
+    46,
+    47,
+    53,
+    59,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+   ],
+   "density": 0.7346,
+   "agency_styles": [
+    "D:bare",
+    "D:pad3",
+    "PRbare:bare"
+   ],
+   "verdict": "SUSPECT_MIXED_STYLE"
+  },
+  "DOW-UAP|D:pad3": {
+   "n": 19,
+   "min": 17,
+   "max": 99,
+   "missing": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    79,
+    80,
+    81,
+    82,
+    83
+   ],
+   "density": 0.2289,
+   "agency_styles": [
+    "D:bare",
+    "D:pad3",
+    "PRbare:bare"
+   ],
+   "verdict": "SUSPECT_MIXED_STYLE"
+  },
+  "DOW-UAP|PRbare:bare": {
+   "n": 3,
+   "min": 20,
+   "max": 131,
+   "missing": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129
+   ],
+   "density": 0.0268,
+   "agency_styles": [
+    "D:bare",
+    "D:pad3",
+    "PRbare:bare"
+   ],
+   "verdict": "SUSPECT_MIXED_STYLE"
+  },
+  "FBI-UAP|D:pad3": {
+   "n": 40,
+   "min": 1,
+   "max": 43,
+   "missing": [
+    34,
+    35,
+    36
+   ],
+   "density": 0.9302,
+   "agency_styles": [
+    "D:pad3"
+   ],
+   "verdict": "CLEAN_SINGLE_STYLE"
+  },
+  "NASA-UAP|D:bare": {
+   "n": 6,
+   "min": 1,
+   "max": 7,
+   "missing": [
+    3
+   ],
+   "density": 0.8571,
+   "agency_styles": [
+    "D:bare",
+    "D:pad3"
+   ],
+   "verdict": "SUSPECT_MIXED_STYLE"
+  },
+  "NASA-UAP|D:pad3": {
+   "n": 11,
+   "min": 15,
+   "max": 32,
+   "missing": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "density": 0.6111,
+   "agency_styles": [
+    "D:bare",
+    "D:pad3"
+   ],
+   "verdict": "SUSPECT_MIXED_STYLE"
+  },
+  "ODNI-UAP|D:pad3": {
+   "n": 1,
+   "min": 1,
+   "max": 1,
+   "missing": [],
+   "density": 1.0,
+   "agency_styles": [
+    "D:pad3"
+   ],
+   "verdict": "CLEAN_SINGLE_STYLE"
+  },
+  "USG-UAP|D:pad3": {
+   "n": 2,
+   "min": 1,
+   "max": 2,
+   "missing": [],
+   "density": 1.0,
+   "agency_styles": [
+    "D:pad3"
+   ],
+   "verdict": "CLEAN_SINGLE_STYLE"
+  }
+ },
+ "union": {
+  "CIA-UAP": {
+   "n": 29,
+   "min": 1,
+   "max": 29,
+   "missing": [],
+   "density": 1.0,
+   "longest_runs": []
+  },
+  "DOE-UAP": {
+   "n": 5,
+   "min": 1,
+   "max": 5,
+   "missing": [],
+   "density": 1.0,
+   "longest_runs": []
+  },
+  "DOS-UAP": {
+   "n": 2,
+   "min": 1,
+   "max": 2,
+   "missing": [],
+   "density": 1.0,
+   "longest_runs": []
+  },
+  "DOW-UAP": {
+   "n": 174,
+   "min": 3,
+   "max": 213,
+   "missing": [
+    9,
+    11,
+    13,
+    15,
+    21,
+    22,
+    24,
+    26,
+    29,
+    30,
+    31,
+    34,
+    36,
+    37,
+    39,
+    40,
+    41,
+    43,
+    45,
+    46,
+    47,
+    53,
+    59,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    76,
+    79,
+    80,
+    81,
+    82,
+    83
+   ],
+   "density": 0.8246,
+   "longest_runs": [
+    [
+     66,
+     73
+    ],
+    [
+     79,
+     83
+    ],
+    [
+     29,
+     31
+    ],
+    [
+     39,
+     41
+    ],
+    [
+     45,
+     47
+    ],
+    [
+     21,
+     22
+    ],
+    [
+     36,
+     37
+    ],
+    [
+     9,
+     9
+    ],
+    [
+     11,
+     11
+    ],
+    [
+     13,
+     13
+    ]
+   ]
+  },
+  "FBI-UAP": {
+   "n": 40,
+   "min": 1,
+   "max": 43,
+   "missing": [
+    34,
+    35,
+    36
+   ],
+   "density": 0.9302,
+   "longest_runs": [
+    [
+     34,
+     36
+    ]
+   ]
+  },
+  "ODNI-UAP": {
+   "n": 1,
+   "min": 1,
+   "max": 1,
+   "missing": [],
+   "density": 1.0,
+   "longest_runs": []
+  },
+  "USG-UAP": {
+   "n": 2,
+   "min": 1,
+   "max": 2,
+   "missing": [],
+   "density": 1.0,
+   "longest_runs": []
+  }
+ },
+ "parallel_series": {
+  "NASA-UAP|D:bare": {
+   "n": 6,
+   "min": 1,
+   "max": 7,
+   "missing": [
+    3
+   ]
+  },
+  "NASA-UAP|D:pad3": {
+   "n": 11,
+   "min": 15,
+   "max": 32,
+   "missing": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ]
+  }
+ },
+ "markings": {
+  "banner_C": {
+   "docs": 39,
+   "hits": 196
+  },
+  "decl_date": {
+   "docs": 68,
+   "hits": 486
+  },
+  "portion_U": {
+   "docs": 35,
+   "hits": 94
+  },
+  "banner_S": {
+   "docs": 53,
+   "hits": 360
+  },
+  "banner_TS": {
+   "docs": 24,
+   "hits": 76
+  },
+  "portion_S": {
+   "docs": 30,
+   "hits": 197
+  },
+  "portion_C": {
+   "docs": 21,
+   "hits": 50
+  },
+  "foia_b6": {
+   "docs": 43,
+   "hits": 409
+  },
+  "cav_SCI": {
+   "docs": 10,
+   "hits": 27
+  },
+  "foia_b7": {
+   "docs": 3,
+   "hits": 10
+  },
+  "foia_b3": {
+   "docs": 21,
+   "hits": 79
+  },
+  "cav_FOUO": {
+   "docs": 20,
+   "hits": 101
+  },
+  "foia_b1": {
+   "docs": 11,
+   "hits": 454
+  },
+  "cav_NOFORN": {
+   "docs": 13,
+   "hits": 238
+  },
+  "portion_TS": {
+   "docs": 1,
+   "hits": 25
+  },
+  "cav_ORCON": {
+   "docs": 1,
+   "hits": 1
+  },
+  "foia_b5": {
+   "docs": 2,
+   "hits": 2
+  },
+  "cav_BYEMAN": {
+   "docs": 1,
+   "hits": 3
+  },
+  "redact_mark": {
+   "docs": 5,
+   "hits": 6
+  }
+ },
+ "markings_corpus_docs": 326
+}

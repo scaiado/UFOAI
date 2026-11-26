@@ -1,0 +1,840 @@
+{
+ "n_dirds": 37,
+ "dirds": [
+  {
+   "id": "D117",
+   "n": 117,
+   "title": "Metallic Glasses for Aerospace Applications",
+   "date": [
+    2009,
+    12,
+    14
+   ],
+   "file": "DOW-UAP-D117_AAWSAP-DIRD-Metallic-Glasses-for-Aerospace-Applications-December-14-2009_djvu.txt"
+  },
+  {
+   "id": "D118",
+   "n": 118,
+   "title": "Aerospace Applications of Programmable Matter",
+   "date": [
+    2009,
+    12,
+    14
+   ],
+   "file": "DOW-UAP-D118_AAWSAP-DIRD-Aerospace-Applications-of-Programmable-Matter-December-14-2009_djvu.txt"
+  },
+  {
+   "id": "D119",
+   "n": 119,
+   "title": "Biomaterials",
+   "date": [
+    2010,
+    1,
+    7
+   ],
+   "file": "DOW-UAP-D119_AAWSAP-DIRD-Biomaterials-January-7-2010_djvu.txt"
+  },
+  {
+   "id": "D120",
+   "n": 120,
+   "title": "Materials for Advanced Aerospace Platforms",
+   "date": [
+    2010,
+    1,
+    12
+   ],
+   "file": "DOW-UAP-D120_AAWSAP-DIRD-Materials-for-Advanced-Aerospace-Platforms-January-12-2010_djvu.txt"
+  },
+  {
+   "id": "D121",
+   "n": 121,
+   "title": "Pulsed High Power Microwave Source Technology",
+   "date": [
+    2010,
+    1,
+    28
+   ],
+   "file": "DOW-UAP-D121_AAWSAP-DIRD-Pulsed-High-Power-Microwave-Source-Technology-January-28-2010_djvu.txt"
+  },
+  {
+   "id": "D122",
+   "n": 122,
+   "title": "Invisibility Cloaking Theory and Experiments",
+   "date": [
+    2010,
+    3,
+    2
+   ],
+   "file": "DOW-UAP-D122_AAWSAP-DIRD-Invisibility-Cloaking-Theory-and-Experiments-March-2-2010_djvu.txt"
+  },
+  {
+   "id": "D123",
+   "n": 123,
+   "title": "Positron Aerospace Propulsion",
+   "date": [
+    2010,
+    3,
+    2
+   ],
+   "file": "DOW-UAP-D123_AAWSAP-DIRD-Positron-Aerospace-Propulsion-March-2-2010_djvu.txt"
+  },
+  {
+   "id": "D124",
+   "n": 124,
+   "title": "Space Access Where Weve Been and Where We Could Go",
+   "date": [
+    2010,
+    3,
+    8
+   ],
+   "file": "DOW-UAP-D124_AAWSAP-DIRD-Space_Access-Where-Weve-Been-and-Where-We-Could-Go-March-8-2010_djvu.txt"
+  },
+  {
+   "id": "D125",
+   "n": 125,
+   "title": "Inertial Electrostatic Confinement Fusion",
+   "date": [
+    2010,
+    3,
+    10
+   ],
+   "file": "DOW-UAP-D125_AAWSA-DIRD-Inertial-Electrostatic-Confinement-Fusion-March-10-2010_djvu.txt"
+  },
+  {
+   "id": "D126",
+   "n": 126,
+   "title": "Advanced Nuclear Propulsion for Manned Deep Space Missions",
+   "date": [
+    2010,
+    3,
+    11
+   ],
+   "file": "DOW-UAP-D126_AAWSAP-DIRD-Advanced-Nuclear-Propulsion-for-Manned-Deep-Space-Missions-March-11-2010_djvu.txt"
+  },
+  {
+   "id": "D127",
+   "n": 127,
+   "title": "An Introduction to the Statistical Drake Equation",
+   "date": [
+    2010,
+    3,
+    11
+   ],
+   "file": "DOW-UAP-D127_AAWSAP-DIRD-An-Introduction-to-the-Statistical-Drake-Equation-March-11-2010_djvu.txt"
+  },
+  {
+   "id": "D128",
+   "n": 128,
+   "title": "Anomalous Acute and Subacute Field Effects on Human Biological Tissues",
+   "date": [
+    2010,
+    3,
+    11
+   ],
+   "file": "DOW-UAP-D128_AAWSAP-DIRD-Anomalous-Acute-and-Subacute-Field-Effects-on-Human-Biological-Tissues-March-11-2010_djvu.txt"
+  },
+  {
+   "id": "D129",
+   "n": 129,
+   "title": "Metallic Spintronics",
+   "date": [
+    2010,
+    3,
+    23
+   ],
+   "file": "DOW-UAP-D129_AAWSAP-DIRD-Metallic-Spintronics-March-23-2010_djvu.txt"
+  },
+  {
+   "id": "D130",
+   "n": 130,
+   "title": "Technological Approaches to Controlling External Devices",
+   "date": [
+    2010,
+    3,
+    23
+   ],
+   "file": "DOW-UAP-D130_AAWSAP-DIRD-Technological-Approaches-to-Controlling-External-Devices-March-23-2010_djvu.txt"
+  },
+  {
+   "id": "D131",
+   "n": 131,
+   "title": "The Role of Superconductors in Gravity Research",
+   "date": [
+    2010,
+    3,
+    23
+   ],
+   "file": "DOW-UAP-D131_AAWSAP-DIRD-The-Role-of-Superconductors-in-Gravity-Research-March-23-2010_djvu.txt"
+  },
+  {
+   "id": "D132",
+   "n": 132,
+   "title": "Advanced Space Propulsion Based on Vacuum Spacetime Metric Engineering",
+   "date": [
+    2010,
+    3,
+    29
+   ],
+   "file": "DOW-UAP-D132_AAWSAP-DIRD-Advanced-Space-Propulsion-Based-on-Vacuum-Spacetime_Metric-Engineering-March-29-2010_djvu.txt"
+  },
+  {
+   "id": "D133",
+   "n": 133,
+   "title": "The Space Communication Implications of Quantum Entanglement and Nonlocality",
+   "date": [
+    2010,
+    3,
+    30
+   ],
+   "file": "DOW-UAP-D133_AAWSAP-DIRD-The-Space-Communication-Implications-of-Quantum-Entanglement-and-Nonlocality-March-30-2010_djvu.txt"
+  },
+  {
+   "id": "D134",
+   "n": 134,
+   "title": "Maverick Inventor Versus Corporate Inventor Where Will the Next Major Innovations Arise",
+   "date": [
+    2010,
+    3,
+    30
+   ],
+   "file": "DOW-UAP-D134_AAWSAP-DIRD-Maverick-Inventor-Versus-Corporate-Inventor-Where-Will-the-Next-Major-Innovations-Arise-March-30-2010_djvu.txt"
+  },
+  {
+   "id": "D135",
+   "n": 135,
+   "title": "Antigravity for Aerospace Applications",
+   "date": [
+    2010,
+    3,
+    30
+   ],
+   "file": "DOW-UAP-D135__AAWSAP-DIRD-Antigravity-for-Aerospace-Applications-March-30-2010-V2_djvu.txt"
+  },
+  {
+   "id": "D136",
+   "n": 136,
+   "title": "Biosensors and BioMEMS A Survey of the Present Field",
+   "date": [
+    2010,
+    3,
+    31
+   ],
+   "file": "DOW-UAP-D136_AAWSAP-DIRD-Biosensors-and-BioMEMS-A-Survey-of-the-Present-Field-March-31-2010_djvu.txt"
+  },
+  {
+   "id": "D137",
+   "n": 137,
+   "title": "State of the Art and Evolution of High Energy Lasers",
+   "date": [
+    2010,
+    3,
+    31
+   ],
+   "file": "DOW-UAP-D137_AAWSAP-DIRD-State-of-the-Art-and-Evolution-of-High-Energy-Lasers-March-31-2010_djvu.txt"
+  },
+  {
+   "id": "D138",
+   "n": 138,
+   "title": "Warp Drive Dark Energy and the Manipulation of Extra Dimensions",
+   "date": [
+    2010,
+    4,
+    2
+   ],
+   "file": "DOW-UAP-D138_AAWSAP-DIRD-Warp-Drive-Dark-Energy-and-the-Manipulation-of-Extra-Dimensions-April-2-2010_djvu.txt"
+  },
+  {
+   "id": "D139",
+   "n": 139,
+   "title": "Traversable Wormholes Stargates and Negative Energy",
+   "date": [
+    2010,
+    4,
+    6
+   ],
+   "file": "DOW-UAP-D139_AAWSAP-DIRD-Traversable-Wormholes-Stargates-and-Negative-Energy-April-6-2010_djvu.txt"
+  },
+  {
+   "id": "D140",
+   "n": 140,
+   "title": "High Frequency Gravitational Wave Communications",
+   "date": [
+    2010,
+    4,
+    6
+   ],
+   "file": "DOW-UAP-D140_AAWSAP-DIRD-High-Frequency-Gravitational-Wave-Communications-April-6-2010_djvu.txt"
+  },
+  {
+   "id": "D141",
+   "n": 141,
+   "title": "Metamaterials for Aerospace Applications",
+   "date": [
+    2010,
+    4,
+    6
+   ],
+   "file": "DOW-UAP-D141_AAWSAP-DIRD-Metamaterials-for-Aerospace-Applications-April-6-2010_djvu.txt"
+  },
+  {
+   "id": "D142",
+   "n": 142,
+   "title": "Concepts for Extracting Energy from the Quantum Vacuum",
+   "date": [
+    2010,
+    4,
+    6
+   ],
+   "file": "DOW-UAP-D142_AAWSAP-DIRD-Concepts-for-Extracting-Energy-from-the-Quantum-Vacuum-April-6-2010_djvu.txt"
+  },
+  {
+   "id": "D143",
+   "n": 143,
+   "title": "Laser Lightcraft Nanosatellites",
+   "date": [
+    2010,
+    11,
+    1
+   ],
+   "file": "DOW-UAP-D143_AAWSAP-DIRD-Laser-Lightcraft-Nanosatellites-November-1-2010_djvu.txt"
+  },
+  {
+   "id": "D144",
+   "n": 144,
+   "title": "Cockpits in the Era of Breakthrough Flight",
+   "date": [
+    2010,
+    11,
+    1
+   ],
+   "file": "DOW-UAP-D144_AAWSAP-DIRD-Cockpits-in-the-Era-of-Breakthrough-Flight-November-1-2010_djvu.txt"
+  },
+  {
+   "id": "D145",
+   "n": 145,
+   "title": "Aneutronic Fusion Propulsion I",
+   "date": [
+    2010,
+    11,
+    1
+   ],
+   "file": "DOW-UAP-D145_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-I-November-1-2010_djvu.txt"
+  },
+  {
+   "id": "D146",
+   "n": 146,
+   "title": "Aneutronic Fusion Propulsion II",
+   "date": [
+    2010,
+    11,
+    1
+   ],
+   "file": "DOW-UAP-D146_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-II-November-1-2010_djvu.txt"
+  },
+  {
+   "id": "D147",
+   "n": 147,
+   "title": "Ultracapacitors as Energy and Power Storage Devices",
+   "date": [
+    2010,
+    11,
+    1
+   ],
+   "file": "DOW-UAP-D147_AAWSAP-DIRD-Ultracapacitors-as-Energy-and-Power-Storage-Devices-November-1-2010_djvu.txt"
+  },
+  {
+   "id": "D148",
+   "n": 148,
+   "title": "Detection and High Resolution Tracking of Vehicles at Hypersonic Velocities",
+   "date": [
+    2010,
+    11,
+    20
+   ],
+   "file": "DOW-UAP-D148_AAWSAP-DIRD-Detection-and-High-Resolution-Tracking-of-Vehicles-at-Hypersonic-Velocities-November-20-2010_djvu.txt"
+  },
+  {
+   "id": "D149",
+   "n": 149,
+   "title": "MHD Air Breathing Propulsion and Power for Aerospace Applications",
+   "date": [
+    2010,
+    11,
+    21
+   ],
+   "file": "DOW-UAP-D149_AAWSAP-DIRD-MHD-Air-Breathing-Propulsion-and-Power-for-Aerospace-Applications-November-21-2010_djvu.txt"
+  },
+  {
+   "id": "D150",
+   "n": 150,
+   "title": "Quantum Computing and Utilizing Organic Molecules in Automation Technology",
+   "date": [
+    2010,
+    12,
+    10
+   ],
+   "file": "DOW-UAP-D150_AAWSAP-DIRD-Quantum-Computing-and-Utilizing-Organic-Molecules-in-Automation-Technology-December-10-2010_djvu.txt"
+  },
+  {
+   "id": "D151",
+   "n": 151,
+   "title": "Cognitive Limits on Simultaneous Control of Multiple Unmanned Spacecraft",
+   "date": [
+    2010,
+    12,
+    15
+   ],
+   "file": "DOW-UAP-D151_AAWSAP-DIRD-Cognitive-Limits-on-Simultaneous-Control-of-Multiple-Unmanned-Spacecraft-December-15-2010_djvu.txt"
+  },
+  {
+   "id": "D152",
+   "n": 152,
+   "title": "Negative Mass Propulsion",
+   "date": [
+    2011,
+    1,
+    3
+   ],
+   "file": "DOW-UAP-D152_AAWSAP-DIRD-Negative-Mass-Propulsion-January-3-2011_djvu.txt"
+  },
+  {
+   "id": "D153",
+   "n": 153,
+   "title": "Quantum Tomography of Negative Energy States in the Vacuum",
+   "date": [
+    2011,
+    1,
+    11
+   ],
+   "file": "DOW-UAP-D153_AAWSAP-DIRD-Quantum-Tomography-of-Negative-Energy-States-in-the-Vacuum-January-11-2011_djvu.txt"
+  }
+ ],
+ "clins": {
+  "base year 0001-0005 (22 Sep 2008 - 29 Sep 2009), D111": [
+   [
+    "0001",
+    "Monthly Status Reports (qty 12)",
+    2887000.0
+   ],
+   [
+    "0002",
+    "Project Management Plan for Tasks 3.a.1-3.a.12",
+    3600000.0
+   ],
+   [
+    "0003",
+    "Research Report for Tasks 3.a.1-3.a.12",
+    2100000.0
+   ],
+   [
+    "0004",
+    "Comprehensive Integrated Threat Assessment",
+    240000.0
+   ]
+  ],
+  "option year 1, 1001-1005 (22 Sep 2009 - 21 Sep 2010), D113 P00002": [
+   [
+    "1001",
+    "Monthly Status Reports (qty 12)",
+    1549100.0
+   ],
+   [
+    "1002",
+    "Project Management Plan for Tasks 3.a.1-3.a.12",
+    4759300.0
+   ],
+   [
+    "1003",
+    "Research Report for Tasks 3.a.1-3.a.12",
+    2870600.0
+   ],
+   [
+    "1004",
+    "Comprehensive Integrated Threat Assessment",
+    220200.0
+   ],
+   [
+    "1005",
+    "Travel",
+    36700.0
+   ]
+  ]
+ },
+ "leftover_fy09": [],
+ "d188_reconciliation": [
+  {
+   "d188_title": "Inertial Electrostatic Confinement Fusion",
+   "affiliation": "U Illinois",
+   "matched": "D125",
+   "score": 1.0,
+   "released_title": "Inertial Electrostatic Confinement Fusion",
+   "date": "2010-03-10"
+  },
+  {
+   "d188_title": "Pulse-Power-Based Weaponry",
+   "affiliation": "Northrup",
+   "matched": "D121",
+   "score": 0.507,
+   "released_title": "Pulsed High Power Microwave Source Technology",
+   "date": "2010-01-28"
+  },
+  {
+   "d188_title": "Space-Time Modifications for Spaceflight Applications",
+   "affiliation": "Earth Tech",
+   "matched": "D132",
+   "score": 0.358,
+   "released_title": "Advanced Space Propulsion Based on Vacuum Spacetime Metric Engineering",
+   "date": "2010-03-29"
+  },
+  {
+   "d188_title": "Novel MEMS-Based Biosensors",
+   "affiliation": "Arizona St U",
+   "matched": null,
+   "score": 0.205,
+   "released_title": "Biomaterials",
+   "date": "2010-01-07"
+  },
+  {
+   "d188_title": "Theory and Experiments of Invisibility Cloaking",
+   "affiliation": "U St. Andrews",
+   "matched": "D122",
+   "score": 1.0,
+   "released_title": "Invisibility Cloaking Theory and Experiments",
+   "date": "2010-03-02"
+  },
+  {
+   "d188_title": "Wormholes in Space Time",
+   "affiliation": "Earth Tech",
+   "matched": "D139",
+   "score": 0.486,
+   "released_title": "Traversable Wormholes Stargates and Negative Energy",
+   "date": "2010-04-06"
+  },
+  {
+   "d188_title": "Gravity Wave Communication",
+   "affiliation": "Gravwave",
+   "matched": "D140",
+   "score": 0.676,
+   "released_title": "High Frequency Gravitational Wave Communications",
+   "date": "2010-04-06"
+  },
+  {
+   "d188_title": "Superconductors in Gravity Research",
+   "affiliation": "",
+   "matched": "D131",
+   "score": 1.0,
+   "released_title": "The Role of Superconductors in Gravity Research",
+   "date": "2010-03-23"
+  },
+  {
+   "d188_title": "Antigravity for Aerospace Applications",
+   "affiliation": "EarthTech",
+   "matched": "D135",
+   "score": 1.0,
+   "released_title": "Antigravity for Aerospace Applications",
+   "date": "2010-03-30"
+  },
+  {
+   "d188_title": "Field Effects on Biological Tissues",
+   "affiliation": "Wayne State",
+   "matched": "D128",
+   "score": 1.0,
+   "released_title": "Anomalous Acute and Subacute Field Effects on Human Biological Tissues",
+   "date": "2010-03-11"
+  },
+  {
+   "d188_title": "Positron Aerospace Propulsion",
+   "affiliation": "Positronics",
+   "matched": "D123",
+   "score": 1.0,
+   "released_title": "Positron Aerospace Propulsion",
+   "date": "2010-03-02"
+  },
+  {
+   "d188_title": "Vacuum Energy Applications",
+   "affiliation": "Earth Tech",
+   "matched": "D142",
+   "score": 0.667,
+   "released_title": "Concepts for Extracting Energy from the Quantum Vacuum",
+   "date": "2010-04-06"
+  },
+  {
+   "d188_title": "Improved Statistical Approach to Drake Equation",
+   "affiliation": "Acad Astra",
+   "matched": "D127",
+   "score": 0.75,
+   "released_title": "An Introduction to the Statistical Drake Equation",
+   "date": "2010-03-11"
+  },
+  {
+   "d188_title": "Maverick vs. Corporate Research Cultures",
+   "affiliation": "",
+   "matched": "D134",
+   "score": 0.427,
+   "released_title": "Maverick Inventor Versus Corporate Inventor Where Will the Next Major Innovations Arise",
+   "date": "2010-03-30"
+  },
+  {
+   "d188_title": "Biosensors and BioMEMS",
+   "affiliation": "Arizona St U",
+   "matched": "D136",
+   "score": 1.0,
+   "released_title": "Biosensors and BioMEMS A Survey of the Present Field",
+   "date": "2010-03-31"
+  },
+  {
+   "d188_title": "Metamaterials for Aerospace Applications",
+   "affiliation": "U Texas",
+   "matched": "D141",
+   "score": 1.0,
+   "released_title": "Metamaterials for Aerospace Applications",
+   "date": "2010-04-06"
+  },
+  {
+   "d188_title": "Warp Drives",
+   "affiliation": "",
+   "matched": "D138",
+   "score": 0.5,
+   "released_title": "Warp Drive Dark Energy and the Manipulation of Extra Dimensions",
+   "date": "2010-04-02"
+  },
+  {
+   "d188_title": "Controlling Devices Without Limb-Operated Interfaces",
+   "affiliation": "Wayne State",
+   "matched": "D130",
+   "score": 0.556,
+   "released_title": "Technological Approaches to Controlling External Devices",
+   "date": "2010-03-23"
+  },
+  {
+   "d188_title": "Materials for Advanced Aerospace Platforms",
+   "affiliation": "Ohio State U",
+   "matched": "D120",
+   "score": 1.0,
+   "released_title": "Materials for Advanced Aerospace Platforms",
+   "date": "2010-01-12"
+  },
+  {
+   "d188_title": "Metallic Glasses",
+   "affiliation": "Johns Hopkins U",
+   "matched": "D117",
+   "score": 1.0,
+   "released_title": "Metallic Glasses for Aerospace Applications",
+   "date": "2009-12-14"
+  },
+  {
+   "d188_title": "Programmable Matter",
+   "affiliation": "Prog Matter",
+   "matched": "D118",
+   "score": 1.0,
+   "released_title": "Aerospace Applications of Programmable Matter",
+   "date": "2009-12-14"
+  },
+  {
+   "d188_title": "Metallic Spintronics",
+   "affiliation": "U Texas",
+   "matched": "D129",
+   "score": 1.0,
+   "released_title": "Metallic Spintronics",
+   "date": "2010-03-23"
+  },
+  {
+   "d188_title": "High-Energy Laser Weapons",
+   "affiliation": "Priv Consultant",
+   "matched": "D137",
+   "score": 0.514,
+   "released_title": "State of the Art and Evolution of High Energy Lasers",
+   "date": "2010-03-31"
+  },
+  {
+   "d188_title": "Quantum Entanglement Communications",
+   "affiliation": "Washington",
+   "matched": "D133",
+   "score": 0.667,
+   "released_title": "The Space Communication Implications of Quantum Entanglement and Nonlocality",
+   "date": "2010-03-30"
+  },
+  {
+   "d188_title": "Space Access: Where Been, Where Go",
+   "affiliation": "Hypertech",
+   "matched": "D124",
+   "score": 1.0,
+   "released_title": "Space Access Where Weve Been and Where We Could Go",
+   "date": "2010-03-08"
+  },
+  {
+   "d188_title": "Advanced Nuclear Propulsion for Deep Space",
+   "affiliation": "Nevada",
+   "matched": "D126",
+   "score": 1.0,
+   "released_title": "Advanced Nuclear Propulsion for Manned Deep Space Missions",
+   "date": "2010-03-11"
+  }
+ ],
+ "matched": 25,
+ "unmatched": [
+  "Novel MEMS-Based Biosensors"
+ ],
+ "waves": {
+  "2009-12": [
+   "D117",
+   "D118"
+  ],
+  "2010-01": [
+   "D119",
+   "D120",
+   "D121"
+  ],
+  "2010-03": [
+   "D122",
+   "D123",
+   "D124",
+   "D125",
+   "D126",
+   "D127",
+   "D128",
+   "D129",
+   "D130",
+   "D131",
+   "D132",
+   "D133",
+   "D134",
+   "D135",
+   "D136",
+   "D137"
+  ],
+  "2010-04": [
+   "D138",
+   "D139",
+   "D140",
+   "D141",
+   "D142"
+  ],
+  "2010-11": [
+   "D143",
+   "D144",
+   "D145",
+   "D146",
+   "D147",
+   "D148",
+   "D149"
+  ],
+  "2010-12": [
+   "D150",
+   "D151"
+  ],
+  "2011-01": [
+   "D152",
+   "D153"
+  ]
+ },
+ "author_id_check": {
+  "agree": 26,
+  "disagree": 0,
+  "missing": 0
+ },
+ "area_coverage": {
+  "lift": [
+   "D143",
+   "D149"
+  ],
+  "propulsion": [
+   "D123",
+   "D126",
+   "D132",
+   "D138",
+   "D145",
+   "D146",
+   "D149",
+   "D152"
+  ],
+  "control": [
+   "D130",
+   "D144",
+   "D150",
+   "D151"
+  ],
+  "power generation": [
+   "D121",
+   "D125",
+   "D137",
+   "D138",
+   "D139",
+   "D142",
+   "D145",
+   "D146",
+   "D147",
+   "D149",
+   "D153"
+  ],
+  "spatial/temporal translation": [
+   "D132",
+   "D138",
+   "D139"
+  ],
+  "materials": [
+   "D117",
+   "D118",
+   "D119",
+   "D120",
+   "D129",
+   "D141"
+  ],
+  "structural configuration": [
+   "D120"
+  ],
+  "signature reduction": [
+   "D122",
+   "D148"
+  ],
+  "human interface": [
+   "D130",
+   "D136",
+   "D144"
+  ],
+  "human effects": [
+   "D128"
+  ],
+  "armament": [
+   "D121",
+   "D137",
+   "D143"
+  ],
+  "other peripheral": [
+   "D127",
+   "D131",
+   "D133",
+   "D134",
+   "D135",
+   "D140",
+   "D150",
+   "D153"
+  ]
+ },
+ "areas_uncovered": [],
+ "deliverables": {
+  "a_status_reports": "monthly status reports (accomplishments, milestones, work in progress)",
+  "b_project_mgmt_plan": "per technical area, 60-day overview paper: scope of final report, POA&M, team composition",
+  "c_research_reports": "per technical area, comprehensive report + briefing, to GPL by END OF THE TENTH MONTH, + executive version",
+  "d_integrated_threat_assessment": "FINAL report + briefing assessing the foreign threat from advanced aerospace platforms, incorporating the individual research reports, at end of period of performance, + executive version",
+  "e_resumes": "resumes of all key personnel"
+ },
+ "capstone_references": [
+  {
+   "file": "Release_06__DOW-UAP-D111_AAWSAP-Solicitation-and-Original-Order-September-22-2008_djvu.txt",
+   "context": "051SG2 B5P196G1 1106 610000 $2,100,000.00 Period of Performance: 09/22/2008 to 09/21/2009 Comprehensive Integrated Threat Assessment 1.00 Accounting and Appropriation Data: ACRN: AA 9780100.4400 1082A9 2520 1S49205 1SG2 B5P196G1 1106 6"
+  },
+  {
+   "file": "Release_06__DOW-UAP-D111_AAWSAP-Solicitation-and-Original-Order-September-22-2008_djvu.txt",
+   "context": "5 CCXX 16P101T1 1106 610000 $2,870,600.00 Period of Performance: 09/22/2009 to 12/21/2010 Comprehensive Integrated Threat Assessment Accounting and Appropriation Data: ACRN: AB 9700100.4400 1102A9 2520 1S49205 CCXX 16P101T1 1106 610000 "
+  },
+  {
+   "file": "Release_06__DOW-UAP-D112_AAWSAP-Contract-Modification-P00001-September-2-2009_djvu.txt",
+   "context": ".a.12 Quantity 12 Period of Performance: 09/2212009 to 09/21/2010 (Changed line Item} Comprehensive Integrated Threat Assessment Period of Performance: 09/22/2009 to 09/2112010 (Changed Line Item) Travel Period of Performance: 0"
+  },
+  {
+   "file": "Release_06__DOW-UAP-D113_AAWSAP-Contract-Modification-P00002-February-2-2010_djvu.txt",
+   "context": " $2,870,600.00 Period of Performance: 09/22/2009 to 09/21/2010 1004 (Changed Line Item) Comprehensive Integrated Threat Assessment 1.00 LO 220,200.00 220,200.00 Accounting and Appropriation Data: ACRN: AB 9700100.4400 1102A9 25201 "
+  }
+ ]
+}

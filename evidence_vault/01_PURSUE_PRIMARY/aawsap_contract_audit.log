@@ -1,0 +1,128 @@
+delivered DIRDs in the release: 37 (D117-D153)
+
+=== 1. D188 Enclosure 1 (26 FY2009 reports) vs the public release ===
+  score  DIRD  date       D188 title -> released title
+   1.00  D125  2010-03-10 Inertial Electrostatic Confinement Fusion    -> Inertial Electrostatic Confinement Fusio
+   0.51  D121  2010-01-28 Pulse-Power-Based Weaponry                   -> Pulsed High Power Microwave Source Techn
+   0.36  D132  2010-03-29 Space-Time Modifications for Spaceflight App -> Advanced Space Propulsion Based on Vacuu
+   0.21  --    2010-01-07 Novel MEMS-Based Biosensors                  -> Biomaterials
+   1.00  D122  2010-03-02 Theory and Experiments of Invisibility Cloak -> Invisibility Cloaking Theory and Experim
+   0.49  D139  2010-04-06 Wormholes in Space Time                      -> Traversable Wormholes Stargates and Nega
+   0.68  D140  2010-04-06 Gravity Wave Communication                   -> High Frequency Gravitational Wave Commun
+   1.00  D131  2010-03-23 Superconductors in Gravity Research          -> The Role of Superconductors in Gravity R
+   1.00  D135  2010-03-30 Antigravity for Aerospace Applications       -> Antigravity for Aerospace Applications
+   1.00  D128  2010-03-11 Field Effects on Biological Tissues          -> Anomalous Acute and Subacute Field Effec
+   1.00  D123  2010-03-02 Positron Aerospace Propulsion                -> Positron Aerospace Propulsion
+   0.67  D142  2010-04-06 Vacuum Energy Applications                   -> Concepts for Extracting Energy from the 
+   0.75  D127  2010-03-11 Improved Statistical Approach to Drake Equat -> An Introduction to the Statistical Drake
+   0.43  D134  2010-03-30 Maverick vs. Corporate Research Cultures     -> Maverick Inventor Versus Corporate Inven
+   1.00  D136  2010-03-31 Biosensors and BioMEMS                       -> Biosensors and BioMEMS A Survey of the P
+   1.00  D141  2010-04-06 Metamaterials for Aerospace Applications     -> Metamaterials for Aerospace Applications
+   0.50  D138  2010-04-02 Warp Drives                                  -> Warp Drive Dark Energy and the Manipulat
+   0.56  D130  2010-03-23 Controlling Devices Without Limb-Operated In -> Technological Approaches to Controlling 
+   1.00  D120  2010-01-12 Materials for Advanced Aerospace Platforms   -> Materials for Advanced Aerospace Platfor
+   1.00  D117  2009-12-14 Metallic Glasses                             -> Metallic Glasses for Aerospace Applicati
+   1.00  D118  2009-12-14 Programmable Matter                          -> Aerospace Applications of Programmable M
+   1.00  D129  2010-03-23 Metallic Spintronics                         -> Metallic Spintronics
+   0.51  D137  2010-03-31 High-Energy Laser Weapons                    -> State of the Art and Evolution of High E
+   0.67  D133  2010-03-30 Quantum Entanglement Communications          -> The Space Communication Implications of 
+   1.00  D124  2010-03-08 Space Access: Where Been, Where Go           -> Space Access Where Weve Been and Where W
+   1.00  D126  2010-03-11 Advanced Nuclear Propulsion for Deep Space   -> Advanced Nuclear Propulsion for Manned D
+
+  assignment is square (26 titles, 26 documents), so every title
+  receives a counterpart by construction.  Score distribution:
+    exact title match (>=0.99) : 14
+    strong retitle   (0.60-)   : 4
+    weak on title alone (<0.60) : 8  -- resolved by author ID below
+
+  AUTHOR-ID CROSS-CHECK (independent of title similarity):
+  D188 Enclosure 1 and the DIRDs share one pseudonym namespace.
+    author ID agrees : 26/26
+    disagrees        : 0
+    no ID found      : 0
+    => every FY2009 deliverable the government recorded is
+       present in the public release, confirmed by an identifier
+       the release itself assigned.  No deliverable is missing.
+
+  Low-title-similarity pairs, for reference:
+
+  The three weak title pairs resolved by author ID alone:
+    D121  person  64  Pulse-Power-Based Weaponry                 -> Pulsed High Power Microwave Source Tec
+    D132  person  57  Space-Time Modifications for Spaceflight A -> Advanced Space Propulsion Based on Vac
+    D119  person  65  Novel MEMS-Based Biosensors                -> Biomaterials
+    D139  person  58  Wormholes in Space Time                    -> Traversable Wormholes Stargates and Ne
+    D134  person  75  Maverick vs. Corporate Research Cultures   -> Maverick Inventor Versus Corporate Inv
+    D138  person  74  Warp Drives                                -> Warp Drive Dark Energy and the Manipul
+    D130  person  73  Controlling Devices Without Limb-Operated  -> Technological Approaches to Controllin
+    D137  person  79  High-Energy Laser Weapons                  -> State of the Art and Evolution of High
+
+=== 2. DELIVERY WAVES, by the dates on the documents themselves ===
+  2009-12   2  D117 D118
+  2010-01   3  D119 D120 D121
+  2010-03  16  D122 D123 D124 D125 D126 D127 D128 D129 D130 D131 D132 D133 D134 D135 D136 D137
+  2010-04   5  D138 D139 D140 D141 D142
+  2010-11   7  D143 D144 D145 D146 D147 D148 D149
+  2010-12   2  D150 D151
+  2011-01   2  D152 D153
+  D117-D142 documents NOT claimed by any D188 title: -- none
+
+  D117-D142 = 26 documents -- D188 says 26 were delivered in FY2009
+  D143-D153 = 11 documents -- the option-year wave
+  D117-D142 date span: (2009, 12, 14) to (2010, 4, 6)
+  D143-D153 date span: (2010, 11, 1) to (2011, 1, 11)
+
+=== 3. COVERAGE of D182's 12 contracted technical areas ===
+     lift                            2  D143 D149
+     propulsion                      8  D123 D126 D132 D138 D145 D146 D149 D152
+     control                         4  D130 D144 D150 D151
+     power generation               11  D121 D125 D137 D138 D139 D142 D145 D146 D147
+     spatial/temporal translation    3  D132 D138 D139
+     materials                       6  D117 D118 D119 D120 D129 D141
+     structural configuration        1  D120
+     signature reduction             2  D122 D148
+     human interface                 3  D130 D136 D144
+     human effects                   1  D128
+     armament                        3  D121 D137 D143
+     other peripheral                8  D127 D131 D133 D134 D135 D140 D150 D153
+
+  areas with no matching deliverable: 0  -- none
+
+=== 4. DELIVERABLE (d): INTEGRATED THREAT ASSESSMENT ===
+    D182 s11(d): a final report and briefing assessing the foreign
+    threat from advanced aerospace platforms, incorporating the
+    individual research reports, at the end of the period of
+    performance.  This is the capstone -- the only deliverable that
+    states a threat judgement rather than surveying physics.
+
+    references found: 4
+      [Release_06__DOW-UAP-D111_AAWSAP-Solicita] ...051SG2 B5P196G1 1106 610000 $2,100,000.00 Period of Performance: 09/22/2008 to 09/21/2009 Comprehensive Integrated Threat Assessment 1.00 Accounting a
+      [Release_06__DOW-UAP-D111_AAWSAP-Solicita] ...5 CCXX 16P101T1 1106 610000 $2,870,600.00 Period of Performance: 09/22/2009 to 12/21/2010 Comprehensive Integrated Threat Assessment Accounting and Ap
+      [Release_06__DOW-UAP-D112_AAWSAP-Contract] ....a.12 Quantity 12 Period of Performance: 09/2212009 to 09/21/2010 (Changed line Item} Comprehensive Integrated Threat Assessment Period of Performance
+      [Release_06__DOW-UAP-D113_AAWSAP-Contract] ... $2,870,600.00 Period of Performance: 09/22/2009 to 09/21/2010 1004 (Changed Line Item) Comprehensive Integrated Threat Assessment 1.00 LO 220,200.00 
+
+=== 5. CONTRACT LINE ITEMS -- the SoW deliverables, priced ===
+    'Tasks 3.a.1 - 3.a.12' is D182 s3(a)'s twelve technical areas,
+    which independently confirms the 12-area reading of that
+    document's badly OCR'd list.
+
+  base year 0001-0005 (22 Sep 2008 - 29 Sep 2009), D111
+    0001  Monthly Status Reports (qty 12)                  $2,887,000.00  32.7%
+    0002  Project Management Plan for Tasks 3.a.1-3.a.12   $3,600,000.00  40.8%
+    0003  Research Report for Tasks 3.a.1-3.a.12           $2,100,000.00  23.8%
+    0004  Comprehensive Integrated Threat Assessment       $  240,000.00   2.7%
+          listed total                                     $8,827,000.00
+
+  option year 1, 1001-1005 (22 Sep 2009 - 21 Sep 2010), D113 P00002
+    1001  Monthly Status Reports (qty 12)                  $1,549,100.00  16.4%
+    1002  Project Management Plan for Tasks 3.a.1-3.a.12   $4,759,300.00  50.4%
+    1003  Research Report for Tasks 3.a.1-3.a.12           $2,870,600.00  30.4%
+    1004  Comprehensive Integrated Threat Assessment       $  220,200.00   2.3%
+    1005  Travel                                           $   36,700.00   0.4%
+          listed total                                     $9,435,900.00
+
+  Comprehensive Integrated Threat Assessment, as contracted:
+    CLIN 0004  $240,000.00   (base year 0001-0005 (22 Sep 2008 - 29 Sep 2009))
+    CLIN 1004  $220,200.00   (option year 1)
+    TOTAL CONTRACTED: $460,200.00
+
+wrote evidence_vault/01_PURSUE_PRIMARY/aawsap_contract_audit.json

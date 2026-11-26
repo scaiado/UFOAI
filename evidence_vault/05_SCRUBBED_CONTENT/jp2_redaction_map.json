@@ -1,0 +1,2128 @@
+{
+ "DOW-UAP-D10-Mission-Report-Middle-East-May-2022": {
+  "pages": 6,
+  "pages_with_bars": 0,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.01323,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.01327,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00945,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.0122,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01395,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01617,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01436,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D107_Mission-Report-Middle-East-2025": {
+  "pages": 8,
+  "pages_with_bars": 8,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.04706,
+  "total_bars": 27,
+  "mean_bar_area_frac": 0.01575,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.07327,
+    "bar_count": 7,
+    "bar_area_frac": 0.02865,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00711,
+      "fill": 0.961,
+      "aspect": 25.38,
+      "std_inside": 14.9
+     },
+     {
+      "area_frac": 0.00643,
+      "fill": 0.983,
+      "aspect": 14.65,
+      "std_inside": 9.3
+     },
+     {
+      "area_frac": 0.00331,
+      "fill": 0.92,
+      "aspect": 12.33,
+      "std_inside": 21.3
+     },
+     {
+      "area_frac": 0.00331,
+      "fill": 0.92,
+      "aspect": 12.33,
+      "std_inside": 20.9
+     },
+     {
+      "area_frac": 0.0033,
+      "fill": 0.919,
+      "aspect": 12.33,
+      "std_inside": 21.1
+     },
+     {
+      "area_frac": 0.00286,
+      "fill": 0.909,
+      "aspect": 10.81,
+      "std_inside": 22.0
+     },
+     {
+      "area_frac": 0.00233,
+      "fill": 1.0,
+      "aspect": 8.0,
+      "std_inside": 1.2
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.03564,
+    "bar_count": 3,
+    "bar_area_frac": 0.01392,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00698,
+      "fill": 0.985,
+      "aspect": 13.68,
+      "std_inside": 9.3
+     },
+     {
+      "area_frac": 0.00356,
+      "fill": 0.947,
+      "aspect": 12.9,
+      "std_inside": 17.7
+     },
+     {
+      "area_frac": 0.00338,
+      "fill": 0.945,
+      "aspect": 12.29,
+      "std_inside": 17.6
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.03306,
+    "bar_count": 2,
+    "bar_area_frac": 0.00983,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00599,
+      "fill": 0.984,
+      "aspect": 16.0,
+      "std_inside": 11.6
+     },
+     {
+      "area_frac": 0.00384,
+      "fill": 0.952,
+      "aspect": 13.86,
+      "std_inside": 17.1
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.04381,
+    "bar_count": 3,
+    "bar_area_frac": 0.01554,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00731,
+      "fill": 0.988,
+      "aspect": 13.31,
+      "std_inside": 8.7
+     },
+     {
+      "area_frac": 0.00564,
+      "fill": 0.953,
+      "aspect": 20.33,
+      "std_inside": 16.5
+     },
+     {
+      "area_frac": 0.00259,
+      "fill": 0.898,
+      "aspect": 9.9,
+      "std_inside": 24.2
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.07047,
+    "bar_count": 6,
+    "bar_area_frac": 0.02442,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00733,
+      "fill": 0.989,
+      "aspect": 13.34,
+      "std_inside": 8.4
+     },
+     {
+      "area_frac": 0.00594,
+      "fill": 0.955,
+      "aspect": 21.33,
+      "std_inside": 16.1
+     },
+     {
+      "area_frac": 0.00393,
+      "fill": 1.0,
+      "aspect": 13.48,
+      "std_inside": 2.7
+     },
+     {
+      "area_frac": 0.0026,
+      "fill": 0.905,
+      "aspect": 9.86,
+      "std_inside": 23.3
+     },
+     {
+      "area_frac": 0.00258,
+      "fill": 0.899,
+      "aspect": 9.86,
+      "std_inside": 23.0
+     },
+     {
+      "area_frac": 0.00204,
+      "fill": 0.869,
+      "aspect": 8.05,
+      "std_inside": 25.2
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.0331,
+    "bar_count": 1,
+    "bar_area_frac": 0.00669,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00669,
+      "fill": 0.986,
+      "aspect": 15.19,
+      "std_inside": 8.8
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.05168,
+    "bar_count": 4,
+    "bar_area_frac": 0.02012,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00908,
+      "fill": 0.989,
+      "aspect": 11.34,
+      "std_inside": 7.6
+     },
+     {
+      "area_frac": 0.00501,
+      "fill": 0.947,
+      "aspect": 18.14,
+      "std_inside": 17.3
+     },
+     {
+      "area_frac": 0.00377,
+      "fill": 0.951,
+      "aspect": 15.0,
+      "std_inside": 16.7
+     },
+     {
+      "area_frac": 0.00226,
+      "fill": 0.92,
+      "aspect": 8.43,
+      "std_inside": 21.0
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.03542,
+    "bar_count": 1,
+    "bar_area_frac": 0.00687,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00687,
+      "fill": 0.987,
+      "aspect": 14.44,
+      "std_inside": 8.8
+     }
+    ],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D108_Mission-Report-Middle-East-2025": {
+  "pages": 8,
+  "pages_with_bars": 8,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.04842,
+  "total_bars": 33,
+  "mean_bar_area_frac": 0.01904,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.05922,
+    "bar_count": 7,
+    "bar_area_frac": 0.02579,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00706,
+      "fill": 0.987,
+      "aspect": 13.82,
+      "std_inside": 8.6
+     },
+     {
+      "area_frac": 0.00366,
+      "fill": 0.926,
+      "aspect": 13.57,
+      "std_inside": 20.0
+     },
+     {
+      "area_frac": 0.00328,
+      "fill": 0.923,
+      "aspect": 12.19,
+      "std_inside": 20.8
+     },
+     {
+      "area_frac": 0.00327,
+      "fill": 0.917,
+      "aspect": 12.24,
+      "std_inside": 21.3
+     },
+     {
+      "area_frac": 0.00327,
+      "fill": 0.922,
+      "aspect": 12.19,
+      "std_inside": 20.9
+     },
+     {
+      "area_frac": 0.00307,
+      "fill": 0.913,
+      "aspect": 11.52,
+      "std_inside": 21.6
+     },
+     {
+      "area_frac": 0.00218,
+      "fill": 0.884,
+      "aspect": 8.48,
+      "std_inside": 24.7
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.03736,
+    "bar_count": 3,
+    "bar_area_frac": 0.0145,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00738,
+      "fill": 0.988,
+      "aspect": 13.45,
+      "std_inside": 8.5
+     },
+     {
+      "area_frac": 0.00378,
+      "fill": 0.951,
+      "aspect": 13.62,
+      "std_inside": 16.7
+     },
+     {
+      "area_frac": 0.00334,
+      "fill": 0.945,
+      "aspect": 12.14,
+      "std_inside": 18.5
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.03186,
+    "bar_count": 2,
+    "bar_area_frac": 0.01002,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00659,
+      "fill": 0.987,
+      "aspect": 14.96,
+      "std_inside": 8.9
+     },
+     {
+      "area_frac": 0.00343,
+      "fill": 0.946,
+      "aspect": 12.43,
+      "std_inside": 17.6
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.04016,
+    "bar_count": 2,
+    "bar_area_frac": 0.01125,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00739,
+      "fill": 0.988,
+      "aspect": 13.45,
+      "std_inside": 8.4
+     },
+     {
+      "area_frac": 0.00386,
+      "fill": 0.942,
+      "aspect": 12.82,
+      "std_inside": 26.2
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.07115,
+    "bar_count": 10,
+    "bar_area_frac": 0.03495,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00734,
+      "fill": 0.987,
+      "aspect": 13.38,
+      "std_inside": 8.5
+     },
+     {
+      "area_frac": 0.00577,
+      "fill": 0.942,
+      "aspect": 21.0,
+      "std_inside": 29.2
+     },
+     {
+      "area_frac": 0.00403,
+      "fill": 0.997,
+      "aspect": 13.86,
+      "std_inside": 4.0
+     },
+     {
+      "area_frac": 0.00299,
+      "fill": 0.914,
+      "aspect": 11.24,
+      "std_inside": 21.7
+     },
+     {
+      "area_frac": 0.00288,
+      "fill": 0.907,
+      "aspect": 10.9,
+      "std_inside": 22.6
+     },
+     {
+      "area_frac": 0.0028,
+      "fill": 0.905,
+      "aspect": 10.62,
+      "std_inside": 22.8
+     },
+     {
+      "area_frac": 0.00242,
+      "fill": 0.896,
+      "aspect": 9.29,
+      "std_inside": 23.6
+     },
+     {
+      "area_frac": 0.00231,
+      "fill": 0.89,
+      "aspect": 8.9,
+      "std_inside": 23.9
+     },
+     {
+      "area_frac": 0.00229,
+      "fill": 0.893,
+      "aspect": 8.81,
+      "std_inside": 24.1
+     },
+     {
+      "area_frac": 0.00212,
+      "fill": 0.872,
+      "aspect": 8.33,
+      "std_inside": 33.9
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.04035,
+    "bar_count": 1,
+    "bar_area_frac": 0.00677,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00677,
+      "fill": 0.986,
+      "aspect": 14.26,
+      "std_inside": 8.9
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.05231,
+    "bar_count": 4,
+    "bar_area_frac": 0.01903,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00701,
+      "fill": 0.986,
+      "aspect": 13.71,
+      "std_inside": 9.0
+     },
+     {
+      "area_frac": 0.0048,
+      "fill": 0.943,
+      "aspect": 17.48,
+      "std_inside": 18.0
+     },
+     {
+      "area_frac": 0.00455,
+      "fill": 0.959,
+      "aspect": 16.29,
+      "std_inside": 15.3
+     },
+     {
+      "area_frac": 0.00267,
+      "fill": 0.931,
+      "aspect": 9.86,
+      "std_inside": 19.7
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.05496,
+    "bar_count": 4,
+    "bar_area_frac": 0.03005,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.01113,
+      "fill": 1.0,
+      "aspect": 38.19,
+      "std_inside": 3.7
+     },
+     {
+      "area_frac": 0.00837,
+      "fill": 1.0,
+      "aspect": 28.71,
+      "std_inside": 5.9
+     },
+     {
+      "area_frac": 0.00728,
+      "fill": 0.987,
+      "aspect": 13.28,
+      "std_inside": 8.6
+     },
+     {
+      "area_frac": 0.00327,
+      "fill": 0.921,
+      "aspect": 12.19,
+      "std_inside": 21.2
+     }
+    ],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D109_Mission-Report-Middle-East-2022": {
+  "pages": 6,
+  "pages_with_bars": 6,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.04549,
+  "total_bars": 22,
+  "mean_bar_area_frac": 0.01714,
+  "photographic_blobs": 1,
+  "per_page": [
+   {
+    "dark_frac": 0.06603,
+    "bar_count": 7,
+    "bar_area_frac": 0.03485,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00769,
+      "fill": 0.986,
+      "aspect": 12.29,
+      "std_inside": 8.8
+     },
+     {
+      "area_frac": 0.00587,
+      "fill": 0.953,
+      "aspect": 21.14,
+      "std_inside": 16.2
+     },
+     {
+      "area_frac": 0.00508,
+      "fill": 0.946,
+      "aspect": 18.43,
+      "std_inside": 17.3
+     },
+     {
+      "area_frac": 0.00498,
+      "fill": 0.945,
+      "aspect": 18.1,
+      "std_inside": 17.5
+     },
+     {
+      "area_frac": 0.0048,
+      "fill": 0.943,
+      "aspect": 17.48,
+      "std_inside": 18.0
+     },
+     {
+      "area_frac": 0.00431,
+      "fill": 0.941,
+      "aspect": 15.71,
+      "std_inside": 18.6
+     },
+     {
+      "area_frac": 0.00212,
+      "fill": 1.0,
+      "aspect": 7.29,
+      "std_inside": 0.5
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.04189,
+    "bar_count": 3,
+    "bar_area_frac": 0.01566,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00852,
+      "fill": 0.99,
+      "aspect": 11.26,
+      "std_inside": 7.9
+     },
+     {
+      "area_frac": 0.00362,
+      "fill": 0.949,
+      "aspect": 13.1,
+      "std_inside": 17.1
+     },
+     {
+      "area_frac": 0.00352,
+      "fill": 0.947,
+      "aspect": 12.76,
+      "std_inside": 17.3
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.03297,
+    "bar_count": 2,
+    "bar_area_frac": 0.01064,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00722,
+      "fill": 0.987,
+      "aspect": 13.17,
+      "std_inside": 8.5
+     },
+     {
+      "area_frac": 0.00342,
+      "fill": 0.941,
+      "aspect": 11.36,
+      "std_inside": 27.5
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.03849,
+    "bar_count": 1,
+    "bar_area_frac": 0.00867,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00867,
+      "fill": 0.987,
+      "aspect": 10.86,
+      "std_inside": 8.2
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.0545,
+    "bar_count": 7,
+    "bar_area_frac": 0.02298,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00877,
+      "fill": 0.988,
+      "aspect": 10.97,
+      "std_inside": 8.1
+     },
+     {
+      "area_frac": 0.00302,
+      "fill": 1.0,
+      "aspect": 10.38,
+      "std_inside": 3.0
+     },
+     {
+      "area_frac": 0.00254,
+      "fill": 0.899,
+      "aspect": 9.71,
+      "std_inside": 23.2
+     },
+     {
+      "area_frac": 0.00228,
+      "fill": 0.893,
+      "aspect": 8.76,
+      "std_inside": 24.1
+     },
+     {
+      "area_frac": 0.00225,
+      "fill": 0.975,
+      "aspect": 7.9,
+      "std_inside": 29.2
+     },
+     {
+      "area_frac": 0.00206,
+      "fill": 0.88,
+      "aspect": 8.05,
+      "std_inside": 25.0
+     },
+     {
+      "area_frac": 0.00206,
+      "fill": 0.879,
+      "aspect": 8.05,
+      "std_inside": 25.1
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.03908,
+    "bar_count": 2,
+    "bar_area_frac": 0.01002,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 1,
+    "bars": [
+     {
+      "area_frac": 0.00796,
+      "fill": 0.988,
+      "aspect": 11.91,
+      "std_inside": 8.5
+     },
+     {
+      "area_frac": 0.00206,
+      "fill": 0.878,
+      "aspect": 8.05,
+      "std_inside": 24.9
+     }
+    ],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D12-Mission-Report-Iraq-May-2022": {
+  "pages": 6,
+  "pages_with_bars": 0,
+  "total_white": 1,
+  "mean_white_area_frac": 0.00182,
+  "mean_dark_frac": 0.01351,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.01433,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00912,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01637,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01328,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01516,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 1,
+    "white_area_frac": 0.01092,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": [
+     {
+      "area_frac": 0.01092,
+      "fill": 0.992,
+      "aspect": 6.15
+     }
+    ]
+   },
+   {
+    "dark_frac": 0.01277,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D25-Mission-Report-Greece-January-2024": {
+  "pages": 7,
+  "pages_with_bars": 0,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.01546,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.01455,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00899,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01441,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01427,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01522,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01863,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.02214,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023": {
+  "pages": 8,
+  "pages_with_bars": 0,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.0144,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.01247,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00952,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01367,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01397,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.0168,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.02226,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.02303,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00351,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D28-Mission-Report-East-China-Sea-2024": {
+  "pages": 6,
+  "pages_with_bars": 0,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.01839,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.01562,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00957,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01807,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01347,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.02448,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.02914,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020": {
+  "pages": 7,
+  "pages_with_bars": 7,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.08213,
+  "total_bars": 66,
+  "mean_bar_area_frac": 0.05872,
+  "photographic_blobs": 4,
+  "per_page": [
+   {
+    "dark_frac": 0.13715,
+    "bar_count": 15,
+    "bar_area_frac": 0.11443,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 1,
+    "bars": [
+     {
+      "area_frac": 0.01127,
+      "fill": 0.999,
+      "aspect": 38.71,
+      "std_inside": 8.4
+     },
+     {
+      "area_frac": 0.01118,
+      "fill": 1.0,
+      "aspect": 38.38,
+      "std_inside": 5.7
+     },
+     {
+      "area_frac": 0.01111,
+      "fill": 1.0,
+      "aspect": 38.14,
+      "std_inside": 4.9
+     },
+     {
+      "area_frac": 0.0111,
+      "fill": 1.0,
+      "aspect": 38.1,
+      "std_inside": 0.6
+     },
+     {
+      "area_frac": 0.01075,
+      "fill": 1.0,
+      "aspect": 36.9,
+      "std_inside": 3.6
+     },
+     {
+      "area_frac": 0.0106,
+      "fill": 1.0,
+      "aspect": 36.38,
+      "std_inside": 1.6
+     },
+     {
+      "area_frac": 0.01053,
+      "fill": 1.0,
+      "aspect": 36.14,
+      "std_inside": 0.4
+     },
+     {
+      "area_frac": 0.01002,
+      "fill": 1.0,
+      "aspect": 34.38,
+      "std_inside": 0.7
+     },
+     {
+      "area_frac": 0.0082,
+      "fill": 1.0,
+      "aspect": 28.14,
+      "std_inside": 1.5
+     },
+     {
+      "area_frac": 0.00613,
+      "fill": 1.0,
+      "aspect": 21.05,
+      "std_inside": 0.6
+     },
+     {
+      "area_frac": 0.00413,
+      "fill": 0.957,
+      "aspect": 20.17,
+      "std_inside": 16.0
+     },
+     {
+      "area_frac": 0.00259,
+      "fill": 1.0,
+      "aspect": 12.11,
+      "std_inside": 9.6
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.04279,
+    "bar_count": 3,
+    "bar_area_frac": 0.00912,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00413,
+      "fill": 0.957,
+      "aspect": 20.17,
+      "std_inside": 16.0
+     },
+     {
+      "area_frac": 0.00259,
+      "fill": 1.0,
+      "aspect": 12.11,
+      "std_inside": 9.6
+     },
+     {
+      "area_frac": 0.0024,
+      "fill": 0.924,
+      "aspect": 12.11,
+      "std_inside": 20.1
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.04481,
+    "bar_count": 6,
+    "bar_area_frac": 0.02128,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 2,
+    "bars": [
+     {
+      "area_frac": 0.00576,
+      "fill": 1.0,
+      "aspect": 18.0,
+      "std_inside": 4.3
+     },
+     {
+      "area_frac": 0.00413,
+      "fill": 0.957,
+      "aspect": 20.17,
+      "std_inside": 16.0
+     },
+     {
+      "area_frac": 0.00371,
+      "fill": 0.929,
+      "aspect": 13.71,
+      "std_inside": 20.6
+     },
+     {
+      "area_frac": 0.00269,
+      "fill": 1.0,
+      "aspect": 8.41,
+      "std_inside": 0.5
+     },
+     {
+      "area_frac": 0.00259,
+      "fill": 1.0,
+      "aspect": 12.11,
+      "std_inside": 9.6
+     },
+     {
+      "area_frac": 0.0024,
+      "fill": 0.924,
+      "aspect": 12.11,
+      "std_inside": 20.1
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.04675,
+    "bar_count": 3,
+    "bar_area_frac": 0.00912,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 1,
+    "bars": [
+     {
+      "area_frac": 0.00413,
+      "fill": 0.957,
+      "aspect": 20.17,
+      "std_inside": 16.0
+     },
+     {
+      "area_frac": 0.00259,
+      "fill": 1.0,
+      "aspect": 12.11,
+      "std_inside": 9.6
+     },
+     {
+      "area_frac": 0.0024,
+      "fill": 0.924,
+      "aspect": 12.11,
+      "std_inside": 20.1
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.23985,
+    "bar_count": 30,
+    "bar_area_frac": 0.23239,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.01238,
+      "fill": 0.994,
+      "aspect": 35.61,
+      "std_inside": 9.9
+     },
+     {
+      "area_frac": 0.01188,
+      "fill": 1.0,
+      "aspect": 37.14,
+      "std_inside": 0.8
+     },
+     {
+      "area_frac": 0.01185,
+      "fill": 1.0,
+      "aspect": 37.05,
+      "std_inside": 9.5
+     },
+     {
+      "area_frac": 0.01179,
+      "fill": 1.0,
+      "aspect": 36.86,
+      "std_inside": 6.1
+     },
+     {
+      "area_frac": 0.01147,
+      "fill": 1.0,
+      "aspect": 35.86,
+      "std_inside": 1.7
+     },
+     {
+      "area_frac": 0.01147,
+      "fill": 1.0,
+      "aspect": 35.86,
+      "std_inside": 2.3
+     },
+     {
+      "area_frac": 0.01146,
+      "fill": 1.0,
+      "aspect": 39.33,
+      "std_inside": 1.3
+     },
+     {
+      "area_frac": 0.01134,
+      "fill": 1.0,
+      "aspect": 38.9,
+      "std_inside": 2.2
+     },
+     {
+      "area_frac": 0.0113,
+      "fill": 1.0,
+      "aspect": 35.32,
+      "std_inside": 0.9
+     },
+     {
+      "area_frac": 0.01111,
+      "fill": 1.0,
+      "aspect": 34.73,
+      "std_inside": 5.2
+     },
+     {
+      "area_frac": 0.01102,
+      "fill": 1.0,
+      "aspect": 37.81,
+      "std_inside": 1.2
+     },
+     {
+      "area_frac": 0.01102,
+      "fill": 0.999,
+      "aspect": 34.5,
+      "std_inside": 2.6
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.04502,
+    "bar_count": 6,
+    "bar_area_frac": 0.0156,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00413,
+      "fill": 0.957,
+      "aspect": 20.17,
+      "std_inside": 16.0
+     },
+     {
+      "area_frac": 0.00259,
+      "fill": 1.0,
+      "aspect": 12.11,
+      "std_inside": 9.6
+     },
+     {
+      "area_frac": 0.0024,
+      "fill": 0.924,
+      "aspect": 12.11,
+      "std_inside": 20.1
+     },
+     {
+      "area_frac": 0.00221,
+      "fill": 0.955,
+      "aspect": 7.95,
+      "std_inside": 34.3
+     },
+     {
+      "area_frac": 0.0022,
+      "fill": 0.955,
+      "aspect": 7.9,
+      "std_inside": 31.0
+     },
+     {
+      "area_frac": 0.00207,
+      "fill": 0.952,
+      "aspect": 7.48,
+      "std_inside": 32.2
+     }
+    ],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01854,
+    "bar_count": 3,
+    "bar_area_frac": 0.00912,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [
+     {
+      "area_frac": 0.00413,
+      "fill": 0.957,
+      "aspect": 20.17,
+      "std_inside": 16.0
+     },
+     {
+      "area_frac": 0.00259,
+      "fill": 1.0,
+      "aspect": 12.11,
+      "std_inside": 9.5
+     },
+     {
+      "area_frac": 0.0024,
+      "fill": 0.924,
+      "aspect": 12.11,
+      "std_inside": 20.1
+     }
+    ],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D32-Mission-Report,-Syria-October-2024": {
+  "pages": 10,
+  "pages_with_bars": 0,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.01509,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.01617,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01061,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01287,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.0151,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01648,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.0162,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01657,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.02239,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.02078,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00373,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D60-Mission-Report-Persian-Gulf-August-2020": {
+  "pages": 6,
+  "pages_with_bars": 0,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.00968,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.01014,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00467,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01281,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00955,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01058,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01034,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D63-Mission-Report-Strait-of-Hormuz-October-2020": {
+  "pages": 8,
+  "pages_with_bars": 0,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.00508,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.00718,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00112,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00896,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00437,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.0062,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00494,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00655,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00131,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D65-Mission-Report-Persian-Gulf-July-2020": {
+  "pages": 8,
+  "pages_with_bars": 0,
+  "total_white": 0,
+  "mean_white_area_frac": 0.0,
+  "mean_dark_frac": 0.00479,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.00479,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00132,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00927,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00466,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00548,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00569,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00644,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00064,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D74-Mission-Report-Syria-November-2023": {
+  "pages": 10,
+  "pages_with_bars": 0,
+  "total_white": 1,
+  "mean_white_area_frac": 0.02767,
+  "mean_dark_frac": 0.01349,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.01759,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01175,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00748,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00277,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 1,
+    "white_area_frac": 0.27669,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": [
+     {
+      "area_frac": 0.27669,
+      "fill": 1.0,
+      "aspect": 0.65
+     }
+    ]
+   },
+   {
+    "dark_frac": 0.01243,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01528,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01294,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01651,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.02236,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.0158,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   }
+  ]
+ },
+ "DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024": {
+  "pages": 8,
+  "pages_with_bars": 0,
+  "total_white": 4,
+  "mean_white_area_frac": 0.03669,
+  "mean_dark_frac": 0.01295,
+  "total_bars": 0,
+  "mean_bar_area_frac": 0.0,
+  "photographic_blobs": 0,
+  "per_page": [
+   {
+    "dark_frac": 0.01534,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.00888,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.0048,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 1,
+    "white_area_frac": 0.16635,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": [
+     {
+      "area_frac": 0.16635,
+      "fill": 0.999,
+      "aspect": 1.08
+     }
+    ]
+   },
+   {
+    "dark_frac": 0.00855,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 2,
+    "white_area_frac": 0.06541,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": [
+     {
+      "area_frac": 0.03714,
+      "fill": 0.997,
+      "aspect": 1.51
+     },
+     {
+      "area_frac": 0.02827,
+      "fill": 0.996,
+      "aspect": 3.86
+     }
+    ]
+   },
+   {
+    "dark_frac": 0.01476,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01518,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01811,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 0,
+    "white_area_frac": 0,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": []
+   },
+   {
+    "dark_frac": 0.01798,
+    "bar_count": 0,
+    "bar_area_frac": 0,
+    "white_count": 1,
+    "white_area_frac": 0.0618,
+    "photographic_blobs": 0,
+    "bars": [],
+    "white_bars": [
+     {
+      "area_frac": 0.0618,
+      "fill": 0.998,
+      "aspect": 8.61
+     }
+    ]
+   }
+  ]
+ }
+}

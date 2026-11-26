@@ -1,0 +1,54 @@
+[
+ {
+  "name": "C_vs_D (both officially unidentified)",
+  "field": "details",
+  "arm_n_each": 106,
+  "obs_bal_acc": 0.849390919158361,
+  "null_mean": 0.49022397563676634,
+  "null_sd": 0.0424635387718211,
+  "p": 0.0024937655860349127,
+  "z": 8.458243328507953,
+  "mdd_bal_acc": 0.6055218938479754,
+  "mdd_effect": 0.10552189384797539,
+  "nperm": 400
+ },
+ {
+  "name": "AB_vs_D (resolved vs anomalous)",
+  "field": "details",
+  "arm_n_each": 106,
+  "obs_bal_acc": 0.8819490586932448,
+  "null_mean": 0.48656949058693244,
+  "null_sd": 0.043196015979102394,
+  "p": 0.0024937655860349127,
+  "z": 9.15314894543958,
+  "mdd_bal_acc": 0.6073420997080695,
+  "mdd_effect": 0.10734209970806952,
+  "nperm": 400
+ },
+ {
+  "name": "C_vs_D (both officially unidentified)",
+  "field": "ident",
+  "arm_n_each": 106,
+  "obs_bal_acc": 0.7831672203765228,
+  "null_mean": 0.49906589147286823,
+  "null_sd": 0.04353461962953721,
+  "p": 0.0024937655860349127,
+  "z": 6.525871394335061,
+  "mdd_bal_acc": 0.6081835297793999,
+  "mdd_effect": 0.10818352977939993,
+  "nperm": 400
+ },
+ {
+  "name": "AB_vs_D (resolved vs anomalous)",
+  "field": "ident",
+  "arm_n_each": 106,
+  "obs_bal_acc": 0.9290143964562569,
+  "null_mean": 0.48920985603543743,
+  "null_sd": 0.04228517489077854,
+  "p": 0.0024937655860349127,
+  "z": 10.400915724171005,
+  "mdd_bal_acc": 0.6050786596035846,
+  "mdd_effect": 0.10507865960358465,
+  "nperm": 400
+ }
+]
