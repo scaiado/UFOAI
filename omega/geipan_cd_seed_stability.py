@@ -53,8 +53,18 @@ def effect_for_seed(recs, textfn, seed, mode):
 
 
 def main():
-    recs = W.load_witness({"pv"})
-    print(f"PV corpus: {len(recs)} cases, "
+    # Which corpus to probe. The enquete corpus matters as much as pv: its W3
+    # row is the only "detected at adequate power" result in the main run
+    # (+0.2607, p=0.0017, MDD 0.2316) and it rose FIVEFOLD from +0.0500 when
+    # length was matched. Either that is matcher noise, or length is a
+    # SUPPRESSOR there -- D enquete reports run 2,526 tokens against C's 1,291,
+    # so controlling length can unmask signal rather than remove it. If it
+    # survives seed variation the enquete corpus becomes a POSITIVE CONTROL,
+    # which is what makes the pv null interpretable instead of merely
+    # underpowered.
+    which = sys.argv[1] if len(sys.argv) > 1 else "pv"
+    recs = W.load_witness({which})
+    print(f"{which} corpus: {len(recs)} cases, "
           f"{dict(collections.Counter(r['arm'] for r in recs))}\n")
 
     strip = lambda t: W.norm(W.NUMERAL.sub(" ", W.LEAK_LEX.sub(
