@@ -203,7 +203,21 @@ def tier(recs, name, fn, matched=False):
     tC = [len(toks(r["_txt"])) for r, y in data if y == "C"]
     qD = [r.get("qual", 0.0) for r, y in data if y == "D"]
     qC = [r.get("qual", 0.0) for r, y in data if y == "C"]
+    # Three-way disposition. MDD = 1.645*sd + 0.84*sd = 2.485*sd is the effect
+    # detectable with 80% POWER at one-sided alpha=0.05; the SIGNIFICANCE
+    # threshold is only ~1.645*sd. So an effect can beat the permutation null
+    # (p < 0.05) and still sit below the MDD: detected here, but a replication
+    # would have under 80% chance of detecting it again. Conflating "below MDD"
+    # with "not distinguishable from null" is wrong, and an earlier version of
+    # this script did exactly that.
+    sig = p < 0.05
+    above = (obs - 0.5) > (1.645 * sd + 0.84 * sd)
+    disp = ("detected at adequate power" if (sig and above)
+            else "SIGNIFICANT BUT UNDERPOWERED for this size" if sig
+            else "not distinguishable from null")
     return {"tier": name, "status": "ok", "n_D": arms["D"], "n_C": arms["C"],
+            "significant": bool(sig), "above_mdd": bool(above),
+            "disposition": disp,
             "median_qual_D": round(float(np.median(qD)), 4) if qD else None,
             "median_qual_C": round(float(np.median(qC)), 4) if qC else None,
             "n_each_arm": m, "bal_acc": round(obs, 4),
@@ -266,7 +280,9 @@ def run_corpus(name, keep):
         if r["status"] != "ok":
             print(f"  {tname:<28}  INSUFFICIENT {r.get('arms')}")
             continue
-        flag = "  <-- below MDD" if r["effect"] <= r["mdd"] else ""
+        flag = {"detected at adequate power": "",
+                "SIGNIFICANT BUT UNDERPOWERED for this size": "  <-- sig, under-powered",
+                "not distinguishable from null": "  <-- null"}[r["disposition"]]
         print(f"  {tname:<28}{r['n_each_arm']:>6}{r['bal_acc']:>9.4f}"
               f"{r['effect']:>+9.4f}{r['p']:>8.4f}{r['mdd']:>8.4f}"
               f"{r['median_tok_D']:>7.0f}{r['median_tok_C']:>7.0f}{flag}")
@@ -303,10 +319,10 @@ def main():
         ok = [t for t in clean["tiers"] if t["status"] == "ok"]
         w6 = next((t for t in ok if t["tier"].startswith("W6")), None)
         if w6:
-            if w6["effect"] <= w6["mdd"]:
+            if not w6["significant"]:
                 print(f"  The CLEAN (gendarmerie PV) corpus gives effect "
-                      f"{w6['effect']:+.4f} against MDD {w6['mdd']:.4f}.")
-                print("  => NOT DISTINGUISHABLE FROM NULL AT THIS POWER.")
+                      f"{w6['effect']:+.4f}, p={w6['p']:.4f}, MDD {w6['mdd']:.4f}.")
+                print("  => NOT DISTINGUISHABLE FROM NULL.")
                 print("     This is UNDERPOWERED, NOT a demonstrated null: the MDD")
                 print(f"     ({w6['mdd']:.3f}) sits ABOVE section 1.4's fully-decontaminated")
                 print("     residual of +0.1795, so the effect size of interest is")
@@ -316,8 +332,17 @@ def main():
                 print("     56 D cases with no published dossier are the RE-EXAMINED ones.")
                 print("     The test is power-limited by the non-disclosure the project")
                 print("     has already measured. That is the finding.")
+            elif not w6["above_mdd"]:
+                print(f"  The CLEAN corpus effect {w6['effect']:+.4f} BEATS the"
+                      f" permutation null (p={w6['p']:.4f}) but sits BELOW its"
+                      f" MDD of {w6['mdd']:.4f}.")
+                print("  => SIGNIFICANT BUT UNDERPOWERED. These are not the same")
+                print("     thing: the effect is real at alpha=0.05 on this sample,")
+                print("     but the design had under 80% power for an effect that")
+                print("     size, so a replication could easily miss it. Report the")
+                print("     effect WITH its power, never as a clean positive.")
             else:
-                print(f"  The CLEAN corpus effect {w6['effect']:+.4f} EXCEEDS its MDD "
+                print(f"  The CLEAN corpus effect {w6['effect']:+.4f} exceeds its MDD "
                       f"{w6['mdd']:.4f} (p={w6['p']:.4f}).")
                 print("     Treat as a candidate, not a result, until replicated on an")
                 print("     independent arm: n is small and the tiers may not have"
