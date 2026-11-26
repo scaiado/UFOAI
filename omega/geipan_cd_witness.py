@@ -25,6 +25,38 @@ PRE-REGISTERED PREDICTION (recorded before the first run):
   sound) discriminate AFTER information-quantity control.  Predicted: they will
   not.
 
+THIRD PREMISE RISK -- AND IT INVALIDATED THE ORIGINAL DOCUMENT SELECTION
+  The harvest classifies dossier files as pv / enquete / questionnaire and the
+  first version of this script treated all three as "witness-level".  MEASURED
+  ON THE OCR'd CORPUS, that was wrong:
+
+    class           n   GEIPAN/CNES header   gendarmerie   verdict language
+    enquete        37           34 (92%)        18 (49%)        34 (92%)
+    pv             38            9 (24%)        35 (92%)        23 (61%)
+    questionnaire  25           24 (96%)         2 (8%)        24 (96%)
+
+  A "Compte rendu d'enquête" is GEIPAN's OWN investigation report, on CNES
+  letterhead, written after the investigation -- e.g. one in this corpus is
+  dated 07/06/2024 for a 2018 observation.  "Questionnaire technique" is
+  likewise a GEIPAN instrument.  Both are analyst documents, i.e. precisely the
+  contaminated source this test exists to avoid.  Only the gendarmerie
+  procès-verbal is authored outside GEIPAN and before its verdict.
+
+  So the witness corpus is PV-ONLY, which costs most of the sample:
+  106 D cases -> 50 with any published document (and section 1.10 shows the 56
+  without are the re-examined ones) -> 46 with usable witness text -> 28 WITH A
+  GENDARMERIE PV.  Against 51 C.  Balanced arm 28, approximate MDD 0.235, where
+  section 1.4 achieved 0.107.  THE DETECTION FLOOR IS THEREFORE ABOVE SECTION
+  1.4's FULLY-DECONTAMINATED RESIDUAL OF +0.1795: even if witness text carried
+  that same signal, this test could not see it.
+
+  Rather than report one underpowered null, the script now runs the SAME tiers
+  on all three corpora and compares.  The contaminated arms have more cases and
+  should separate well BECAUSE they contain the verdict; the clean arm should
+  not.  That demonstrates where the signal lives instead of merely asserting
+  it, and it makes the PV result interpretable as a contrast rather than as an
+  isolated null.
+
 SECOND PREMISE RISK, MEASURED AND GUARDED (2026-11-26)
   GEIPAN's dossier PDFs are mixed: 1951-1954 procès-verbaux carry NO embedded
   text layer, while a 1993 PV carries 12,548 characters of poor-quality
@@ -50,6 +82,14 @@ from omega.geipan_t3 import balanced_cv_acc
 PV = "data/processed/geipan_pv"
 MIN_TOK = 40            # a usable witness document
 NPERM = 600
+
+# Document classes, by provenance (measured -- see the docstring).
+CORPORA = {
+    "pv":            {"pv"},             # gendarmerie, pre-verdict: THE witness corpus
+    "enquete":       {"enquete"},        # GEIPAN analyst report: contaminated control
+    "questionnaire": {"questionnaire"},  # GEIPAN instrument: contaminated control
+}
+CLEAN = "pv"
 
 # --- the analyst-verdict channel, for the ABSENCE CHECK ---------------------
 # If these appear in witness text at the rates they do in `Détails`, the
@@ -81,13 +121,13 @@ def norm(t):
     return re.sub(r"\s+", " ", t).strip()
 
 
-def load_witness():
-    """One record per case: all witness-class documents concatenated."""
+def load_witness(keep):
+    """One record per case: documents of the given classes, concatenated."""
     idx = json.load(open(f"{PV}/index.json", encoding="utf-8"))
     by = collections.defaultdict(lambda: {"txt": [], "arm": None, "year": None,
                                           "files": [], "methods": [], "q": []})
     for r in idx:
-        if not r["witness"]:
+        if r.get("cls") not in keep:
             continue
         p = os.path.join(PV, f"{r['cid']}__{r['file']}.txt")
         if not os.path.exists(p):
@@ -173,95 +213,125 @@ def tier(recs, name, fn, matched=False):
             "median_tok_D": float(np.median(tD)), "median_tok_C": float(np.median(tC))}
 
 
-def main():
-    recs = load_witness()
-    arms = collections.Counter(r["arm"] for r in recs)
-    print(f"cases with usable witness text: {len(recs)}  by arm: {dict(arms)}")
-    meth = collections.Counter(m for r in recs for m in r["methods"])
-    print(f"extraction methods: {dict(meth)}")
-    if len(recs) < 20 or arms["D"] < 8 or arms["C"] < 8:
-        print("\nINSUFFICIENT WITNESS CORPUS -- reporting as such, not as null.")
-        json.dump({"status": "insufficient_corpus", "n": len(recs),
-                   "arms": dict(arms)},
-                  open("data/processed/geipan_pv/cd_witness_result.json", "w"),
-                  indent=1)
-        return
+TIERS = [
+    ("W0 raw text",               lambda t: t,                          False),
+    ("W1 verdict phrasing out",   lambda t: norm(VERDICT_RX.sub(" ", t)), False),
+    ("W2 + leak lexicon out",     lambda t: norm(LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t))), False),
+    ("W3 + length matched",       lambda t: norm(LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t))), "length"),
+    ("W4 + numerals out",         lambda t: norm(NUMERAL.sub(" ", LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t)))), "length"),
+    ("W5 descriptors only",       lambda t: norm(" ".join(DESCRIPTOR.findall(t))), "length"),
+    ("W6 quality+length matched", lambda t: norm(NUMERAL.sub(" ", LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t)))), "quality"),
+]
 
-    # --- premise check: is the analyst-verdict channel actually absent? -----
-    print("\n=== PREMISE CHECK: analyst-verdict channel in witness text ===")
-    vD = sum(1 for r in recs if r["arm"] == "D" and VERDICT_RX.search(r["raw"]))
-    vC = sum(1 for r in recs if r["arm"] == "C" and VERDICT_RX.search(r["raw"]))
-    print(f"  docs containing verdict phrasing:  D {vD}/{arms['D']}   C {vC}/{arms['C']}")
-    for w in ("manquons", "geipan", "classé", "étrange"):
+
+def provenance(recs, arms, label):
+    """Premise checks. Printed BEFORE any tier, for every corpus."""
+    print(f"\n  --- premise 1: analyst-verdict channel present? ---")
+    for w in ("geipan", "cnes", "manquons", "class", "gendarmerie", "brigade"):
         d = sum(1 for r in recs if r["arm"] == "D" and re.search(w, r["raw"], re.I))
         c = sum(1 for r in recs if r["arm"] == "C" and re.search(w, r["raw"], re.I))
-        print(f"    {w:<12} D {d:>4}/{arms['D']:<5} C {c:>4}/{arms['C']}")
-    print("  (in `Détails`, `manquons` was 163/1017 C vs 0/106 D -- "
-          "if that asymmetry reappears here the premise fails)")
-
-    print("\n=== PREMISE CHECK 2: does OCR quality differ between arms? ===")
+        print(f"    {w:<12} D {d:>3}/{arms['D']:<4} ({d/max(1,arms['D']):>5.0%})"
+              f"   C {c:>3}/{arms['C']:<4} ({c/max(1,arms['C']):>5.0%})")
+    print(f"  --- premise 2: does OCR quality or length track the label? ---")
     qD = np.array([r["qual"] for r in recs if r["arm"] == "D"])
     qC = np.array([r["qual"] for r in recs if r["arm"] == "C"])
     tD = np.array([len(toks(r["raw"])) for r in recs if r["arm"] == "D"])
     tC = np.array([len(toks(r["raw"])) for r in recs if r["arm"] == "C"])
-    for lbl, a, b in (("quality score", qD, qC), ("token count", tD, tC)):
+    for lbl, a, b in (("quality", qD, qC), ("tokens", tD, tC)):
         if len(a) > 1 and len(b) > 1:
             sp = math.sqrt(a.var(ddof=1) / len(a) + b.var(ddof=1) / len(b))
             z = (a.mean() - b.mean()) / sp if sp else float("nan")
-            print(f"  {lbl:<16} D med={np.median(a):>9.3f} C med={np.median(b):>9.3f}"
-                  f"   D mean={a.mean():>9.3f} C mean={b.mean():>9.3f}   z={z:+.3f}")
-    print("  (a large quality z means OCR characteristics track the label and")
-    print("   tier W6 -- quality-matched -- is the only interpretable row)")
+            print(f"    {lbl:<10} D med={np.median(a):>8.2f}  C med={np.median(b):>8.2f}"
+                  f"   z={z:+.3f}")
 
-    TIERS = [
-        ("W0 raw witness text",        lambda t: t,                          False),
-        ("W1 verdict phrasing out",    lambda t: norm(VERDICT_RX.sub(" ", t)), False),
-        ("W2 + leak lexicon out",      lambda t: norm(LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t))), False),
-        ("W3 + length matched",        lambda t: norm(LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t))), "length"),
-        ("W4 + numerals out",          lambda t: norm(NUMERAL.sub(" ", LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t)))), "length"),
-        ("W5 descriptors only",        lambda t: norm(" ".join(DESCRIPTOR.findall(t))), "length"),
-        ("W6 quality+length matched",  lambda t: norm(NUMERAL.sub(" ", LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t)))), "quality"),
-    ]
+
+def run_corpus(name, keep):
+    recs = load_witness(keep)
+    arms = collections.Counter(r["arm"] for r in recs)
+    print(f"\n{'='*74}")
+    print(f"CORPUS '{name}'  ({'CLEAN -- gendarmerie, pre-verdict' if name == CLEAN else 'CONTAMINATED CONTROL -- GEIPAN-authored'})")
+    print(f"{'='*74}")
+    print(f"  cases: {len(recs)}  by arm: {dict(arms)}")
+    if len(recs) < 16 or arms["D"] < 8 or arms["C"] < 8:
+        print("  INSUFFICIENT -- reported as such, not as null.")
+        return {"corpus": name, "status": "insufficient", "arms": dict(arms)}
+    provenance(recs, arms, name)
     out = []
-    print(f"\n=== TIERS (permutation null, {NPERM} draws) ===")
-    print(f"  {'tier':<26}{'n_arm':>7}{'bal.acc':>9}{'effect':>9}{'p':>9}{'MDD':>8}"
+    print(f"\n  --- tiers (permutation null, {NPERM} draws) ---")
+    print(f"  {'tier':<28}{'n/arm':>6}{'bal.acc':>9}{'effect':>9}{'p':>8}{'MDD':>8}"
           f"{'medD':>7}{'medC':>7}")
-    for name, fn, m in TIERS:
-        r = tier(recs, name, fn, m)
+    for tname, fn, m in TIERS:
+        r = tier(recs, tname, fn, m)
         out.append(r)
         if r["status"] != "ok":
-            print(f"  {name:<26}  INSUFFICIENT {r['arms']}")
+            print(f"  {tname:<28}  INSUFFICIENT {r.get('arms')}")
             continue
-        print(f"  {name:<26}{r['n_each_arm']:>7}{r['bal_acc']:>9.4f}"
-              f"{r['effect']:>+9.4f}{r['p']:>9.4f}{r['mdd']:>8.4f}"
-              f"{r['median_tok_D']:>7.0f}{r['median_tok_C']:>7.0f}")
+        flag = "  <-- below MDD" if r["effect"] <= r["mdd"] else ""
+        print(f"  {tname:<28}{r['n_each_arm']:>6}{r['bal_acc']:>9.4f}"
+              f"{r['effect']:>+9.4f}{r['p']:>8.4f}{r['mdd']:>8.4f}"
+              f"{r['median_tok_D']:>7.0f}{r['median_tok_C']:>7.0f}{flag}")
+    return {"corpus": name, "status": "ok", "arms": dict(arms),
+            "n_cases": len(recs), "tiers": out}
 
-    ok = [r for r in out if r["status"] == "ok"]
-    if ok:
-        print("\n=== VERDICT ===")
-        last = ok[-1]
-        if last["effect"] <= last["mdd"]:
-            print(f"  Final tier effect {last['effect']:+.4f} <= MDD {last['mdd']:.4f}")
-            print("  -> NOT DISTINGUISHABLE FROM NULL AT THIS POWER.")
-            print("     This is UNDERPOWERED, not a demonstrated null, unless MDD")
-            print("     is below the effect size of interest.")
-        else:
-            print(f"  Final tier effect {last['effect']:+.4f} > MDD {last['mdd']:.4f}, "
-                  f"p={last['p']:.4f}")
-            eff = [r["effect"] for r in ok]
-            print(f"  gradient across tiers: "
-                  f"{' -> '.join(f'{e:+.3f}' for e in eff)}")
-            if len(eff) >= 3 and abs(eff[-1] - eff[-2]) > 0.02:
-                print("  Gradient has NOT plateaued -> residual is an UPPER BOUND,")
-                print("  not content. Same disposition as section 1.4.")
+
+def main():
+    results = [run_corpus(n, k) for n, k in CORPORA.items()]
+
+    print(f"\n{'='*74}")
+    print("CONTRAST -- where does the signal live?")
+    print(f"{'='*74}")
+    print(f"  {'corpus':<16}{'n_D':>5}{'n_C':>5}{'W0 raw':>10}{'W6 cleaned':>12}{'W6 MDD':>9}  disposition")
+    for r in results:
+        if r["status"] != "ok":
+            print(f"  {r['corpus']:<16}{r['arms'].get('D',0):>5}{r['arms'].get('C',0):>5}"
+                  f"{'--':>10}{'--':>12}{'--':>9}  insufficient corpus")
+            continue
+        ok = [t for t in r["tiers"] if t["status"] == "ok"]
+        w0 = next((t for t in ok if t["tier"].startswith("W0")), None)
+        w6 = next((t for t in ok if t["tier"].startswith("W6")), None)
+        if not (w0 and w6):
+            continue
+        disp = ("effect survives cleaning" if w6["effect"] > w6["mdd"]
+                else "below detection floor -- UNDERPOWERED, not null")
+        print(f"  {r['corpus']:<16}{r['arms']['D']:>5}{r['arms']['C']:>5}"
+              f"{w0['effect']:>+10.4f}{w6['effect']:>+12.4f}{w6['mdd']:>9.4f}  {disp}")
+
+    print()
+    clean = next((r for r in results if r["corpus"] == CLEAN), None)
+    dirty = [r for r in results if r["corpus"] != CLEAN and r["status"] == "ok"]
+    if clean and clean["status"] == "ok":
+        ok = [t for t in clean["tiers"] if t["status"] == "ok"]
+        w6 = next((t for t in ok if t["tier"].startswith("W6")), None)
+        if w6:
+            if w6["effect"] <= w6["mdd"]:
+                print(f"  The CLEAN (gendarmerie PV) corpus gives effect "
+                      f"{w6['effect']:+.4f} against MDD {w6['mdd']:.4f}.")
+                print("  => NOT DISTINGUISHABLE FROM NULL AT THIS POWER.")
+                print("     This is UNDERPOWERED, NOT a demonstrated null: the MDD")
+                print(f"     ({w6['mdd']:.3f}) sits ABOVE section 1.4's fully-decontaminated")
+                print("     residual of +0.1795, so the effect size of interest is")
+                print("     below this test's detection floor by construction.")
+                print("     Cause is measured, not speculative: only 28 of 106 D cases")
+                print("     have a published gendarmerie PV, and section 1.10 shows the")
+                print("     56 D cases with no published dossier are the RE-EXAMINED ones.")
+                print("     The test is power-limited by the non-disclosure the project")
+                print("     has already measured. That is the finding.")
             else:
-                print("  Gradient appears to have plateaued -> residual is a")
-                print("  candidate content effect; needs an independent replication arm.")
+                print(f"  The CLEAN corpus effect {w6['effect']:+.4f} EXCEEDS its MDD "
+                      f"{w6['mdd']:.4f} (p={w6['p']:.4f}).")
+                print("     Treat as a candidate, not a result, until replicated on an")
+                print("     independent arm: n is small and the tiers may not have"
+                      " plateaued.")
+    if dirty:
+        print()
+        print("  The CONTAMINATED controls are the interpretive anchor: if they")
+        print("  separate well while the clean corpus does not, the signal in the")
+        print("  earlier analyst-prose test was the verdict, as section 1.4 argued.")
 
-    json.dump({"n_cases": len(recs), "arms": dict(arms), "tiers": out},
+    json.dump({"corpora": results},
               open("data/processed/geipan_pv/cd_witness_result.json", "w"),
               indent=1, ensure_ascii=False)
-    print("\nwrote data/processed/geipan_pv/cd_witness_result.json")
+    print("\n  wrote data/processed/geipan_pv/cd_witness_result.json")
 
 
 if __name__ == "__main__":
