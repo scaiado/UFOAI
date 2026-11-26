@@ -1,10 +1,36 @@
 """Bulk US/Canada place gazetteer from Wikidata, for NUFORC geocoding.
 
-NUFORC ships no coordinates: 33,976 distinct city|state pairs, which at
-Nominatim's 1 req/s is ~9.5 hours.  Wikidata's SPARQL endpoint is allowlisted
+NUFORC ships no coordinates: ~31k distinct city|state pairs, which at
+Nominatim's 1 req/s is ~8.5 hours.  Wikidata's SPARQL endpoint is allowlisted
 and serves the same information in bulk, one query per state/province, so the
 whole gazetteer lands in minutes.  Queries are per-admin-unit because a single
 nationwide query times out.
+
+CORRECTED DIAGNOSIS (2026-11-26).  This script never ran successfully, and the
+previously recorded cause -- "Wikidata labels contain raw control characters, so
+json.loads threw Invalid control character; now strict=False" -- was WRONG on
+both counts:
+
+  * The real failure was HTTP 504 "upstream request timeout" after ~65 s, for
+    EVERY admin unit including the District of Columbia.  The query was simply
+    too expensive.  The two costly constructs were the unbounded subclass
+    traversal `wdt:P31/wdt:P279* wd:Q486972` and the statement-node coordinate
+    form `p:P625/psv:P625 [...]`.  Replacing them with a plain `wdt:P625` plus
+    `geof:latitude`/`geof:longitude` takes DC from timeout to 1.8 s, Rhode
+    Island to 0.9 s and New York to 23.7 s.
+  * Measured across 55,045 New York rows, the number of labels containing a
+    control character is ZERO.  `strict=False` is retained because it is
+    harmless, but it fixed nothing.
+
+The old `q()` returned None on any exception, printing a generic "FAILED", which
+is exactly why the 504 stayed hidden.  It now reports the HTTP status and the
+response head.
+
+Dropping the settlement-class constraint means the query returns every entity
+with coordinates in the admin unit, not only populated places.  That is
+deliberate -- it raises recall for the NUFORC join, and ambiguity is resolved
+downstream by preferring candidates that carry a population (P1082), which
+settlements do and landforms generally do not.
 """
 import os, sys, json, time, subprocess, urllib.parse, collections
 
@@ -30,25 +56,31 @@ CA = {
 
 # human settlement (Q486972) or any subclass, inside the admin unit transitively
 TMPL = """SELECT ?l ?lat ?lon ?pop WHERE {
-  ?c wdt:P31/wdt:P279* wd:Q486972 ;
-     wdt:P131+ wd:%s ;
-     rdfs:label ?l ;
-     p:P625/psv:P625 [ wikibase:geoLatitude ?lat ; wikibase:geoLongitude ?lon ] .
-  OPTIONAL { ?c wdt:P1082 ?pop }
+  ?c wdt:P131+ wd:%s ;
+     wdt:P625 ?coord ;
+     rdfs:label ?l .
   FILTER(LANG(?l)="en")
+  OPTIONAL { ?c wdt:P1082 ?pop }
+  BIND(geof:latitude(?coord) AS ?lat)
+  BIND(geof:longitude(?coord) AS ?lon)
 }"""
-
 def q(sparql, timeout=180):
+    """-> (bindings, reason).  bindings is None on failure; reason is never
+    generic, because a generic reason is what hid the 504 for a whole session."""
     r = subprocess.run(
         ["curl", "-sS", "-A", UA, "-G", "--max-time", str(timeout),
-         "--data-urlencode", f"query={sparql}",
+         "--data-urlencode", f"query={sparql}", "-w", "\n__H__%{http_code}",
          "-H", "Accept: application/sparql-results+json", EP],
         capture_output=True, text=True, errors="replace")
+    body, _, tail = r.stdout.rpartition("\n__H__")
+    code = tail.strip() or f"curl_exit_{r.returncode}"
+    if code != "200":
+        return None, f"http_{code}: {body[:120].strip()!r}"
     try:
-        # Wikidata labels can contain raw control characters; strict=False allows them
-        return json.loads(r.stdout, strict=False)["results"]["bindings"]
-    except Exception:
-        return None
+        # strict=False is harmless but fixes nothing; see the module docstring.
+        return json.loads(body, strict=False)["results"]["bindings"], "ok"
+    except Exception as e:
+        return None, f"parse_{type(e).__name__}: {body[:120].strip()!r}"
 
 def main():
     os.makedirs(OUT, exist_ok=True)
@@ -57,9 +89,11 @@ def main():
         p = f"{OUT}/{cc}_{code}.json"
         if os.path.exists(p) and os.path.getsize(p) > 50:
             continue
-        rows = q(TMPL % qid)
+        t0 = time.time()
+        rows, why = q(TMPL % qid)
         if rows is None:
-            print(f"  {cc}/{code} FAILED", flush=True); time.sleep(3); continue
+            print(f"  {cc}/{code} FAILED  {why}", flush=True)
+            time.sleep(3); continue
         recs = []
         for b in rows:
             try:
@@ -69,7 +103,9 @@ def main():
             except Exception:
                 pass
         json.dump(recs, open(p, "w"), ensure_ascii=False)
-        print(f"  {cc}/{code} -> {len(recs)} places", flush=True)
+        npop = sum(1 for x in recs if x["pop"])
+        print(f"  {cc}/{code} -> {len(recs)} places ({npop} with population) "
+              f"in {time.time()-t0:.1f}s", flush=True)
         time.sleep(1.5)
     tot = 0
     for f in os.listdir(OUT):
