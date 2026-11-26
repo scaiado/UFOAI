@@ -1,0 +1,624 @@
+{
+ "design": {
+  "controls_per_candidate": 8,
+  "min_separation_km": 50.0,
+  "max_separation_km": 400.0,
+  "sighting_exclusion_km": 15.0,
+  "matched_on": [
+   "landcover_proxy_spectral",
+   "latitude_band",
+   "calendar_month",
+   "cloud_cover_lt_20"
+  ],
+  "sighting_field_catalogues": [
+   "NUFORC",
+   "GEIPAN"
+  ],
+  "detection_run": false,
+  "note": "CONTROL SET ONLY. No detection has been run against these. A control chosen after seeing candidate imagery is not a control."
+ },
+ "candidates": [
+  {
+   "id": "socorro_zamora_1964",
+   "name": "Socorro / Zamora",
+   "lat": 34.0444,
+   "lon": -106.8945,
+   "date": "1964-04-24",
+   "month": 4,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": 36.2486,
+     "lon": -105.3587,
+     "sep_km": 282.1,
+     "bearing": 30.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 36.5852,
+     "lon": -103.8281,
+     "sep_km": 396.5,
+     "bearing": 45.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 34.4319,
+     "lon": -105.1492,
+     "sep_km": 166.1,
+     "bearing": 75.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 34.0444,
+     "lon": -103.8228,
+     "sep_km": 283.0,
+     "bearing": 90.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 31.8402,
+     "lon": -105.3587,
+     "sep_km": 283.9,
+     "bearing": 150.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 32.5982,
+     "lon": -107.3622,
+     "sep_km": 166.6,
+     "bearing": 195.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 31.8402,
+     "lon": -108.4303,
+     "sep_km": 283.9,
+     "bearing": 210.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 33.6569,
+     "lon": -108.6398,
+     "sep_km": 166.8,
+     "bearing": 255.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 5
+  },
+  {
+   "id": "rendlesham_1980",
+   "name": "Rendlesham Forest",
+   "lat": 52.087,
+   "lon": 1.443,
+   "date": "1980-12-26",
+   "month": 12,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": 53.5332,
+     "lon": 2.0736,
+     "sep_km": 166.3,
+     "bearing": 15.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 54.2912,
+     "lon": 3.5141,
+     "sep_km": 281.2,
+     "bearing": 30.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 54.6278,
+     "lon": 5.578,
+     "sep_km": 393.7,
+     "bearing": 45.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 52.4745,
+     "lon": 3.7965,
+     "sep_km": 165.8,
+     "bearing": 75.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 52.087,
+     "lon": 5.5852,
+     "sep_km": 283.0,
+     "bearing": 90.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 51.8624,
+     "lon": 2.076,
+     "sep_km": 50.0,
+     "bearing": 120.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 51.0283,
+     "lon": 3.1659,
+     "sep_km": 167.5,
+     "bearing": 135.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 50.6408,
+     "lon": 0.8124,
+     "sep_km": 166.7,
+     "bearing": 195.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 3
+  },
+  {
+   "id": "st_mathias_1973",
+   "name": "Saint-Mathias",
+   "lat": 45.45,
+   "lon": -73.2667,
+   "date": "1973-10-01",
+   "month": 10,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": 46.8962,
+     "lon": -72.7143,
+     "sep_km": 166.3,
+     "bearing": 15.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 47.6542,
+     "lon": -71.4527,
+     "sep_km": 281.6,
+     "bearing": 30.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 47.9908,
+     "lon": -69.6449,
+     "sep_km": 394.9,
+     "bearing": 45.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 45.8375,
+     "lon": -71.2053,
+     "sep_km": 165.9,
+     "bearing": 75.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 45.45,
+     "lon": -76.8948,
+     "sep_km": 283.0,
+     "bearing": 270.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 46.38,
+     "lon": -78.2142,
+     "sep_km": 396.4,
+     "bearing": 285.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 46.5087,
+     "lon": -74.7758,
+     "sep_km": 165.7,
+     "bearing": 315.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 47.6542,
+     "lon": -75.0807,
+     "sep_km": 281.6,
+     "bearing": 330.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 8
+  },
+  {
+   "id": "newark_valley_1965",
+   "name": "Newark Valley",
+   "lat": 42.219,
+   "lon": -76.188,
+   "date": "1965-11-05",
+   "month": 11,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": 43.6652,
+     "lon": -75.6648,
+     "sep_km": 166.4,
+     "bearing": 15.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 45.6898,
+     "lon": -77.4438,
+     "sep_km": 398.8,
+     "bearing": 345.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 15
+  },
+  {
+   "id": "lavonia_1969",
+   "name": "Lavonia",
+   "lat": 34.439,
+   "lon": -83.107,
+   "date": "1969-10-20",
+   "month": 10,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": 32.2348,
+     "lon": -84.6501,
+     "sep_km": 283.9,
+     "bearing": 210.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 36.6432,
+     "lon": -84.6501,
+     "sep_km": 282.1,
+     "bearing": 330.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 13
+  },
+  {
+   "id": "cherry_creek_1965",
+   "name": "Cherry Creek",
+   "lat": 42.289,
+   "lon": -79.134,
+   "date": "1965-08-19",
+   "month": 8,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": 43.7352,
+     "lon": -78.6102,
+     "sep_km": 166.4,
+     "bearing": 15.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 44.4932,
+     "lon": -77.4137,
+     "sep_km": 281.8,
+     "bearing": 30.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 41.9015,
+     "lon": -81.0889,
+     "sep_km": 167.0,
+     "bearing": 255.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 45.7598,
+     "lon": -80.3912,
+     "sep_km": 398.8,
+     "bearing": 345.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 13
+  },
+  {
+   "id": "cash_landrum_1980",
+   "name": "Cash-Landrum",
+   "lat": 30.416,
+   "lon": -95.215,
+   "date": "1980-12-29",
+   "month": 12,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": 29.3573,
+     "lon": -93.9874,
+     "sep_km": 166.9,
+     "bearing": 135.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 28.2118,
+     "lon": -93.7393,
+     "sep_km": 283.8,
+     "bearing": 150.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 28.2118,
+     "lon": -96.6907,
+     "sep_km": 283.8,
+     "bearing": 210.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 12
+  },
+  {
+   "id": "valensole_1965",
+   "name": "Valensole",
+   "lat": 43.837,
+   "lon": 5.982,
+   "date": "1965-07-01",
+   "month": 7,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": 46.0412,
+     "lon": 7.7463,
+     "sep_km": 281.7,
+     "bearing": 30.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 46.3778,
+     "lon": 9.5045,
+     "sep_km": 395.2,
+     "bearing": 45.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 44.2245,
+     "lon": 7.9869,
+     "sep_km": 166.0,
+     "bearing": 75.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 43.837,
+     "lon": 9.5106,
+     "sep_km": 283.0,
+     "bearing": 90.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 42.7783,
+     "lon": 7.4497,
+     "sep_km": 167.2,
+     "bearing": 135.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 41.6328,
+     "lon": 7.7463,
+     "sep_km": 284.3,
+     "bearing": 150.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 42.3908,
+     "lon": 5.4448,
+     "sep_km": 166.6,
+     "bearing": 195.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 41.6328,
+     "lon": 4.2177,
+     "sep_km": 284.3,
+     "bearing": 210.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 8
+  },
+  {
+   "id": "reunion_1968",
+   "name": "La R\u00e9union",
+   "lat": -21.115,
+   "lon": 55.536,
+   "date": "1968-07-31",
+   "month": 7,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": -19.6688,
+     "lon": 55.9514,
+     "sep_km": 166.5,
+     "bearing": 15.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": -18.9108,
+     "lon": 56.9002,
+     "sep_km": 283.5,
+     "bearing": 30.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": -20.7275,
+     "lon": 57.0863,
+     "sep_km": 166.7,
+     "bearing": 75.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": -21.115,
+     "lon": 58.2644,
+     "sep_km": 283.0,
+     "bearing": 90.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": -22.045,
+     "lon": 59.2566,
+     "sep_km": 398.4,
+     "bearing": 105.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": -22.1737,
+     "lon": 56.6709,
+     "sep_km": 166.2,
+     "bearing": 135.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": -23.3192,
+     "lon": 56.9002,
+     "sep_km": 282.5,
+     "bearing": 150.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": -24.5858,
+     "lon": 56.5329,
+     "sep_km": 399.2,
+     "bearing": 165.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 0
+  },
+  {
+   "id": "trans_en_provence_1981",
+   "name": "Trans-en-Provence",
+   "lat": 43.5,
+   "lon": 6.49,
+   "date": "1981-01-08",
+   "month": 1,
+   "candidate_scenes_found": 6,
+   "stac_status": "ok",
+   "controls": [
+    {
+     "lat": 44.9462,
+     "lon": 7.0242,
+     "sep_km": 166.3,
+     "bearing": 15.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 45.7042,
+     "lon": 8.2444,
+     "sep_km": 281.7,
+     "bearing": 30.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 46.0408,
+     "lon": 9.9928,
+     "sep_km": 395.2,
+     "bearing": 45.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 43.8875,
+     "lon": 8.4837,
+     "sep_km": 166.0,
+     "bearing": 75.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 43.5,
+     "lon": 9.9988,
+     "sep_km": 283.0,
+     "bearing": 90.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 43.2754,
+     "lon": 7.0262,
+     "sep_km": 50.0,
+     "bearing": 120.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 42.4413,
+     "lon": 7.9495,
+     "sep_km": 167.2,
+     "bearing": 135.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    },
+    {
+     "lat": 41.2958,
+     "lon": 8.2444,
+     "sep_km": 284.3,
+     "bearing": 150.0,
+     "sightings_within_15km": 0,
+     "eligible": true
+    }
+   ],
+   "controls_rejected_for_sightings": 6
+  }
+ ]
+}

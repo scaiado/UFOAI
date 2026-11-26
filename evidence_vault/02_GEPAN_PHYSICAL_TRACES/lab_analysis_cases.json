@@ -1,0 +1,262 @@
+[
+ {
+  "id": "1981-01-00849",
+  "cls": "D",
+  "title": "TRANS-EN-PROVENCE (83) 08.01.1981",
+  "year": 1981,
+  "dept": "Var",
+  "lat": 43.5,
+  "lon": 6.49,
+  "lab_files": [
+   "Note techn16-R.pdf"
+  ],
+  "all_docs": "Note techn16-R.pdf"
+ },
+ {
+  "id": "2001-06-01567",
+  "cls": "B",
+  "title": "BARBEZIEUX (16) 12.06.1981",
+  "year": 1981,
+  "dept": "Charente",
+  "lat": 45.51,
+  "lon": -0.14,
+  "lab_files": [
+   "Analyse echantillons sol-R.pdf"
+  ],
+  "all_docs": "Analyse echantillons sol-R.pdf"
+ },
+ {
+  "id": "1983-05-00977",
+  "cls": "B",
+  "title": "LABATUT (40) 05.05.1983",
+  "year": 1983,
+  "dept": "Landes",
+  "lat": 43.42,
+  "lon": -0.02,
+  "lab_files": [
+   "Laboratoire de Recherche sur la Foudre-R.pdf"
+  ],
+  "all_docs": "Laboratoire de Recherche sur la Foudre-R.pdf"
+ },
+ {
+  "id": "1985-02-01063",
+  "cls": "A",
+  "title": "SAINT-SULPICE-DE-ROYAN (17) 25.02.1985",
+  "year": 1985,
+  "dept": "Charente-Maritime",
+  "lat": 45.67,
+  "lon": -1.01,
+  "lab_files": [
+   "Expertise APAVE-R.pdf"
+  ],
+  "all_docs": "Expertise APAVE-R.pdf"
+ },
+ {
+  "id": "1985-07-09142",
+  "cls": "C",
+  "title": "PLOEMEUR (56) 22.07.1985",
+  "year": 1985,
+  "dept": "Morbihan",
+  "lat": 47.71,
+  "lon": -3.47,
+  "lab_files": [
+   "Analyse recit-R.pdf"
+  ],
+  "all_docs": "Analyse recit-R.pdf"
+ },
+ {
+  "id": "1986-03-01088",
+  "cls": "A",
+  "title": "MAISONNAIS-SUR-TARDOIRE (87) 01.03.1986",
+  "year": 1986,
+  "dept": "Haute-Vienne",
+  "lat": 45.71,
+  "lon": 0.69,
+  "lab_files": [
+   "Expertise echantillons-R.pdf"
+  ],
+  "all_docs": "Expertise echantillons-R.pdf"
+ },
+ {
+  "id": "1987-09-01110",
+  "cls": "A",
+  "title": "NORT-SUR-ERDRE (44) 07.09.1987 « JOE LE TAXI »",
+  "year": 1987,
+  "dept": "Loire-Atlantique",
+  "lat": 47.44,
+  "lon": -1.5,
+  "lab_files": [
+   "Expertise cassette audio-R.pdf"
+  ],
+  "all_docs": "Expertise cassette audio-R.pdf"
+ },
+ {
+  "id": "1997-04-01755",
+  "cls": "A",
+  "title": "CHAMBERY (73) 10.04.1997",
+  "year": 1997,
+  "dept": "Savoie",
+  "lat": 45.57,
+  "lon": 5.92,
+  "lab_files": [
+   "Analyses echantillons-R.pdf"
+  ],
+  "all_docs": "Analyses echantillons-R.pdf"
+ },
+ {
+  "id": "1997-09-01477",
+  "cls": "A",
+  "title": "METZ (57) 07.09.1997",
+  "year": 1997,
+  "dept": "Moselle",
+  "lat": 49.07,
+  "lon": 6.21,
+  "lab_files": [
+   "Analyse video-R.pdf"
+  ],
+  "all_docs": "Analyse video-R.pdf"
+ },
+ {
+  "id": "2007-09-01795",
+  "cls": "B",
+  "title": "TATINGHEM (62) 02.09.2007",
+  "year": 2007,
+  "dept": "Pas-de-Calais",
+  "lat": 50.74,
+  "lon": 2.21,
+  "lab_files": [
+   "Analyse photo.pdf"
+  ],
+  "all_docs": "Analyse photo.pdf"
+ },
+ {
+  "id": "2008-01-02215",
+  "cls": "A",
+  "title": "[A89] de CLERMONT-FERRAND (63) vers BRIVE-LA-GAILLARDE (19) 01.01.2008",
+  "year": 2008,
+  "dept": "Puy-de-Dôme",
+  "lat": 45.78,
+  "lon": 3.09,
+  "lab_files": [
+   "Analyse photos-R .pdf"
+  ],
+  "all_docs": "Analyse photos-R .pdf"
+ },
+ {
+  "id": "2011-06-02790",
+  "cls": "A",
+  "title": "GOURBIT (09) 28.06.2011",
+  "year": 2011,
+  "dept": "Ariège",
+  "lat": 42.84,
+  "lon": 1.53,
+  "lab_files": [
+   "Analyse photos.pdf"
+  ],
+  "all_docs": "Analyse photos.pdf"
+ },
+ {
+  "id": "2014-09-09037",
+  "cls": "A",
+  "title": "CHAUDEFONDS-SUR-LAYON (49) 12.09.2014",
+  "year": 2014,
+  "dept": "Maine-et-Loire",
+  "lat": 47.36,
+  "lon": -0.64,
+  "lab_files": [
+   "Analyse photo.png"
+  ],
+  "all_docs": "Analyse photo.png"
+ },
+ {
+  "id": "2018-12-50681",
+  "cls": "C",
+  "title": "LIMONEST (69) 08.12.2018",
+  "year": 2018,
+  "dept": "Rhône",
+  "lat": 45.84,
+  "lon": 4.77,
+  "lab_files": [
+   "Analyse reflets crees par appareil.pptx"
+  ],
+  "all_docs": "Analyse reflets crees par appareil.pptx"
+ },
+ {
+  "id": "2019-06-50848",
+  "cls": "A",
+  "title": "PIAN-MEDOC (LE) (33) 18.06.2019",
+  "year": 2019,
+  "dept": "Gironde",
+  "lat": 44.97,
+  "lon": -0.64,
+  "lab_files": [
+   "Station Labo 18-06-2019.pdf"
+  ],
+  "all_docs": "Station Labo 18-06-2019.pdf"
+ },
+ {
+  "id": "2019-07-50779",
+  "cls": "B",
+  "title": "CHATEAUNEUF (73) 02.07.2019",
+  "year": 2019,
+  "dept": "Savoie",
+  "lat": 45.55,
+  "lon": 6.18,
+  "lab_files": [
+   "Analyse des photographies.pdf"
+  ],
+  "all_docs": "Analyse des photographies.pdf"
+ },
+ {
+  "id": "2020-08-51060",
+  "cls": "C",
+  "title": "LOUVIERS (27) 10.08.2020",
+  "year": 2020,
+  "dept": "Eure",
+  "lat": 49.21,
+  "lon": 1.16,
+  "lab_files": [
+   "Analyse COSE.pdf"
+  ],
+  "all_docs": "Analyse COSE.pdf"
+ },
+ {
+  "id": "2025-01-51619",
+  "cls": "A",
+  "title": "PERPIGNAN (66) 04.01.2025",
+  "year": 2025,
+  "dept": "Pyrénées-Orientales",
+  "lat": 42.68,
+  "lon": 2.89,
+  "lab_files": [
+   "Annexe 1-Analyse-IPACO-1.png"
+  ],
+  "all_docs": "Annexe 1-Analyse-IPACO-1.png"
+ },
+ {
+  "id": "2025-03-51657",
+  "cls": "A",
+  "title": "BEAUMONT-SUR-SARTHE (72) 22.03.2025",
+  "year": 2025,
+  "dept": "Sarthe",
+  "lat": 48.23,
+  "lon": 0.13,
+  "lab_files": [
+   "Annexe 1_Analyse photographique.pdf"
+  ],
+  "all_docs": "Annexe 1_Analyse photographique.pdf"
+ },
+ {
+  "id": "2025-01-51611",
+  "cls": "A",
+  "title": "JONZIEUX (42) 14.01.2025",
+  "year": 2025,
+  "dept": "Loire",
+  "lat": 45.31,
+  "lon": 4.35,
+  "lab_files": [
+   "Note technique.pdf"
+  ],
+  "all_docs": "Note technique.pdf"
+ }
+]

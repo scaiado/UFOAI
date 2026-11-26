@@ -1,0 +1,539 @@
+{
+ "documents": {
+  "Release_01__65_HS1-101634279_100-DE-26505_djvu.txt": {
+   "chars": 9421,
+   "inline_redactions": 1,
+   "per_1k_chars": 0.11,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__65_HS1-834228961_62-HQ-83894_Section_3_djvu.txt": {
+   "chars": 233634,
+   "inline_redactions": 2,
+   "per_1k_chars": 0.01,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__65_HS1-834228961_62-HQ-83894_Section_5_djvu.txt": {
+   "chars": 167168,
+   "inline_redactions": 6,
+   "per_1k_chars": 0.04,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__65_HS1-834228961_62-HQ-83894_Section_7_djvu.txt": {
+   "chars": 226236,
+   "inline_redactions": 3,
+   "per_1k_chars": 0.01,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__65_HS1-834228961_62-HQ-83894_Section_8_djvu.txt": {
+   "chars": 208632,
+   "inline_redactions": 14,
+   "per_1k_chars": 0.07,
+   "eo_subsections": {},
+   "deciles_touched": 2,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt": {
+   "chars": 7496,
+   "inline_redactions": 18,
+   "per_1k_chars": 2.4,
+   "eo_subsections": {
+    "a": 2
+   },
+   "deciles_touched": 7,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt": {
+   "chars": 7537,
+   "inline_redactions": 17,
+   "per_1k_chars": 2.26,
+   "eo_subsections": {},
+   "deciles_touched": 7,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt": {
+   "chars": 13000,
+   "inline_redactions": 11,
+   "per_1k_chars": 0.85,
+   "eo_subsections": {},
+   "deciles_touched": 7,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt": {
+   "chars": 11661,
+   "inline_redactions": 14,
+   "per_1k_chars": 1.2,
+   "eo_subsections": {},
+   "deciles_touched": 7,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt": {
+   "chars": 7548,
+   "inline_redactions": 12,
+   "per_1k_chars": 1.59,
+   "eo_subsections": {},
+   "deciles_touched": 5,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt": {
+   "chars": 13082,
+   "inline_redactions": 15,
+   "per_1k_chars": 1.15,
+   "eo_subsections": {},
+   "deciles_touched": 8,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt": {
+   "chars": 8351,
+   "inline_redactions": 8,
+   "per_1k_chars": 0.96,
+   "eo_subsections": {},
+   "deciles_touched": 6,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt": {
+   "chars": 12777,
+   "inline_redactions": 7,
+   "per_1k_chars": 0.55,
+   "eo_subsections": {},
+   "deciles_touched": 5,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt": {
+   "chars": 10434,
+   "inline_redactions": 65,
+   "per_1k_chars": 6.23,
+   "eo_subsections": {
+    "a": 38,
+    "g": 4
+   },
+   "deciles_touched": 10,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt": {
+   "chars": 11383,
+   "inline_redactions": 66,
+   "per_1k_chars": 5.8,
+   "eo_subsections": {
+    "a": 38,
+    "g": 4
+   },
+   "deciles_touched": 10,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt": {
+   "chars": 10024,
+   "inline_redactions": 57,
+   "per_1k_chars": 5.69,
+   "eo_subsections": {
+    "a": 29,
+    "g": 5
+   },
+   "deciles_touched": 10,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+   "chars": 6082,
+   "inline_redactions": 104,
+   "per_1k_chars": 17.1,
+   "eo_subsections": {
+    "a": 62,
+    "c": 1
+   },
+   "deciles_touched": 10,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt": {
+   "chars": 14333,
+   "inline_redactions": 85,
+   "per_1k_chars": 5.93,
+   "eo_subsections": {
+    "a": 54,
+    "g": 5
+   },
+   "deciles_touched": 10,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt": {
+   "chars": 8680,
+   "inline_redactions": 4,
+   "per_1k_chars": 0.46,
+   "eo_subsections": {},
+   "deciles_touched": 2,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt": {
+   "chars": 8685,
+   "inline_redactions": 7,
+   "per_1k_chars": 0.81,
+   "eo_subsections": {},
+   "deciles_touched": 3,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+   "chars": 359,
+   "inline_redactions": 3,
+   "per_1k_chars": 8.36,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020_djvu.txt": {
+   "chars": 3489,
+   "inline_redactions": 3,
+   "per_1k_chars": 0.86,
+   "eo_subsections": {},
+   "deciles_touched": 2,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+   "chars": 458,
+   "inline_redactions": 1,
+   "per_1k_chars": 2.18,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D50-Email-Correspondence-INDOPACOM-April-2025_djvu.txt": {
+   "chars": 1270,
+   "inline_redactions": 9,
+   "per_1k_chars": 7.09,
+   "eo_subsections": {},
+   "deciles_touched": 5,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D51-Email-Correspondence-Pacific-Time-Zone-March-2023_djvu.txt": {
+   "chars": 3161,
+   "inline_redactions": 7,
+   "per_1k_chars": 2.21,
+   "eo_subsections": {},
+   "deciles_touched": 4,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D52-Email-Correspondance-NA-August-2024_djvu.txt": {
+   "chars": 837,
+   "inline_redactions": 5,
+   "per_1k_chars": 5.97,
+   "eo_subsections": {},
+   "deciles_touched": 5,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D56-Range-Fouler-Debrief-Arabian-Sea-August-2020_djvu.txt": {
+   "chars": 3642,
+   "inline_redactions": 1,
+   "per_1k_chars": 0.27,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D58-Range-Fouler-Debrief-NA-October-2020_djvu.txt": {
+   "chars": 3461,
+   "inline_redactions": 2,
+   "per_1k_chars": 0.58,
+   "eo_subsections": {},
+   "deciles_touched": 2,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D60-Mission-Report-Persian-Gulf-August-2020_djvu.txt": {
+   "chars": 6817,
+   "inline_redactions": 1,
+   "per_1k_chars": 0.15,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt": {
+   "chars": 8357,
+   "inline_redactions": 5,
+   "per_1k_chars": 0.6,
+   "eo_subsections": {},
+   "deciles_touched": 2,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt": {
+   "chars": 10571,
+   "inline_redactions": 1,
+   "per_1k_chars": 0.09,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D63-Mission-Report-Strait-of-Hormuz-October-2020_djvu.txt": {
+   "chars": 8911,
+   "inline_redactions": 3,
+   "per_1k_chars": 0.34,
+   "eo_subsections": {
+    "e": 1,
+    "g": 1
+   },
+   "deciles_touched": 2,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D65-Mission-Report-Persian-Gulf-July-2020_djvu.txt": {
+   "chars": 8297,
+   "inline_redactions": 4,
+   "per_1k_chars": 0.48,
+   "eo_subsections": {
+    "a": 1
+   },
+   "deciles_touched": 3,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt": {
+   "chars": 13503,
+   "inline_redactions": 34,
+   "per_1k_chars": 2.52,
+   "eo_subsections": {},
+   "deciles_touched": 9,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt": {
+   "chars": 10750,
+   "inline_redactions": 26,
+   "per_1k_chars": 2.42,
+   "eo_subsections": {},
+   "deciles_touched": 7,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_02__DOE-UAP-D002_JamesTuck_Correspondence_djvu.txt": {
+   "chars": 1224,
+   "inline_redactions": 1,
+   "per_1k_chars": 0.82,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_03__FBI-UAP-D013_WA-UFO-Investigation_1952-1960_djvu.txt": {
+   "chars": 44584,
+   "inline_redactions": 1,
+   "per_1k_chars": 0.02,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_03__USG-UAP-D001_Congress-WhiteHouse-UFO-Correspondence_1998_djvu.txt": {
+   "chars": 159307,
+   "inline_redactions": 15,
+   "per_1k_chars": 0.09,
+   "eo_subsections": {},
+   "deciles_touched": 5,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_05__DOW-UAP-D101_IIR_Unresolved-UAP-Report-Gulf-of-Oman_2021_djvu.txt": {
+   "chars": 14627,
+   "inline_redactions": 3,
+   "per_1k_chars": 0.21,
+   "eo_subsections": {},
+   "deciles_touched": 3,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt": {
+   "chars": 7542,
+   "inline_redactions": 7,
+   "per_1k_chars": 0.93,
+   "eo_subsections": {},
+   "deciles_touched": 5,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt": {
+   "chars": 10937,
+   "inline_redactions": 102,
+   "per_1k_chars": 9.33,
+   "eo_subsections": {},
+   "deciles_touched": 9,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt": {
+   "chars": 10622,
+   "inline_redactions": 98,
+   "per_1k_chars": 9.23,
+   "eo_subsections": {},
+   "deciles_touched": 7,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt": {
+   "chars": 7789,
+   "inline_redactions": 79,
+   "per_1k_chars": 10.14,
+   "eo_subsections": {},
+   "deciles_touched": 9,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_06__DOW-UAP-D111_AAWSAP-Solicitation-and-Original-Order-September-22-2008_djvu.txt": {
+   "chars": 262176,
+   "inline_redactions": 17,
+   "per_1k_chars": 0.06,
+   "eo_subsections": {},
+   "deciles_touched": 5,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_06__DOW-UAP-D112_AAWSAP-Contract-Modification-P00001-September-2-2009_djvu.txt": {
+   "chars": 6870,
+   "inline_redactions": 1,
+   "per_1k_chars": 0.15,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_06__DOW-UAP-D114_AAWSAP-Contract-Modification-P00003-May-18- 2010_djvu.txt": {
+   "chars": 5601,
+   "inline_redactions": 10,
+   "per_1k_chars": 1.79,
+   "eo_subsections": {},
+   "deciles_touched": 4,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_06__DOW-UAP-D116_AAWSAP-Contract-Modification-P00005-September-28-2010_djvu.txt": {
+   "chars": 7902,
+   "inline_redactions": 5,
+   "per_1k_chars": 0.63,
+   "eo_subsections": {},
+   "deciles_touched": 2,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_06__LLE-UAP-D001_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023_djvu.txt": {
+   "chars": 1191,
+   "inline_redactions": 0,
+   "per_1k_chars": 0.0,
+   "eo_subsections": {},
+   "deciles_touched": 0,
+   "literal_markers": 1,
+   "pattern": "none"
+  },
+  "Release_06__LLE-UAP-D002_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023_djvu.txt": {
+   "chars": 3228,
+   "inline_redactions": 0,
+   "per_1k_chars": 0.0,
+   "eo_subsections": {},
+   "deciles_touched": 0,
+   "literal_markers": 1,
+   "pattern": "none"
+  },
+  "Release_06__LLE-UAP-D003_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023_djvu.txt": {
+   "chars": 1207,
+   "inline_redactions": 0,
+   "per_1k_chars": 0.0,
+   "eo_subsections": {},
+   "deciles_touched": 0,
+   "literal_markers": 1,
+   "pattern": "none"
+  },
+  "Release_06__LLE-UAP-D004_Transcript-of-an-Unresolved-UAP-Report-Colorado-January-2024_djvu.txt": {
+   "chars": 1729,
+   "inline_redactions": 2,
+   "per_1k_chars": 1.16,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 1,
+   "pattern": "CLUSTERED"
+  },
+  "Release_07__DOW-UAP-D168-BAASS_Project_Management_Plan-December_2008_djvu.txt": {
+   "chars": 71070,
+   "inline_redactions": 3,
+   "per_1k_chars": 0.04,
+   "eo_subsections": {},
+   "deciles_touched": 1,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  },
+  "Release_08__DOW-UAP-D172-BAASS_Ten_Month_Report_July-2009.txt": {
+   "chars": 1082250,
+   "inline_redactions": 0,
+   "per_1k_chars": 0.0,
+   "eo_subsections": {},
+   "deciles_touched": 0,
+   "literal_markers": 2,
+   "pattern": "none"
+  },
+  "Release_08__DOW-UAP-D208-Unresolved_UAP_Report_California-1965.txt": {
+   "chars": 22137,
+   "inline_redactions": 12,
+   "per_1k_chars": 0.54,
+   "eo_subsections": {},
+   "deciles_touched": 5,
+   "literal_markers": 0,
+   "pattern": "DISTRIBUTED"
+  },
+  "Release_08__DOW-UAP-D212-Unresolved_UAP_Report_California-1966.txt": {
+   "chars": 141779,
+   "inline_redactions": 5,
+   "per_1k_chars": 0.04,
+   "eo_subsections": {},
+   "deciles_touched": 3,
+   "literal_markers": 0,
+   "pattern": "CLUSTERED"
+  }
+ },
+ "exemptions": {
+  "(b)(6)": 431,
+  "(b)(7)": 11,
+  "(b)(3)": 80,
+  "(b)(1)": 454,
+  "(b)(5)": 2,
+  "(b)(2)": 3,
+  "(b)(4)": 1
+ },
+ "eo_subsections": {
+  "a": 224,
+  "g": 19,
+  "c": 1,
+  "e": 1
+ },
+ "total_inline": 982,
+ "literal_markers_corpus": 6,
+ "docs_scanned": 326
+}

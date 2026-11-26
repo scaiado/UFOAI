@@ -1,0 +1,78 @@
+{
+ "banner_C": {
+  "docs": 39,
+  "hits": 196
+ },
+ "decl_date": {
+  "docs": 68,
+  "hits": 486
+ },
+ "portion_U": {
+  "docs": 35,
+  "hits": 94
+ },
+ "banner_S": {
+  "docs": 53,
+  "hits": 360
+ },
+ "banner_TS": {
+  "docs": 24,
+  "hits": 76
+ },
+ "portion_S": {
+  "docs": 30,
+  "hits": 197
+ },
+ "portion_C": {
+  "docs": 21,
+  "hits": 50
+ },
+ "foia_b6": {
+  "docs": 43,
+  "hits": 409
+ },
+ "cav_SCI": {
+  "docs": 10,
+  "hits": 27
+ },
+ "foia_b7": {
+  "docs": 3,
+  "hits": 10
+ },
+ "foia_b3": {
+  "docs": 21,
+  "hits": 79
+ },
+ "cav_FOUO": {
+  "docs": 20,
+  "hits": 101
+ },
+ "foia_b1": {
+  "docs": 11,
+  "hits": 454
+ },
+ "cav_NOFORN": {
+  "docs": 13,
+  "hits": 238
+ },
+ "portion_TS": {
+  "docs": 1,
+  "hits": 25
+ },
+ "cav_ORCON": {
+  "docs": 1,
+  "hits": 1
+ },
+ "foia_b5": {
+  "docs": 2,
+  "hits": 2
+ },
+ "cav_BYEMAN": {
+  "docs": 1,
+  "hits": 3
+ },
+ "redact_mark": {
+  "docs": 5,
+  "hits": 6
+ }
+}
