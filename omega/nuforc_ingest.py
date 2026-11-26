@@ -133,6 +133,14 @@ def load_gazetteer():
             if any(pre and stem.startswith(pre) for pre, _ in TIERS) \
             else "wikidata_anyentity"
         st = stem.split("_")[-1]
+        # gazetteer_nominatim.py files empty-state pairs (foreign cities such as
+        # London and Sydney, which NUFORC leaves stateless) under the sentinel
+        # "XX", because a filename cannot end in "_". The lookup key built below
+        # uses the raw state field, which is "" for those rows, so without this
+        # mapping every stateless pair would be geocoded and then never matched
+        # back -- silently discarding that part of the Nominatim run.
+        if st == "XX":
+            st = ""
         try:
             rows = json.load(open(os.path.join(GAZ, fn), encoding="utf-8"))
         except Exception:
@@ -209,21 +217,35 @@ def main():
                 "etype": (row.get("shape") or "").strip(),
                 "duration": (row.get("duration") or "").strip(),
                 "summary": True,          # NUFORC `summary` is a summary line
+                "_city": city, "_state": st,
                 "kv": {"Country": country, "Duration": (row.get("duration") or "").strip(),
                        "Shape": (row.get("shape") or "").strip(),
                        "Posted": (row.get("posted") or "").strip(),
                        "GeocodeSource": tier},
             })
 
-    json.dump({"nuforc": recs}, open(f"{OUT}/nuforc.json", "w"), ensure_ascii=False)
+    json.dump({"nuforc": [{k: v for k, v in r.items() if not k.startswith("_")}
+                          for r in recs]},
+              open(f"{OUT}/nuforc.json", "w"), ensure_ascii=False)
     json.dump({k: v for k, v in pairs.most_common()},
               open(f"{OUT}/city_state_pairs.json", "w"), ensure_ascii=False, indent=0)
     # Pairs that resolved in NO tier, by record count -- the Nominatim worklist.
+    #
+    # BUILT FROM THE PARSED FIELDS, NOT FROM THE DISPLAY STRING.  The first
+    # version did `r["location"].rpartition(", ")`, and for a stateless location
+    # rpartition returns ("", "", "London") -- so the city landed in BOTH fields
+    # and 4,478 of 11,430 pairs (8,847 records) came out as 'London|London',
+    # 'Sydney|Sydney', 'Melbourne|Melbourne'.  Nominatim was then queried with
+    # state="London", and even its successes could not be matched back because
+    # the lookup key carries an empty state.  NUFORC leaves `state_provinces`
+    # blank for non-US/CA sightings, so this hit essentially every foreign city.
+    #
+    # Country is carried too: with no state, it is the only disambiguator
+    # Nominatim can use.
     ung_pairs = collections.Counter()
     for r in recs:
         if r["lat"] is None:
-            city, _, st = r["location"].rpartition(", ")
-            ung_pairs[f"{city or r['location']}|{st}"] += 1
+            ung_pairs[f"{r['_city']}|{r['_state']}|{r['kv']['Country']}"] += 1
     json.dump({k: v for k, v in ung_pairs.most_common()},
               open(f"{OUT}/ungeocoded_pairs.json", "w"), ensure_ascii=False, indent=0)
 
