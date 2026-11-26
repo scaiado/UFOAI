@@ -8,8 +8,12 @@ Results: `data/processed/geipan_pv/cd_witness_result.json`.
 
 §1.4 / failure mode #7: the C-vs-D test on `Détails` is unidentifiable. That
 field is GEIPAN analyst prose written after classification, the leak changes
-form at every decontamination tier, and the gradient never plateaus — so the
-L5 residual of **+0.1795 is reported as an upper bound, not as content.**
+form at every decontamination tier, so the L5 residual is reported as an upper
+bound, not as content. **Seed-averaged in session 4 to +0.1972 ± 0.0271**
+(was +0.1795, a single draw at the 38th percentile of its own sampling
+distribution). The "gradient never plateaus" clause is withdrawn: tier steps are
+an order of magnitude below within-tier seed noise. See
+`omega/reports/geipan_tier_seed_stability.md`.
 
 The intended fix was text written before or independent of the verdict:
 gendarmerie procès-verbaux from the dossiers.
@@ -145,12 +149,25 @@ noise at a fixed tier spans 0.136 (PV W3); the main run's tier-to-tier spread is
 
 ## Debt this creates for §1.4
 
-§1.4's **L4 tier (0.7176, +0.2176) was a single length-matched draw with one
-seed**, and the L5 residual of +0.1795 — the project's stated upper bound on
-content — rests on the same single-draw matching. If matched tiers vary by ±0.1
-across seeds, those point estimates carry uncertainty the handoff does not
-record. **Length-matched tiers need seed-averaging; the existing ones were not
-averaged.** This should be re-run before §1.4's numbers are quoted further.
+**PAID, session 4** — `omega/geipan_tier_seed_stability.py`,
+`omega/reports/geipan_tier_seed_stability.md`.
+
+§1.4's L4 (+0.2176) and L5 (+0.1795) were single length-matched draws with one
+seed. This section's ±0.1 spread was the right diagnosis, and a second seed
+dependency it did not name turned out to be larger: `balanced_cv_acc(seed=11)`
+downsamples the 1,020-case C arm to 106, so **all six tiers** rested on a
+single draw, not just the two matched ones.
+
+24 joint seeds per tier (both seeds varied):
+
+| tier | was | now |
+|---|---|---|
+| L4 | +0.2176 | **+0.2135 ± 0.0276** (42nd pctile — representative) |
+| L5 | +0.1795 | **+0.1972 ± 0.0271** (38th pctile — a low draw) |
+
+The residual **rose**. Leakage fraction fell from "51%" to 42% ± 9%. And the
+ladder's adjacent tiers proved indistinguishable — within-tier range 0.094–0.113
+against tier steps of 0.016–0.020.
 
 ## Disposition
 
@@ -163,7 +180,7 @@ averaged.** This should be re-run before §1.4's numbers are quoted further.
   §1.4's core claim — that the analyst-prose signal is about the analyst — while
   leaving open whether a smaller witness-level effect exists.
 - **`pv` is not a demonstrated null.** W3 is robustly null (0/24) but W6 is not
-  (42%). 28 D cases cannot resolve an effect of the +0.1795 size that matters.
+  (42%). 28 D cases cannot resolve an effect of the +0.197 size that matters.
 - **The ceiling is disclosure, not method.** 28 of 106 D cases carry a PV, and
   §1.10 showed the 56 undisclosed D dossiers are the re-examined ones. The CADA
   request is the way to raise the power — `omega/reports/cada_request_draft.md`,

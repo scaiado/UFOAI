@@ -84,14 +84,20 @@ target (France's FOIA analogue), naming case IDs.
 
 The C-vs-D narrative test needed five decontamination tiers to interpret:
 
-| Tier | removed | bal.acc | effect | MDD |
+**SEED-AVERAGED IN SESSION 4 — use these, not the single draws.**
+(`omega/reports/geipan_tier_seed_stability.md`)
+
+| Tier | removed | **seed-averaged effect** | range | old single draw |
 |---|---|---|---|---|
-| L0 | nothing | 0.8494 | +0.3494 | 0.107 |
-| L1 | sentences naming GEIPAN/class | 0.8019 | +0.3019 | 0.107 |
-| L2 | + verdict lexicon | 0.8113 | +0.3113 | 0.107 |
-| L3 | + analyst-reasoning sentences | 0.7643 | +0.2643 | 0.108 |
-| L4 | + conjugated forms, length-matched | 0.7176 | +0.2176 | 0.107 |
-| L5 | + all numerals and quantity words | **0.6795** | **+0.1795** | 0.106 |
+| L0 | nothing | **+0.3387 ± 0.0229** | 0.094 | +0.3494 |
+| L1 | sentences naming GEIPAN/class | **+0.2771 ± 0.0300** | 0.109 | +0.3019 |
+| L2 | + verdict lexicon | **+0.2628 ± 0.0318** | 0.109 | +0.3113 |
+| L3 | + analyst-reasoning sentences | **+0.2333 ± 0.0308** | 0.113 | +0.2643 |
+| L4 | + conjugated forms, length-matched | **+0.2135 ± 0.0276** | 0.109 | +0.2176 |
+| L5 | + all numerals and quantity words | **+0.1972 ± 0.0271** | 0.104 | +0.1795 |
+
+24 joint seeds per tier. **24/24 significant at every tier.** Adjacent tiers are
+NOT distinguishable: within-tier range 0.094–0.113 vs tier steps of 0.016–0.020.
 
 **The leak changes form at every tier**: verdict sentence (« Le GEIPAN classe ce
 cas en D : Phénomène étrange à très étrange ») → verdict lexicon → conjugated
@@ -99,8 +105,11 @@ verb (`manquons` 163/1017 C vs **0/106** D) → cause noun → measurement densi
 (`mètres`, `secondes`, `environ` — which *is* the operational meaning of
 "adequate information") → narrative length (0.6321 alone).
 
-**51% of the effect is identifiable leakage. The residual +0.1795 is reported as
-an UPPER BOUND, not as content, because the gradient has not plateaued.**
+**42% ± 9% of the effect is identifiable leakage. The residual +0.1972 ± 0.0271
+is reported as an UPPER BOUND, not as content** — not because the gradient has
+not plateaued (that argument is WITHDRAWN; tier steps sit below seed noise) but
+because the C/D criterion *is* informational adequacy, so no stripping rule can
+remove from the text a property defined on the text.
 
 **A+B-vs-D is withdrawn as circular by construction**: top discriminators are
 the *names of the explanations* — `lanternes` 254/2271 vs **0/106**, `bolide`

@@ -5,7 +5,7 @@ That field is GEIPAN analyst prose written AFTER classification, and the leak
 changes form at every decontamination tier -- verdict sentence, verdict
 lexicon, conjugated verb (`manquons` 163/1017 C vs 0/106 D), cause noun,
 measurement density, narrative length -- without the gradient plateauing.  The
-residual +0.1795 at L5 is reported as an upper bound, not as content.
+residual +0.1972 (seed-averaged; was +0.1795 as a single draw) at L5 is reported as an upper bound, not as content.
 
 This script runs the same comparison on gendarmerie procès-verbaux and enquête
 reports harvested from the dossiers.  Those are written by police, before and
@@ -47,7 +47,8 @@ THIRD PREMISE RISK -- AND IT INVALIDATED THE ORIGINAL DOCUMENT SELECTION
   without are the re-examined ones) -> 46 with usable witness text -> 28 WITH A
   GENDARMERIE PV.  Against 51 C.  Balanced arm 28, approximate MDD 0.235, where
   section 1.4 achieved 0.107.  THE DETECTION FLOOR IS THEREFORE ABOVE SECTION
-  1.4's FULLY-DECONTAMINATED RESIDUAL OF +0.1795: even if witness text carried
+  1.4's FULLY-DECONTAMINATED RESIDUAL OF +0.1972 +- 0.0271 (seed-averaged):
+  even if witness text carried
   that same signal, this test could not see it.
 
   Rather than report one underpowered null, the script now runs the SAME tiers
@@ -325,7 +326,7 @@ def main():
                 print("  => NOT DISTINGUISHABLE FROM NULL.")
                 print("     This is UNDERPOWERED, NOT a demonstrated null: the MDD")
                 print(f"     ({w6['mdd']:.3f}) sits ABOVE section 1.4's fully-decontaminated")
-                print("     residual of +0.1795, so the effect size of interest is")
+                print("     residual of +0.1972 +- 0.0271 (seed-averaged), so the effect of interest is")
                 print("     below this test's detection floor by construction.")
                 print("     Cause is measured, not speculative: only 28 of 106 D cases")
                 print("     have a published gendarmerie PV, and section 1.10 shows the")

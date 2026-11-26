@@ -246,17 +246,26 @@ lives.
 It took five decontamination tiers to find out what that test measures, and the
 answer is a new failure mode.
 
-| Tier | what is removed | bal. acc | effect | MDD | z |
-|---|---|---|---|---|---|
-| L0 | nothing (raw) | 0.8494 | +0.3494 | 0.107 | +8.32 |
-| L1 | sentences naming GEIPAN or a class | 0.8019 | +0.3019 | 0.107 | +7.24 |
-| L2 | + verdict lexicon | 0.8113 | +0.3113 | 0.107 | +7.44 |
-| L3 | + all analyst-reasoning sentences | 0.7643 | +0.2643 | 0.108 | +6.26 |
-| L4 | + conjugated leak forms, **length-matched** | 0.7176 | +0.2176 | 0.107 | +5.26 |
-| L5 | + every numeral and quantity word | **0.6795** | **+0.1795** | 0.106 | +4.39 |
+> **SEED-AVERAGED, session 4.** The single-draw figures first published here
+> are superseded. Each tier below is the mean of 24 seeds; see
+> `omega/reports/geipan_tier_seed_stability.md`. **Adjacent tiers are not
+> distinguishable** — within-tier range across seeds is 0.094–0.113 while the
+> whole L0→L5 decay is 0.142, so no single tier step carries information.
 
-Balanced design, 106 per arm, 5-fold CV, 600 label-permutation nulls, MDD at
-α = 0.05 one-sided and 80% power.
+| Tier | what is removed | **seed-averaged effect** | range | superseded single draw |
+|---|---|---|---|---|
+| L0 | nothing (raw) | **+0.3387 ± 0.0229** | 0.094 | +0.3494 |
+| L1 | sentences naming GEIPAN or a class | **+0.2771 ± 0.0300** | 0.109 | +0.3019 |
+| L2 | + verdict lexicon | **+0.2628 ± 0.0318** | 0.109 | +0.3113 |
+| L3 | + all analyst-reasoning sentences | **+0.2333 ± 0.0308** | 0.113 | +0.2643 |
+| L4 | + conjugated leak forms, **length-matched** | **+0.2135 ± 0.0276** | 0.109 | +0.2176 |
+| L5 | + every numeral and quantity word | **+0.1972 ± 0.0271** | 0.104 | +0.1795 |
+
+Balanced design, 106 per arm, 5-fold CV. 24 seeds per tier, 200
+label-permutation nulls per draw. **24/24 seeds reach p<0.05 at every tier** —
+the separation's existence never depended on a seed; only its magnitude was
+overprecise. The L1 > L2 inversion in the original table was noise: seed-averaged
+the ladder is monotone.
 
 **Each tier found more leakage, and the leak changed form each time:**
 
@@ -289,13 +298,19 @@ Balanced design, 106 per arm, 5-fold CV, 600 label-permutation nulls, MDD at
 
 ### Verdict
 
-**51% of the raw effect is identifiable leakage (+0.3494 → +0.1795). A residual
-of +0.1795 survives everything I could strip, at 1.7× the detectable
-threshold.**
+**42% ± 9% of the raw effect is identifiable leakage (+0.3387 → +0.1972). A
+residual of +0.1972 ± 0.0271 survives everything I could strip.** Both figures
+are seed-averaged over 24 draws; the originally published 51% and +0.1795 came
+from single draws, and the +0.1795 sat at the 38th percentile of its own
+sampling distribution.
 
-I am not reporting that residual as event content, for one reason: **the
-gradient has not plateaued.** Every tier I have added has found more leakage and
-reduced the effect again. The correct reading is an **upper bound** — the true
+I am not reporting that residual as event content — but **the "gradient has not
+plateaued" argument is withdrawn.** Tier-to-tier steps (L3→L4 = 0.020,
+L4→L5 = 0.016) are an order of magnitude below within-tier seed noise (0.094–
+0.113), so the apparent continuing decay was not measurable. The reason the
+residual is not content is different and stronger: the criterion separating C
+from D *is* informational adequacy, so no stripping rule can remove from the
+text a property defined on the text. The correct reading is an **upper bound** — the true
 content difference between GEIPAN's data-poor and anomalous arms is *at most*
 +0.18 on balanced accuracy, and plausibly less, with the test confounded in a
 way that cannot be fully removed from analyst prose.

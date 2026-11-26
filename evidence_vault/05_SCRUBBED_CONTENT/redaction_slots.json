@@ -1,0 +1,8265 @@
+{
+ "n_texts": 326,
+ "n_forms": 41,
+ "n_parsed": 33,
+ "n_canonical_labels": 167,
+ "totals": {
+  "WITHHELD": 582,
+  "RELEASED": 1647,
+  "UNREADABLE": 226,
+  "EMPTY": 1367,
+  "PORTION_MARK": 1
+ },
+ "slots": {
+  "CLASSIFICATION": {
+   "withheld": 1,
+   "released": 41,
+   "unreadable": 11,
+   "codes": {
+    "(b)(1)1.4a": 2
+   }
+  },
+  "TIME": {
+   "withheld": 29,
+   "released": 288,
+   "unreadable": 1,
+   "codes": {
+    "(b)(6)": 15,
+    "(b)(1)": 40,
+    "(b)(1)1.4a": 15,
+    "1.4a": 5,
+    "UNSPECIFIED": 4
+   }
+  },
+  "OPERATION": {
+   "withheld": 42,
+   "released": 119,
+   "unreadable": 24,
+   "codes": {
+    "1.4a": 21,
+    "(b)(6)": 6,
+    "(b)(1)1.4a": 18,
+    "UNSPECIFIED": 2,
+    "(b)(1)1.4g": 2,
+    "1.4g": 1
+   }
+  },
+  "UNCLASSIFIED_SLOT": {
+   "withheld": 69,
+   "released": 368,
+   "unreadable": 88,
+   "codes": {
+    "(b)(1)1.4a": 20,
+    "(b)(1)": 61,
+    "(b)(6)": 16,
+    "UNSPECIFIED": 18,
+    "1.4c": 3,
+    "1.4a": 19,
+    "1.4g": 9
+   }
+  },
+  "UNIT_ORG": {
+   "withheld": 48,
+   "released": 370,
+   "unreadable": 4,
+   "codes": {
+    "(b)(6)": 45,
+    "UNSPECIFIED": 7,
+    "(b)(1)1.4a": 9,
+    "(b)(3)": 6,
+    "(b)(1)": 22,
+    "1.4a": 5,
+    "(b)(6)1.4a": 1,
+    "1.4g": 2
+   }
+  },
+  "GEO": {
+   "withheld": 40,
+   "released": 105,
+   "unreadable": 6,
+   "codes": {
+    "1.4a": 30,
+    "1.4g": 2,
+    "(b)(1)1.4a": 20,
+    "UNSPECIFIED": 1
+   }
+  },
+  "PERSONNEL": {
+   "withheld": 131,
+   "released": 78,
+   "unreadable": 28,
+   "codes": {
+    "(b)(6)": 133,
+    "(b)(3)": 41,
+    "(b)(6)1.4a": 1,
+    "UNSPECIFIED": 16,
+    "(b)(1)": 2,
+    "(b)(1)1.4a": 2,
+    "1.4a": 4,
+    "1.4g": 2
+   }
+  },
+  "WEAPON_SENSOR": {
+   "withheld": 32,
+   "released": 77,
+   "unreadable": 25,
+   "codes": {
+    "1.4a": 8,
+    "1.4g": 6,
+    "UNSPECIFIED": 3,
+    "(b)(1)1.4a": 11,
+    "(b)(6)": 21,
+    "(b)(1)": 2,
+    "(b)(1)1.4g": 8
+   }
+  },
+  "NARRATIVE": {
+   "withheld": 79,
+   "released": 115,
+   "unreadable": 3,
+   "codes": {
+    "1.4a": 73,
+    "(b)(6)": 37,
+    "(b)(1)1.4a": 28,
+    "UNSPECIFIED": 6,
+    "1.4g": 5,
+    "(b)(1)": 67
+   }
+  },
+  "CALLSIGN": {
+   "withheld": 98,
+   "released": 10,
+   "unreadable": 4,
+   "codes": {
+    "1.4a": 75,
+    "(b)(1)1.4a": 18,
+    "1.4g": 8,
+    "(b)(1)1.4g": 8,
+    "1.4c": 1,
+    "1.4e": 1,
+    "(b)(6)": 4,
+    "(b)(1)": 5
+   }
+  },
+  "COUNT_QTY": {
+   "withheld": 13,
+   "released": 76,
+   "unreadable": 32,
+   "codes": {
+    "(b)(1)1.4a": 16,
+    "(b)(6)": 4
+   }
+  }
+ },
+ "calibration": {
+  "agree": 443,
+  "disagree": 132,
+  "unscored": 106,
+  "container_skipped": 362,
+  "disagreements": {
+   "(b)(6)|TIME": 15,
+   "(b)(3)|UNIT_ORG": 6,
+   "(b)(6)|UNIT_ORG": 45,
+   "(b)(6)|WEAPON_SENSOR": 21,
+   "(b)(6)|OPERATION": 6,
+   "1.4g|CALLSIGN": 8,
+   "1.4c|CALLSIGN": 1,
+   "(b)(6)|COUNT_QTY": 4,
+   "(b)(1)1.4g|CALLSIGN": 8,
+   "(b)(1)1.4a|PERSONNEL": 2,
+   "(b)(1)1.4g|OPERATION": 2,
+   "(b)(1)1.4a|CLASSIFICATION": 2,
+   "1.4a|PERSONNEL": 4,
+   "1.4e|CALLSIGN": 1,
+   "1.4g|PERSONNEL": 2,
+   "(b)(6)|CALLSIGN": 4,
+   "1.4g|OPERATION": 1
+  }
+ },
+ "fields": {
+  "Classification": {
+   "withheld": 0,
+   "released": 15,
+   "unreadable": 0,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "CLASSIFICATION",
+   "n_docs": 20,
+   "codes": {},
+   "released_vals": [
+    "8i36RE>f",
+    "SECRET"
+   ]
+  },
+  "Associated Caveats": {
+   "withheld": 0,
+   "released": 16,
+   "unreadable": 0,
+   "empty": 7,
+   "portion_marks": 0,
+   "slot": "CLASSIFICATION",
+   "n_docs": 23,
+   "codes": {},
+   "released_vals": [
+    "!if8f'8It1il:",
+    "Mffl~",
+    "NOFORN",
+    "REL TO USA, FVEY",
+    "Wf'8RJ!l",
+    "l JOFORJ f"
+   ]
+  },
+  "Classification Source (MS or Classification Guide ID)": {
+   "withheld": 1,
+   "released": 10,
+   "unreadable": 11,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "CLASSIFICATION",
+   "n_docs": 22,
+   "codes": {
+    "(b)(1)1.4a": 2
+   },
+   "released_vals": [
+    "MUI.: lPLE SOURCES",
+    "MULTIPLE SOURCES"
+   ]
+  },
+  "Declassification Date (YYYYMMDD)": {
+   "withheld": 3,
+   "released": 21,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 3,
+    "(b)(1)": 20
+   },
+   "released_vals": [
+    "2045030 I OPERATION",
+    "20450301 OPERATION",
+    "20470504 OPERATION",
+    "20470506 OPERATION",
+    "20470521 OPERATION",
+    "20470529 OPERATION",
+    "20470731 OPERATION",
+    "20471202 OPERATION",
+    "20480120 OPERATION",
+    "20480401 OPERATION",
+    "20480603 OPERATION",
+    "20481025 OPERATION"
+   ]
+  },
+  "Operation": {
+   "withheld": 6,
+   "released": 14,
+   "unreadable": 1,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 21,
+   "codes": {
+    "1.4a": 2,
+    "(b)(6)": 1,
+    "(b)(1)1.4a": 2,
+    "UNSPECIFIED": 1
+   },
+   "released_vals": [
+    "ENDURING SENTINEL",
+    "INHERENT RESOLVE",
+    "OP SPARTAN SHIELD"
+   ]
+  },
+  "Domain": {
+   "withheld": 2,
+   "released": 22,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 24,
+   "codes": {
+    "(b)(1)1.4a": 1,
+    "(b)(1)": 15,
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "AIR"
+   ]
+  },
+  "Operations Center": {
+   "withheld": 19,
+   "released": 99,
+   "unreadable": 1,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNIT_ORG",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 23,
+    "UNSPECIFIED": 4,
+    "(b)(1)1.4a": 3,
+    "(b)(3)": 4,
+    "(b)(1)": 2
+   },
+   "released_vals": [
+    "603 AOC INGEST",
+    "603 AOC QC",
+    "603rd",
+    "609 AOC Det 1 QC",
+    "609 AOC Det l QC",
+    "609 CAOC APPROVER",
+    "609 CAOC INGEST",
+    "609 CAOC QC",
+    "609th",
+    "ACEQUIP ACEQUIP",
+    "ACEQUIP ACEQUJP",
+    "ACEQUIP ACEQVJP"
+   ]
+  },
+  "Major Command (MAJCOM)": {
+   "withheld": 1,
+   "released": 20,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNIT_ORG",
+   "n_docs": 21,
+   "codes": {
+    "1.4a": 1
+   },
+   "released_vals": [
+    "ACC",
+    "AFCENT",
+    "AFSOC"
+   ]
+  },
+  "Combatant Command (COCOM)": {
+   "withheld": 5,
+   "released": 18,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNIT_ORG",
+   "n_docs": 23,
+   "codes": {
+    "(b)(6)": 2,
+    "(b)(1)1.4a": 1,
+    "UNSPECIFIED": 2,
+    "(b)(1)": 18
+   },
+   "released_vals": [
+    "USCENTCOM MSG!D",
+    "USCENTCOM MSGID",
+    "USCENTCOM MSGJD",
+    "USEUCOM MSGID"
+   ]
+  },
+  "Report Type": {
+   "withheld": 0,
+   "released": 23,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 23,
+   "codes": {},
+   "released_vals": [
+    "MISREP"
+   ]
+  },
+  "Originator (Unit or Squadron)": {
+   "withheld": 3,
+   "released": 21,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNIT_ORG",
+   "n_docs": 24,
+   "codes": {
+    "1.4a": 2,
+    "(b)(1)1.4a": 1
+   },
+   "released_vals": [
+    "11 ATKS",
+    "12 SOS",
+    "124 ATKS",
+    "196 ATKS",
+    "20 ATKS",
+    "3 SOS",
+    "33 SOS",
+    "389 EFS",
+    "482ATKS",
+    "50ATKS",
+    "65 SOS",
+    "77 EFS"
+   ]
+  },
+  "Submit Date": {
+   "withheld": 3,
+   "released": 15,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 18,
+   "codes": {
+    "(b)(6)": 3
+   },
+   "released_vals": [
+    "MSNID",
+    "MSNJD"
+   ]
+  },
+  "Tasking Order (ATO)": {
+   "withheld": 3,
+   "released": 3,
+   "unreadable": 14,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 20,
+   "codes": {
+    "(b)(1)1.4a": 1,
+    "1.4a": 2
+   },
+   "released_vals": [
+    "24-024",
+    "E149",
+    "FOUND IN ATO"
+   ]
+  },
+  "Mission Type": {
+   "withheld": 5,
+   "released": 39,
+   "unreadable": 0,
+   "empty": 6,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 1,
+    "(b)(1)1.4a": 2,
+    "1.4a": 2
+   },
+   "released_vals": [
+    "AREC",
+    "ARMED OVERWATCH",
+    "ARMED RECCE",
+    "DCA",
+    "ISR",
+    "JSR",
+    "RECONNAISSANCE",
+    "REC\\XCAS",
+    "XCAS",
+    "XREC"
+   ]
+  },
+  "Country Tasked": {
+   "withheld": 0,
+   "released": 24,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 24,
+   "codes": {},
+   "released_vals": [
+    "US - UNITED STATES",
+    "US - UNJTED STATES",
+    "US - United States",
+    "US UNITED STATES"
+   ]
+  },
+  "Service Tasked": {
+   "withheld": 1,
+   "released": 21,
+   "unreadable": 1,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNIT_ORG",
+   "n_docs": 23,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "A - AIR FORCE Poc POC",
+    "A - AIR FORCE Poe POC",
+    "A -AIR FORCE Poe POC",
+    "AIR FORCE Poc POC"
+   ]
+  },
+  "Rank": {
+   "withheld": 4,
+   "released": 62,
+   "unreadable": 1,
+   "empty": 28,
+   "portion_marks": 0,
+   "slot": "PERSONNEL",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 5,
+    "(b)(3)": 1
+   },
+   "released_vals": [
+    "1LT",
+    "1st Lt",
+    "2dLt",
+    "A1C",
+    "AIC",
+    "AlC",
+    "Arnn",
+    "CAPT",
+    "Ctr",
+    "Ist Lt",
+    "SSgt",
+    "SrA"
+   ]
+  },
+  "Full Name": {
+   "withheld": 33,
+   "released": 0,
+   "unreadable": 2,
+   "empty": 47,
+   "portion_marks": 0,
+   "slot": "PERSONNEL",
+   "n_docs": 24,
+   "codes": {
+    "(b)(3)": 23,
+    "(b)(6)1.4a": 1,
+    "(b)(6)": 29,
+    "UNSPECIFIED": 4
+   },
+   "released_vals": []
+  },
+  "Unit": {
+   "withheld": 5,
+   "released": 54,
+   "unreadable": 1,
+   "empty": 36,
+   "portion_marks": 0,
+   "slot": "UNIT_ORG",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 10,
+    "UNSPECIFIED": 1,
+    "1.4a": 1,
+    "(b)(1)": 2
+   },
+   "released_vals": [
+    "12 AF PAROC",
+    "124 ATKS",
+    "12AF, Det 3, PAROC",
+    "15AF, Det 1, PAROC",
+    "16 SOS",
+    "163 ATKW",
+    "389 EFS",
+    "482 ATKS",
+    "482ATKS",
+    "50 ATKS",
+    "50TH ATKS",
+    "56 SOIS"
+   ]
+  },
+  "Wing": {
+   "withheld": 7,
+   "released": 52,
+   "unreadable": 1,
+   "empty": 35,
+   "portion_marks": 0,
+   "slot": "UNIT_ORG",
+   "n_docs": 24,
+   "codes": {
+    "(b)(3)": 2,
+    "(b)(6)1.4a": 1,
+    "(b)(6)": 6
+   },
+   "released_vals": [
+    "1 SOW",
+    "132 Wing",
+    "163 AW",
+    "20FW",
+    "27 SOW",
+    "3 79 AEW",
+    "332 AEW",
+    "378 AEW",
+    "379 AEW",
+    "432 AEW",
+    "Other"
+   ]
+  },
+  "Phone Number": {
+   "withheld": 28,
+   "released": 0,
+   "unreadable": 9,
+   "empty": 40,
+   "portion_marks": 0,
+   "slot": "PERSONNEL",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 27,
+    "UNSPECIFIED": 6,
+    "(b)(3)": 1
+   },
+   "released_vals": []
+  },
+  "Email": {
+   "withheld": 52,
+   "released": 0,
+   "unreadable": 9,
+   "empty": 44,
+   "portion_marks": 0,
+   "slot": "PERSONNEL",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 66,
+    "UNSPECIFIED": 6,
+    "(b)(3)": 16,
+    "(b)(1)": 2
+   },
+   "released_vals": []
+  },
+  "Service": {
+   "withheld": 2,
+   "released": 70,
+   "unreadable": 0,
+   "empty": 24,
+   "portion_marks": 0,
+   "slot": "UNIT_ORG",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 2
+   },
+   "released_vals": [
+    "Air Force"
+   ]
+  },
+  "Radar Name or Destination": {
+   "withheld": 6,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 15,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {
+    "1.4a": 2,
+    "1.4g": 2,
+    "UNSPECIFIED": 1,
+    "(b)(1)1.4a": 3,
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "AN/APN-241"
+   ]
+  },
+  "Radar Software Load or Mission Data": {
+   "withheld": 0,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 19,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "8070 / MMC 7.3",
+    "AN/ALR-56M",
+    "SUITE 9.1"
+   ]
+  },
+  "Radar Warning Receiver (RWR) Name or Designator": {
+   "withheld": 0,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 19,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "ALR-56C",
+    "ALR-56M"
+   ]
+  },
+  "RWR Software Load or Mission Data": {
+   "withheld": 0,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 19,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "102 / SY0730",
+    "AAR-47",
+    "IRSWA PACER WARE"
+   ]
+  },
+  "MWS Name or Designator": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 23,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "AAR-47"
+   ]
+  },
+  "MWS Software Load or Mission Data": {
+   "withheld": 1,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 23,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": []
+  },
+  "IRCM Name or Designator": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 23,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "AN-AAQ-24"
+   ]
+  },
+  "IRCM Software Load or Mission Data": {
+   "withheld": 0,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 23,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 21,
+   "codes": {},
+   "released_vals": []
+  },
+  "ECM Name or Designator": {
+   "withheld": 1,
+   "released": 3,
+   "unreadable": 0,
+   "empty": 20,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "AAQ-24B",
+    "ALQ-184"
+   ]
+  },
+  "ECM Software Load or Mission Data": {
+   "withheld": 0,
+   "released": 3,
+   "unreadable": 0,
+   "empty": 21,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "ALE-47",
+    "C01856"
+   ]
+  },
+  "CMD Name or Designator": {
+   "withheld": 0,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 19,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "ALE-45",
+    "ALE-47",
+    "ALQ-213"
+   ]
+  },
+  "Chaff Designator": {
+   "withheld": 1,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 18,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {
+    "(b)(6)": 5
+   },
+   "released_vals": [
+    "RR-180",
+    "RR180"
+   ]
+  },
+  "Num Chaff or Cartridges": {
+   "withheld": 2,
+   "released": 3,
+   "unreadable": 2,
+   "empty": 17,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {
+    "(b)(6)": 2
+   },
+   "released_vals": [
+    "120",
+    "716"
+   ]
+  },
+  "Flare Designator": {
+   "withheld": 0,
+   "released": 3,
+   "unreadable": 2,
+   "empty": 19,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "MJU-51/53",
+    "MJU-53, MJU-66",
+    "MJU-71, MJU-66, M206"
+   ]
+  },
+  "Num Flares": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 5,
+   "empty": 18,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "240"
+   ]
+  },
+  "Towed Decoy Name or Designator": {
+   "withheld": 2,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 20,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 21,
+   "codes": {
+    "UNSPECIFIED": 1,
+    "(b)(6)": 3,
+    "(b)(1)": 2
+   },
+   "released_vals": [
+    "ALE-50"
+   ]
+  },
+  "Towed Decoy Software Load or Mission Data": {
+   "withheld": 1,
+   "released": 2,
+   "unreadable": 0,
+   "empty": 20,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 21,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "MTP AA51"
+   ]
+  },
+  "Num Towed Decoys": {
+   "withheld": 0,
+   "released": 0,
+   "unreadable": 2,
+   "empty": 20,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 20,
+   "codes": {},
+   "released_vals": []
+  },
+  "Type of Radar-Guided AAM": {
+   "withheld": 0,
+   "released": 4,
+   "unreadable": 0,
+   "empty": 20,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "2X AIM-120D",
+    "AIM-120"
+   ]
+  },
+  "Num Radar-Guided AAM": {
+   "withheld": 2,
+   "released": 0,
+   "unreadable": 4,
+   "empty": 17,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 21,
+   "codes": {
+    "UNSPECIFIED": 1,
+    "(b)(6)": 4
+   },
+   "released_vals": []
+  },
+  "Type of IR-Guided AAM": {
+   "withheld": 1,
+   "released": 4,
+   "unreadable": 0,
+   "empty": 18,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 21,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "AIM-9X"
+   ]
+  },
+  "Num IR-Guided AAM": {
+   "withheld": 0,
+   "released": 0,
+   "unreadable": 4,
+   "empty": 19,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 21,
+   "codes": {},
+   "released_vals": []
+  },
+  "Gun Name or Designator": {
+   "withheld": 0,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 19,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 22,
+   "codes": {},
+   "released_vals": [
+    "30MM, 105MM",
+    "M61Al"
+   ]
+  },
+  "Num Gun Rounds": {
+   "withheld": 0,
+   "released": 4,
+   "unreadable": 0,
+   "empty": 19,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 21,
+   "codes": {},
+   "released_vals": [
+    "510"
+   ]
+  },
+  "TGT Pod Name or Designator": {
+   "withheld": 2,
+   "released": 14,
+   "unreadable": 1,
+   "empty": 4,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 19,
+   "codes": {
+    "1.4a": 2,
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "AN/DAS-1",
+    "AN/DAS-4",
+    "ANDAS4",
+    "ANDASl",
+    "SNIPER LDP",
+    "SNIPER-SE"
+   ]
+  },
+  "Additional Avionics": {
+   "withheld": 4,
+   "released": 12,
+   "unreadable": 0,
+   "empty": 6,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 20,
+   "codes": {
+    "(b)(6)": 2,
+    "(b)(1)1.4a": 4,
+    "(b)(1)": 1,
+    "UNSPECIFIED": 1
+   },
+   "released_vals": [
+    "AH/GMESH",
+    "AH/GMESH/SANTA FE",
+    "AH/GMESH/SF",
+    "AH\\GMESH",
+    "AH\\SAR",
+    "AH_GMESH",
+    "AH_GMESH_ VORTEX",
+    "AHv2",
+    "AWGMESH",
+    "HTS-P R7.85"
+   ]
+  },
+  "Data Link": {
+   "withheld": 3,
+   "released": 9,
+   "unreadable": 0,
+   "empty": 9,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 20,
+   "codes": {
+    "(b)(6)": 2,
+    "UNSPECIFIED": 1
+   },
+   "released_vals": [
+    "GATEWAY (IF BOTH)",
+    "LINK 16"
+   ]
+  },
+  "Gentext": {
+   "withheld": 37,
+   "released": 49,
+   "unreadable": 0,
+   "empty": 4,
+   "portion_marks": 1,
+   "slot": "NARRATIVE",
+   "n_docs": 24,
+   "codes": {
+    "1.4a": 55,
+    "(b)(6)": 12,
+    "(b)(1)1.4a": 13,
+    "UNSPECIFIED": 2,
+    "1.4g": 1,
+    "(b)(1)": 9
+   },
+   "released_vals": [
+    "(SECRET//REL TO USA, MESF) Timeline Takeoff",
+    "(UNCLASSIFIED) SATISFACTORY (UNCLASSIFIED) ISR",
+    "(UNCLASSIFIED) SATISFACTORY (UNCLASSIFIED) On Station",
+    "(UNCLASSIFIED) SATISFACTORY (UNCLASSIFIED) UAP",
+    "(UNCLASSIFIED) SATISFACTORY On Station",
+    "- OBSERVATION",
+    "- On Station",
+    "- Timeline Landing",
+    "- Timeline Takeoff",
+    "- Timeline landing",
+    "- UAP",
+    "1020x30mm / 80x105mm Timeline Takeoff"
+   ]
+  },
+  "Callsign": {
+   "withheld": 32,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 12,
+   "portion_marks": 0,
+   "slot": "CALLSIGN",
+   "n_docs": 23,
+   "codes": {
+    "1.4a": 29,
+    "(b)(1)1.4a": 3
+   },
+   "released_vals": []
+  },
+  "Number of Aircraft": {
+   "withheld": 4,
+   "released": 0,
+   "unreadable": 18,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 24,
+   "codes": {
+    "(b)(1)1.4a": 4
+   },
+   "released_vals": []
+  },
+  "Asset Type (Aircraft)": {
+   "withheld": 8,
+   "released": 0,
+   "unreadable": 5,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 18,
+   "codes": {
+    "1.4a": 3,
+    "1.4g": 3,
+    "(b)(1)1.4a": 4,
+    "(b)(1)1.4g": 4,
+    "(b)(6)": 1
+   },
+   "released_vals": []
+  },
+  "Aircraft Tail Number(s)": {
+   "withheld": 14,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "CALLSIGN",
+   "n_docs": 20,
+   "codes": {
+    "1.4a": 9,
+    "1.4g": 5,
+    "(b)(1)1.4a": 4,
+    "(b)(1)1.4g": 4
+   },
+   "released_vals": [
+    "169, 188"
+   ]
+  },
+  "Takeoff Location (ICAO Code)": {
+   "withheld": 2,
+   "released": 12,
+   "unreadable": 3,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 22,
+   "codes": {
+    "1.4a": 2
+   },
+   "released_vals": [
+    "LGLR",
+    "LICZ",
+    "OEPS",
+    "OJMS",
+    "OKAS",
+    "OMAM"
+   ]
+  },
+  "Takeoff Time DTG": {
+   "withheld": 1,
+   "released": 21,
+   "unreadable": 0,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 23,
+   "codes": {
+    "(b)(1)1.4a": 5
+   },
+   "released_vals": [
+    "011206:00ZDEC22",
+    "020608:00ZNOV20",
+    "042149:00ZMAY22",
+    "050614:00ZMAY22",
+    "060246:00ZMAY22",
+    "062100:00ZJUN24",
+    "090217:00ZNOV23",
+    "200542:00ZMAY22",
+    "200823:00ZOCT24",
+    "201740:00ZSEP24",
+    "202330:00ZFEB23",
+    "240015:00ZOCT23"
+   ]
+  },
+  "Mode 3 (IFF Codes)": {
+   "withheld": 1,
+   "released": 8,
+   "unreadable": 0,
+   "empty": 14,
+   "portion_marks": 0,
+   "slot": "CALLSIGN",
+   "n_docs": 23,
+   "codes": {
+    "1.4a": 1
+   },
+   "released_vals": [
+    "2232",
+    "33300",
+    "34055",
+    "34563",
+    "4055",
+    "6266"
+   ]
+  },
+  "Gentext/Additional Details": {
+   "withheld": 17,
+   "released": 33,
+   "unreadable": 3,
+   "empty": 33,
+   "portion_marks": 0,
+   "slot": "NARRATIVE",
+   "n_docs": 23,
+   "codes": {
+    "(b)(6)": 9,
+    "1.4a": 14,
+    "(b)(1)1.4a": 1,
+    "1.4g": 4,
+    "(b)(1)": 22
+   },
+   "released_vals": [
+    "(S//REL) AT 0542Z, COMM ISSUES.",
+    "(U) NSTR. On Station",
+    "- ISR",
+    "- JSR",
+    "- Takeoff",
+    ". Takt1off",
+    "AIR REFUEL",
+    "ISR",
+    "JSR",
+    "Landing",
+    "NIB",
+    "On Station"
+   ]
+  },
+  "Mission Canceled": {
+   "withheld": 2,
+   "released": 22,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 1,
+    "UNSPECIFIED": 1
+   },
+   "released_vals": [
+    "Landing",
+    "On Station"
+   ]
+  },
+  "Time On Station DTG": {
+   "withheld": 1,
+   "released": 19,
+   "unreadable": 0,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 23,
+   "codes": {
+    "1.4a": 1
+   },
+   "released_vals": [
+    "011220:00ZDEC22",
+    "020618:00ZNOV20",
+    "050624:00ZMAY22",
+    "060958:00ZMAY22",
+    "090431:00ZNOV23",
+    "090805:00ZNOV23",
+    "140300:00ZJUL24",
+    "152313:00ZSEP20",
+    "201102:00ZOCT24",
+    "201930:00ZSEP24",
+    "210003 :OOZFEB23",
+    "240l55:00ZOCT23"
+   ]
+  },
+  "JTAR Number": {
+   "withheld": 2,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 22,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 22,
+   "codes": {
+    "(b)(1)1.4a": 1,
+    "(b)(6)": 1
+   },
+   "released_vals": []
+  },
+  "Killbox (Location)": {
+   "withheld": 0,
+   "released": 4,
+   "unreadable": 0,
+   "empty": 22,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 24,
+   "codes": {},
+   "released_vals": [
+    "89AS",
+    "91AS5",
+    "ESSA"
+   ]
+  },
+  "JTAC Callsign": {
+   "withheld": 6,
+   "released": 3,
+   "unreadable": 1,
+   "empty": 16,
+   "portion_marks": 0,
+   "slot": "PERSONNEL",
+   "n_docs": 24,
+   "codes": {
+    "(b)(1)1.4a": 2,
+    "1.4a": 4
+   },
+   "released_vals": [
+    "ITC",
+    "KINGPIN"
+   ]
+  },
+  "Did not Arrive On Station": {
+   "withheld": 5,
+   "released": 21,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 4,
+    "UNSPECIFIED": 1
+   },
+   "released_vals": [
+    "JSR",
+    "Off Station",
+    "OffStation",
+    "On Off Station"
+   ]
+  },
+  "Time Off Station DTG": {
+   "withheld": 1,
+   "released": 18,
+   "unreadable": 0,
+   "empty": 7,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 24,
+   "codes": {
+    "UNSPECIFIED": 1
+   },
+   "released_vals": [
+    "010000:00ZAPR23",
+    "020655:00ZDEC22",
+    "030113 :002NOV20",
+    "060014:00ZMAY22",
+    "062036:00ZMAY22",
+    "090554:00ZNOV23",
+    "091933:00ZNOV23",
+    "202323:00ZSEP24",
+    "210005:00ZMAY22",
+    "210124:00ZOCT24",
+    "210340:00ZFEB23",
+    "241912:00ZOCT23"
+   ]
+  },
+  "Total Time On Station": {
+   "withheld": 2,
+   "released": 17,
+   "unreadable": 0,
+   "empty": 6,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 23,
+   "codes": {
+    "1.4a": 1,
+    "(b)(1)1.4a": 2
+   },
+   "released_vals": [
+    "1 hour 23 minutes",
+    "11 hours 28 minutes",
+    "14 hours 22 minutes",
+    "14 hours 25 minutes",
+    "17 hours 17 minutes",
+    "17 hours 50 minutes",
+    "18 hours 14 minutes",
+    "18 hours 35 minutes",
+    "18 hours 44 minutes",
+    "20 hours 24 minutes GUARDCALL",
+    "3 hours 2 minutes",
+    "3 hours 37 minutes"
+   ]
+  },
+  "Last Land Location (ICAO Code)": {
+   "withheld": 2,
+   "released": 15,
+   "unreadable": 1,
+   "empty": 6,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 24,
+   "codes": {
+    "1.4a": 1,
+    "1.4g": 1
+   },
+   "released_vals": [
+    "LGLR",
+    "LICZ",
+    "OEPS",
+    "OJMS",
+    "OKAS",
+    "OMAM"
+   ]
+  },
+  "Last Land Time": {
+   "withheld": 2,
+   "released": 20,
+   "unreadable": 0,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 24,
+   "codes": {
+    "(b)(6)": 1,
+    "1.4a": 1
+   },
+   "released_vals": [
+    "010148:00ZAPR23",
+    "020723:00ZDEC22",
+    "030250:00ZNOV20",
+    "051924:00ZMAY22",
+    "060039:00ZMAY22",
+    "070004:00ZMAY22",
+    "070713:00ZJUN24",
+    "161958:00ZSEP20",
+    "210036:00ZMAY22",
+    "210046:00ZSEP24",
+    "210425:00ZFEB23",
+    "210447:00ZOCT24"
+   ]
+  },
+  "Last Engine Shutdown Time": {
+   "withheld": 0,
+   "released": 21,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 24,
+   "codes": {},
+   "released_vals": [
+    "010215:00ZAPR23",
+    "020733:00ZDEC22",
+    "030J00:00ZNOV20",
+    "051934:00ZMAY22",
+    "060049:00ZMAY22",
+    "070014:00ZMAY22",
+    "070723:00ZJUN24",
+    "162008:00ZSEP20",
+    "200101:00ZSEP24",
+    "210046:00ZMAY22",
+    "210435:00ZFEB23",
+    "210457:00ZOCT24"
+   ]
+  },
+  "Total Mission Time": {
+   "withheld": 3,
+   "released": 16,
+   "unreadable": 0,
+   "empty": 4,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 23,
+   "codes": {
+    "1.4a": 2,
+    "(b)(1)1.4a": 4
+   },
+   "released_vals": [
+    "10 hours 13 minutes",
+    "13 hours 30 minutes",
+    "18 hours 25 minutes",
+    "18 hours 54 minutes",
+    "19 hours 17 minutes",
+    "20 hours 1 minute",
+    "20 hours 24 minutes",
+    "20 hours 30 minutes",
+    "20 hours 40 minutes",
+    "20 hours 42 minutes",
+    "20 hours 43 minutes",
+    "20 hours 56 minutes"
+   ]
+  },
+  "Time-on Station DTG": {
+   "withheld": 0,
+   "released": 19,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 18,
+   "codes": {},
+   "released_vals": [
+    "011518:00ZDEC22",
+    "021015:00ZNOV20",
+    "050057:00ZMAY22",
+    "051054:00ZMAY22",
+    "060958:00ZMAY22",
+    "090431:00ZNOV23",
+    "090805:00ZNOV23",
+    "160318:00ZSEP20",
+    "200927:00ZMAY22",
+    "201102:00ZOCT24",
+    "201230:00ZOCT24",
+    "202318:00ZOCT24"
+   ]
+  },
+  "Time-off Station DTG": {
+   "withheld": 0,
+   "released": 20,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 19,
+   "codes": {},
+   "released_vals": [
+    "020426:00ZDEC22",
+    "030115:00ZNOV20",
+    "051552:00ZMAY22",
+    "052100:00ZMAY22",
+    "062036:00ZMAY22",
+    "090554:00ZNOV23",
+    "091933:00ZNOV23",
+    "161829:00ZSEP20",
+    "201200:00ZOCT24",
+    "202121:00ZMAY22",
+    "202318:00ZOCT24",
+    "210124:00ZOCT24"
+   ]
+  },
+  "Aircraft Callsign": {
+   "withheld": 33,
+   "released": 0,
+   "unreadable": 4,
+   "empty": 15,
+   "portion_marks": 0,
+   "slot": "CALLSIGN",
+   "n_docs": 24,
+   "codes": {
+    "1.4a": 26,
+    "1.4c": 1,
+    "(b)(1)1.4a": 4,
+    "1.4e": 1,
+    "1.4g": 1,
+    "(b)(6)": 1
+   },
+   "released_vals": []
+  },
+  "Msn Type": {
+   "withheld": 10,
+   "released": 9,
+   "unreadable": 1,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 19,
+   "codes": {
+    "1.4c": 2,
+    "(b)(1)1.4a": 3,
+    "UNSPECIFIED": 1,
+    "1.4a": 10,
+    "(b)(1)": 11,
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "AREC",
+    "RECON",
+    "REC\\XCAS",
+    "TARGET DEV"
+   ]
+  },
+  "Primary Sensor": {
+   "withheld": 3,
+   "released": 13,
+   "unreadable": 0,
+   "empty": 4,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 16,
+   "codes": {
+    "UNSPECIFIED": 2,
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "ANDAS4",
+    "FMV",
+    "FMV\\SI"
+   ]
+  },
+  "Sensors Available": {
+   "withheld": 5,
+   "released": 11,
+   "unreadable": 0,
+   "empty": 4,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 16,
+   "codes": {
+    "1.4a": 2,
+    "1.4g": 3
+   },
+   "released_vals": [
+    "AH/BLASPHEMY",
+    "AH\\GMESH",
+    "AHv2",
+    "BLASPHEMY",
+    "G-MESH",
+    "SANTA FE"
+   ]
+  },
+  "Tasking Type": {
+   "withheld": 1,
+   "released": 22,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 19,
+   "codes": {
+    "(b)(1)1.4a": 7
+   },
+   "released_vals": [
+    "Dynamic",
+    "PLANNED",
+    "Planned"
+   ]
+  },
+  "Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#)": {
+   "withheld": 2,
+   "released": 7,
+   "unreadable": 2,
+   "empty": 8,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 15,
+   "codes": {
+    "1.4a": 2
+   },
+   "released_vals": [
+    "DATA MASKED"
+   ]
+  },
+  "BE Number (if NTISR)": {
+   "withheld": 4,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 14,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 14,
+   "codes": {
+    "1.4a": 1,
+    "(b)(1)1.4a": 3
+   },
+   "released_vals": []
+  },
+  "Tasked Start Point": {
+   "withheld": 12,
+   "released": 8,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 19,
+   "codes": {
+    "1.4a": 10,
+    "(b)(1)1.4a": 5
+   },
+   "released_vals": [
+    "36S YC 401 Aa! 5~",
+    "36S YC 4~511.4a!",
+    "37SFU3~1[4iil",
+    "38S MC 361.4a 201.4a",
+    "38SMB4~83~",
+    "38SMC541.4a961.4a",
+    "38SMD38!1.4al5~",
+    "39RUP~a"
+   ]
+  },
+  "Activity Description": {
+   "withheld": 0,
+   "released": 22,
+   "unreadable": 0,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 19,
+   "codes": {},
+   "released_vals": [
+    "ISR",
+    "TARGET DEVELOPMENT"
+   ]
+  },
+  "FMV or Image File Name (if NTISR)": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 17,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 14,
+   "codes": {},
+   "released_vals": [
+    "- GENTEXTIISR"
+   ]
+  },
+  "EEIs Observed": {
+   "withheld": 1,
+   "released": 5,
+   "unreadable": 2,
+   "empty": 8,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 10,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "Unknown",
+    "Yes"
+   ]
+  },
+  "Number of EEIs": {
+   "withheld": 1,
+   "released": 5,
+   "unreadable": 5,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 10,
+   "codes": {
+    "(b)(1)1.4a": 2
+   },
+   "released_vals": [
+    "GENTEXT/ISR",
+    "GENTEXT/OBSERVATION"
+   ]
+  },
+  "Supported Unit": {
+   "withheld": 5,
+   "released": 15,
+   "unreadable": 0,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "UNIT_ORG",
+   "n_docs": 18,
+   "codes": {
+    "1.4a": 1,
+    "(b)(1)1.4a": 4,
+    "(b)(6)": 1,
+    "1.4g": 2
+   },
+   "released_vals": [
+    "603 AOC",
+    "AFCENT",
+    "DATA MASK.ED",
+    "DATA MASKED",
+    "MAG",
+    "NAVCENT",
+    "TF CHOSIN"
+   ]
+  },
+  "Supported Operation": {
+   "withheld": 8,
+   "released": 6,
+   "unreadable": 4,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 17,
+   "codes": {
+    "(b)(6)": 2,
+    "1.4a": 5,
+    "(b)(1)1.4a": 1
+   },
+   "released_vals": [
+    "INHERENT RESOLVE",
+    "OPERATIO~ 1.4-a"
+   ]
+  },
+  "Precoord Time": {
+   "withheld": 3,
+   "released": 12,
+   "unreadable": 0,
+   "empty": 8,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 19,
+   "codes": {
+    "(b)(6)": 3,
+    "(b)(1)": 20
+   },
+   "released_vals": [
+    "103 MINUTES",
+    "124 MINUTES",
+    "136 MINUTES",
+    "154 MINUTES",
+    "1HR 26MIN",
+    "236 MINUTES",
+    "24 HOURS",
+    "240 MINUTES",
+    "30 MINUTES",
+    "409 MINUTES"
+   ]
+  },
+  "Precoord Effectiveness": {
+   "withheld": 0,
+   "released": 23,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 19,
+   "codes": {},
+   "released_vals": [
+    "- WEATHER",
+    "EXCELLENT WEATHER",
+    "SATISFACTORY WEATHER"
+   ]
+  },
+  "Weather": {
+   "withheld": 12,
+   "released": 20,
+   "unreadable": 0,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "NARRATIVE",
+   "n_docs": 19,
+   "codes": {
+    "(b)(6)": 8,
+    "UNSPECIFIED": 4,
+    "(b)(1)": 23
+   },
+   "released_vals": [
+    "(S//REL TO USA, FVEY) WEATHER WAS NOT A FACTOR EFFECTIVENESS",
+    "(S//REL) WAS NOT A FACTOR EFFECTIVENESS",
+    "(U) HAZE PRECLUDED !MINT COLLECTION EFFECTIVENESS",
+    "(U) WEATHER WAS NOT A FACTOR EFFECTIVENESS",
+    "(U) WEATHER WAS NOT A FACTOR. EFFECTIVENESS",
+    "(U) WEATHER WAS NOT A FACTOR. UAP",
+    "(UNCLASSIFIED) CLEAR WX",
+    "(UNCLASSIFIED) CLEAR WX (UNCLASSIFIED) EFFECTIVENESS",
+    "(UNCLASSIFIED) CLEARWX (UNCLASSIFIED) EFFECTIVENESS",
+    "CLOUDY. AIRSIGHT",
+    "ti:!1Mh' WEATHER WAS NOT A FACTOR EFFECTIVENESS"
+   ]
+  },
+  "Tasker": {
+   "withheld": 1,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 22,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 19,
+   "codes": {
+    "(b)(1)": 18,
+    "(b)(6)": 1
+   },
+   "released_vals": []
+  },
+  "Intel Gap Filled?": {
+   "withheld": 0,
+   "released": 13,
+   "unreadable": 7,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 19,
+   "codes": {},
+   "released_vals": [
+    "No \" Gentext: - Off Station",
+    "Unknown",
+    "Yes"
+   ]
+  },
+  "Observation DTG": {
+   "withheld": 0,
+   "released": 8,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 7,
+   "codes": {},
+   "released_vals": [
+    "022143:00ZNOV20",
+    "022l48:00ZNOV20",
+    "050524:00ZMAY22",
+    "052026:00ZMAY22",
+    "061514:00ZMAY22",
+    "161732:00ZSEP20",
+    "271527:00ZAUG20",
+    "300011 :00ZMAY22"
+   ]
+  },
+  "Aircraft Location": {
+   "withheld": 0,
+   "released": 14,
+   "unreadable": 1,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 8,
+   "codes": {},
+   "released_vals": [
+    "36SYE6ffiAal2~",
+    "38S MD 41~ 4~",
+    "38SMC531.4a961.4a",
+    "39RUN~a",
+    "39RVM3~Q1.4a!",
+    "39RVM9~~",
+    "39RWK12~",
+    "39RWKq~a",
+    "39RXK0filalS({w",
+    "40RBP0~11Ai!",
+    "40RCP2l1.4aBOual",
+    "40RCP7~(jw"
+   ]
+  },
+  "Aircraft Heading": {
+   "withheld": 0,
+   "released": 9,
+   "unreadable": 2,
+   "empty": 6,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 9,
+   "codes": {},
+   "released_vals": [
+    "018 M",
+    "0I0M",
+    "110 T",
+    "264 T",
+    "277 T",
+    "290 T",
+    "360T",
+    "M 068"
+   ]
+  },
+  "Aircraft Altitude": {
+   "withheld": 7,
+   "released": 7,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 9,
+   "codes": {
+    "1.4a": 1,
+    "UNSPECIFIED": 6
+   },
+   "released_vals": [
+    "FL 210",
+    "FL040",
+    "FL200",
+    "FL220",
+    "FL230",
+    "FL270"
+   ]
+  },
+  "Aircraft Airspeed": {
+   "withheld": 0,
+   "released": 7,
+   "unreadable": 0,
+   "empty": 10,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 9,
+   "codes": {},
+   "released_vals": [
+    "100 KIAS",
+    "107 KlAS",
+    "120:KIAS",
+    "89 KIAS",
+    "90 KIAS",
+    "I 05 K.IAS",
+    "I 58KIAS"
+   ]
+  },
+  "Relative Bearing or Clock Position": {
+   "withheld": 0,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 7,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 7,
+   "codes": {},
+   "released_vals": []
+  },
+  "Range": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 7,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 7,
+   "codes": {},
+   "released_vals": [
+    "4.98NM"
+   ]
+  },
+  "Killbox & Keypad": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 6,
+   "codes": {},
+   "released_vals": [
+    "91AS"
+   ]
+  },
+  "Observed Activity Location": {
+   "withheld": 1,
+   "released": 5,
+   "unreadable": 1,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 7,
+   "codes": {
+    "1.4a": 1
+   },
+   "released_vals": [
+    "36SYE6~21I:4al",
+    "38SMC531.4a961.4a",
+    "39RVMsrna1.4al",
+    "39RWK1~",
+    "39RWK~~a"
+   ]
+  },
+  "Observed Activity Description": {
+   "withheld": 0,
+   "released": 6,
+   "unreadable": 0,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 7,
+   "codes": {},
+   "released_vals": [
+    "1X UAP",
+    "FORMATION OF UNK FLYING OBJECTS",
+    "ONE PROBABLE SU-27/35 OBSERVED LANDING",
+    "UAP",
+    "UAS"
+   ]
+  },
+  "Method of Observation": {
+   "withheld": 0,
+   "released": 8,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 7,
+   "codes": {},
+   "released_vals": [
+    "FMV",
+    "FMV GENTEXTIOBSERVATION",
+    "~SENSOR GENTEXTIOBSERVATION"
+   ]
+  },
+  "ATO Mission Number": {
+   "withheld": 12,
+   "released": 1,
+   "unreadable": 3,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 19,
+   "codes": {
+    "1.4a": 8,
+    "(b)(1)1.4a": 4,
+    "(b)(1)1.4g": 2
+   },
+   "released_vals": [
+    "4055"
+   ]
+  },
+  "Air-to-Ground Wpn to Include Num of Each": {
+   "withheld": 2,
+   "released": 1,
+   "unreadable": 4,
+   "empty": 12,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 18,
+   "codes": {
+    "1.4c": 1,
+    "1.4a": 1,
+    "1.4g": 1
+   },
+   "released_vals": [
+    "2XAGM-l 14R9E 2XAGM-l 14R2"
+   ]
+  },
+  "Initial Contact DTG": {
+   "withheld": 2,
+   "released": 17,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 17,
+   "codes": {
+    "(b)(6)": 1,
+    "(b)(1)1.4a": 2
+   },
+   "released_vals": [
+    "011620:00ZDEC22",
+    "092153:00ZNOV23",
+    "140517:00ZJUL24",
+    "201559:00ZOCT24",
+    "202027:59ZSEP24",
+    "202043:00ZMAY22",
+    "240241 :00ZOCT23",
+    "240322:00ZOCT23",
+    "250509:00ZJAN24",
+    "270035:12ZOCT23",
+    "290141:00ZOCT25",
+    "290811 :00ZOCT23"
+   ]
+  },
+  "MDS Type / Asset Type": {
+   "withheld": 5,
+   "released": 2,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "WEAPON_SENSOR",
+   "n_docs": 10,
+   "codes": {
+    "(b)(1)1.4a": 4,
+    "(b)(1)1.4g": 4,
+    "1.4a": 1,
+    "1.4g": 1
+   },
+   "released_vals": [
+    "UNK",
+    "UNK."
+   ]
+  },
+  "Tail Number": {
+   "withheld": 10,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "CALLSIGN",
+   "n_docs": 13,
+   "codes": {
+    "1.4a": 5,
+    "1.4g": 2,
+    "(b)(1)1.4a": 5,
+    "(b)(1)1.4g": 4
+   },
+   "released_vals": []
+  },
+  "Friendly Aircraft Location": {
+   "withheld": 9,
+   "released": 8,
+   "unreadable": 0,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 17,
+   "codes": {
+    "1.4a": 6,
+    "(b)(1)1.4a": 7,
+    "1.4g": 1
+   },
+   "released_vals": [
+    "35SKD5~31iia]",
+    "36SXD9~~",
+    "37S BV 3~1~",
+    "37SFU4~81ua",
+    "37SGA1~~",
+    "38S MB 4~8~",
+    "38S MC 851.4a 771.4a",
+    "39RYJ9C6M4~1.4al"
+   ]
+  },
+  "Friendly Aircraft Altitude/Depth": {
+   "withheld": 3,
+   "released": 10,
+   "unreadable": 0,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 17,
+   "codes": {
+    "UNSPECIFIED": 2,
+    "1.4g": 1
+   },
+   "released_vals": [
+    "18,000FT",
+    "19,359 FT",
+    "20,088FT",
+    "23,999FT",
+    "FL240",
+    "FL243",
+    "FL250",
+    "FL265",
+    "~22,500 FT"
+   ]
+  },
+  "Friendly Aircraft Speed": {
+   "withheld": 2,
+   "released": 10,
+   "unreadable": 0,
+   "empty": 6,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 17,
+   "codes": {
+    "(b)(1)1.4a": 1,
+    "1.4g": 1
+   },
+   "released_vals": [
+    "116 KTS",
+    "120 KIAS",
+    "142 K.IAS",
+    "144 KNOTS",
+    "162 KTAS",
+    "163 KNOTS",
+    "170 KIAS",
+    "176 KTS",
+    "293"
+   ]
+  },
+  "Friendly Aircraft State": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 17,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 17,
+   "codes": {},
+   "released_vals": [
+    "NIA"
+   ]
+  },
+  "Training Range (If applicable)": {
+   "withheld": 1,
+   "released": 4,
+   "unreadable": 1,
+   "empty": 12,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 17,
+   "codes": {
+    "(b)(1)1.4a": 1,
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "UNK",
+    "UNK.",
+    "YES"
+   ]
+  },
+  "Operational Range": {
+   "withheld": 1,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 12,
+   "portion_marks": 0,
+   "slot": "OPERATION",
+   "n_docs": 17,
+   "codes": {
+    "1.4g": 1
+   },
+   "released_vals": [
+    "AYN AL ASAD ROZ RAINDROP",
+    "NE OF RLZ",
+    "UNK",
+    "UNK."
+   ]
+  },
+  "UAP Physical State": {
+   "withheld": 2,
+   "released": 11,
+   "unreadable": 0,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 17,
+   "codes": {
+    "(b)(1)1.4a": 1,
+    "1.4g": 1
+   },
+   "released_vals": [
+    "Plasma",
+    "Solid"
+   ]
+  },
+  "Number of UAP Sighted": {
+   "withheld": 1,
+   "released": 1,
+   "unreadable": 4,
+   "empty": 12,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 17,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "POSS 10X-20X"
+   ]
+  },
+  "UAP Signatures": {
+   "withheld": 2,
+   "released": 7,
+   "unreadable": 4,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "PERSONNEL",
+   "n_docs": 17,
+   "codes": {
+    "1.4g": 2
+   },
+   "released_vals": [
+    "IR SIGNATURE DETECTABLE BY MX-20 & MX-25",
+    "LIGHT",
+    "NONE",
+    "SWIR WHT",
+    "THERMAL SHOWED COLD",
+    "UNK"
+   ]
+  },
+  "UAP RF Frequency": {
+   "withheld": 1,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 12,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 17,
+   "codes": {
+    "UNSPECIFIED": 1
+   },
+   "released_vals": [
+    "NONE",
+    "UNK",
+    "UNKNOWN"
+   ]
+  },
+  "UAP RF Duration": {
+   "withheld": 0,
+   "released": 5,
+   "unreadable": 1,
+   "empty": 12,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 17,
+   "codes": {},
+   "released_vals": [
+    "UNK",
+    "UNKNOWN"
+   ]
+  },
+  "UAP Effects on Persons": {
+   "withheld": 1,
+   "released": 1,
+   "unreadable": 12,
+   "empty": 4,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 17,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "(U) NONE REPORTED"
+   ]
+  },
+  "Phone Number (VOSIP/STE)": {
+   "withheld": 5,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 11,
+   "portion_marks": 0,
+   "slot": "PERSONNEL",
+   "n_docs": 16,
+   "codes": {
+    "(b)(6)": 5
+   },
+   "released_vals": [
+    "GENTEXT/UAP"
+   ]
+  },
+  "UAP First Seen Location": {
+   "withheld": 4,
+   "released": 3,
+   "unreadable": 0,
+   "empty": 11,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 17,
+   "codes": {
+    "1.4a": 2,
+    "(b)(1)1.4a": 2
+   },
+   "released_vals": [
+    "37SFU2~~",
+    "38SMC791.4a701.4a",
+    "DATA MASKED"
+   ]
+  },
+  "BE Number (ifNTISR)": {
+   "withheld": 0,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 5,
+   "codes": {},
+   "released_vals": []
+  },
+  "FMV or Image File Name (ifNTISR)": {
+   "withheld": 0,
+   "released": 2,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 5,
+   "codes": {},
+   "released_vals": [
+    "- GENTEXTIISR"
+   ]
+  },
+  "EEis Observed": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 4,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 6,
+   "codes": {},
+   "released_vals": [
+    "Yes"
+   ]
+  },
+  "Number of EEis": {
+   "withheld": 1,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 6,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "10 GENTEXTIISR",
+    "GENTEXT/ISR",
+    "GENTEXT/OBSERVATION",
+    "GENTEXTIISR",
+    "GENTEXTIOBSERVATION"
+   ]
+  },
+  "Global Campaign Plan": {
+   "withheld": 0,
+   "released": 13,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 9,
+   "codes": {},
+   "released_vals": [
+    "GCP - VEO (violent extremist group) GENTEXT/ISR",
+    "GCP - VEO (violent extremist group) GENTEXTIISR",
+    "GCP VEO (violent extremist group) GENTEXT/ISR",
+    "GENTEXT/EMI",
+    "GENTEXT/ISR"
+   ]
+  },
+  "GUARDCALL DTG": {
+   "withheld": 0,
+   "released": 5,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 3,
+   "codes": {},
+   "released_vals": [
+    "160408:00ZSEP20",
+    "160421:00ZSEP20",
+    "161141:00ZSEP20",
+    "240145:00ZOCT23",
+    "270532:00ZAUG20"
+   ]
+  },
+  "UAP Event Type": {
+   "withheld": 0,
+   "released": 12,
+   "unreadable": 0,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {},
+   "released_vals": [
+    "UAP Incident"
+   ]
+  },
+  "UAP Maneuverability Observations": {
+   "withheld": 2,
+   "released": 10,
+   "unreadable": 0,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {
+    "(b)(1)1.4a": 1,
+    "UNSPECIFIED": 1
+   },
+   "released_vals": [
+    "FAST MOVING SPEEDS UP TO 500MPH",
+    "FLYING STRAIGHT JUST OVER THE WATER AT SPEED OF 140KNOTS",
+    "NONE",
+    "SEEMED TO BE AGILE, FREQUENTLY CHNAGING DIRECTION",
+    "Sharp 90 degree turns"
+   ]
+  },
+  "UAP Response to Observer Actions": {
+   "withheld": 1,
+   "released": 9,
+   "unreadable": 1,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {
+    "1.4a": 1,
+    "1.4g": 1
+   },
+   "released_vals": [
+    "NO CHANGE",
+    "NONE",
+    "NONE OBSERVED",
+    "UNK"
+   ]
+  },
+  "Friendly Aircraft Trajectory": {
+   "withheld": 1,
+   "released": 8,
+   "unreadable": 1,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 11,
+   "codes": {
+    "(b)(1)": 7,
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "096 STRAIGHT AND LEVEL",
+    "162",
+    "280 DEGREES",
+    "294",
+    "ALL",
+    "ORBIT",
+    "SOUTHEAST"
+   ]
+  },
+  "Observer Assessment of UAP": {
+   "withheld": 1,
+   "released": 10,
+   "unreadable": 0,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "NARRATIVE",
+   "n_docs": 12,
+   "codes": {
+    "(b)(1)1.4a": 1
+   },
+   "released_vals": [
+    "Benign"
+   ]
+  },
+  "Third-party Observers and/or Reporters": {
+   "withheld": 1,
+   "released": 4,
+   "unreadable": 0,
+   "empty": 8,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {
+    "(b)(1)1.4a": 1
+   },
+   "released_vals": [
+    "NONE",
+    "UNK",
+    "UNK."
+   ]
+  },
+  "UAP Propulsion Means": {
+   "withheld": 0,
+   "released": 10,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {},
+   "released_vals": [
+    "UNK",
+    "UNKNOWN"
+   ]
+  },
+  "UAP Payload": {
+   "withheld": 1,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 12,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {
+    "(b)(1)": 9,
+    "(b)(6)": 2
+   },
+   "released_vals": []
+  },
+  "UAP Under Intelligent Control (yes/no; if yes, describe)": {
+   "withheld": 0,
+   "released": 3,
+   "unreadable": 6,
+   "empty": 4,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {},
+   "released_vals": [
+    "UNK",
+    "UNKNOWN"
+   ]
+  },
+  "UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe)": {
+   "withheld": 1,
+   "released": 5,
+   "unreadable": 5,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {
+    "UNSPECIFIED": 1
+   },
+   "released_vals": [
+    "NONE OBSERVED",
+    "UNK"
+   ]
+  },
+  "UAP Event Serial Number": {
+   "withheld": 2,
+   "released": 8,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {
+    "(b)(1)1.4a": 2,
+    "1.4a": 1
+   },
+   "released_vals": [
+    "060457ZJUN2024-CENTCOM",
+    "092153ZNOV2023-CENTCOM",
+    "201559ZOCT2024",
+    "202027ZSEP2024-CENTCOM",
+    "250509ZJAN2024-CENTCOM 001",
+    "UNK",
+    "UNKNOWN"
+   ]
+  },
+  "UAP Objects/Material Recovered (yes/no; if yes, describe)": {
+   "withheld": 0,
+   "released": 2,
+   "unreadable": 9,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {},
+   "released_vals": [
+    "UNK"
+   ]
+  },
+  "UAP Effects on Equipment": {
+   "withheld": 2,
+   "released": 8,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 12,
+   "codes": {
+    "(b)(1)1.4a": 2
+   },
+   "released_vals": [
+    "NONE",
+    "UNK",
+    "UNK."
+   ]
+  },
+  "Rank/Grade": {
+   "withheld": 1,
+   "released": 5,
+   "unreadable": 2,
+   "empty": 5,
+   "portion_marks": 0,
+   "slot": "PERSONNEL",
+   "n_docs": 12,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "A1C / E-3",
+    "CAPTAIN",
+    "SENIOR AIRMAN/E-4",
+    "SSGT/E5",
+    "TSGT/E-5"
+   ]
+  },
+  "Observer Engagement of UAP (yes/no; if yes, describe)": {
+   "withheld": 1,
+   "released": 1,
+   "unreadable": 9,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 11,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "NONE"
+   ]
+  },
+  "First Coordinate": {
+   "withheld": 2,
+   "released": 8,
+   "unreadable": 0,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 11,
+   "codes": {
+    "1.4a": 4
+   },
+   "released_vals": [
+    "35S KD 951w 5~",
+    "35SMV3~~",
+    "35SQT44",
+    "37SFU36",
+    "38SKC59",
+    "39RXL6~J1.4al",
+    "39RYJ7~J1.4a)",
+    "40RFM60"
+   ]
+  },
+  "First Seen Radius": {
+   "withheld": 0,
+   "released": 0,
+   "unreadable": 10,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 11,
+   "codes": {},
+   "released_vals": []
+  },
+  "Last Accuracy": {
+   "withheld": 4,
+   "released": 8,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 11,
+   "codes": {
+    "(b)(1)1.4a": 10
+   },
+   "released_vals": [
+    "Estimated"
+   ]
+  },
+  "Last Coordinate": {
+   "withheld": 7,
+   "released": 3,
+   "unreadable": 0,
+   "empty": 2,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 11,
+   "codes": {
+    "UNSPECIFIED": 1,
+    "(b)(1)1.4a": 4,
+    "1.4a": 4
+   },
+   "released_vals": [
+    "35SKD9~~",
+    "35SMV3~41.4a!",
+    "39RXL6~l1.4al"
+   ]
+  },
+  "Last Seen Radius": {
+   "withheld": 1,
+   "released": 0,
+   "unreadable": 10,
+   "empty": 1,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 11,
+   "codes": {
+    "UNSPECIFIED": 1
+   },
+   "released_vals": []
+  },
+  "Kinetic Altitude Accuracy": {
+   "withheld": 1,
+   "released": 11,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 11,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "Estimated"
+   ]
+  },
+  "Kinetic Altitude": {
+   "withheld": 0,
+   "released": 6,
+   "unreadable": 0,
+   "empty": 6,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 11,
+   "codes": {},
+   "released_vals": [
+    "170",
+    "FL200",
+    "FL220",
+    "LOW",
+    "UNK",
+    "UNK."
+   ]
+  },
+  "Kinetic Depth Accuracy": {
+   "withheld": 1,
+   "released": 11,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 11,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "Estimated"
+   ]
+  },
+  "Kinetic Depth": {
+   "withheld": 1,
+   "released": 4,
+   "unreadable": 0,
+   "empty": 7,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 11,
+   "codes": {
+    "(b)(6)": 1
+   },
+   "released_vals": [
+    "UNK",
+    "UNK.",
+    "UNKNOWN"
+   ]
+  },
+  "Kinetic Velocity Accuracy": {
+   "withheld": 0,
+   "released": 12,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 11,
+   "codes": {},
+   "released_vals": [
+    "Estimated"
+   ]
+  },
+  "Kinetic Velocity": {
+   "withheld": 1,
+   "released": 7,
+   "unreadable": 0,
+   "empty": 4,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 11,
+   "codes": {
+    "1.4a": 1
+   },
+   "released_vals": [
+    "140 KNOTS",
+    "30 MPH",
+    "320 MPH",
+    "424KN",
+    "440 MPH",
+    "48OMPH",
+    "80 MPH"
+   ]
+  },
+  "Kinetic Trajectory Accuracy": {
+   "withheld": 0,
+   "released": 12,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 11,
+   "codes": {},
+   "released_vals": [
+    "Estimated"
+   ]
+  },
+  "Kinetic Trajectory": {
+   "withheld": 0,
+   "released": 2,
+   "unreadable": 3,
+   "empty": 7,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 11,
+   "codes": {},
+   "released_vals": [
+    "UNK",
+    "UNK."
+   ]
+  },
+  "UAP Date of DoD Acquisition": {
+   "withheld": 0,
+   "released": 10,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 9,
+   "codes": {},
+   "released_vals": [
+    "070457:00ZJUN24",
+    "092153:00ZNOV23",
+    "140517:00ZJUL24",
+    "201559:00ZOCT24",
+    "210000:00ZSEP24",
+    "240241 :00ZOCT23",
+    "240322:00ZOCT23",
+    "250509:00ZJAN24",
+    "290145:00ZOCT25",
+    "292022:32ZJUL25"
+   ]
+  },
+  "UAP Anomalous Characteristics/ Behaviors": {
+   "withheld": 2,
+   "released": 5,
+   "unreadable": 1,
+   "empty": 4,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 11,
+   "codes": {
+    "UNSPECIFIED": 1,
+    "1.4a": 1,
+    "1.4g": 1
+   },
+   "released_vals": [
+    "ABLE TO CHANGE DIRECTIONS QUICKLY AND SIMULTANEOUSLY",
+    "UNK",
+    "UNK."
+   ]
+  },
+  "Call Sign": {
+   "withheld": 8,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "CALLSIGN",
+   "n_docs": 11,
+   "codes": {
+    "1.4a": 5,
+    "(b)(1)1.4a": 2,
+    "(b)(1)": 5,
+    "(b)(6)": 3
+   },
+   "released_vals": []
+  },
+  "UAP Last Seen Location": {
+   "withheld": 1,
+   "released": 0,
+   "unreadable": 0,
+   "empty": 12,
+   "portion_marks": 0,
+   "slot": "GEO",
+   "n_docs": 12,
+   "codes": {
+    "(b)(1)1.4a": 2
+   },
+   "released_vals": []
+  },
+  "Gentext (UAP Event Description)": {
+   "withheld": 12,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "NARRATIVE",
+   "n_docs": 12,
+   "codes": {
+    "1.4a": 4,
+    "(b)(1)1.4a": 13,
+    "(b)(6)": 8,
+    "(b)(1)": 13
+   },
+   "released_vals": [
+    "(S/NF)AT 02412,~OBSERVED IX UAP IYO 39RXK6~~1.4al UAP"
+   ]
+  },
+  "First Accuracy": {
+   "withheld": 0,
+   "released": 11,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 11,
+   "codes": {},
+   "released_vals": [
+    "Estimated",
+    "Precise"
+   ]
+  },
+  "Submit Date (Auto-generated)": {
+   "withheld": 3,
+   "released": 3,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "TIME",
+   "n_docs": 6,
+   "codes": {
+    "(b)(1)1.4a": 2,
+    "UNSPECIFIED": 2
+   },
+   "released_vals": [
+    "MSNID"
+   ]
+  },
+  "Gentext/ Additional Details": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "NARRATIVE",
+   "n_docs": 4,
+   "codes": {},
+   "released_vals": [
+    "JSR"
+   ]
+  },
+  "Gen text/ Additional Details": {
+   "withheld": 0,
+   "released": 1,
+   "unreadable": 0,
+   "empty": 3,
+   "portion_marks": 0,
+   "slot": "NARRATIVE",
+   "n_docs": 3,
+   "codes": {},
+   "released_vals": [
+    "On Station"
+   ]
+  },
+  "Number of Calls Noted from the Same Agency": {
+   "withheld": 0,
+   "released": 0,
+   "unreadable": 5,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "COUNT_QTY",
+   "n_docs": 3,
+   "codes": {},
+   "released_vals": []
+  },
+  "Guardcall Tone": {
+   "withheld": 0,
+   "released": 4,
+   "unreadable": 0,
+   "empty": 0,
+   "portion_marks": 0,
+   "slot": "UNCLASSIFIED_SLOT",
+   "n_docs": 3,
+   "codes": {},
+   "released_vals": [
+    "DIRECTIVE GENTEXT/GUARDCALL",
+    "PROFESSIONAL GENTEXT/GUARDCALL",
+    "PROFESSIONAL GENTEXTIGUARDCALL"
+   ]
+  }
+ },
+ "instances": [
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Declassification Date (YYYYMMDD)",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Originator (Unit or Squadron)",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Wing",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Service",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Wing",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Num Chaff or Cartridges",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "TGT Pod Name or Designator",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Asset Type (Aircraft)",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Takeoff Location (ICAO Code)",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Did not Arrive On Station",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Total Time On Station",
+   "slot": "TIME",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Last Land Location (ICAO Code)",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Total Mission Time",
+   "slot": "TIME",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Sensors Available",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Supported Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Aircraft Altitude",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Submit Date",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Wing",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Data Link",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Asset Type (Aircraft)",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Time On Station DTG",
+   "slot": "TIME",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4c"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4c"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "BE Number (if NTISR)",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Supported Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "MWS Software Load or Mission Data",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Last Land Time",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4c"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Precoord Time",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "UAP First Seen Location",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Wing",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Type of IR-Guided AAM",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Submit Date",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Air-to-Ground Wpn to Include Num of Each",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4c"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Data Link",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Number of EEis",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Supported Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "Friendly Aircraft Altitude/Depth",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt",
+   "label": "UAP First Seen Location",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Wing",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Radar Name or Destination",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "ECM Name or Designator",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Mission Canceled",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Radar Name or Destination",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Towed Decoy Name or Designator",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "TGT Pod Name or Designator",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Radar Name or Destination",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Mission Canceled",
+   "slot": "OPERATION",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Last Coordinate",
+   "slot": "GEO",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Last Seen Radius",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Call Sign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Friendly Aircraft Location",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Number of UAP Sighted",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Combatant Command (COCOM)",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Radar Name or Destination",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Number of Aircraft",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Asset Type (Aircraft)",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "JTAC Callsign",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Did not Arrive On Station",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "BE Number (if NTISR)",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Supported Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Supported Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "MDS Type / Asset Type",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Friendly Aircraft Location",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "UAP Effects on Equipment",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Phone Number (VOSIP/STE)",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Last Accuracy",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Last Coordinate",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "UAP Anomalous Characteristics/ Behaviors",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Call Sign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Radar Name or Destination",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Towed Decoy Software Load or Mission Data",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Number of Aircraft",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Asset Type (Aircraft)",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Mission Type",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Initial Contact DTG",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "MDS Type / Asset Type",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Friendly Aircraft Location",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "UAP Effects on Equipment",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Phone Number (VOSIP/STE)",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Last Accuracy",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Last Coordinate",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Kinetic Depth",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "UAP First Seen Location",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Submit Date",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Additional Avionics",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Number of Aircraft",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Asset Type (Aircraft)",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "JTAR Number",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "UAP Maneuverability Observations",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "MDS Type / Asset Type",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Friendly Aircraft Location",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Friendly Aircraft Altitude/Depth",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Third-party Observers and/or Reporters",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Observer Engagement of UAP (yes/no; if yes, describe)",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Last Accuracy",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Last Coordinate",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Kinetic Altitude Accuracy",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "UAP First Seen Location",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Classification Source (MS or Classification Guide ID)",
+   "slot": "CLASSIFICATION",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Domain",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Combatant Command (COCOM)",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Originator (Unit or Squadron)",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Submit Date (Auto-generated)",
+   "slot": "TIME",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Tasking Order (ATO)",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Mission Type",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)",
+    "(b)(3)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)",
+    "(b)(3)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(3)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Additional Avionics",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Takeoff Time DTG",
+   "slot": "TIME",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Total Mission Time",
+   "slot": "TIME",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Tasking Type",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Number of EEIs",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Mission Type",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Total Time On Station",
+   "slot": "TIME",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Initial Contact DTG",
+   "slot": "TIME",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Friendly Aircraft Location",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Observer Assessment of UAP",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Friendly Aircraft Speed",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "UAP Last Seen Location",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "UAP Physical State",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "UAP Event Serial Number",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Declassification Date (YYYYMMDD)",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Service",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Radar Name or Destination",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Num Chaff or Cartridges",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Number of Aircraft",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Asset Type (Aircraft)",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "JTAC Callsign",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Did not Arrive On Station",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "BE Number (if NTISR)",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Supported Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "MDS Type / Asset Type",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Friendly Aircraft Location",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Training Range (If applicable)",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Phone Number (VOSIP/STE)",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Last Accuracy",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Last Coordinate",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Call Sign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "BE Number (if NTISR)",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)1.4a",
+    "(b)(1)1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Precoord Time",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Combatant Command (COCOM)",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Num Radar-Guided AAM",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Primary Sensor",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Supported Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "JTAC Callsign",
+   "slot": "PERSONNEL",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "UAP RF Frequency",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Call Sign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Combatant Command (COCOM)",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Did not Arrive On Station",
+   "slot": "TIME",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Friendly Aircraft Location",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Call Sign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Submit Date (Auto-generated)",
+   "slot": "TIME",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Data Link",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Asset Type (Aircraft)",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Primary Sensor",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Aircraft Altitude",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Observed Activity Location",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Additional Avionics",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Supported Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Time Off Station DTG",
+   "slot": "TIME",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4e"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Aircraft Altitude",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Aircraft Altitude",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Aircraft Altitude",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4g",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Aircraft Altitude",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Aircraft Altitude",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D64-Mission-Report-Iran-November-2020_djvu.txt",
+   "label": "Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D64-Mission-Report-Iran-November-2020_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D64-Mission-Report-Iran-November-2020_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D64-Mission-Report-Iran-November-2020_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D64-Mission-Report-Iran-November-2020_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D64-Mission-Report-Iran-November-2020_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D64-Mission-Report-Iran-November-2020_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D64-Mission-Report-Iran-November-2020_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Major Command (MAJCOM)",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Originator (Unit or Squadron)",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Tasking Order (ATO)",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Service Tasked",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Rank",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Wing",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Rank",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Wing",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Asset Type (Aircraft)",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Takeoff Location (ICAO Code)",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Mode 3 (IFF Codes)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Last Land Time",
+   "slot": "TIME",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Total Mission Time",
+   "slot": "TIME",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "JTAC Callsign",
+   "slot": "PERSONNEL",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "JTAC Callsign",
+   "slot": "PERSONNEL",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Did not Arrive On Station",
+   "slot": "TIME",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Sensors Available",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Supported Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "JTAC Callsign",
+   "slot": "PERSONNEL",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Sensors Available",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "EEIs Observed",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Supported Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "MDS Type / Asset Type",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Friendly Aircraft Location",
+   "slot": "GEO",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Friendly Aircraft Altitude/Depth",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "UAP Signatures",
+   "slot": "PERSONNEL",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Rank/Grade",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Phone Number (VOSIP/STE)",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "First Coordinate",
+   "slot": "GEO",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Last Coordinate",
+   "slot": "GEO",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Kinetic Depth Accuracy",
+   "slot": "COUNT_QTY",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Call Sign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Tasking Order (ATO)",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Mission Type",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "ATO Mission Number",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Rank",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Rank",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)",
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Air-to-Ground Wpn to Include Num of Each",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4g",
+    "1.4a",
+    "1.4a",
+    "1.4g",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4g",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Primary Sensor",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Sensors Available",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#)",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Supported Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "JTAR Number",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Mission Type",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Sensors Available",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#)",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Tasked Start Point",
+   "slot": "GEO",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Supported Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "UAP Maneuverability Observations",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "UAP Response to Observer Actions",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Tail Number",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Friendly Aircraft Location",
+   "slot": "GEO",
+   "codes": [
+    "1.4a",
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Friendly Aircraft Speed",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Operational Range",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "UAP Physical State",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "UAP Signatures",
+   "slot": "PERSONNEL",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe)",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "UAP Event Serial Number",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "UAP Effects on Persons",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(3)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Phone Number (VOSIP/STE)",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "First Coordinate",
+   "slot": "GEO",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Last Coordinate",
+   "slot": "GEO",
+   "codes": [
+    "1.4a",
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Kinetic Velocity",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "UAP Anomalous Characteristics/ Behaviors",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "1.4a",
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Call Sign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Submit Date (Auto-generated)",
+   "slot": "TIME",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Full Name",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Phone Number",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Additional Avionics",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Aircraft Tail Number(s)",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Last Land Location (ICAO Code)",
+   "slot": "GEO",
+   "codes": [
+    "1.4g"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Supported Operation",
+   "slot": "OPERATION",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Aircraft Callsign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "1.4a"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Declassification Date (YYYYMMDD)",
+   "slot": "TIME",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Email",
+   "slot": "PERSONNEL",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Chaff Designator",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Precoord Time",
+   "slot": "TIME",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Friendly Aircraft Trajectory",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Call Sign",
+   "slot": "CALLSIGN",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Domain",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Operations Center",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Towed Decoy Name or Designator",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Msn Type",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Tasker",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "UAP Payload",
+   "slot": "UNCLASSIFIED_SLOT",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Gentext (UAP Event Description)",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt",
+   "label": "Combatant Command (COCOM)",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt",
+   "label": "Unit",
+   "slot": "UNIT_ORG",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt",
+   "label": "Num Radar-Guided AAM",
+   "slot": "WEAPON_SENSOR",
+   "codes": [
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt",
+   "label": "Gentext/Additional Details",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt",
+   "label": "Gentext",
+   "slot": "NARRATIVE",
+   "codes": [
+    "UNSPECIFIED"
+   ]
+  },
+  {
+   "doc": "Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt",
+   "label": "Weather",
+   "slot": "NARRATIVE",
+   "codes": [
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(1)",
+    "(b)(6)"
+   ]
+  }
+ ]
+}
