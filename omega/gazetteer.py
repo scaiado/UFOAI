@@ -77,14 +77,25 @@ TMPL = """SELECT ?l ?lat ?lon ?pop WHERE {
   FILTER(LANG(?l) IN ("en","mul"))
   OPTIONAL { ?c wdt:P1082 ?pop }
 }"""
-# Fallback for admin units whose single response is too large to return.
-# LIMIT/OFFSET paging DOES NOT WORK here: stable pages need ORDER BY, and
-# ordering ~90k rows is itself too expensive -- measured, California answered
-# http_504 at 65 s for `ORDER BY ?l LIMIT 40000 OFFSET 0`.  Partitioning on
-# the first character of the label works instead: the parts are
-# deterministic, non-overlapping and need no sort.  Measured on California,
-# letter 'L' returns 5,420 rows in 45 s (Los Angeles present) and 'S'
-# returns 8,162 in 50 s (San Diego and San Francisco present).
+# Fallback for an admin unit whose single query will not come back.
+#
+# CORRECTED DIAGNOSIS.  California first failed with parse_JSONDecodeError and
+# Michigan with http_502, and I inferred that California's response was simply
+# too large to return intact.  THAT WAS WRONG: on a plain retry with the
+# identical query, California returned 78,195 places in 23.4 s and Michigan
+# 33,597 in 11.9 s.  Both failures were TRANSIENT.  The fix that actually
+# worked is the one-shot retry above, not this fallback, and the partition path
+# below never executed -- it is UNTESTED IN SITU, though the partition queries
+# themselves were verified by hand (on California, letter 'L' returns 5,420
+# rows in 45 s with Los Angeles present; 'S' returns 8,162 in 50 s with San
+# Diego and San Francisco present).
+#
+# It is retained as insurance for a unit that genuinely cannot answer in one
+# query, because the shape of that failure is real even if these two instances
+# were not it.  LIMIT/OFFSET paging is NOT the way to do it: stable pages need
+# ORDER BY, and ordering ~90k rows is itself too expensive -- California
+# answered http_504 at 65 s for `ORDER BY ?l LIMIT 40000 OFFSET 0`.
+# Partitioning on the first character of the label needs no sort.
 _PART = TMPL.rstrip()[:-1] + """  FILTER(%s)
 }"""
 LETTERS = [chr(c) for c in range(ord("A"), ord("Z") + 1)]
@@ -97,6 +108,20 @@ def partitions(qid):
     rest = " && ".join('!STRSTARTS(?l,"%s")' % L for L in LETTERS)
     yield "other", _PART % (qid, rest)
 
+
+# The admin unit is NOT in its own result set: `?c wdt:P131+ wd:Q61` returns
+# places located IN the District of Columbia, and the District is not located
+# in itself.  For a city-state that excludes the very place being looked up --
+# US_DC held 3,239 entries and not one of them was Washington, costing 115
+# NUFORC records.  So each unit's own label and coordinates are appended to
+# its own file.  Scoped per file, so 'Washington' is added only to DC.
+SELF = """SELECT ?l ?lat ?lon ?pop WHERE {
+  VALUES ?c { wd:%s }
+  ?c p:P625/psv:P625 [ wikibase:geoLatitude ?lat ; wikibase:geoLongitude ?lon ] ;
+     rdfs:label ?l .
+  FILTER(LANG(?l) IN ("en","mul"))
+  OPTIONAL { ?c wdt:P1082 ?pop }
+}"""
 
 def q(sparql, timeout=180):
     """-> (bindings, reason).  bindings is None on failure; reason is never
@@ -186,6 +211,36 @@ def main():
         print(f"  {cc}/{code} -> {len(recs)} places ({npop} with population) "
               f"in {time.time()-t0:.1f}s", flush=True)
         time.sleep(1.5)
+    # --- append each admin unit's own place record to its own file ---
+    added = 0
+    for cc, code, qid in todo:
+        p = f"{OUT}/{cc}_{code}.json"
+        if not os.path.exists(p):
+            continue
+        try:
+            recs = json.load(open(p, encoding="utf-8"))
+        except Exception:
+            continue
+        if any(r.get("self") for r in recs):
+            continue
+        rows, why = q(SELF % qid, timeout=60)
+        if not rows:
+            print(f"  {cc}/{code} self-record unavailable ({why})", flush=True)
+            continue
+        for b in rows:
+            try:
+                recs.append({"name": b["l"]["value"],
+                             "lat": float(b["lat"]["value"]),
+                             "lon": float(b["lon"]["value"]),
+                             "pop": int(float(b["pop"]["value"])) if "pop" in b else None,
+                             "self": True})
+                added += 1
+            except Exception:
+                pass
+        json.dump(recs, open(p, "w"), ensure_ascii=False)
+        time.sleep(0.3)
+    print(f"  appended {added} self-records", flush=True)
+
     tot = 0
     for f in os.listdir(OUT):
         tot += len(json.load(open(f"{OUT}/{f}", encoding="utf-8")))
