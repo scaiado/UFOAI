@@ -97,6 +97,10 @@ def main():
             cache = json.load(open(CACHE, encoding="utf-8"))
         except Exception:
             cache = {}
+    # NOTE: `cache` is persistent across runs and across worklists, so its keys
+    # are a SUPERSET of the current worklist's -- a pair the Wikidata gazetteer
+    # later resolves drops out of ungeocoded_pairs.json but stays in the cache.
+    # Coverage must therefore look pairs up defensively.
     pairs = json.load(open(PAIRS, encoding="utf-8"))
     ordered = sorted(pairs.items(), key=lambda kv: -kv[1])[:limit]
     total_recs = sum(pairs.values())
@@ -117,6 +121,21 @@ def main():
             cache[key] = cache[legacy]
             stats["cached_legacy"] += 1
             continue
+        # Salvage the first run's MALFORMED keys. Its worklist was built with
+        # rpartition(", ") on the display string, so a stateless location put
+        # the city in both fields -- "London|London". Those queries went out
+        # with state="London", which Nominatim ignored, so the coordinates are
+        # usable even though the key was not. 851 of that run's 1,252 resolved
+        # pairs (68%) are in this form; re-querying them would waste ~16 min of
+        # requests against a free public endpoint for no gain.
+        st_now = key.split("|")[1] if len(key.split("|")) > 1 else ""
+        if not st_now:
+            city_now = key.split("|")[0]
+            salv = cache.get(f"{city_now}|{city_now}")
+            if salv:
+                cache[key] = salv
+                stats["cached_salvaged"] += 1
+                continue
         parts = key.split("|")
         city, state = parts[0], parts[1] if len(parts) > 1 else ""
         country = parts[2] if len(parts) > 2 else ""
@@ -130,7 +149,7 @@ def main():
         time.sleep(SLEEP)
         if i % 100 == 0:
             hit = sum(1 for v in cache.values() if v)
-            cov = sum(pairs[k] for k, v in cache.items() if v) / total_recs
+            cov = sum(pairs.get(k, 0) for k, v in cache.items() if v) / total_recs
             el = time.time() - t0
             print(f"  [{i}/{len(ordered)}] hits={hit} coverage={cov:.1%} "
                   f"elapsed={el/60:.1f}m {dict(stats)}", flush=True)
@@ -157,7 +176,7 @@ def main():
                   ensure_ascii=False)
 
     hit = sum(1 for v in cache.values() if v)
-    cov = sum(pairs[k] for k, v in cache.items() if v) / total_recs
+    cov = sum(pairs.get(k, 0) for k, v in cache.items() if v) / total_recs
     print(f"\nDONE  pairs resolved {hit}/{len(cache)}  "
           f"record coverage {cov:.2%}  state files {len(bystate)}")
     print(f"  {dict(stats)}")
