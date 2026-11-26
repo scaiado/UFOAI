@@ -310,108 +310,242 @@ occulted versions from the outset, conceding privacy in full):
   `gazetteer_settlements.py` was built on a Rhode Island box that returned in
   8.3 s; a province-sized box answers 504. Recorded negative, not in pipeline.
 
-## 2. In flight when the session ended
+### 1.12 Session 3 — the evidence vault, and four results
 
-Two background jobs were running and **did not finish**. Both resume cleanly —
-each skips what already exists on disk.
+**`evidence_vault/` (145 MB, NOT gitignored, binaries force-added).** `archive/`
+was merged into it so there is ONE durable tree. `evidence_vault/VAULT_MANIFEST.md`
+is the living index and states for every empty section *why* it is empty.
 
-### 2.1 `omega/geipan_harvest.py` — GEIPAN dossier harvest
+Size rule: **a vault that cannot be pushed is not durable.** The 37 DIRD PDFs
+are 1,779.6 MB and are NOT stored — the texts are, plus
+`01_PURSUE_PRIMARY/FETCH_MANIFEST.json` with URLs, sizes and upstream SHA-1s.
+Durable corpora now inside: periodicals 860 texts (29.9 MB gz), PURSUE server
+OCR 286 (7.0 MB gz), TEP dossier (14 MB), trace controls (69 MB), NUFORC
+unified (11.6 MB gz).
 
-**Purpose:** the C-vs-D test is unidentifiable on analyst prose (§1.4). The fix
-is **witness-level text written before or independent of the verdict** —
-gendarmerie procès-verbaux (`PV n°...`), `Compte rendu enquête`, lab reports.
-Those are in the dossiers.
+#### Result A — the 37 DIRDs are open-literature surveys
 
-**Progress:** 74 of 141 case pages fetched (47 D cases with documents + 94
-matched C cases). 0 files downloaded yet — phase 2 had not started.
-Page cache preserved at `data/raw/geipan/pages_cache.tar.gz` (committed).
+`omega/dird_analysis.py` · `omega/reports/dird_corpus.md`
 
-**Resume:**
-```bash
-cd /home/user/UFOAI
-mkdir -p data/raw/geipan && tar xzf data/raw/geipan/pages_cache.tar.gz -C data/raw/geipan
-python3 -I omega/geipan_harvest.py
-```
-Case pages are Drupal-rendered and take 3–28 s each, so the script batches 8 per
-curl invocation to reuse the TLS connection. Static files answer in ~0.3 s.
-Expect ~15 min for the remaining pages, then the file phase.
-
-### 2.2 `omega/gazetteer.py` — SOLVED 2026-11-26, and the old diagnosis was wrong
-
-**Purpose:** NUFORC ships no coordinates and Nominatim at 1 req/s is ~8.5 h for
-~31k pairs. `query.wikidata.org` is allowlisted and serves the same data in
-bulk, one query per state/province.
-
-**The previously recorded cause was WRONG on both counts.** It was not a JSON
-control-character problem:
-
-- The real failure was **HTTP 504 "upstream request timeout" after ~65 s, for
-  every admin unit including the District of Columbia.** The query was simply
-  too expensive. The old `q()` collapsed any exception into `return None` and
-  printed a generic `FAILED`, which is exactly why the 504 stayed invisible for
-  a whole session. **A bare `except Exception: return None` cost this project a
-  session. `q()` now returns `(bindings, reason)` and reports HTTP status plus
-  the response head.**
-- **Measured across 55,045 New York rows, the number of labels containing a
-  control character is ZERO.** `strict=False` is retained only because it is
-  harmless. It fixed nothing.
-
-**The two costly constructs** were the unbounded subclass traversal
-`wdt:P31/wdt:P279* wd:Q486972` and the statement-node coordinate form
-`p:P625/psv:P625 [...]`. Replaced by plain `wdt:P625` with `geof:latitude` /
-`geof:longitude`:
-
-| unit | before | after |
-|---|---|---|
-| DC | 504 timeout at 65 s | **1.8 s** (3,054 rows) |
-| Rhode Island | 504 timeout | **0.9 s** (3,996 rows) |
-| New York | 504 timeout | **23.7 s** (55,045 rows) |
-
-Dropping the settlement class is deliberate — it buys recall (20k–76k
-coordinate-bearing entities per state). The cost is precision: only ~2–3% of
-those carry a population (P1082), so there is no signal to prefer a town called
-Springfield over a creek of the same name. Because §6 records that the
-persistence result was falsified as a **cross-pipeline geocoding artefact**,
-that gap gets a guard: `omega/gazetteer_settlements.py` adds a high-precision
-settlement overlay using `SERVICE wikibase:box`, which tolerates the class
-traversal the `P131+` path does not (Rhode Island box + `P279*` = 8.3 s), with
-each state's bounding box computed from the recall files already on disk.
-
-`omega/nuforc_ingest.py` resolves in **three precision tiers** —
-`wikidata_settlement`, `nominatim`, `wikidata_anyentity` — and records which
-one produced each coordinate in `kv["GeocodeSource"]`, so downstream work can
-filter by geocode precision instead of trusting every coordinate equally.
-
-`omega/gazetteer_nominatim.py` is the documented fallback: 1 req/s, honest UA,
-resumable per-pair cache, pairs in descending record-count order so it can be
-stopped at any point with a known coverage figure.
-
-**NUFORC ingest is verified end to end:** 134,906 records, **100%
-day-precision**, 99.1% with a country resolved from the parenthetical in `city`,
-30,787 distinct `city|state` pairs after name folding. It is **deliberately NOT
-registered in `corpus.CATALOG_META`** — adding a 134,906-record catalogue to
-`load_all` would silently change every established result in §6. The arm is
-opt-in. `Rec.summary` is forced `True` on every record because NUFORC's
-`summary` column is a summary line, not a narrative.
-
----
-
-## 3. Ephemeral data that will be lost — and how to get it back
-
-The scratchpad is session-local. These must be re-fetched:
-
-| What | Recovery |
+| | |
 |---|---|
-| PURSUE manifest `pursue_meta.json` | `curl -A "$UA" -L "https://archive.org/metadata/pursue-uap-documents-2026"` |
-| PURSUE 286 OCR'd `_djvu.txt` | `archive.org/cors/pursue-uap-documents-2026/<urlencoded path>`; `/download/` 302s to rejected datanodes — **use `/cors/`** |
-| NUFORC CSV | archive.org / data.world `drastimehta/nuforc-ufo-event-sightings-csv` |
-| Blue Book index XML, case OCR | `services/search/v1/scrape` with cursor — **not** `advancedsearch` (returns duplicates: 5,592 of true 10,764) |
+| DIRDs mentioning UAP/UFO **at all** | **1 of 37** |
+| open-literature citation markers | **1,541** |
+| closed/internal citation markers | **56** |
+| **ratio** | **27.5 : 1** |
 
-**Already durable and committed:** the 40 OCR'd Release_07/08 texts, the GEIPAN
-case database, the GEIPAN page cache, all analysis JSONs, all scripts, all
-reports.
+**"The government funded NHI-level technology research" deflates to "a
+threat-assessment office paid contractors to survey the open journals."** The
+DIRDs are programme-scope evidence, not capability evidence. Authors are
+anonymised `AAP Person N`, 31 distinct IDs in a block (1, 57, 58, 63–90).
 
----
+**The exception, D128** *Anomalous Acute and Subacute Field Effects on Human
+Biological Tissues* — 14 UAP refs, **14 closed citations (highest of any
+DIRD)**, Appendix A is the **Schuessler Catalog of UFO-Related Human
+Physiological Effects**. It concludes, verbatim, that injury patterns are
+« congruent with the anomalous vehicle reports » and attributable to
+**"real-world (although current and likely advanced beyond public information)
+technologies"** — terrestrial RF/microwave energy deposition. A prosaic
+conclusion reached inside the programme on its own data.
+
+Its one exotic alternative is falsifiable: a craft's blackbody spectrum
+**gravitationally blue-shifted** under spacetime manipulation → exposure up to
+**soft X-rays**, i.e. an **ionising** signature.
+
+**The structural gap, which is itself a finding.** TEP is the only
+physical-trace case with full lab chemistry, and INRA **rejected** an ionising
+mechanism there — but the TEP telex records `AUCUN EFFET RESSENTI PAR LE
+TEMOIN`, no effect felt. **The project's two best evidence bases do not
+overlap**: the case with trace chemistry had no human exposure; the document
+with a human-exposure model has no trace chemistry. Re-analysis of either cannot
+close it.
+
+**Two new FOIA targets named in primary text:** `Technical Study 10.0 Human
+Effects` (cited in D128, absent from the release, the only internal Technical
+Study referenced in all 37); the AAWSAP-held Schuessler Catalog.
+
+#### Result B — echo chamber re-grounded in primary publication
+
+`omega/periodical_provenance.py` · `evidence_vault/07_PERIODICALS_PRIMARY/`
+
+**860 issues, 72,057,926 chars, zero fetch failures.** MUFON/Skylook 485
+(1967–2008), APRO Bulletin 260 (from Vol 1 No 1, 1952), CUFOS IUR 115. This
+**lifts Phase 1's biggest stated limitation.**
+
+Strict test (place + year + month within ±320 chars): **CONTROLS 4/4,
+TARGETS 0/4.** Socorro 52 corroborated, Kecksburg 41, TEP 5, Exeter 4 —
+Wright-Patterson 1951, Dallas 1965, Galesburg 1967 all **zero**. The three
+apparent "Texas" hits were read individually and are all coincidence.
+
+Relaxed test (year only, 400 chars): controls beat targets **10× to 127×**.
+Weakest control is a *French* case in *US* bulletins (10 hits); strongest target
+is Wright-Patterson, named 291 times across 147 issues, year-proximity ≈ 0.
+
+**The corroboration is circular — six catalogues citing each other with nothing
+underneath.** And "a small town in Texas" is **untestable by construction**: a
+state plus an indefinite article is not a locus.
+
+*Not nonexistence:* NICAP's *UFO Investigator*, *Flying Saucer Review*, CUFOS
+case files and local newspapers are absent from the corpus.
+
+#### Result C — redaction extent measured; §1.7 corrected
+
+`omega/redaction_inline.py` · `omega/jp2_redaction.py` ·
+`evidence_vault/05_SCRUBBED_CONTENT/README.md`
+
+**§1.7 was incomplete.** It searched for the literal token `[REDACTED]` (6
+occurrences in 326 docs) and concluded redaction is invisible in text. The
+release **substitutes the exemption code in place of the withheld span**:
+`AT 0823Z, (b)(1)1.4a TOOK OFF FROM OJMS VIA SLR`.
+
+| mechanism | measurable from | count |
+|---|---|---|
+| inline exemption substitution | **text** | **982** across 55 of 326 docs |
+| solid black bars in page image | JP2 only | **148** over 112 pages |
+
+`DOW-UAP-D3` Arabian Gulf 2020 uses **both** — 104 inline at 17.10/1,000 chars
+across all 10 deciles, plus 66 bars over 5.87% of page area.
+
+**The stated reason is the finding.** E.O. 13526 §1.4: **1.4(a) military
+plans/weapons/operations = 224**; 1.4(g) = 19; **1.4(c) intelligence
+sources/methods = 1**. The withholdings are military operational detail, not
+intelligence tradecraft.
+
+White-out redaction was **tested and ruled out**. Numbering gaps, agency union:
+**CIA-UAP 29/29, zero gaps** (the earlier CIA gaps were the `018`→`D020`
+convention change); DOW-UAP 174, 37 missing, **D66–D73 reproduced**; NASA is
+**two parallel series** (D1–D7 missing D3; D15–D32 missing D23–D29) and the 8–14
+span is a boundary, not a gap. **D60/D63/D65 flanking the D66–D73 gap are
+image-only**, and measure 0.48–0.97% dark with **zero bars** — clean scans.
+
+#### Result D — Track 2 control set, and 4 of 10 sites cannot be controlled
+
+`omega/track2_controls.py` · `evidence_vault/08_SATELLITE_ANOMALIES/README.md`
+
+Control set built, **detection deliberately NOT run** — §5 item 5 makes the
+order a design constraint and §6 records five claims falsified by absent
+controls.
+
+**TESTABLE:** Réunion 1.00, Rendlesham 0.73, Socorro 0.62, Trans-en-Provence
+0.57, Saint-Mathias 0.50, Valensole 0.50.
+**NOT CONTROLLABLE:** Cherry Creek 0.24, Cash-Landrum 0.20, Lavonia 0.13,
+Newark Valley 0.12.
+
+**Controllability is inversely proportional to local sighting density.** Newark
+Valley has 658 sightings within 100 km and yields 2 clean controls from 17.
+**This is the mechanism behind §6's falsified proximity claims, made
+measurable:** in the US sighting field a candidate's neighbourhood already has
+reports, so there is no comparison ground.
+
+**TRACK 2 ON HISTORICAL SITES IS TEMPORALLY IMPOSSIBLE.** Sentinel-2 launched
+June 2015; the candidates are 1964–1981 events — a **34–51 year gap**. TEP's
+trace was visible at 40 days. Repoint Track 2 at the **34,898 geocoded
+Sentinel-2-era NUFORC records**.
+
+#### Result E — Tracks A–D: the "impossible" claims return clean nulls
+
+`omega/deep_terms.py` · `evidence_vault/10_HIDDEN_BURIED/deep_terms.json`.
+617 documents, context + frame recorded per hit (QUOTED_FICTION / HYPOTHETICAL /
+THIRD_PARTY / PHYSICS_TERM / DIRECT).
+
+**ZERO occurrences:** non-human personnel/employee/staff/officer/official ·
+human-looking · indistinguishable from human · breakaway civilisation · shadow
+government · organic robot · pseudo-human · security-clearance+non-human ·
+**non-human biologic** · **crash retrieval** · simulation hypothesis · majestic ·
+serpo · **glimmer glass** · kona blue · looking glass · **teaball** · **moon
+dust** · immaculate constellation.
+
+`MJ-12`: one hit, a citizen's letter *asking* a congressman about it.
+What IS present is DIRD physics vocabulary (metamaterial 419, antigravity 236,
+traversable wormhole 185) — a literature survey — plus Utah Ranch 64,
+Skinwalker 40, Socorro 68, Cash-Landrum 15.
+
+#### Codename index corrected
+
+29 present of 58, over 559 docs. Two traps removed by reading **every**
+occurrence: `aurora` 28→**3** (the rest are aurora borealis, a satellite
+"AURORA II", NASA's Fast Auroral Snapshot Explorer, Gemini astronauts
+describing auroras; the 3 survivors are all hedged — "alleged", "rumored",
+"supposed"); `stargate` 27→**0** (the DIA wormhole paper, a URL, and a GEIPAN
+witness naming a TV series). Three mechanisms: REQUIRE whitelist, VETO
+blacklist, **DOC_VETO** at document scope. `project pounce` re-tiered
+ALLEGED→OFFICIAL.
+
+### 1.13 Operational lessons from session 3
+
+- **`except Exception: return None` cost a session** (§2.2). A generic reason
+  hides a persistent 504.
+- **"0 failures" is a claim about error detection, not data.** Two provinces
+  returned zero rows and counted as successes.
+- **`\b` fails on `_`.** §1.7 documented this and it was **reproduced anyway** —
+  zero hits for 37 DIRDs that are plainly there. Use `(?![0-9])`.
+- **Zero-padding is a series marker; magnitude is not.**
+- **Overlapping ranges = convention change (merge). Disjoint = parallel series
+  (do not).**
+- **`OMP_THREAD_LIMIT=1`** for tesseract: 31,647 ms/page → 2,090 ms/page,
+  byte-identical. Always.
+- **Memoise `toks()`** — permutation nulls re-tokenised unchanged text ~63,000
+  times. 12,412× warm.
+- **Significance ≠ power.** MDD here is 2.485σ (80% power); significance is
+  1.645σ. An effect between them is *significant but underpowered*, not null.
+- **Matched tiers vary ±0.1 across matcher seeds.** A single draw is not a point
+  estimate.
+- **A control screen whose coverage tracks the geography being screened is not a
+  screen** (NUFORC alone passed French sites by absence of coverage).
+- **Never pipe a background job through `head`** — SIGPIPE kills it.
+- **A file can be tracked AND gitignored.** `git add` then silently refuses
+  without `-f`, and the committed copy goes stale.
+
+## 2. In flight when session 3 ended
+
+**NOTHING.** Every background job completed. Working tree clean, all pushed.
+Last commit `78ffee8`. Both session-2 jobs (`geipan_harvest.py`,
+`gazetteer.py`) are **finished** — see §2.1/§2.2 notes below for what they
+produced and the bugs they hid.
+
+### 2.1 `geipan_harvest.py` — COMPLETE
+146 of 150 cases, 290 files. 223 witness-class PDFs OCR'd (4.3 MB). The
+C-vs-D witness test ran: see §1.12 and `omega/reports/geipan_cd_witness.md`.
+
+### 2.2 `gazetteer.py` — COMPLETE, after five bugs
+1,740,621 entries, 67/67 units, zero failures. NUFORC join **123,771 of
+134,906 = 91.7%**, all day-precision, provenance per record. The five bugs
+(wrong Q-ids BC/PE, truthy-only `wdt:P625`, `mul`-coded labels, oversized
+responses, admin unit absent from its own result set) are documented in the
+script. The original "needs a `strict=False` fix" diagnosis was wrong on both
+counts: the real failure was HTTP 504 and zero labels contain control
+characters.
+
+## 3. Ephemeral data — what is now DURABLE, and what still is not
+
+**Everything expensive is in `evidence_vault/` (145 MB, committed).** The
+session-2 lesson — that `data/raw/` is gitignored and cost us the TEP dossier —
+is paid off.
+
+| in the vault, no re-fetch needed | size |
+|---|---|
+| 860 periodical texts (MUFON/APRO/IUR) | 29.9 MB gz |
+| PURSUE server OCR, 286 docs | 7.0 MB gz |
+| 37 AAWSAP DIRD texts | in-tree |
+| TEP dossier, 10 files / 177 pp | 14 MB gz |
+| trace-control dossiers, 16 files | 69 MB gz |
+| NUFORC unified, 134,906 recs | 11.6 MB gz |
+| GEIPAN case DB, codename index, 434-list, all analyses | in-tree |
+
+**Still ephemeral, and cheap to rebuild:**
+
+| what | recovery | cost |
+|---|---|---|
+| NUFORC raw CSV | `archive.org/cors/data-world-snapshot-20260713-agent-drastimehta/nuforc-ufo-event-sightings-csv.zip` | 1 min |
+| Wikidata gazetteer, 1.74 M entries | `python3 -I omega/gazetteer.py` | ~20 min |
+| JP2 bundles | `scratchpad/jp2_fetch.py` | 2 min |
+| PURSUE manifest | `archive.org/metadata/pursue-uap-documents-2026` | instant |
+| DIRD **PDFs** (1,779.6 MB — deliberately not stored) | `01_PURSUE_PRIMARY/FETCH_MANIFEST.json` | ~30 min |
+
+**Toolchain** (`apt`: tesseract-ocr tesseract-ocr-fra poppler-utils; `pip`:
+scipy scikit-learn) is in the `UFOAI Omega research` environment setup script —
+**still unproven**, since a setup script never runs on the machine that creates
+it. Verify on first boot; if it failed, run those commands by hand.
 
 ## 4. Environment
 
@@ -454,38 +588,54 @@ separately.
 
 ---
 
-## 5. Next, in priority order
+## 5. Next, in priority order — RUN ITEM 1 FIRST
 
-1. **Analyse the BAASS Ten Month Report** (1.09 MB, `data/raw/pursue_ocr/txt/`).
-   The largest unexamined primary document in the project. Section 2 is
-   "Project/Research Summary" with "BAASS Investigations" subsections. Read the
-   table of contents first and decide what is testable.
-2. **Finish `geipan_harvest.py`**, extract the PV/enquête text, and run the
-   C-vs-D test on **witness-level text** rather than analyst prose. This is the
-   first version of that test with a chance of being identified. Predict the
-   outcome before running it.
-3. **Verify and run `gazetteer.py`**, join to NUFORC, ingest as the modern-era
-   arm (corpus has 62 geocoded day-precision 2000s events against 115,422).
-4. **OCR the TEP image-only dossier files** — `Analyses2 INRA-R.pdf` (60 pp,
-   full biochemical series), `PV n°28 (1981308305).pdf` (11 pp, gendarmerie),
-   `Photos-R.pdf`. Use `-l fra`. The INRA series is the quantitative backing for
-   the 30–50% pigment claim.
-5. **Track 2 (Sentinel-2)** — requested repeatedly, never started. Build the
-   **matched-landcover control set first**, then detect; tier T0–T3. STAC
-   verified working (35-band L2A for Socorro) at
-   `earth-search.aws.element84.com`. Top 10 Phase 9 sites: Socorro/Zamora,
-   Rendlesham, St-Mathias, Newark Valley, Lavonia, Cherry Creek, Cash-Landrum,
-   Valensole, Réunion, Trans-en-Provence.
-6. **PURSUE redaction extent via JP2 page images** — the only way to measure it
-   (§1.7). Contiguous dark/blank region detection.
-7. **860 OCR'd periodicals** (MUFON 485, APRO 260, IUR 115) to re-ground Phase 1
-   provenance chains in primary sources — lifts Phase 1's biggest stated
-   limitation.
-8. **Convergence matrix** for top 50 Phase 9 sites, each cell a test statistic
-   with a stated null.
-9. **NHI Proof Report** — 27-section structure specified earlier.
+### 1. **§1.4 SEED-AVERAGING — the debt. Do this before quoting any number.**
+§1.4's **L4 (+0.2176)** and **L5 (+0.1795)** were *single* length-matched draws
+with one seed. Session 3 measured matched tiers varying **±0.1** across matcher
+seeds (enquête W3's single draw hit +0.2607 against a 24-seed mean of +0.150;
+pv W3's hit −0.0444 against +0.024). **+0.1795 is quoted as the project's upper
+bound on content in the handoff, the BAASS report, the TEP report and the DIRD
+report.** It is overprecise until seed-averaged.
+Use `omega/geipan_cd_seed_stability.py` as the pattern — 24 seeds, report
+mean ± sd and the fraction of seeds reaching p<0.05. Cheap now that `toks()` is
+memoised. **Then correct every downstream citation.**
 
----
+### 2. **Redaction slot analysis — novel, and the only route left into content**
+982 inline redactions, each with **surrounding grammar intact**. The *class* of
+withheld content is inferable without the value:
+`AT 0823Z, (b)(1)1.4a TOOK OFF FROM OJMS VIA SLR` — the removed token is the
+grammatical subject of "took off", i.e. a platform or callsign. At 982
+instances you get a distribution: platforms, locations, times, personnel,
+sensor specs? Combined with **§1.4(a) = 224 vs §1.4(c) = 1**, this says what is
+being protected. Not seen done anywhere.
+
+### 3. **AAWSAP contract audit — three primary documents, never compared**
+`D182` (Statement of Work, Aug 2008) → the 37 DIRDs → `D186–D188` (which
+include a **contract-deliverables review**). A closed loop: contracted vs
+delivered vs the government's own assessment. All on disk.
+
+### 4. **Track 2, REPOINTED** — historical sites are temporally impossible
+(34–51 yr gap). Run the existing control methodology on the **34,898 geocoded
+Sentinel-2-era NUFORC records**. Control set code: `omega/track2_controls.py`.
+
+### 5. **OCR the 23 declared image-only PURSUE docs** (`_imgonly` suffix),
+including the D60/D63/D65 mission reports. `tesseract -l eng`, and
+`OMP_THREAD_LIMIT=1`.
+
+### 6. **Remaining periodical work** — the 860 texts are vaulted. Build the
+full provenance graph for the 434-event retained-sample list, tracing each to
+its earliest primary source.
+
+### 7. **NHI Proof Report** — write it last, from the vault.
+
+### Blocked, not pending
+`war.gov`, `aaro.mil`, `nuforc.org`, CIA/FBI/NRO/NASA reading rooms,
+`arxiv.org`, `web.archive.org`, ESA WorldCover. **Ask the user to allowlist
+`arxiv.org`** (to verify the VASCO/Doherty chain from source rather than
+memory) and a landcover raster host (Track 2 matching is currently a spectral
+proxy). The retained-sample assay is blocked on *physical custody*, not
+chemistry — CUFOS/APRO/GEPAN/university archives are unreachable.
 
 ## 6. Established results so far (do not re-derive)
 
