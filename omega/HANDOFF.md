@@ -1,4 +1,7 @@
-# PROJECT OMEGA — session handoff, 2026-11-26
+# PROJECT OMEGA — session handoff
+
+*Updated 2026-11-26 (session 2). Sections 1.9–1.11 and the rewritten 2.1/2.2/4
+are from session 2; sections 1.1–1.8 are from session 1.*
 
 Everything below is on branch `claude/magical-gauss-wzgdqd` in
 `tfawhellen-sudo/UFOAI`. Read this file first in a new session.
@@ -190,6 +193,122 @@ Path (ephemeral scratchpad, see §3):
   duration, kv, summary, places`.
 
 ---
+
+### 1.9 BAASS Ten Month Report — independent 2009 corroboration of the D-reclassification
+
+`DOW-UAP-D172`, 30 July 2009, the AAWSAP deliverable to DIA under contract
+`HHM402-08-C-0072`. 497 pp, 1,086,965 chars. Archive.org still has **no text
+derivative for D172**, so our OCR remains the only machine-readable copy.
+
+**The result.** p283 ¶50 states the then-current public GEIPAN breakdown as
+BAASS's own translation-triage count: « D cases: 205 cases for 23 regions.
+C cases: 323 cases for 23 regions. » p219 confirms GEIPAN's own definition of D.
+
+| | BAASS mid-2009 | 2026 ≤2007 | 2026 **full 1937–2026** |
+|---|---|---|---|
+| C | 323 | 588 | 1,020 |
+| **D** | **205** | **75** | **106** |
+
+**The D count fell in absolute terms, 205 → 106, a deficit of 99 measured
+against the whole 90-year archive.** §1.3's D-rate result (3.78×, p=9.4e-10) is
+a *rate* and so admits a denominator objection; **an absolute decrease cannot be
+produced by adding cases.** GEIPAN added 2,104 post-2007 cases, of which only 31
+were D. Independent third party, 17 years earlier, counting for an unrelated
+purpose.
+
+**Unresolved and reported as such:** the report's "over 1,650 investigations
+1977–2007" does not reconcile with 1,155 (window) / 1,300 (≤2007). A
+case-vs-testimony unit mismatch was tested and rejected, but weakly — the field
+holds a title string, not a list. The D result is window-free and does not
+depend on it. BAASS itself documented press inflation of a release size in the
+same section (Danish Air Force: press said 15,000 reports, actual release 329
+pages).
+
+**Two defects found in the document.** "Entity Events ≈3,988" (23.1% of the
+17,281-record MUFON CMS) is contradicted by its own facing-page table: CE total
+2,233, CE3–5 = 333. And the classification percentages are computed on 8,753
+classified records (50.65% of the database) without disclosing the base, showing
+CE as 25.5% where it is 12.9%.
+
+**Northern Tier is NOT a usable independent nuclear-proximity test set.** p315
+states the method: UFOCAT/NIDS catalogue events "within 300 miles of an NT
+location", no control set, no base rate. That is failure mode #3 and the design
+already falsified for ICBM proximity. Not re-run. Its quantities are inside
+chart images anyway (OCR recovered only "MA1, 41", "CE5, 4").
+
+**Project Oral History is non-evidence by construction** — sources "warned that
+unauthorized disclosure… would be vigorously denied."
+
+**Keyword trap logged:** "3418 cases" is a private collection in a house in
+Fortaleza, Brazil (p423), **not** GEIPAN's 3,404.
+
+**OCR validation.** The cross-derivation check against archive.org's new
+Release_07 derivatives **cannot run** — the sets are exactly complementary, zero
+overlap, because D165 and D172 are the two files its deriver still fails on.
+Reported null. Two validations do hold: the 20-cell MUFON table sums to a total
+reproducing two independently-printed percentages to within 0.07 pp, and the
+load-bearing `205` is attested twice, 64 pages apart (p219, p283).
+
+Full report: `omega/reports/baass_ten_month_report.md`
+
+### 1.10 The undisclosed D cases are the re-examined ones
+
+`omega/geipan_revisit_disclosure.py`. Crossing `Document pour cas` with
+`Cas revisité` **inside class D** localises §1.3's marginal finding:
+
+| | revisited | not revisited | total |
+|---|---|---|---|
+| dossier published | 8 | 42 | **50** |
+| **no dossier published** | **55** | **1** | **56** |
+
+Revisit-rate 0.9821 undisclosed vs 0.1600 disclosed, **z = +8.605**, RR 6.14×.
+**Not an era artefact** — holds inside every decade 1970s–2010s, and the
+**Mantel-Haenszel OR stratified by decade is 209.10.** Stratification
+*strengthens* it, the opposite of failure mode #6.
+
+Supplies the mechanism tying §1.3 to §1.9: GEIPAN reopened D cases,
+reclassified ~99 out of D, and among those still in D the reopened ones are the
+unpublished ones.
+
+**DIRECTION OF CAUSATION UNDETERMINED.** "You reopen the case you cannot resolve
+from the file you have" fits the data exactly as well as "reopening withdraws
+the file". The metadata cannot separate them; separating them needs the
+documents, which is what is missing. `Cas revisité` semantics are undocumented,
+n=106, one cell holds a single case.
+
+Also **explains the power ceiling on the witness-level C-vs-D test**: the 56
+absent D dossiers are not missing at random.
+
+56 IDs with date/department/region/coordinates:
+`data/processed/geipan/cada_targets.json`. CADA letters drafted (asking for
+occulted versions from the outset, conceding privacy in full):
+`omega/reports/cada_request_draft.md`. **Drafted, not filed.**
+
+### 1.11 Operational lessons that cost real time this session
+
+- **`except Exception: return None` cost a whole session.** It turned a
+  persistent HTTP 504 into a generic "FAILED" (§2.2).
+- **A pipeline reporting "0 failures" is claiming its error detection works,
+  not that the data is good.** Two provinces came back with ZERO rows and were
+  counted as successes, because HTTP 200 with no bindings is not an error. Wrong
+  Q-ids: BC was Q1974 (correct **Q1973**), PE was Q1979 (correct **Q1978**).
+  BC alone holds 47,585 places. Consistent with §1.7, where three of four gap
+  findings were artefacts of our own ID parser.
+- **Tesseract spawns an OpenMP thread per core by default.** N worker processes
+  therefore put N×cores threads on `cores` cores. Measured on one 2480×3507 page
+  of the GEIPAN corpus: **31,647 ms/page at the default, 2,090 ms/page with
+  `OMP_THREAD_LIMIT=1`, byte-identical output.** 15×, i.e. 8.3 h → ~35 min.
+  **Always set `OMP_THREAD_LIMIT=1` and parallelise at the process level.**
+- **Wikidata's `mul` label code.** Labels identical across languages live under
+  `mul`, and `FILTER(LANG(?l)="en")` excludes them. San Antonio and Arizona
+  carry their names **only** under `mul`. Tiny in count (+25 on Texas) but it is
+  exactly the big city names. Use `FILTER(LANG(?l) IN ("en","mul"))`.
+- **`wdt:P625` returns only truthy coordinate statements.** San Antonio has
+  none; its coordinate exists only as a statement node, so
+  `p:P625/psv:P625` is required. That construct was **never** the timeout cause.
+- **Generalising a timing test from a small case was an error.**
+  `gazetteer_settlements.py` was built on a Rhode Island box that returned in
+  8.3 s; a province-sized box answers 504. Recorded negative, not in pipeline.
 
 ## 2. In flight when the session ended
 

@@ -1,5 +1,28 @@
 """High-precision settlement overlay for the NUFORC gazetteer.
 
+STATUS: DOES NOT WORK AT ADMIN-UNIT SCALE.  NOT USED IN THE PIPELINE.
+RETAINED AS A RECORDED NEGATIVE.
+
+    `SERVICE wikibase:box` tolerates the P31/P279* class traversal only for
+    SMALL boxes.  Measured: a Rhode Island-sized box returns in 8.3 s, but a
+    province-sized bounding box (Alberta) answers `http_504: upstream request
+    timeout` -- the same failure the P131+ form gives.  The Rhode Island test
+    that motivated this script succeeded only because Rhode Island is tiny,
+    and generalising from it was the error.
+
+    It would be viable by tiling each admin unit into small boxes (~500-1000
+    tiles at ~10 s each, i.e. 1.5-3 h), which is not worth the spend.
+    Precision is instead carried by two things already in the pipeline: the
+    population (P1082) tie-break in nuforc_ingest.load_gazetteer, and the
+    per-record geocode tier in kv["GeocodeSource"] so downstream work can
+    filter by provenance.
+
+    A second latent bug, left visible rather than silently fixed: bbox()
+    filters longitudes for the antimeridian case WITHOUT filtering the
+    corresponding latitudes, so an Alaska-style box would be computed from
+    mismatched lists.  It never ran far enough to matter.
+
+
 WHY.  omega/gazetteer.py deliberately drops the settlement-class constraint,
 because `wdt:P31/wdt:P279* wd:Q486972` is one of the two constructs that made
 the query time out.  That buys recall (24k-76k coordinate-bearing entities per
