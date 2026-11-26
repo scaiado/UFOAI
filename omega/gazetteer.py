@@ -50,19 +50,32 @@ US = {
  "WI":"Q1537","WY":"Q1214","PR":"Q1183","VI":"Q11703","GU":"Q16635",
 }
 CA = {
- "AB":"Q1951","BC":"Q1974","MB":"Q1948","NB":"Q1965","NL":"Q2003","NS":"Q1952",
- "NT":"Q2007","NU":"Q2023","ON":"Q1904","PE":"Q1979","QC":"Q176","SK":"Q1989","YT":"Q2009",
+ "AB":"Q1951","BC":"Q1973","MB":"Q1948","NB":"Q1965","NL":"Q2003","NS":"Q1952",
+ "NT":"Q2007","NU":"Q2023","ON":"Q1904","PE":"Q1978","QC":"Q176","SK":"Q1989","YT":"Q2009",
 }
 
 # human settlement (Q486972) or any subclass, inside the admin unit transitively
+# Two corrections beyond dropping the P279* traversal, both found by chasing
+# a single missing city (San Antonio, 260 NUFORC records):
+#
+# 1. COORDINATES: `wdt:P625` returns only TRUTHY coordinate statements.  San
+#    Antonio (Q975) has no truthy P625 at all -- its coordinate exists only as
+#    a statement node.  So the `p:P625/psv:P625` form is restored.  It was NOT
+#    the cause of the timeouts (the class traversal was); it costs ~23 s on
+#    Texas and recovers ~190 entities there.
+#
+# 2. LABELS: Wikidata's `mul` language code holds labels that are identical
+#    across languages, and `FILTER(LANG(?l)="en")` excludes them.  San Antonio
+#    and Arizona both carry their name ONLY under `mul`.  The effect is small
+#    in count (Texas: 66,405 en-labelled vs 66,430 en-or-mul, +25) but high in
+#    leverage, because the names spelled identically in every language are
+#    exactly the big international city names.
 TMPL = """SELECT ?l ?lat ?lon ?pop WHERE {
   ?c wdt:P131+ wd:%s ;
-     wdt:P625 ?coord ;
+     p:P625/psv:P625 [ wikibase:geoLatitude ?lat ; wikibase:geoLongitude ?lon ] ;
      rdfs:label ?l .
-  FILTER(LANG(?l)="en")
+  FILTER(LANG(?l) IN ("en","mul"))
   OPTIONAL { ?c wdt:P1082 ?pop }
-  BIND(geof:latitude(?coord) AS ?lat)
-  BIND(geof:longitude(?coord) AS ?lon)
 }"""
 def q(sparql, timeout=180):
     """-> (bindings, reason).  bindings is None on failure; reason is never
@@ -103,6 +116,16 @@ def main():
             except Exception:
                 pass
         json.dump(recs, open(p, "w"), ensure_ascii=False)
+        if not recs:
+            # An admin unit with zero places means a WRONG Q-ID, not an empty
+            # province.  Two were wrong here: BC was Q1974 (no English label,
+            # correct is Q1973) and PE was Q1979 (correct Q1978).  Both wrote a
+            # 0-row file and the run still reported "0 failed", which is how a
+            # populous province went missing from a 1.65M-entry gazetteer.
+            print(f"  {cc}/{code} EMPTY -- suspect a wrong Q-id ({qid}); "
+                  f"not writing a 0-row file", flush=True)
+            time.sleep(1.0)
+            continue
         npop = sum(1 for x in recs if x["pop"])
         print(f"  {cc}/{code} -> {len(recs)} places ({npop} with population) "
               f"in {time.time()-t0:.1f}s", flush=True)
