@@ -92,8 +92,25 @@ leurs ne pas plus tres tres d l n s c j y m t qu lui on nous vous je tu me te si
 or ni car comme tout tous toute toutes meme aussi bien deux trois""".split())
 _TOK = re.compile(r"[a-zà-ÿ]{3,}")
 
+# Memoised because the permutation nulls call it ~63,000 times on texts that
+# never change -- only the LABELS are shuffled between draws.  On the witness
+# corpus (4.3 MB over 142 cases) the uncached path re-tokenises every document
+# on every fit, turning a minutes-long test into an hours-long one.  `toks` is
+# a pure function of its argument, so the cache is semantically transparent.
+# Python caches a str's hash on the object itself, and the records hold the
+# same string objects across draws, so lookups cost a pointer-hash.
+_TOKCACHE = {}
+_TOKCACHE_MAX = 16384
+
+
 def toks(s):
-    return [t for t in _TOK.findall(s.lower()) if t not in _STOP]
+    v = _TOKCACHE.get(s)
+    if v is None:
+        v = [t for t in _TOK.findall(s.lower()) if t not in _STOP]
+        if len(_TOKCACHE) >= _TOKCACHE_MAX:
+            _TOKCACHE.clear()
+        _TOKCACHE[s] = v
+    return v
 
 def nb_cv(recs, field, arms, folds=5, seed=7):
     """Stratified k-fold multinomial-NB accuracy on a text field. Measures how much
