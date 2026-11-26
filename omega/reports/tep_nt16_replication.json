@@ -1,0 +1,533 @@
+{
+ "series1": {
+  "Chlorophylle A": {
+   "young": {
+    "pct": -33.3,
+    "lo": -65.6,
+    "hi": 30.2,
+    "p_null_analytical": 0.1031
+   },
+   "aged": {
+    "pct": -33.3,
+    "lo": -65.5,
+    "hi": 29.5,
+    "p_null_analytical": 0.1044
+   }
+  },
+  "Chlorophylle B": {
+   "young": {
+    "pct": -27.4,
+    "lo": -62.7,
+    "hi": 41.8,
+    "p_null_analytical": 0.1557
+   },
+   "aged": {
+    "pct": -27.5,
+    "lo": -62.6,
+    "hi": 41.3,
+    "p_null_analytical": 0.1555
+   }
+  },
+  "Chl (A+B)": {
+   "young": {
+    "pct": -30.9,
+    "lo": -64.5,
+    "hi": 33.9,
+    "p_null_analytical": 0.1253
+   },
+   "aged": {
+    "pct": -31.1,
+    "lo": -64.6,
+    "hi": 33.7,
+    "p_null_analytical": 0.1226
+   }
+  },
+  "Pheophytine A": {
+   "young": {
+    "pct": -39.7,
+    "lo": -68.9,
+    "hi": 16.8,
+    "p_null_analytical": 0.0613
+   },
+   "aged": {
+    "pct": -31.0,
+    "lo": -64.4,
+    "hi": 34.3,
+    "p_null_analytical": 0.1232
+   }
+  },
+  "beta-carotene": {
+   "young": {
+    "pct": -57.1,
+    "lo": -78.0,
+    "hi": -17.1,
+    "p_null_analytical": 0.0083
+   },
+   "aged": {
+    "pct": -50.0,
+    "lo": -74.3,
+    "hi": -3.0,
+    "p_null_analytical": 0.0212
+   }
+  },
+  "Luteine": {
+   "young": {
+    "pct": -12.5,
+    "lo": -55.0,
+    "hi": 70.0,
+    "p_null_analytical": 0.3345
+   },
+   "aged": {
+    "pct": -29.4,
+    "lo": -63.5,
+    "hi": 37.0,
+    "p_null_analytical": 0.1372
+   }
+  },
+  "Violaxanthine": {
+   "young": {
+    "pct": -80.0,
+    "lo": -89.7,
+    "hi": -60.8,
+    "p_null_analytical": 0.0002
+   },
+   "aged": {
+    "pct": -35.3,
+    "lo": -66.6,
+    "hi": 25.3,
+    "p_null_analytical": 0.0887
+   }
+  },
+  "Neoxanthine+chlorophyllides": {
+   "young": {
+    "pct": 7.1,
+    "lo": -44.8,
+    "hi": 107.7,
+    "p_null_analytical": 0.4125
+   },
+   "aged": {
+    "pct": -3.8,
+    "lo": -50.5,
+    "hi": 86.7,
+    "p_null_analytical": 0.4486
+   }
+  }
+ },
+ "reproduction": [
+  {
+   "label": "SumChlA ~ d",
+   "page": "p.50",
+   "r_reported": 0.6868,
+   "r_ours": 0.686,
+   "p_reported": null,
+   "p_param_2s": 0.132,
+   "p_param_1s": 0.0662,
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "label": "SumChlA/SumChlB ~ d",
+   "page": "p.51",
+   "r_reported": 0.7509,
+   "r_ours": 0.7877,
+   "p_reported": 0.031,
+   "p_param_2s": 0.0628,
+   "p_param_1s": 0.0314,
+   "status": "DIFF",
+   "note": ""
+  },
+  {
+   "label": "SumChlA/SumChlB ~ 1/(d+1)",
+   "page": "p.51",
+   "r_reported": -0.891,
+   "r_ours": -0.8931,
+   "p_reported": 0.0039,
+   "p_param_2s": 0.0165,
+   "p_param_1s": 0.00827,
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "label": "SumPhA/SumChlA ~ 1/(d+1)",
+   "page": "p.51",
+   "r_reported": 0.99,
+   "r_ours": 0.9897,
+   "p_reported": null,
+   "p_param_2s": 0.000157,
+   "p_param_1s": 7.86e-05,
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "label": "PhA'/SumChlA ~ 1/(d+1)",
+   "page": "p.51",
+   "r_reported": 0.993,
+   "r_ours": 0.9929,
+   "p_reported": null,
+   "p_param_2s": 7.44e-05,
+   "p_param_1s": 3.72e-05,
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "label": "ln(PhA'/SumChlA) ~ ln(d+1)",
+   "page": "p.52",
+   "r_reported": 0.916,
+   "r_ours": -0.9159,
+   "p_reported": 0.00028,
+   "p_param_2s": 0.0289,
+   "p_param_1s": 0.0145,
+   "status": "SIGN/ABS",
+   "note": "best match drops E-4"
+  },
+  {
+   "label": "beta-carotene ~ d",
+   "page": "p.52 Tab.3",
+   "r_reported": 0.945,
+   "r_ours": 0.9454,
+   "p_reported": 0.0022,
+   "p_param_2s": 0.00439,
+   "p_param_1s": 0.00219,
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "label": "Luteine ~ d",
+   "page": "p.52 Tab.3",
+   "r_reported": 0.871,
+   "r_ours": 0.8708,
+   "p_reported": 0.012,
+   "p_param_2s": 0.0239,
+   "p_param_1s": 0.012,
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "label": "ln Tq ~ ln(d+1)",
+   "page": "p.60 Tab.8",
+   "r_reported": -0.973,
+   "r_ours": -0.9724,
+   "p_reported": 0.00054,
+   "p_param_2s": 0.00113,
+   "p_param_1s": 0.000564,
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "label": "ln Tc ~ ln(d+1)",
+   "page": "p.60 Tab.8",
+   "r_reported": -0.951,
+   "r_ours": -0.9519,
+   "p_reported": 0.0018,
+   "p_param_2s": 0.00342,
+   "p_param_1s": 0.00171,
+   "status": "MATCH",
+   "note": ""
+  },
+  {
+   "label": "ln C-P ~ ln(d+1)",
+   "page": "p.60 Tab.8",
+   "r_reported": -0.961,
+   "r_ours": -0.9618,
+   "p_reported": 0.0011,
+   "p_param_2s": 0.00216,
+   "p_param_1s": 0.00108,
+   "status": "MATCH",
+   "note": ""
+  }
+ ],
+ "perm": [
+  {
+   "label": "SumChlA ~ d",
+   "r": 0.686,
+   "r_ci95": [
+    -0.283,
+    0.962
+   ],
+   "p_perm": 0.0722
+  },
+  {
+   "label": "SumChlA/SumChlB ~ d",
+   "r": 0.788,
+   "r_ci95": [
+    -0.066,
+    0.976
+   ],
+   "p_perm": 0.0667
+  },
+  {
+   "label": "SumChlA/SumChlB ~ 1/(d+1)",
+   "r": -0.893,
+   "r_ci95": [
+    -0.988,
+    -0.296
+   ],
+   "p_perm": 0.0083
+  },
+  {
+   "label": "SumPhA/SumChlA ~ 1/(d+1)",
+   "r": 0.99,
+   "r_ci95": [
+    0.906,
+    0.999
+   ],
+   "p_perm": 0.0056
+  },
+  {
+   "label": "PhA'/SumChlA ~ 1/(d+1)",
+   "r": 0.993,
+   "r_ci95": [
+    0.934,
+    0.999
+   ],
+   "p_perm": 0.0028
+  },
+  {
+   "label": "beta-carotene ~ d",
+   "r": 0.945,
+   "r_ci95": [
+    0.575,
+    0.994
+   ],
+   "p_perm": 0.0028
+  },
+  {
+   "label": "Luteine ~ d",
+   "r": 0.871,
+   "r_ci95": [
+    0.202,
+    0.986
+   ],
+   "p_perm": 0.0056
+  },
+  {
+   "label": "ln Tq ~ ln(d+1)",
+   "r": -0.972,
+   "r_ci95": [
+    -0.997,
+    -0.763
+   ],
+   "p_perm": 0.0028
+  },
+  {
+   "label": "ln Tc ~ ln(d+1)",
+   "r": -0.952,
+   "r_ci95": [
+    -0.995,
+    -0.617
+   ],
+   "p_perm": 0.0028
+  },
+  {
+   "label": "ln C-P ~ ln(d+1)",
+   "r": -0.962,
+   "r_ci95": [
+    -0.996,
+    -0.685
+   ],
+   "p_perm": 0.0028
+  }
+ ],
+ "fork": [
+  {
+   "var": "SumChlA",
+   "max_abs_r": 0.9898,
+   "p_fork": 0.0028
+  },
+  {
+   "var": "SumChlB",
+   "max_abs_r": 0.3163,
+   "p_fork": 0.7472
+  },
+  {
+   "var": "SumChl",
+   "max_abs_r": 0.9738,
+   "p_fork": 0.0083
+  },
+  {
+   "var": "ratioAB",
+   "max_abs_r": 0.8968,
+   "p_fork": 0.0222
+  },
+  {
+   "var": "PhA_tot/ChlA",
+   "max_abs_r": 0.9897,
+   "p_fork": 0.0056
+  },
+  {
+   "var": "PhA'/ChlA",
+   "max_abs_r": 0.9929,
+   "p_fork": 0.0028
+  },
+  {
+   "var": "bCar",
+   "max_abs_r": 0.9454,
+   "p_fork": 0.0056
+  },
+  {
+   "var": "Lut",
+   "max_abs_r": 0.8708,
+   "p_fork": 0.0556
+  },
+  {
+   "var": "Vx+Nx+Chlide",
+   "max_abs_r": 0.8292,
+   "p_fork": 0.0694
+  },
+  {
+   "var": "PhA",
+   "max_abs_r": 0.8353,
+   "p_fork": 0.1167
+  },
+  {
+   "var": "PhA'",
+   "max_abs_r": 0.8733,
+   "p_fork": 0.0361
+  },
+  {
+   "var": "PChld3",
+   "max_abs_r": 0.6352,
+   "p_fork": 0.3278
+  },
+  {
+   "var": "PChld4",
+   "max_abs_r": 0.7881,
+   "p_fork": 0.1167
+  },
+  {
+   "var": "lnTq",
+   "max_abs_r": 0.9724,
+   "p_fork": 0.0028
+  },
+  {
+   "var": "lnTc",
+   "max_abs_r": 0.9519,
+   "p_fork": 0.0028
+  },
+  {
+   "var": "lnC-P",
+   "max_abs_r": 0.9618,
+   "p_fork": 0.0028
+  }
+ ],
+ "joint": {
+  "obs": 13,
+  "null_mean": 1.6916666666666667,
+  "p": 0.002777777777777778
+ },
+ "leverage": [
+  {
+   "label": "SumChlA ~ d",
+   "r_all": 0.686,
+   "r_without_E1": 0.965,
+   "p_without_E1": 0.00793
+  },
+  {
+   "label": "SumChlA/SumChlB ~ d",
+   "r_all": 0.788,
+   "r_without_E1": 0.717,
+   "p_without_E1": 0.173
+  },
+  {
+   "label": "SumChlA/SumChlB ~ 1/(d+1)",
+   "r_all": -0.893,
+   "r_without_E1": -0.814,
+   "p_without_E1": 0.0935
+  },
+  {
+   "label": "SumPhA/SumChlA ~ 1/(d+1)",
+   "r_all": 0.99,
+   "r_without_E1": 0.92,
+   "p_without_E1": 0.0271
+  },
+  {
+   "label": "PhA'/SumChlA ~ 1/(d+1)",
+   "r_all": 0.993,
+   "r_without_E1": 0.945,
+   "p_without_E1": 0.0152
+  },
+  {
+   "label": "beta-carotene ~ d",
+   "r_all": 0.945,
+   "r_without_E1": 0.927,
+   "p_without_E1": 0.0236
+  },
+  {
+   "label": "Luteine ~ d",
+   "r_all": 0.871,
+   "r_without_E1": 0.845,
+   "p_without_E1": 0.0714
+  },
+  {
+   "label": "ln Tq ~ ln(d+1)",
+   "r_all": -0.972,
+   "r_without_E1": -0.947,
+   "p_without_E1": 0.0145
+  },
+  {
+   "label": "ln Tc ~ ln(d+1)",
+   "r_all": -0.952,
+   "r_without_E1": -0.892,
+   "p_without_E1": 0.0421
+  },
+  {
+   "label": "ln C-P ~ ln(d+1)",
+   "r_all": -0.962,
+   "r_without_E1": -0.92,
+   "p_without_E1": 0.027
+  }
+ ],
+ "confound": [
+  {
+   "var": "SumChlA",
+   "r_d": 0.686,
+   "r_mass": -0.293,
+   "partial_r_d_given_mass": 0.755
+  },
+  {
+   "var": "bCar",
+   "r_d": 0.945,
+   "r_mass": -0.151,
+   "partial_r_d_given_mass": 0.979
+  },
+  {
+   "var": "Lut",
+   "r_d": 0.871,
+   "r_mass": -0.239,
+   "partial_r_d_given_mass": 0.929
+  },
+  {
+   "var": "lnTq",
+   "r_d": -0.913,
+   "r_mass": 0.247,
+   "partial_r_d_given_mass": -0.976
+  },
+  {
+   "var": "lnTc",
+   "r_d": -0.863,
+   "r_mass": 0.301,
+   "partial_r_d_given_mass": -0.944
+  },
+  {
+   "var": "lnC-P",
+   "r_d": -0.853,
+   "r_mass": 0.302,
+   "partial_r_d_given_mass": -0.935
+  },
+  {
+   "var": "PhA'/ChlA",
+   "r_d": -0.736,
+   "r_mass": 0.351,
+   "partial_r_d_given_mass": -0.832
+  }
+ ],
+ "soil": {
+  "rep_soil_median_dex": 1.3603145324624415,
+  "rep_soil_outside_x3": 23,
+  "n_elements": 24,
+  "both_enriched": [
+   "P"
+  ],
+  "p_both": 0.77215
+ }
+}

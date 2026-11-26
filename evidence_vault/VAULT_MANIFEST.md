@@ -74,7 +74,14 @@ the 60-page INRA biochemical series, the 11-page gendarmerie telex, the plates.
 microprobe · D.E.R. university microscopy · INRA Montfavet plant biochemistry ·
 ALAT aerial activity · Météorologie Nationale.
 
-Analysis: `omega/reports/geipan_trans_en_provence.md`.
+Analysis: `omega/reports/geipan_trans_en_provence.md`; write-up and replication
+(2026-11-26): `omega/reports/nt16_writeup_and_replication.md`.
+
+`tep_dossier_pageocr_2026-11-26.tar.gz` — page-by-page tesseract (fra, 300 dpi)
+of the seven image-only or handwritten-table files (INRA ×2, PV, Photos, LDP,
+SNEAP, DER), one `.txt` per PDF page so citations can name a page. OCR of
+handwriting is poor; every number used in the replication was read from the
+page image, not from this OCR.
 
 ### `other_lab_cases/` — the matched control set
 All five other physical-sample cases in the 3,404-case archive, 16 files, 75 MB.

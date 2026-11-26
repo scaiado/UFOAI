@@ -1,0 +1,160 @@
+
+==============================================================================
+1. Series 1 (Tableau 1, NT16 p.46): exposed vs 20 m control, n=1 pooled sample per cell
+==============================================================================
+Percent change with 95% interval from analytical CV=0.22 (p.45), Monte Carlo 200k.
+NB: this interval covers ANALYTICAL noise only. There is no biological replicate,
+so between-plant / between-microsite variance is unestimated and the true interval is wider.
+  Chlorophylle A                 young  -33.3% [ -65.6, +30.2] p0=0.1031 | aged  -33.3% [ -65.5, +29.5] p0=0.1044 | gamma 1e6 rad -30%
+  Chlorophylle B                 young  -27.4% [ -62.7, +41.8] p0=0.1557 | aged  -27.5% [ -62.6, +41.3] p0=0.1555 | gamma 1e6 rad -46%
+  Chl (A+B)                      young  -30.9% [ -64.5, +33.9] p0=0.1253 | aged  -31.1% [ -64.6, +33.7] p0=0.1226
+  Pheophytine A                  young  -39.7% [ -68.9, +16.8] p0=0.0613 | aged  -31.0% [ -64.4, +34.3] p0=0.1232
+  beta-carotene                  young  -57.1% [ -78.0, -17.1] p0=0.0083 | aged  -50.0% [ -74.3,  -3.0] p0=0.0212 | gamma 1e6 rad -20%
+  Luteine                        young  -12.5% [ -55.0, +70.0] p0=0.3345 | aged  -29.4% [ -63.5, +37.0] p0=0.1372 | gamma 1e6 rad -30%
+  Violaxanthine                  young  -80.0% [ -89.7, -60.8] p0=0.0002 | aged  -35.3% [ -66.6, +25.3] p0=0.0887 | gamma 1e6 rad -40%
+  Neoxanthine+chlorophyllides    young   +7.1% [ -44.8,+107.7] p0=0.4125 | aged   -3.8% [ -50.5, +86.7] p0=0.4486
+
+  Pheophytin A / Chlorophyll A ratio (the 'inactive form' index):
+    young: control 0.839 -> exposed 0.759  (-9.6%)
+    aged: control 0.358 -> exposed 0.370  (+3.4%)
+
+==============================================================================
+2. Reproducing NT16's reported correlations from its own Tableaux 2/7
+==============================================================================
+  SumChlA ~ d                      p.50        r_rep=+0.6868 r_ours=+0.6860 MATCH    P_rep=None P_ours 2s=0.132 1s=0.0662 
+  SumChlA/SumChlB ~ d              p.51        r_rep=+0.7509 r_ours=+0.7877 DIFF     P_rep=0.031 P_ours 2s=0.0628 1s=0.0314 
+  SumChlA/SumChlB ~ 1/(d+1)        p.51        r_rep=-0.8910 r_ours=-0.8931 MATCH    P_rep=0.0039 P_ours 2s=0.0165 1s=0.00827 
+  SumPhA/SumChlA ~ 1/(d+1)         p.51        r_rep=+0.9900 r_ours=+0.9897 MATCH    P_rep=None P_ours 2s=0.000157 1s=7.86e-05 
+  PhA'/SumChlA ~ 1/(d+1)           p.51        r_rep=+0.9930 r_ours=+0.9929 MATCH    P_rep=None P_ours 2s=7.44e-05 1s=3.72e-05 
+  ln(PhA'/SumChlA) ~ ln(d+1)       p.52        r_rep=+0.9160 r_ours=-0.9159 SIGN/ABS P_rep=0.00028 P_ours 2s=0.0289 1s=0.0145 best match drops E-4
+  beta-carotene ~ d                p.52 Tab.3  r_rep=+0.9450 r_ours=+0.9454 MATCH    P_rep=0.0022 P_ours 2s=0.00439 1s=0.00219 
+  Luteine ~ d                      p.52 Tab.3  r_rep=+0.8710 r_ours=+0.8708 MATCH    P_rep=0.012 P_ours 2s=0.0239 1s=0.012 
+  ln Tq ~ ln(d+1)                  p.60 Tab.8  r_rep=-0.9730 r_ours=-0.9724 MATCH    P_rep=0.00054 P_ours 2s=0.00113 1s=0.000564 
+  ln Tc ~ ln(d+1)                  p.60 Tab.8  r_rep=-0.9510 r_ours=-0.9519 MATCH    P_rep=0.0018 P_ours 2s=0.00342 1s=0.00171 
+  ln C-P ~ ln(d+1)                 p.60 Tab.8  r_rep=-0.9610 r_ours=-0.9618 MATCH    P_rep=0.0011 P_ours 2s=0.00216 1s=0.00108 
+  Floor: with N=6 and the d=10 tie, the smallest attainable two-sided permutation p is 2/720 = 0.0028.
+
+==============================================================================
+2b. NT16 Tableau 2 E-1 Chlorophylle B: printed 0,930 (NT16 p.50) vs 0,030 (INRA original, Analyses2_INRA-R p.23)
+==============================================================================
+  E-1 ChlB=0.930: ratio~d r=+0.7454 (rep +0.7509); ratio~1/(d+1) r=-0.9550 (rep -0.891); SumChlB~d r=-0.5512 (text: 'pas de correlation significative')
+  E-1 ChlB=0.030: ratio~d r=+0.7877 (rep +0.7509); ratio~1/(d+1) r=-0.8931 (rep -0.891); SumChlB~d r=-0.1183 (text: 'pas de correlation significative')
+
+==============================================================================
+3. Null model A: exact permutation of distance labels (720 orderings, ties kept)
+==============================================================================
+Each p is the share of the 720 relabelings whose |r| >= observed.
+  SumChlA ~ d                      r=+0.686 [Fisher-z 95% -0.283,+0.962]  p_perm=0.0722  (parametric P reported None)
+  SumChlA/SumChlB ~ d              r=+0.788 [Fisher-z 95% -0.066,+0.976]  p_perm=0.0667  (parametric P reported 0.031)
+  SumChlA/SumChlB ~ 1/(d+1)        r=-0.893 [Fisher-z 95% -0.988,-0.296]  p_perm=0.0083  (parametric P reported 0.0039)
+  SumPhA/SumChlA ~ 1/(d+1)         r=+0.990 [Fisher-z 95% +0.906,+0.999]  p_perm=0.0056  (parametric P reported None)
+  PhA'/SumChlA ~ 1/(d+1)           r=+0.993 [Fisher-z 95% +0.934,+0.999]  p_perm=0.0028  (parametric P reported None)
+  beta-carotene ~ d                r=+0.945 [Fisher-z 95% +0.575,+0.994]  p_perm=0.0028  (parametric P reported 0.0022)
+  Luteine ~ d                      r=+0.871 [Fisher-z 95% +0.202,+0.986]  p_perm=0.0056  (parametric P reported 0.012)
+  ln Tq ~ ln(d+1)                  r=-0.972 [Fisher-z 95% -0.997,-0.763]  p_perm=0.0028  (parametric P reported 0.00054)
+  ln Tc ~ ln(d+1)                  r=-0.952 [Fisher-z 95% -0.995,-0.617]  p_perm=0.0028  (parametric P reported 0.0018)
+  ln C-P ~ ln(d+1)                 r=-0.962 [Fisher-z 95% -0.996,-0.685]  p_perm=0.0028  (parametric P reported 0.0011)
+
+==============================================================================
+3b. Null model B: forking paths -- best of 3 distance transforms per variable
+==============================================================================
+NT16 fits d, 1/(d+1) and ln(d+1) and reports whichever straightens the curve.
+Null: permute labels, take max |r| over the three transforms; compare observed max.
+  SumChlA          max|r|=0.990  p_fork=0.0028
+  SumChlB          max|r|=0.316  p_fork=0.7472
+  SumChl           max|r|=0.974  p_fork=0.0083
+  ratioAB          max|r|=0.897  p_fork=0.0222
+  PhA_tot/ChlA     max|r|=0.990  p_fork=0.0056
+  PhA'/ChlA        max|r|=0.993  p_fork=0.0028
+  bCar             max|r|=0.945  p_fork=0.0056
+  Lut              max|r|=0.871  p_fork=0.0556
+  Vx+Nx+Chlide     max|r|=0.829  p_fork=0.0694
+  PhA              max|r|=0.835  p_fork=0.1167
+  PhA'             max|r|=0.873  p_fork=0.0361
+  PChld3           max|r|=0.635  p_fork=0.3278
+  PChld4           max|r|=0.788  p_fork=0.1167
+  lnTq             max|r|=0.972  p_fork=0.0028
+  lnTc             max|r|=0.952  p_fork=0.0028
+  lnC-P            max|r|=0.962  p_fork=0.0028
+
+==============================================================================
+3c. Null model C: joint relabeling -- how many of 16 variables reach p_fork<0.05 by chance?
+==============================================================================
+Permutes distance labels once for ALL variables together, preserving their
+shared-sample correlation. 720 relabelings; count variables with max|r| >= 0.811
+(the 2-sided 5% critical r for N=6).
+  observed: 13/16 variables with max|r|>=0.811
+  null: mean 1.69, median 0, 95th pct 8; P(count>=obs)=0.0028
+
+==============================================================================
+4. Leverage: is the 'gradient' a gradient, or E-1 versus the rest?
+==============================================================================
+Drop E-1 (d=0, the centre) and recompute on the 5 remaining points.
+  SumChlA ~ d                      r_all=+0.686  r_without_E1=+0.965  P2s=0.00793
+  SumChlA/SumChlB ~ d              r_all=+0.788  r_without_E1=+0.717  P2s=0.173
+  SumChlA/SumChlB ~ 1/(d+1)        r_all=-0.893  r_without_E1=-0.814  P2s=0.0935
+  SumPhA/SumChlA ~ 1/(d+1)         r_all=+0.990  r_without_E1=+0.920  P2s=0.0271
+  PhA'/SumChlA ~ 1/(d+1)           r_all=+0.993  r_without_E1=+0.945  P2s=0.0152
+  beta-carotene ~ d                r_all=+0.945  r_without_E1=+0.927  P2s=0.0236
+  Luteine ~ d                      r_all=+0.871  r_without_E1=+0.845  P2s=0.0714
+  ln Tq ~ ln(d+1)                  r_all=-0.972  r_without_E1=-0.947  P2s=0.0145
+  ln Tc ~ ln(d+1)                  r_all=-0.952  r_without_E1=-0.892  P2s=0.0421
+  ln C-P ~ ln(d+1)                 r_all=-0.962  r_without_E1=-0.920  P2s=0.027
+
+  Spearman rho on all six (robust to the d=0 lever):
+    SumChlA        rho=+0.986  P2s=0.000309
+    ratioAB        rho=+0.899  P2s=0.0149
+    PhA'/ChlA      rho=-0.986  P2s=0.000309
+    bCar           rho=+0.986  P2s=0.000309
+    Lut            rho=+0.928  P2s=0.00767
+    lnTq           rho=-0.986  P2s=0.000309
+    lnTc           rho=-0.986  P2s=0.000309
+    lnC-P          rho=-0.986  P2s=0.000309
+
+==============================================================================
+5. Confound: leaf development (fresh mass per leaf, NT16 p.43)
+==============================================================================
+INRA itself flags E-3/E-4 as possibly less developed (p.43-44). Is mass per leaf
+related to distance, and does controlling for it change the pigment gradient?
+  r(d, mass/leaf) = +0.108
+  SumChlA      r(d)=+0.686  r(mass)=-0.293  partial r(d|mass)=+0.755
+  bCar         r(d)=+0.945  r(mass)=-0.151  partial r(d|mass)=+0.979
+  Lut          r(d)=+0.871  r(mass)=-0.239  partial r(d|mass)=+0.929
+  lnTq         r(d)=-0.913  r(mass)=+0.247  partial r(d|mass)=-0.976
+  lnTc         r(d)=-0.863  r(mass)=+0.301  partial r(d|mass)=-0.944
+  lnC-P        r(d)=-0.853  r(mass)=+0.302  partial r(d|mass)=-0.935
+  PhA'/ChlA    r(d)=-0.736  r(mass)=+0.351  partial r(d|mass)=-0.832
+
+==============================================================================
+6. The pattern argument (NT16 p.64-65): carotenoids hit harder than chlorophylls
+==============================================================================
+  young: (bCar exp/ctl)/(ChlA exp/ctl) = 0.643  95% analytical [0.253,1.644]  P(sim>=1)=0.168
+  aged: (bCar exp/ctl)/(ChlA exp/ctl) = 0.750  95% analytical [0.295,1.917]  P(sim>=1)=0.264
+  series 2: r(d, bCar/SumChlA) = +0.039  (E-1 bCar/SumChlA = 0.251, E-5/E-6 mean = 0.170)
+  per-sample bCar/SumChlA (series 2): E-1(d=0)=0.251, E-2(d=1.5)=0.097, E-3(d=2.1)=0.103, E-4(d=3.5)=0.132, E-5(d=10)=0.150, E-6(d=10)=0.189
+  r(d, bCar/SumChlA) without E-1 = +0.908
+  So: from 1.5 m outward carotene/chlorophyll rises with distance (carotenoids depleted more
+  near the trace, as series 1 says), but at the centre E-1 chlorophyll is the more depleted.
+
+==============================================================================
+7. Soil: LDP spark-source mass spec (Analyse_LDP-R.pdf pp.5,8,11,14)
+==============================================================================
+Replicate agreement (same sample, two plates), |log10 ratio|:
+  soil   : median 1.36 dex (x22.9), max 2.19 dex (x154, Ba)
+  deposit: median 0.51 dex (x3.3), max 1.47 dex (x29, Fe)
+  soil replicates outside the lab's own factor-3 tolerance: 23/24
+Deposit/soil contrast, |log10 ratio|:
+  plate 4571 median 0.47 dex; plate 4574 median 0.66 dex
+  plate-wide offset (median log ratio): 4571 +0.27, 4574 -0.66
+  agreement of the two plates on WHICH elements are enriched: Spearman rho(c1,c2) = +0.297 (P=0.158)
+  elements enriched in deposit beyond x3 (after plate-median centring) on BOTH plates: ['P']
+    P   deposit/soil 4571 x10.18, 4574 x4.32; centred x5.51, x19.75
+    Fe  deposit/soil 4571 x1.52, 4574 x0.69; centred x0.82, x3.18
+    Cr  deposit/soil 4571 x30.39, 4574 x0.21; centred x16.47, x0.95
+    Mn  deposit/soil 4571 x6.70, 4574 x0.44; centred x3.63, x1.99
+    Ca  deposit/soil 4571 x2.24, 4574 x1.00; centred x1.22, x4.57
+    C   deposit/soil 4571 x3.05, 4574 x0.33; centred x1.65, x1.50
+  null (shuffle element labels on one plate, 20k): mean 1.16 elements enriched on both; P(>= 1) = 0.772
+  censored/unreadable Zn: 4571: soil 8.6, deposit 88; 4574: deposit <140, soil <665 (upper bounds only)
+  censored/unreadable Pb: 4571: soil L7.4, deposit 15; 4574: deposit 49, soil 112
+  censored/unreadable Na: 4571: soil 840, deposit UNREADABLE ('913%'); 4574: deposit 1400, soil 1955

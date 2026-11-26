@@ -49,7 +49,7 @@ UAP case file.
 `CT/GEPAN-00013`, `ENQUETE 81/01`, *ANALYSE D'UNE TRACE*, 1 March 1983,
 ISSN 0750-6694, **67 pp, 109,615 chars of extractable text**. Case
 `1981-01-00849` TRANS-EN-PROVENCE (83) 8 Jan 1981, classified **D**.
-Full 11-document dossier, 172 pages, 14.4 MB.
+Full dossier: 10 files, 177 pages, 14.4 MB (corrected 2026-11-26; earlier "11 documents, 172 pages" did not match the files). Write-up and replication: `omega/reports/nt16_writeup_and_replication.md`.
 
 Two findings in the primary document that the secondary literature omits:
 

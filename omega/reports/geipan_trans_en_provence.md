@@ -1,5 +1,9 @@
 # Trans-en-Provence — the primary record, read end to end
 
+> **2026-11-26:** superseded in part by `nt16_writeup_and_replication.md`, which
+> corrects three telex readings below and qualifies §4's carotenoid-ratio claim
+> (see its §3 corrections table).
+
 Case `1981-01-00849`, **TRANS-EN-PROVENCE (83) 08.01.1981**, classification **D**,
 43.5°N 6.49°E, Var. GEPAN **Note Technique No. 16** = `CT/GEPAN-00013`,
 *ENQUÊTE 81/01 — ANALYSE D'UNE TRACE*, 1 March 1983, ISSN 0750-6694, 67 pp.
@@ -32,13 +36,13 @@ The soil and vegetation work was **not** done by LERM. The dossier names:
 
 `PV n°28 (1981308305).pdf` is not a classic procès-verbal but a **gendarmerie
 telex**, `NON PROTEGE` (unclassified), `OBJ/ ATTERRISSAGE OVNI`, routed
-DIRCENGEND → CNES, referencing circular `CM NR 9.600 NA/GEND.T. DU 2/8/1968` —
+DIRCENGEND → CNES, referencing circular `C M NMR 32.600 MA/GEND.T. DU 2/8/1968` *(corrected 2026-11-26 from page image; was misread as 9.600)* —
 so France had a formal gendarmerie UFO-reporting channel from **August 1968**,
 nine years before GEPAN existed.
 
 Its content, as filed:
 
-- `PRIMO/ LE 8/1/81 17H08`
+- `PRIMO/ LE 8/1/81 17H00` *(corrected 2026-11-26; slashed zeros were OCR'd as 8)*
 - `SECUNDO/ TEMOIN DISTANT DE 50 METRES ENVIRON`
 - `TERTIO/` attention drawn by *un léger sifflement*; object descended to ~1 m
 - `QUARTO/` duration ~1 minute
@@ -47,7 +51,7 @@ Its content, as filed:
   AUCUNE OBSERVATION D'ETRES À BORD OU À PROXIMITE`
 - `SEXTO/ TRACES : RELEVEES PAR B T DRAGUIGNAN AVISEE LE 9/1/81 : DEUX ARCS DE
   CERCLES RESSEMBLANT A DES **TRACES DE RIPAGE DE PNEUMATIQUES** —
-  LONGUEUR : 80 CM — LARGEUR : 14 CM`
+  LONGUEUR : 80 CM — LARGEUER : 10 CM` *(corrected 2026-11-26 from page image; was 14 CM)*
 
 **The investigating brigade's own same-day characterisation of the marks was
 "resembling tyre scrub marks."** That sentence has been inside an unreadable
@@ -70,7 +74,7 @@ case foregrounds.
 Geometry agrees across sources: two arcs of circles, witness calls it
 « plutôt un fer à cheval » (rather a horseshoe); ring ~10 cm wide; **80 cm
 long** in both the telex and the gendarmerie sketch reproduced as `CROQUIS 7`
-(0.80 m × 0.10 m, against the telex's 14 cm width); earth strongly compacted
+(0.80 m × 0.10 m, the same as the telex's 10 cm width; an earlier "14 cm" here was an OCR error); earth strongly compacted
 into a crust ~1 cm thick.
 
 **This does not settle the case and is not presented as doing so.** GEPAN
