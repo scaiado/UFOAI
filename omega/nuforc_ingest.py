@@ -218,6 +218,14 @@ def main():
     json.dump({"nuforc": recs}, open(f"{OUT}/nuforc.json", "w"), ensure_ascii=False)
     json.dump({k: v for k, v in pairs.most_common()},
               open(f"{OUT}/city_state_pairs.json", "w"), ensure_ascii=False, indent=0)
+    # Pairs that resolved in NO tier, by record count -- the Nominatim worklist.
+    ung_pairs = collections.Counter()
+    for r in recs:
+        if r["lat"] is None:
+            city, _, st = r["location"].rpartition(", ")
+            ung_pairs[f"{city or r['location']}|{st}"] += 1
+    json.dump({k: v for k, v in ung_pairs.most_common()},
+              open(f"{OUT}/ungeocoded_pairs.json", "w"), ensure_ascii=False, indent=0)
 
     print(f"\n=== INGEST ===")
     print(f"  records            : {stats['total']}")

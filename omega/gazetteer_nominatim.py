@@ -9,11 +9,20 @@ after ~65 s, for every admin unit including the District of Columbia.  The
 original `q()` swallowed that into `return None`, printing a generic "FAILED",
 which is why the true cause stayed hidden.
 
-Nominatim is rate-limited to 1 request/second, so the full 30,787 distinct
-pairs would take ~8.5 h.  But the coverage curve is steep (section 1.8): the
-top 2,000 pairs are 53% of records, 4,000 are 65%, 8,000 are 77%.  So this
-geocodes pairs in descending record-count order and can be stopped at any
-point with a known coverage figure.  Results are cached per pair, so it resumes.
+IT RUNS ONLY ON THE RESIDUAL.  The Wikidata gazetteer resolves 85.8% of the
+134,906 records (1,650,151 entries across 67 admin units, zero query failures).
+The misses are not random and not truncation -- the result COUNT matches the
+returned rows, so the sets are complete.  They are ENGLISH-LABEL GAPS in
+Wikidata.  Measured on the 40 largest US cities, 3 are absent: San Antonio TX
+(Q975 carries labels in Malayalam and Arabic but none in en/es/fr/de),
+Washington DC and Tampa FL.  Those three alone account for ~600 NUFORC records.
+Foreign cities (London, Sydney) are also absent because the gazetteer covers
+only US states and Canadian provinces.
+
+So this reads `ungeocoded_pairs.json` -- pairs that resolved in NO tier -- in
+descending record-count order, at 1 req/s with an honest user agent and a
+resumable per-pair cache.  It can be stopped at any point with a known
+coverage figure.
 
 Policy: 1 req/s, honest user agent, no retry storms.  Public endpoint only.
 """
@@ -23,7 +32,7 @@ UA = "omega-research/1.0 (academic UAP data study; non-commercial)"
 EP = "https://nominatim.openstreetmap.org/search"
 OUT = "data/raw/gazetteer_nominatim"
 CACHE = f"{OUT}/cache.json"
-PAIRS = "data/processed/nuforc/city_state_pairs.json"
+PAIRS = "data/processed/nuforc/ungeocoded_pairs.json"
 SLEEP = 1.1          # >1 s, per Nominatim usage policy
 
 US_STATES = set("AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD "

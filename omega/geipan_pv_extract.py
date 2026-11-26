@@ -33,10 +33,20 @@ that text quality does not differ between arms.
 import os, re, sys, json, glob, shutil, tempfile, subprocess, collections
 import concurrent.futures as cf
 
+# Tesseract links OpenMP and spawns a thread per core BY DEFAULT.  With N
+# worker processes that is N*cores threads on `cores` cores, and the contention
+# is catastrophic: measured on one 2480x3507 page of this corpus, 3 workers at
+# the default gave 31,647 ms/page, and OMP_THREAD_LIMIT=1 gave 2,090 ms/page
+# for BYTE-IDENTICAL output (1,222 chars both ways).  A 15x speedup, which
+# takes this corpus from ~8.3 h to ~35 min.  Parallelism belongs at the
+# process level here, not inside tesseract.
+OCR_ENV = dict(os.environ, OMP_THREAD_LIMIT="1")
+
 DOCS = "data/raw/geipan/docs"
 OUT = "data/processed/geipan_pv"
 OCR_DPI = "300"
-WORKERS = max(2, (os.cpu_count() or 4) - 1)
+# each tesseract is single-threaded now, so use every core
+WORKERS = max(2, os.cpu_count() or 4)
 
 CLASSES = [
     ("pv",            re.compile(r"\bP[\s_]*V\b|proces|procès", re.I)),
@@ -96,7 +106,7 @@ def ocr(path):
         for png in sorted(glob.glob(os.path.join(td, "p*.png"))):
             r = subprocess.run(["tesseract", png, "stdout", "-l", "fra", "--psm", "1"],
                                capture_output=True, text=True, errors="replace",
-                               timeout=600)
+                               timeout=600, env=OCR_ENV)
             out.append(r.stdout or "")
             os.remove(png)
         return "\n".join(out), len(out)
