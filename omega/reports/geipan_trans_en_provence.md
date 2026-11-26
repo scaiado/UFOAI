@@ -187,3 +187,64 @@ The filename census shows attached case documents named **`calsky` (39),
 cause distribution (sky lanterns 417, aircraft 93, ISS 79). Here it is
 directly: GEIPAN attaches planetarium and flight-tracking output as case
 evidence. The toolkit changed, and the archive records the tools by name.
+
+---
+
+## 8. The matched control set — what resolved physical-trace cases resolve to
+
+`data/raw/geipan/trace_controls/` · text in `data/processed/geipan_trace_controls/`
+· 16 files, 75 MB, 530,864 chars · `archive/dossiers/geipan_trace_controls.tar.gz`
+
+TEP has never been given the comparison that matters: in the same archive, with
+the same investigators, what happened to the other physical-sample cases?
+
+| case | class | identified as |
+|---|---|---|
+| **1981-01-00849 TRANS-EN-PROVENCE** | **D** | *unexplained* — landing and departure of an object leaving ground traces |
+| 2001-06-01567 BARBEZIEUX (16) | B | **lightning strike in a maize field** (« Impact de foudre ») |
+| 1986-03-01088 MAISONNAIS-SUR-TARDOIRE (87) | A | **block of blue ice from aircraft lavatory effluent**, fallen on a car bonnet |
+| 1997-04-01755 CHAMBERY (73) | A | **a ground-launched distress flare**, causing a partial car fire |
+| 1985-02-01063 SAINT-SULPICE-DE-ROYAN (17) | A | **the rear section of a German WWII Nebelwerfer** (« lanceur de brouillard ») that self-ignited |
+| 1983-05-00977 LABATUT (40) | B | **ball lightning** (« foudre globulaire ») |
+
+Verified in the reports themselves: Saint-Sulpice's APAVE expertise states
+« ce propulseur est la partie arrière d'un engin Terre-Terre de type
+**NEBEL-WERFER** (lanceur de brouillard) destiné à obscurcir une zone » —
+a named, checkable weapon system. Maisonnais's expertise opens
+« Analyse d'un liquide provenant d'un morceau de glace ».
+
+**The base rate for the physical-trace class, against ground truth: lightning
+(×2), aircraft lavatory ice, a flare, and unexploded WWII ordnance.** Five of
+six resolve to mundane terrestrial causes.
+
+### The point that cuts the other way
+
+GEIPAN applied **comparable or greater** analytical effort to the cases it
+resolved:
+
+| case | lab pages |
+|---|---|
+| SAINT-SULPICE (A) | **127** (APAVE 96 + CREA 31) |
+| MAISONNAIS (A) | **56** |
+| BARBEZIEUX (B) | 60-page report + 2-page soil analysis |
+| **TRANS-EN-PROVENCE (D)** | **127** (NT-16 67 + INRA series 60) |
+
+So TEP's D classification is **not** an artefact of thin investigation. It
+received as much laboratory work as the cases that were solved, and remained
+unsolved. That is a fair point in its favour and is recorded as such.
+
+### An unforced parallel, flagged as suggestive only
+
+The TEP telex records that the witness's attention was drawn by « un léger
+sifflement » (a light whistling). Saint-Sulpice is described as « chute d'un
+objet précédée par un sifflement » — and there the whistle was a falling
+Nebelwerfer rocket component. Suggestive, not probative; recorded because a
+matched control set is exactly where such parallels should be looked for.
+
+### Honest limitation
+
+**Barbezieux's soil analysis cannot be read.** `Analyse echantillons sol-R1.pdf`
+is 2 pages of handwriting; OCR returned 786 characters of noise. The class-B
+soil comparator — the nearest thing to a direct control on TEP's soil work — is
+therefore unavailable without manual transcription. Reported as unreadable
+rather than interpreted.
