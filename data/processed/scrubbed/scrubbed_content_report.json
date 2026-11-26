@@ -1,0 +1,979 @@
+{
+ "source": "https://www.war.gov/UFO/",
+ "identifier": "pursue-uap-documents-2026",
+ "ocr_coverage": {
+  "text_pdf": 315,
+  "image_only_pdf": 23,
+  "additional_text_pdf": 23,
+  "jpeg": 22,
+  "distinct_pdfs": 338,
+  "with_ocr": 298,
+  "without_ocr": 40,
+  "image_only_without_ocr": 0,
+  "text_pdf_without_ocr": 40,
+  "without_ocr_list": [
+   "Release_08/CIA-UAP-D024-Approval_in_Principle_Research_Concerned_with_UFOs-1952",
+   "Release_08/CIA-UAP-D025-Proposal_to_Consider_Psychological_Warfare_Implications_of_UFO_Related_Issues-1952",
+   "Release_08/CIA-UAP-D026-Summary_Assessment_of_Flying_Saucers-1952",
+   "Release_08/CIA-UAP-D027-Office_of_Scientific_Intelligence_Briefing_on_Flying_Saucers-1952",
+   "Release_08/CIA-UAP-D028-Assessment_of_National_Security_Issues_Relating_to_Flying_Saucers-1952",
+   "Release_08/CIA-UAP-D029-Official_Diary_Entry_on_Flying_Saucers-1952",
+   "Release_08/DOW-UAP-D165-Unresolved_Radar_Detection_North_America-2023",
+   "Release_08/DOW-UAP-D172-BAASS_Ten_Month_Report_July-2009",
+   "Release_08/DOW-UAP-D182-AAWSAP_Statement_of_Work_August-2008",
+   "Release_08/DOW-UAP-D183-Correspondence_from_Senator_Harry_Reid_June_24-2009",
+   "Release_08/DOW-UAP-D184-AAWSAP_Talking_Paper_for_Senator_Reid_Engagement_May-2009",
+   "Release_08/DOW-UAP-D185-Review_of_AAWSAP_Special_Access_Program_Request_November-2009",
+   "Release_08/DOW-UAP-D186-DIA_Information_Memorandum_on_AATIP_AAWSAP_December-2010",
+   "Release_08/DOW-UAP-D187-DIA_Talking_Paper_for_Senator_Reid_Engagement_January-2009",
+   "Release_08/DOW-UAP-D188-Review_of_AAWSAP_Contract_Deliverables_October-2009",
+   "Release_08/DOW-UAP-D189-Air_Intelligence_Information_Report_Virginia-1957",
+   "Release_08/DOW-UAP-D190-Air_Intelligence_Information_Report_Massachusetts-1957",
+   "Release_08/DOW-UAP-D191-Air_Intelligence_Information_Report_Texas-1957",
+   "Release_08/DOW-UAP-D192-Air_Intelligence_Information_Report_Nebraska-1957",
+   "Release_08/DOW-UAP-D193-Air_Intelligence_Information_Report_New_Mexico-1957",
+   "Release_08/DOW-UAP-D194-Air_Intelligence_Information_Report_New_Mexico-1957",
+   "Release_08/DOW-UAP-D195-Air_Intelligence_Information_Report_New_Mexico-1957",
+   "Release_08/DOW-UAP-D196-Air_Intelligence_Information_Report_Washington-1957",
+   "Release_08/DOW-UAP-D197-Air_Intelligence_Information_Report_Michigan-1957",
+   "Release_08/DOW-UAP-D198-Air_Intelligence_Information_Report_Japan-1957",
+   "Release_08/DOW-UAP-D199-Air_Intelligence_Information_Report_Iran-1957",
+   "Release_08/DOW-UAP-D200-Air_Intelligence_Information_Report_Peru-1957",
+   "Release_08/DOW-UAP-D201-Air_Intelligence_Information_Report_Iran-1957",
+   "Release_08/DOW-UAP-D202-Air_Intelligence_Information_Report_Peru-1957",
+   "Release_08/DOW-UAP-D203-Air_Intelligence_Information_Report_California-1957",
+   "Release_08/DOW-UAP-D204-Air_Intelligence_Information_Report_Virginia-1957",
+   "Release_08/DOW-UAP-D205_Air_Intelligence_Information_Report_Japan-1956",
+   "Release_08/DOW-UAP-D206_Unresolved_UAP_Report_California-1953",
+   "Release_08/DOW-UAP-D207-Unresolved_UAP_Report_California-1956",
+   "Release_08/DOW-UAP-D208-Unresolved_UAP_Report_California-1965",
+   "Release_08/DOW-UAP-D209_Unresolved_UAP_Report_California-1955",
+   "Release_08/DOW-UAP-D210_Unresolved_UAP_Report_California-1957",
+   "Release_08/DOW-UAP-D211_Unresolved_UAP_Report_California-1956",
+   "Release_08/DOW-UAP-D212-Unresolved_UAP_Report_California-1966",
+   "Release_08/DOW-UAP-D213-Unresolved_UAP_Report_California-1949"
+  ]
+ },
+ "id_sequences": {
+  "CIA-UAP": {
+   "n_present": 29,
+   "min": 1,
+   "max": 29,
+   "sparse_series": false,
+   "n_missing": 0,
+   "missing": [],
+   "longest_run": 0,
+   "runs_ge_3": [],
+   "density": 1.0
+  },
+  "DOE-UAP-D": {
+   "n_present": 5,
+   "min": 1,
+   "max": 5,
+   "sparse_series": false,
+   "n_missing": 0,
+   "missing": [],
+   "longest_run": 0,
+   "runs_ge_3": [],
+   "density": 1.0
+  },
+  "DOS-UAP-D": {
+   "n_present": 2,
+   "min": 1,
+   "max": 2,
+   "sparse_series": false,
+   "n_missing": 0,
+   "missing": [],
+   "longest_run": 0,
+   "runs_ge_3": [],
+   "density": 1.0
+  },
+  "DOW-UAP-D": {
+   "n_present": 179,
+   "min": 3,
+   "max": 213,
+   "sparse_series": false,
+   "n_missing": 32,
+   "missing": [
+    9,
+    11,
+    13,
+    15,
+    21,
+    22,
+    24,
+    26,
+    29,
+    30,
+    31,
+    34,
+    36,
+    37,
+    39,
+    40,
+    41,
+    43,
+    45,
+    46,
+    47,
+    53,
+    59,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    76
+   ],
+   "longest_run": 8,
+   "runs_ge_3": [
+    [
+     29,
+     30,
+     31
+    ],
+    [
+     39,
+     40,
+     41
+    ],
+    [
+     45,
+     46,
+     47
+    ],
+    [
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73
+    ]
+   ],
+   "density": 0.8483412322274881
+  },
+  "DOW-UAP-PR": {
+   "n_present": 3,
+   "min": 20,
+   "max": 131,
+   "sparse_series": true,
+   "n_missing": 0,
+   "missing": [],
+   "longest_run": 0,
+   "runs_ge_3": [],
+   "density": null
+  },
+  "NASA-UAP-D(Apollo)": {
+   "n_present": 6,
+   "min": 1,
+   "max": 7,
+   "sparse_series": false,
+   "n_missing": 1,
+   "missing": [
+    3
+   ],
+   "longest_run": 1,
+   "runs_ge_3": [],
+   "density": 0.8571428571428571
+  },
+  "NASA-UAP-D(Gemini)": {
+   "n_present": 11,
+   "min": 15,
+   "max": 32,
+   "sparse_series": false,
+   "n_missing": 7,
+   "missing": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "longest_run": 7,
+   "runs_ge_3": [
+    [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   ],
+   "density": 0.6111111111111112
+  },
+  "NASA-UAP-VM": {
+   "n_present": 6,
+   "min": 1,
+   "max": 6,
+   "sparse_series": false,
+   "n_missing": 0,
+   "missing": [],
+   "longest_run": 0,
+   "runs_ge_3": [],
+   "density": 1.0
+  },
+  "ODNI-UAP-D": {
+   "n_present": 1,
+   "min": 1,
+   "max": 1,
+   "sparse_series": false,
+   "n_missing": 0,
+   "missing": [],
+   "longest_run": 0,
+   "runs_ge_3": [],
+   "density": 1.0
+  }
+ },
+ "redaction": {
+  "per_doc": {
+   "Release_01__059UAP00011_djvu.txt": {
+    "chars": 8847,
+    "classif_strip": 1
+   },
+   "Release_01__18_100754_ General 1946-7_Vol_2_djvu.txt": {
+    "chars": 32665,
+    "classif_strip": 1
+   },
+   "Release_01__18_6369445_General_1948_Vol_1_djvu.txt": {
+    "chars": 26505,
+    "classif_strip": 1
+   },
+   "Release_01__331_120752_Numeric_Files_1944\u20131945_37153_German_Armament_Equipment_Documents_djvu.txt": {
+    "chars": 20843,
+    "classif_strip": 2
+   },
+   "Release_01__341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399_djvu.txt": {
+    "chars": 5023,
+    "classif_strip": 2
+   },
+   "Release_01__342_HS1-416511228_box186_319.1-Flying-Discs-1949_djvu.txt": {
+    "chars": 67148,
+    "classif_strip": 5
+   },
+   "Release_01__65_HS1-101634279_100-DE-26505_djvu.txt": {
+    "chars": 9421,
+    "foia_exemption": 1
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_SUB_A_djvu.txt": {
+    "chars": 265403,
+    "classif_strip": 3
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Section_10_djvu.txt": {
+    "chars": 403380,
+    "classif_strip": 3
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Section_1_djvu.txt": {
+    "chars": 157486,
+    "classif_strip": 1
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Section_2_djvu.txt": {
+    "chars": 191072,
+    "classif_strip": 1
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Section_3_djvu.txt": {
+    "chars": 233634,
+    "foia_exemption": 2,
+    "classif_strip": 4
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Section_4_djvu.txt": {
+    "chars": 222031,
+    "classif_strip": 1
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Section_5_djvu.txt": {
+    "chars": 167168,
+    "foia_exemption": 6,
+    "classif_strip": 8
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Section_6_djvu.txt": {
+    "chars": 327090,
+    "classif_strip": 4
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Section_7_djvu.txt": {
+    "chars": 226236,
+    "foia_exemption": 3,
+    "classif_strip": 1
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Section_8_djvu.txt": {
+    "chars": 208632,
+    "foia_exemption": 14,
+    "classif_strip": 1
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Serial_130_djvu.txt": {
+    "chars": 177292,
+    "classif_strip": 5
+   },
+   "Release_01__65_HS1-834228961_62-HQ-83894_Serial_449_djvu.txt": {
+    "chars": 106966,
+    "classif_strip": 2
+   },
+   "Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt": {
+    "chars": 7496,
+    "foia_exemption": 18,
+    "classif_strip": 18
+   },
+   "Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt": {
+    "chars": 7537,
+    "foia_exemption": 17,
+    "classif_strip": 13
+   },
+   "Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt": {
+    "chars": 13000,
+    "foia_exemption": 11,
+    "classif_strip": 14
+   },
+   "Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt": {
+    "chars": 11661,
+    "foia_exemption": 14
+   },
+   "Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt": {
+    "chars": 7548,
+    "foia_exemption": 12
+   },
+   "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt": {
+    "chars": 13082,
+    "foia_exemption": 16,
+    "classif_strip": 1
+   },
+   "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt": {
+    "chars": 8351,
+    "foia_exemption": 8
+   },
+   "Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt": {
+    "chars": 12777,
+    "foia_exemption": 7
+   },
+   "Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt": {
+    "chars": 10434,
+    "foia_exemption": 65,
+    "classif_strip": 21
+   },
+   "Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt": {
+    "chars": 11383,
+    "foia_exemption": 66,
+    "classif_strip": 35
+   },
+   "Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt": {
+    "chars": 10024,
+    "foia_exemption": 57,
+    "classif_strip": 14
+   },
+   "Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+    "chars": 6082,
+    "foia_exemption": 104,
+    "classif_strip": 2
+   },
+   "Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt": {
+    "chars": 14333,
+    "foia_exemption": 85,
+    "classif_strip": 31
+   },
+   "Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt": {
+    "chars": 8680,
+    "foia_exemption": 6
+   },
+   "Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt": {
+    "chars": 8685,
+    "foia_exemption": 9
+   },
+   "Release_01__DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+    "chars": 359,
+    "foia_exemption": 3,
+    "classif_strip": 1
+   },
+   "Release_01__DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020_djvu.txt": {
+    "chars": 3489,
+    "foia_exemption": 3
+   },
+   "Release_01__DOW-UAP-D48-Report-September-1996_djvu.txt": {
+    "chars": 389149,
+    "block_glyphs": 2
+   },
+   "Release_01__DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+    "chars": 458,
+    "foia_exemption": 1
+   },
+   "Release_01__DOW-UAP-D50-Email-Correspondence-INDOPACOM-April-2025_djvu.txt": {
+    "chars": 1270,
+    "foia_exemption": 9,
+    "classif_strip": 3
+   },
+   "Release_01__DOW-UAP-D51-Email-Correspondence-Pacific-Time-Zone-March-2023_djvu.txt": {
+    "chars": 3161,
+    "foia_exemption": 7,
+    "classif_strip": 2
+   },
+   "Release_01__DOW-UAP-D52-Email-Correspondance-NA-August-2024_djvu.txt": {
+    "chars": 837,
+    "foia_exemption": 5,
+    "classif_strip": 2
+   },
+   "Release_01__DOW-UAP-D54-Mission-Report-Mediterranean-Sea-NA_djvu.txt": {
+    "chars": 536,
+    "classif_strip": 4
+   },
+   "Release_01__DOW-UAP-D56-Range-Fouler-Debrief-Arabian-Sea-August-2020_djvu.txt": {
+    "chars": 3642,
+    "foia_exemption": 1
+   },
+   "Release_01__DOW-UAP-D58-Range-Fouler-Debrief-NA-October-2020_djvu.txt": {
+    "chars": 3461,
+    "foia_exemption": 2
+   },
+   "Release_01__DOW-UAP-D60-Mission-Report-Persian-Gulf-August-2020_djvu.txt": {
+    "chars": 6817,
+    "foia_exemption": 1
+   },
+   "Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt": {
+    "chars": 8357,
+    "foia_exemption": 6
+   },
+   "Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt": {
+    "chars": 10571,
+    "foia_exemption": 2
+   },
+   "Release_01__DOW-UAP-D63-Mission-Report-Strait-of-Hormuz-October-2020_djvu.txt": {
+    "chars": 8911,
+    "foia_exemption": 3
+   },
+   "Release_01__DOW-UAP-D65-Mission-Report-Persian-Gulf-July-2020_djvu.txt": {
+    "chars": 8297,
+    "foia_exemption": 4
+   },
+   "Release_01__DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+    "chars": 484,
+    "classif_strip": 1
+   },
+   "Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt": {
+    "chars": 13503,
+    "foia_exemption": 34,
+    "classif_strip": 31
+   },
+   "Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt": {
+    "chars": 10750,
+    "foia_exemption": 26,
+    "classif_strip": 17
+   },
+   "Release_01__DOW-UAP-D8-Mission-Report-Djibouti-2025_djvu.txt": {
+    "chars": 502,
+    "classif_strip": 2
+   },
+   "Release_01__NASA-UAP-D4-Apollo-11-Technical-Crew-Debriefing-1969_djvu.txt": {
+    "chars": 11796,
+    "classif_strip": 1
+   },
+   "Release_01__Serial-3_Redacted_djvu.txt": {
+    "chars": 4522,
+    "block_glyphs": 2
+   },
+   "Release_01__USPER-Statement-Redacted_djvu.txt": {
+    "chars": 7341,
+    "classif_strip": 4
+   },
+   "Release_02__DOE-UAP-D002_JamesTuck_Correspondence_djvu.txt": {
+    "chars": 1224,
+    "foia_exemption": 1
+   },
+   "Release_02__DOW-UAP-D017_General_Correspondence_Of_Sandia_djvu.txt": {
+    "chars": 172055,
+    "classif_strip": 1
+   },
+   "Release_03__CIA-UAP-003-THE_CENTRAL_INTELLIGENCE_AGENCY_AND_OVERHEAD_RECONNAISSANCE-THE_U-2_AND_OXCART_PROGRAMS_1954-1974_djvu.txt": {
+    "chars": 777251,
+    "withheld_phrase": 2
+   },
+   "Release_03__CIA-UAP-014_British_Activity_in_the_Field_of_Unidentified_Flying_Objects_djvu.txt": {
+    "chars": 3621,
+    "classif_strip": 1
+   },
+   "Release_03__CIA-UAP-017_Placement_on_High_Alert_Due_to_Perceived_Aggressive_Foreign_Posturing_djvu.txt": {
+    "chars": 3841,
+    "classif_strip": 1
+   },
+   "Release_03__DOW-UAP-D088_US-AirForce_Analysis-of-Flying-Objects-in-the-US_101-172_djvu.txt": {
+    "chars": 198550,
+    "block_glyphs": 1
+   },
+   "Release_03__DoW-UAP-D083_Narrative-5_Western-US-Event_djvu.txt": {
+    "chars": 9054,
+    "block_glyphs": 6
+   },
+   "Release_03__FBI-UAP-D009_FD-302-67_Northeastern-Orb-Sighting_2026_djvu.txt": {
+    "chars": 3240,
+    "block_glyphs": 4
+   },
+   "Release_03__FBI-UAP-D010_FD-302-71_Northeastern-Orb-Sighting_2026_djvu.txt": {
+    "chars": 2627,
+    "block_glyphs": 3
+   },
+   "Release_03__FBI-UAP-D013_WA-UFO-Investigation_1952-1960_djvu.txt": {
+    "chars": 44584,
+    "foia_exemption": 1
+   },
+   "Release_03__NASA-UAP-D019_Gemini-5-Technical-Debriefing_Part1_1965_djvu.txt": {
+    "chars": 245601,
+    "classif_strip": 2
+   },
+   "Release_03__USG-UAP-D001_Congress-WhiteHouse-UFO-Correspondence_1998_djvu.txt": {
+    "chars": 159307,
+    "foia_exemption": 15,
+    "withheld_phrase": 1,
+    "classif_strip": 1
+   },
+   "Release_04__CIA-UAP-D020_Memorandum-on-Unconventional-Aircraft-Sightings_1955_djvu.txt": {
+    "chars": 4430,
+    "classif_strip": 1
+   },
+   "Release_04__CIA-UAP-D021_Analysis-of-Unconventional-Aircraft-Sightings_1955_djvu.txt": {
+    "chars": 5018,
+    "classif_strip": 1
+   },
+   "Release_04__DOW-UAP-D089_Range-Fouler-Debrief_Eastern-US_2020_djvu.txt": {
+    "chars": 2824,
+    "withheld_phrase": 1
+   },
+   "Release_04__DOW-UAP-D094_Analysis-of-Flying-Object-Incidents-in-the-US_1949_djvu.txt": {
+    "chars": 47170,
+    "classif_strip": 1
+   },
+   "Release_04__DOW-UAP-D095_Joint-US-Canadian-Aviation-Projects-and-UFO-Sighting-Reports_1954-1955_djvu.txt": {
+    "chars": 15179,
+    "classif_strip": 2
+   },
+   "Release_04__DOW-UAP-D097_Project-Sign-Progress-Report_1948_djvu.txt": {
+    "chars": 111387,
+    "classif_strip": 10
+   },
+   "Release_05__CIA-UAP-D022_Unidentified-Flying-Object-Reported-near-Puerto-Rico_1965_djvu.txt": {
+    "chars": 7771,
+    "classif_strip": 5
+   },
+   "Release_05__DOW-UAP-D098_Film-Analysis-of-Unidentified-Objects_1953_djvu.txt": {
+    "chars": 86334,
+    "classif_strip": 3
+   },
+   "Release_05__DOW-UAP-D099_Intelligence-Review-of-Ghost-Rocket-Incidents_1947_djvu.txt": {
+    "chars": 11584,
+    "classif_strip": 2
+   },
+   "Release_05__DOW-UAP-D100_Air-Materiel-Command-Report-on-UFOs_1947-1948_djvu.txt": {
+    "chars": 181757,
+    "classif_strip": 1
+   },
+   "Release_05__DOW-UAP-D101_IIR_Unresolved-UAP-Report-Gulf-of-Oman_2021_djvu.txt": {
+    "chars": 14627,
+    "foia_exemption": 3,
+    "classif_strip": 1
+   },
+   "Release_05__FBI-UAP-D037_FD-302_Multiple-Red-Lights_2026_djvu.txt": {
+    "chars": 6253,
+    "block_glyphs": 1
+   },
+   "Release_06__DOW-UAP-D102_Project-Blue-Book-File-on-Tremonton-Film-Utah-1952_djvu.txt": {
+    "chars": 146149,
+    "classif_strip": 1
+   },
+   "Release_06__DOW-UAP-D104_Final-Personnel-Record-for-Newhouse-Delbert-C-US-Navy-1957_djvu.txt": {
+    "chars": 1180591,
+    "classif_strip": 1
+   },
+   "Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt": {
+    "chars": 7542,
+    "foia_exemption": 8
+   },
+   "Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt": {
+    "chars": 10937,
+    "foia_exemption": 94,
+    "classif_strip": 36
+   },
+   "Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt": {
+    "chars": 10622,
+    "foia_exemption": 90,
+    "classif_strip": 34
+   },
+   "Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt": {
+    "chars": 7789,
+    "foia_exemption": 73,
+    "classif_strip": 16
+   },
+   "Release_06__DOW-UAP-D111_AAWSAP-Solicitation-and-Original-Order-September-22-2008_djvu.txt": {
+    "chars": 262176,
+    "foia_exemption": 33
+   },
+   "Release_06__DOW-UAP-D112_AAWSAP-Contract-Modification-P00001-September-2-2009_djvu.txt": {
+    "chars": 6870,
+    "foia_exemption": 1
+   },
+   "Release_06__DOW-UAP-D114_AAWSAP-Contract-Modification-P00003-May-18- 2010_djvu.txt": {
+    "chars": 5601,
+    "foia_exemption": 10
+   },
+   "Release_06__DOW-UAP-D116_AAWSAP-Contract-Modification-P00005-September-28-2010_djvu.txt": {
+    "chars": 7902,
+    "foia_exemption": 5
+   },
+   "Release_06__DOW-UAP-D128_AAWSAP-DIRD-Anomalous-Acute-and-Subacute-Field-Effects-on-Human-Biological-Tissues-March-11-2010_djvu.txt": {
+    "chars": 91892,
+    "classif_strip": 1
+   },
+   "Release_06__LLE-UAP-D004_Transcript-of-an-Unresolved-UAP-Report-Colorado-January-2024_djvu.txt": {
+    "chars": 1729,
+    "foia_exemption": 2
+   },
+   "Release_07__DOW-UAP-D155-Air_Intelligence_Information_Report_Saudi_Arabia-1957_djvu.txt": {
+    "chars": 8082,
+    "classif_strip": 3
+   },
+   "Release_07__DOW-UAP-D166-MUFON-Reports_Prepared_for_BAASS-November_2008_djvu.txt": {
+    "chars": 59440,
+    "classif_strip": 11
+   },
+   "Release_07__USG-UAP-D002-Interagency_Correspondence_Concerning_Space_Fragments-1962_1964_djvu.txt": {
+    "chars": 57037,
+    "classif_strip": 4
+   }
+  },
+  "aggregate": {
+   "classif_strip": 403,
+   "foia_exemption": 964,
+   "block_glyphs": 19,
+   "withheld_phrase": 4
+  },
+  "docs_with": {
+   "classif_strip": 62,
+   "foia_exemption": 48,
+   "block_glyphs": 7,
+   "withheld_phrase": 3
+  },
+  "foia_exemptions": {
+   "6": 401,
+   "7": 10,
+   "3": 81,
+   "1": 461,
+   "5": 2,
+   "2": 4,
+   "4": 5
+  },
+  "n_scanned": 286
+ },
+ "text_quality": {
+  "garble_median": 0.0033723969311187925,
+  "garble_worst": [
+   [
+    "Release_04__CIA-UAP-D020_Memorandum-on-Unconventional-Aircraft-Sightings_1955_djvu.txt",
+    0.040697674418604654
+   ],
+   [
+    "Release_06__DOW-UAP-D116_AAWSAP-Contract-Modification-P00005-September-28-2010_djvu.txt",
+    0.029055690072639227
+   ],
+   [
+    "Release_01__DOW-UAP-D55-Mission-Report-Syria-November-2016_djvu.txt",
+    0.02358490566037736
+   ],
+   [
+    "Release_04__CIA-UAP-D021_Analysis-of-Unconventional-Aircraft-Sightings_1955_djvu.txt",
+    0.020249221183800622
+   ],
+   [
+    "Release_05__CIA-UAP-D023_Briefing-Notes-for-Mr-Walter-Elder_djvu.txt",
+    0.020202020202020204
+   ],
+   [
+    "Release_01__38_143685_box7_Incident_Summaries_173-233_djvu.txt",
+    0.019927027785573953
+   ],
+   [
+    "Release_03__DOW-UAP-D087_US-AirForce_Analysis-of-Flying-Objects-in-the-US_1-100_djvu.txt",
+    0.01943364797334814
+   ],
+   [
+    "Release_03__CIA-UAP-018_Report_of_Unusual_Flying_Object_Sightings_and_Attendant_Scientific_Activity_djvu.txt",
+    0.01932367149758454
+   ],
+   [
+    "Release_07__DOW-UAP-D178_Unresolved_UAP_Report_Catalina_Island-1953_djvu.txt",
+    0.018970189701897018
+   ],
+   [
+    "Release_01__65_HS1-834228961_62-HQ-83894_Serial_449_djvu.txt",
+    0.01710691823899371
+   ],
+   [
+    "Release_03__CIA-UAP-016-Sightings_of_Unidentified_Flying_Ojbects_in_Ladakh_Nepal_Sikkim_and_Bhutan_djvu.txt",
+    0.016296296296296295
+   ],
+   [
+    "Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt",
+    0.01616161616161616
+   ],
+   [
+    "Release_01__65_HS1-834228961_62-HQ-83894_Serial_153_djvu.txt",
+    0.015873015873015872
+   ],
+   [
+    "Release_03__CIA-UAP-013-Report_of_Unusual_Flying_Object_Sightings_and_Attendant_Scientific_Activity_djvu.txt",
+    0.015706806282722512
+   ],
+   [
+    "Release_06__DOW-UAP-D140_AAWSAP-DIRD-High-Frequency-Gravitational-Wave-Communications-April-6-2010_djvu.txt",
+    0.015664712900046684
+   ],
+   [
+    "Release_07__DOW-UAP-D158-Flying_Object_Report_Canada-1953_djvu.txt",
+    0.014354066985645933
+   ],
+   [
+    "Release_04__DOW-UAP-D093_Analysis-of-Flying-Object-Incidents-in-the-US_1948_djvu.txt",
+    0.01383587786259542
+   ],
+   [
+    "Release_03__CIA-UAP-017_Placement_on_High_Alert_Due_to_Perceived_Aggressive_Foreign_Posturing_djvu.txt",
+    0.013725490196078431
+   ],
+   [
+    "Release_01__38_143685_box7_Incident_Summaries_1-100_djvu.txt",
+    0.013595166163141994
+   ],
+   [
+    "Release_01__38_143685_box7_Incident_Summaries_101-172_djvu.txt",
+    0.013520971302428256
+   ],
+   [
+    "Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt",
+    0.013236267372600927
+   ],
+   [
+    "Release_06__DOW-UAP-D113_AAWSAP-Contract-Modification-P00002-February-2-2010_djvu.txt",
+    0.012987012987012988
+   ],
+   [
+    "Release_07__DOW-UAP-D160-Air_Intelligence_Information_Report_Morocco-1953_djvu.txt",
+    0.012987012987012988
+   ],
+   [
+    "Release_07__DOW-UAP-D159-Air_Intelligence_Information_Report_Germany-1953_djvu.txt",
+    0.012170385395537525
+   ],
+   [
+    "Release_03__CIA-UAP-019-Australian_Dept_of_Defense_Scientific_and_Intel_Aspects_of_the_UFO_Problem_djvu.txt",
+    0.011733333333333333
+   ]
+  ],
+  "short_docs": [
+   [
+    "Release_01__FBI-Photo-B10_djvu.txt",
+    5
+   ],
+   [
+    "Release_01__FBI-Photo-B23_djvu.txt",
+    5
+   ],
+   [
+    "Release_01__FBI-Photo-B9_djvu.txt",
+    5
+   ],
+   [
+    "Release_01__FBI-Photo-B20_djvu.txt",
+    6
+   ],
+   [
+    "Release_01__FBI-Photo-B3_djvu.txt",
+    6
+   ],
+   [
+    "Release_01__FBI-Photo-B8_djvu.txt",
+    6
+   ],
+   [
+    "Release_06__DOW-UAP-PR130_Unresolved-UAP-Report-Iraq-2022_djvu.txt",
+    6
+   ],
+   [
+    "Release_01__FBI-Photo-B24_djvu.txt",
+    8
+   ],
+   [
+    "Release_01__FBI-Photo-B2_djvu.txt",
+    11
+   ],
+   [
+    "Release_01__FBI-Photo-B17_djvu.txt",
+    12
+   ],
+   [
+    "Release_03__DOW-UAP-D085_Transmission-of-CIA-Scientific-Advisory-Panel-Rept_1953_djvu.txt",
+    14
+   ],
+   [
+    "Release_06__DOW-UAP-PR131_Unresolved-UAP-Report-Iraq-2022_djvu.txt",
+    14
+   ],
+   [
+    "Release_01__FBI-Photo-B22_djvu.txt",
+    15
+   ],
+   [
+    "Release_01__FBI-Photo-B11_djvu.txt",
+    18
+   ],
+   [
+    "Release_01__FBI-Photo-B13_djvu.txt",
+    21
+   ],
+   [
+    "Release_01__FBI-Photo-B4_djvu.txt",
+    21
+   ],
+   [
+    "Release_01__341_110677_Numerical_File_5-2500_djvu.txt",
+    28
+   ],
+   [
+    "Release_03__FBI-UAP-D003_Digital-Rendering_Unresolved-UAP-Report_ColoradoSprings_2022_djvu.txt",
+    33
+   ],
+   [
+    "Release_01__FBI-Photo-B14_djvu.txt",
+    42
+   ],
+   [
+    "Release_03__DOW-UAP-D086_USNavy-Report-of-Flying-Discs_1948_djvu.txt",
+    45
+   ],
+   [
+    "Release_01__FBI-Photo-B7_djvu.txt",
+    49
+   ],
+   [
+    "Release_05__FBI-UAP-D039_Digital-Rendering-2_Multiple-Red-Lights_2026_djvu.txt",
+    73
+   ],
+   [
+    "Release_05__FBI-UAP-D041_Digital-Rendering-1_Multiple-Red-Lights_2026_djvu.txt",
+    73
+   ],
+   [
+    "Release_03__CIA-UAP-009-UNKNOWN-FLYING_OBJECTS_OBERVED_OVER_BUDAPEST_djvu.txt",
+    120
+   ],
+   [
+    "Release_05__FBI-UAP-D027_Digital-Rendering_Dark-Translucent-Triangle_2023_djvu.txt",
+    137
+   ],
+   [
+    "Release_01__DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+    249
+   ],
+   [
+    "Release_01__Serial 5 Redacted_Redacted_djvu.txt",
+    250
+   ],
+   [
+    "Release_01__DOW-UAP-PR20_djvu.txt",
+    332
+   ],
+   [
+    "Release_01__DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+    359
+   ],
+   [
+    "Release_02__DOE-UAP-D001_PANTEX_Image_djvu.txt",
+    448
+   ],
+   [
+    "Release_01__DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+    458
+   ],
+   [
+    "Release_01__DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020_djvu.txt",
+    484
+   ],
+   [
+    "Release_01__DOW-UAP-D8-Mission-Report-Djibouti-2025_djvu.txt",
+    502
+   ],
+   [
+    "Release_01__DOW-UAP-D54-Mission-Report-Mediterranean-Sea-NA_djvu.txt",
+    536
+   ],
+   [
+    "Release_05__EOP-UAP-D001_NASC-Inquiry-into-Bahia-Brazil-Incident_November-13-1963_djvu.txt",
+    553
+   ],
+   [
+    "Release_02__DOE-UAP-D003_Pajarito_Astronomers_djvu.txt",
+    599
+   ],
+   [
+    "Release_01__65_HS1-834228961_62-HQ-83894_Serial_153_djvu.txt",
+    669
+   ],
+   [
+    "Release_06__DOW-UAP-D103_Project-Blue-Book-Photo-File-Relating-to-Tremonton-Film-Utah-1952_djvu.txt",
+    831
+   ],
+   [
+    "Release_01__DOW-UAP-D52-Email-Correspondance-NA-August-2024_djvu.txt",
+    837
+   ],
+   [
+    "Release_01__Serial-4-Redacted_Redacted_djvu.txt",
+    922
+   ],
+   [
+    "Release_06__DOW-UAP-D115_AAWSAP-Contract-Modification-P00004-May-18-2010_djvu.txt",
+    964
+   ],
+   [
+    "Release_07__DOW-UAP-D181_Unresolved_UAP_Report_Catalina_Island-1949_djvu.txt",
+    1016
+   ],
+   [
+    "Release_03__DOW-UAP-D078_Notional-Map_Western-United-States-Event_djvu.txt",
+    1114
+   ],
+   [
+    "Release_06__LLE-UAP-D001_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023_djvu.txt",
+    1191
+   ],
+   [
+    "Release_06__LLE-UAP-D003_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023_djvu.txt",
+    1207
+   ],
+   [
+    "Release_02__DOE-UAP-D002_JamesTuck_Correspondence_djvu.txt",
+    1224
+   ],
+   [
+    "Release_01__DOW-UAP-D50-Email-Correspondence-INDOPACOM-April-2025_djvu.txt",
+    1270
+   ],
+   [
+    "Release_07__EOP-UAP-D002-Memo_on_Interagency_Coordination_for_the_Recovery_of_Foreign_Materiel-May_1963_djvu.txt",
+    1287
+   ],
+   [
+    "Release_03__CIA-UAP-011-The_Sary_Shagan_Weapons_Testing_Range_djvu.txt",
+    1313
+   ],
+   [
+    "Release_05__CIA-UAP-D023_Briefing-Notes-for-Mr-Walter-Elder_djvu.txt",
+    1346
+   ],
+   [
+    "Release_01__65_HS1-101634279_100-DE-18221_Serial_844_djvu.txt",
+    1347
+   ]
+  ]
+ }
+}

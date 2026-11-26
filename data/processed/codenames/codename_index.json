@@ -1,0 +1,2286 @@
+{
+ "corpora": {
+  "pursue": {
+   "n_docs": 286,
+   "root": "/tmp/claude-0/-home-user/f0aebeb3-1b62-5042-9067-46af83ba9a9d/scratchpad/omega/pursue/txt"
+  },
+  "geipan_tep": {
+   "n_docs": 10,
+   "root": "/home/user/UFOAI/data/raw/geipan/docs/1981-01-00849/txt"
+  }
+ },
+ "codenames": {
+  "pursue": {
+   "tier": "OFFICIAL",
+   "note": "DoW UAP document release programme, 2026",
+   "docs": 33,
+   "count": 65,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__059UAP00012_djvu.txt",
+     "context": "GO to reregister successfully under the new 2003 NGO law. 4. ~ Though the Union first was established to pursue the study of life on other planets, over time its activities became more &quot;practical,&quot; Board member"
+    },
+    {
+     "doc": "pursue/Release_01__255_413270_UFO's_and_Defense_What_Should_we_Prepare_For_djvu.txt",
+     "context": "pression that the light was emanating from the top of the object. I At 10402, he received authorization to pursue this object and notified Utah. He slowed down, then accelerated; Utah informed him that the object was mir"
+    },
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_3_djvu.txt",
+     "context": "Whedon and ~nfonnation received from Intelligence Division of the Air Forces that t he Bureau might wish to pursue thi s matt er f urther. Mr. Zinnners of the Technical !Aboratory advised Mr . Reynolds of the Liaison Sec"
+    },
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_8_djvu.txt",
+     "context": "P. stories of disaster were essentially true, but because of the ' 1disaster 11 angle they designated the pursued object as a \" plane\" rather than a UFO. Ted Bloecher, who did some checking, told me that his friend, Ed W"
+    }
+   ]
+  },
+  "project sign": {
+   "tier": "OFFICIAL",
+   "note": "USAF UFO study, 1948-1949",
+   "docs": 5,
+   "count": 8,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__18_6369445_General_1948_Vol_1_djvu.txt",
+     "context": "FROM: ) Executive, Air Intelligence Requirements Div., Directora te of Intelligence. SUMMARY: \"Project SIGN\" \"Flying Discs\" 1st Ind FILED: 380 .Project INDEXER= rg REMARKS: HEADQUARTERS UNITED STAT"
+    },
+    {
+     "doc": "pursue/Release_03__CIA-UAP-019-Australian_Dept_of_Defense_Scientific_and_Intel_Aspects_of_the_UFO_Problem_djvu.txt",
+     "context": "tlud, -int.F!l ligc!nt \u00b71ir1.~ 1lc1f!s t>xist within say 16 light-yeu r:; from Earth. 1.49 USAF onl(.:15 Project Sign tc, be:cot:!e l'ro.j(\u2022ct Grudge ..-1,1ch sh~uld tc1\u00b7win6t~ bcfor~ th0 en~ uf 1949, Pinal rt!port of Proje"
+    },
+    {
+     "doc": "pursue/Release_04__DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949_djvu.txt",
+     "context": "... The ODl.y indication we be.ve is a l.etter from MAC in Waohington Saturday where they indica.tGd the old project Sign is ~ project Grudgo, which includes the phenome:oa observed in Rew Mexico. They knew or tbis meeting and"
+    },
+    {
+     "doc": "pursue/Release_05__DOW-UAP-D100_Air-Materiel-Command-Report-on-UFOs_1947-1948_djvu.txt",
+     "context": "Paragraph J. FOR THE OOJlllARDINO CJERERAL: SIJB.Jl!:Cf: THRU: !O: l. l Incl Exhibit \u2022.t\u2022 Project Sign Study Requireaenta IICLUS/Jm/.mak_ ~ Request for study by land Project C2det of S\\ai't United St."
+    }
+   ]
+  },
+  "blue book": {
+   "tier": "OFFICIAL",
+   "note": "Project Blue Book (short form)",
+   "docs": 22,
+   "count": 151,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__255_413270_UFO's_and_Defense_What_Should_we_Prepare_For_djvu.txt",
+     "context": "on in 1968 by the then retired NCO, is coherent and does not contradict the documents in the USAF [Project] Blue Book file except in a few minor points; among these documents, the I regulation telex sent by Lakenheath to the"
+    },
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_10_djvu.txt",
+     "context": "tlits y~r. than 1n\u2022ai,y year since 1957, when we had more than a thousand,\" Bays a spokesman \u2022 for Project Blue Book, \u2022 the Air 1 Forte program set uP in 1948 t0 evalllate re, ports of the phenomena. \u2022 Vlaiton From Out"
+    },
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_6_djvu.txt",
+     "context": "1a GUIEnri.zod aa tollom, 1 The TWX represents a copy or 11 letter to tho ,uvc,u.andina General, Project Blue Book, from ULnJS W lS AYOS$, Oibson I.al.and, ryland, dat<td 24 April 19S2. The letter stated that om 00 W Si M"
+    },
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_8_djvu.txt",
+     "context": "said, in part: \"In reference to your letter, the A TIC has been directed to make all information on Project Blue Book available to the Dept. of Defense for release from that point only .... 11 What happened in those yesterm"
+    }
+   ]
+  },
+  "condon report": {
+   "tier": "OFFICIAL",
+   "note": "Scientific Study of Unidentified Flying Objects, 1969",
+   "docs": 4,
+   "count": 15,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__255_413270_UFO's_and_Defense_What_Should_we_Prepare_For_djvu.txt",
+     "context": "RB-47 Aircraft in the United States (July 17, 1957) I This case, which appears as \"unidentified\" in the Condon report, has been cited and studied extensively for 40 years. Physicist James MacDonald published the results of his"
+    },
+    {
+     "doc": "pursue/Release_03__CIA-UAP-019-Australian_Dept_of_Defense_Scientific_and_Intel_Aspects_of_the_UFO_Problem_djvu.txt",
+     "context": "on 1842 of the National Defense Authorization Act for Fiscal Year 2024 4,dth the recommerdiitiunis nf the Condon report, Project BLUE BOOK vas terI11inated, but presumably this veu]d ha.vo little effect on the main progr1-;1,n,"
+    },
+    {
+     "doc": "pursue/Release_03__USG-UAP-D001_Congress-WhiteHouse-UFO-Correspondence_1998_djvu.txt",
+     "context": "seems lately to have gathered an accretion of exaggeration, confusion, and outright fiction. The 1968 \"Condon Report\" on UFOs (conducted by the University of Colorado for the U.S. Air Force) found itself unable to penetrat"
+    },
+    {
+     "doc": "pursue/Release_04__DOW-UAP-D092_DAF-Committee-to-Review-Project-Bluebook_1966-1967_djvu.txt",
+     "context": "Force Washington, D.C. 20330 Dear Hal, I appreciate your thoughtfulness in sending me a copy of the Condon Report on UFO's. He and his group seem to have done a tremendous job, just about what our committee thought was n"
+    }
+   ]
+  },
+  "gepan": {
+   "tier": "OFFICIAL",
+   "note": "CNES GEPAN, 1977-1988",
+   "docs": 4,
+   "count": 56,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__255_413270_UFO's_and_Defense_What_Should_we_Prepare_For_djvu.txt",
+     "context": "as tried its luck at this in the report that it is presenting, supported, namely, by the work performed by GEPAN, which later became SEPRA. The significant place granted to sightings, to testimonies, and to the analysis o"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D167-Project_Capella-December-2008_djvu.txt",
+     "context": "be run on PC platforms under DOS. His catalogue eventually reached almost 20,000 entries. \u2022 In France the GEPAN (now GEiPAN) group under the CNES, implemented an ACCESS database available to a \"College of Experts\" under"
+    },
+    {
+     "doc": "geipan_tep/Analyse LDP-R.txt",
+     "context": "r Monsieur V VIREF. C.N.E.S. GEPAN N/REF. GK/AG 81-0477 LE 23 Octobre 1981"
+    },
+    {
+     "doc": "geipan_tep/Note techn16-R.txt",
+     "context": "Non-Identifi\u00e9s I\u00e8-1er mars 1983 CT/GEPAN - 0001 3 ENaUETE 81 / 01 ANALYSE D'UNE TRACE ISSN : 0750-6694"
+    }
+   ]
+  },
+  "sepra": {
+   "tier": "OFFICIAL",
+   "note": "CNES SEPRA, 1988-2004",
+   "docs": 1,
+   "count": 42,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__255_413270_UFO's_and_Defense_What_Should_we_Prepare_For_djvu.txt",
+     "context": "in the report that it is presenting, supported, namely, by the work performed by GEPAN, which later became SEPRA. The significant place granted to sightings, to testimonies, and to the analysis ofcases that have been expl"
+    }
+   ]
+  },
+  "bogey": {
+   "tier": "GENERIC",
+   "note": "aviation term for an unidentified contact; not a program",
+   "docs": 3,
+   "count": 10,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__255_t_763_r1b_transcripts_djvu.txt",
+     "context": "s/c GEMINI-7 HERE HOUSTON-- HOW DO YOU READ? HOUSTON: LOUD AND CLEAR SEVEN - GO AHEAD. s/c (BORMAN) A BOGEY AT TEN 01 CLOCK HIGH. HOUSTON THIS IS HOUSTON, SAY AGAIN SEVEN? s/c (BORMAN) I SAID WE HAVE A BOGEY AT TE"
+    },
+    {
+     "doc": "pursue/Release_01__331_120752_Numeric_Files_1944\u20131945_37153_German_Armament_Equipment_Documents_djvu.txt",
+     "context": "34 turned int o them. 11 \u2022 2 . In every ca$e where pi l ot called GCI Control and asked if t here was a Bogey A/C in t he area he received a negative answer. ~~ Ca;ptain, A. 8. , l ntelligence \u00b7offi cer . /"
+    },
+    {
+     "doc": "pursue/Release_03__USG-UAP-D001_Congress-WhiteHouse-UFO-Correspondence_1998_djvu.txt",
+     "context": "ni 7: Borman: ER GEMINI 7, HOUSTON HOW DO YOU READ? Control: Loud and clear 7 go ahead. Borman: GOT A BOGEY AT 10 O'CLOCK HIGH. Control: This is Houston. Say again 7. Borman: SAID WE HAVE A BOGEY AT 10 O'CLOCK"
+    }
+   ]
+  },
+  "project blue book": {
+   "tier": "OFFICIAL",
+   "note": "USAF UFO study, 1952-1969",
+   "docs": 16,
+   "count": 93,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_10_djvu.txt",
+     "context": "reports tlits y~r. than 1n\u2022ai,y year since 1957, when we had more than a thousand,\" Bays a spokesman \u2022 for Project Blue Book, \u2022 the Air 1 Forte program set uP in 1948 t0 evalllate re, ports of the phenomena. \u2022 Vlaiton From Out"
+    },
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_6_djvu.txt",
+     "context": "'I'fi'X 1a GUIEnri.zod aa tollom, 1 The TWX represents a copy or 11 letter to tho ,uvc,u.andina General, Project Blue Book, from ULnJS W lS AYOS$, Oibson I.al.and, ryland, dat<td 24 April 19S2. The letter stated that om 00 W Si M"
+    },
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_8_djvu.txt",
+     "context": "53. They said, in part: \"In reference to your letter, the A TIC has been directed to make all information on Project Blue Book available to the Dept. of Defense for release from that point only .... 11 What happened in those yesterm"
+    },
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Serial_449_djvu.txt",
+     "context": "ort,, this year.than 1n\u00b7ai,y year alnce \u2022 19C57, when we had more. than a lbouaand,\" aa.ya a apokesman -for Project Blue Book, the Air Fol\"Ce program ee-t uj> in 194.3 to evaluate re\u00ad port.a of the phenomena. Vl.aJton From Outer 15p"
+    }
+   ]
+  },
+  "project grudge": {
+   "tier": "OFFICIAL",
+   "note": "USAF UFO study, 1949-1952",
+   "docs": 3,
+   "count": 7,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_4_djvu.txt",
+     "context": "w termed 11Unconven\u00ad tional Aircraft\" and investigations concerning such matters have been given the name 11Project Grudge\" . G-2, 4th Anny, advised on Febr uary 16, 1949, a conference was held at Los ,'i.].amos, Nen Mexico, to"
+    },
+    {
+     "doc": "pursue/Release_03__CIA-UAP-019-Australian_Dept_of_Defense_Scientific_and_Intel_Aspects_of_the_UFO_Problem_djvu.txt",
+     "context": "replaced Witt> nev personnel 1-0 form Project tHtUJJGE. A defini\u00b7te attempt vas mado during !.9\u00b719 to use Project GRUDGE to destroy any acccptani::o of UPO'!!!. The motives for this ;ue not t:lear: po:s:o.ih!y Air Pore,~ embarn"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D175-BAASS_Self-Assessment_of_UAP_Analysis_Capabilities_November_2010_djvu.txt",
+     "context": "stence of flying saucers could neither be confirmed nor denied. Project Sign was concluded and restarted as Project Grudge in February 1949. Summary Report on BAASS UAP Analysis Capabi lities Page 13 November 23, 2010 Proj"
+    }
+   ]
+  },
+  "project twinkle": {
+   "tier": "OFFICIAL",
+   "note": "USAF green-fireball instrumentation study, 1950-1951",
+   "docs": 2,
+   "count": 2,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_6_djvu.txt",
+     "context": "f aw PAJI ~vel2!!1ents in connecticn with t.his project-7 , Dr. Anthony o. Mirarchi, Project Engineer of Project Twinkle, has been contacted by the ilbuquerque Office and arrangements have been made in order that 1:ihe Bureau"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D175-BAASS_Self-Assessment_of_UAP_Analysis_Capabilities_November_2010_djvu.txt",
+     "context": "ured, that is, not atmospheric phenomena. InitiaHy they were thought to be of Russian origin. In April 1950, Project Twinkle was created to be a network of stations with the purpose of observing, studying, and collecting data on the"
+    }
+   ]
+  },
+  "aaro": {
+   "tier": "OFFICIAL",
+   "note": "All-domain Anomaly Resolution Office, 2022-",
+   "docs": 44,
+   "count": 210,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_6_djvu.txt",
+     "context": "'1 ron: J. Edgar lloover, Dtrector, Federal Bureau of Invoa-t;tgation Subject: FLYIJ.\"G DISCS rr\u2022 .Aaron L . Ilttchons, Chell'ica.1 Engineer in charge o/ the Chca1ca1 and Phystcal La~oratoriea of the \u2022tncheeter"
+    },
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_7_djvu.txt",
+     "context": "ser;un un art!culo de una agencia noticioaa qua, un oficial y au acom\u00ad pafianto quo piloteaban un avion, diviaaron un 11Disco Volador 11 \u2022 Lo porsiguieron, pero esto como en casoo antoriores hizo baatantes piruetas y nose"
+    },
+    {
+     "doc": "pursue/Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt",
+     "context": "10/20/25 001 SECRET//REL TO USA, FVEY USCENTCOM MDR 25-0093 / JS-250710-TM8S Approved for Release to AARO SECRET//REL TO USA, FVEY Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff Declassified"
+    },
+    {
+     "doc": "pursue/Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt",
+     "context": "b)(6) SECRET//REL TO USA, FVEY MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S Approved for Release to AARO 10/17/25 001 Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff Declassified on: 8 Octob"
+    }
+   ]
+  },
+  "aurora": {
+   "tier": "ALLEGED",
+   "note": "hypersonic aircraft; a single 1985 budget line, never confirmed",
+   "docs": 13,
+   "count": 27,
+   "examples": [
+    {
+     "doc": "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_6_djvu.txt",
+     "context": "luminpting moist vapor, not unlike phosphous on rain soaked wood in certa in seasons-the northern 1 i ghts \"aurora Boreal us\" have manifested themselves for years, setting up Electro aagne\u00ad tism & Earth potential which dis"
+    },
+    {
+     "doc": "pursue/Release_01__DOW-UAP-D48-Report-September-1996_djvu.txt",
+     "context": "IVA 01/07/91 7925 ER 1 203 INMARSAT-2F2 03/08/91 6925 ER 1 204 ASC-2 04/12/91 7925 ER 1 205 AURORA II 05/29/91 7925 ER 1 206 NAVSTAR 11-11 07/03/91 7925 ER 1 207 NAVSTAR 11-12 02/23/92 7925 ER"
+    },
+    {
+     "doc": "pursue/Release_01__DOW-UAP-D49-Launch-Summary-February-2000_djvu.txt",
+     "context": "Earth Observation System Emergency Rocket Communications System (494L) X-Ray Observatory Satellite Fast Auroral Snapshot Explorer Force Development Evaluation (Replace the term OT PHASE II testing) Follow-on Operationa"
+    },
+    {
+     "doc": "pursue/Release_03__CIA-UAP-002_Scientific-Advisory-Panel-on-Unidentified-Flying-Objects_Report_1952-1953_djvu.txt",
+     "context": "ot the aq 1a DOIi~ bu been tor 1IBJO' 7ea.r1 1>ndar aurvta:Ulanc~ .Her7 clear n!eht 1n enaral. metear am aurora obaarv~ programs u VGl.1 as aq app112g pz-ograms at tho varioua. locations listed belov. Al.th\u00b0'\u00a2 the a"
+    }
+   ]
+  },
+  "skunk works": {
+   "tier": "CONTRACTOR",
+   "note": "Lockheed Martin Advanced Development Programs",
+   "docs": 3,
+   "count": 15,
+   "examples": [
+    {
+     "doc": "pursue/Release_03__CIA-UAP-003-THE_CENTRAL_INTELLIGENCE_AGENCY_AND_OVERHEAD_RECONNAISSANCE-THE_U-2_AND_OXCART_PROGRAMS_1954-1974_djvu.txt",
+     "context": "t, Kelly Johnson placed it in Lockheed's Advanced Development facility at Burbank, California, known as the Skunk Works. 10 Lockheed had established this highly secure area in 1945 to develop the nation's first jet aircraft, th"
+    },
+    {
+     "doc": "pursue/Release_06__DOW-UAP-D134_AAWSAP-DIRD-Maverick-Inventor-Versus-Corporate-Inventor-Where-Will-the-Next-Major-Innovations-Arise-March-30-2010_djvu.txt",
+     "context": "n, VA GM Research Laboratory, Warren, MI Alcatel/Lucent - Bell Labs, Murray Hill, NJ Privately Funded Skunk Works, Palmdale, CA Perimeter Institute for Theoretica I Physics, Waterloo, Canada Institute for Advanced Stud"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D175-BAASS_Self-Assessment_of_UAP_Analysis_Capabilities_November_2010_djvu.txt",
+     "context": "Pattern: A Condensed Statement ofRepeated Observations ........................ 21 Figure 2. Lockheed Martin Skunk Works SR-71 Black Bird ....................................................... 22 Figure 3. Lockheed F-117 Nightha"
+    }
+   ]
+  },
+  "oxcart": {
+   "tier": "OFFICIAL",
+   "note": "CIA A-12 program",
+   "docs": 2,
+   "count": 265,
+   "examples": [
+    {
+     "doc": "pursue/Release_03__CIA-UAP-003-THE_CENTRAL_INTELLIGENCE_AGENCY_AND_OVERHEAD_RECONNAISSANCE-THE_U-2_AND_OXCART_PROGRAMS_1954-1974_djvu.txt",
+     "context": ".. ~ Secret l<JOFOFU'il The Central Intelligence Agency and Overhead Reconnaissance: The U-2 and OXCART Programs, 1954-197 4 Secret ~ec, et MOFORf~ The Central Intelligence Agency and Overhead Reconnai"
+    },
+    {
+     "doc": "pursue/Release_05__CIA-UAP-D022_Unidentified-Flying-Object-Reported-near-Puerto-Rico_1965_djvu.txt",
+     "context": "BYEMAN Access to this document will be restricted to those persons cleared for the specific projects; OXCART ..................... ..................... ..................... ..................... WARNING Th"
+    }
+   ]
+  },
+  "aquatone": {
+   "tier": "OFFICIAL",
+   "note": "CIA U-2 program",
+   "docs": 1,
+   "count": 29,
+   "examples": [
+    {
+     "doc": "pursue/Release_03__CIA-UAP-003-THE_CENTRAL_INTELLIGENCE_AGENCY_AND_OVERHEAD_RECONNAISSANCE-THE_U-2_AND_OXCART_PROGRAMS_1954-1974_djvu.txt",
+     "context": "of the U-2 Project..................................................... 39 Funding Arrangements for Project AQUATONE .................................... 43 Major Design Features of the U-2...................................."
+    }
+   ]
+  },
+  "project stork": {
+   "tier": "OFFICIAL",
+   "note": "Battelle statistical study for Blue Book (Special Report 14)",
+   "docs": 1,
+   "count": 1,
+   "examples": [
+    {
+     "doc": "pursue/Release_03__CIA-UAP-019-Australian_Dept_of_Defense_Scientific_and_Intel_Aspects_of_the_UFO_Problem_djvu.txt",
+     "context": ":es.:rnd a higl,lv '1'-' li fi,.\u2022d r.;se,H\u00b7ch group of C(JtlS1.:lt.-rnt,: p:\u00b7ovi.dod expertiso. As part of Project Stork, this research group (ru..rrn u, a pos.,;ib lit.y) s1.a1\u2022t,.d to tr.insci:ibe data onto IBN ca1ds for futur"
+    }
+   ]
+  },
+  "mj-12": {
+   "tier": "FABRICATED",
+   "note": "MJ-12",
+   "docs": 1,
+   "count": 1,
+   "examples": [
+    {
+     "doc": "pursue/Release_03__USG-UAP-D001_Congress-WhiteHouse-UFO-Correspondence_1998_djvu.txt",
+     "context": "s your positon and intent on this matter? Will you push for open hearings or are you stonewalled as well by MJ-12? Certainly on your appoinonent as President you were briefed on the existence of UFOs. Please use your Exec"
+    }
+   ]
+  },
+  "project pounce": {
+   "tier": "ALLEGED",
+   "note": "alleged recovery team; no primary document",
+   "docs": 1,
+   "count": 1,
+   "examples": [
+    {
+     "doc": "pursue/Release_04__DOW-UAP-D092_DAF-Committee-to-Review-Project-Bluebook_1966-1967_djvu.txt",
+     "context": "henomena (Project TWlNKLE). 6. Outline.of Investigation of U.F.o.\u2022s Proposed by Kirtland Air Force Base (Project POUNCE). 7. Motion Picture Films of sightings at Trem,nton 1 Utah, 2 July 1952 and Great Falls, Montana, August"
+    }
+   ]
+  },
+  "baass": {
+   "tier": "CONTRACTOR",
+   "note": "Bigelow Aerospace Advanced Space Studies, AAWSAP prime",
+   "docs": 10,
+   "count": 649,
+   "examples": [
+    {
+     "doc": "pursue/Release_06__DOW-UAP-D111_AAWSAP-Solicitation-and-Original-Order-September-22-2008_djvu.txt",
+     "context": "Ft. George G. Meade MD 20755-6856 COR:IAAP Person 1 I Bigelow Aerospace Advanced Space Studies, Inc (BAASS) proposal dated 9/3/2008 is incorporated by reference. Contract Type: Firm Fixed Price Base Year: 22 S"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D166-MUFON-Reports_Prepared_for_BAASS-November_2008_djvu.txt",
+     "context": "MUFON Reports Prepared for BAASS November 2008 Coples ------------, J/\\UF~ -; Mutual UFO Network Lift MUFON Advanced Techno"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D167-Project_Capella-December-2008_djvu.txt",
+     "context": "C_H_ __ oo_c_UMATICA RES_EAR_ , L_L_c Report no.001 to Bigelow Aerospace Advanced Space Studies, LLC (BAASS) Project CAPELLA: Towards the development ofa data warehouse in support of research on unusual aerial"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D168-BAASS_Project_Management_Plan-December_2008_djvu.txt",
+     "context": "confidential and cannot be disseminated or 11sed witboot prior written consent from the Operating Manager ef BAAss\u2022. BIGELOW AEROSPACE ADVANCED SPACE STUDIES Staff AAP Person 4 Administrator AAP Person 7"
+    }
+   ]
+  },
+  "stargate": {
+   "tier": "OFFICIAL",
+   "note": "Star Gate (compound form)",
+   "docs": 1,
+   "count": 24,
+   "examples": [
+    {
+     "doc": "pursue/Release_06__DOW-UAP-D139_AAWSAP-DIRD-Traversable-Wormholes-Stargates-and-Negative-Energy-April-6-2010_djvu.txt",
+     "context": "sition Threat Support 6 April 2010 !COD: 1 December 2009 DIA-08- 1004-004 Traversable Wormholes, Stargates, and Negative Energy UNCLASSIFIED/,'FQR 8FFlelAL tJ!I! OHLf UNCLASSIFIED//F8A &FFIOltlil YSE 8HL1f"
+    }
+   ]
+  },
+  "geipan": {
+   "tier": "OFFICIAL",
+   "note": "CNES GEIPAN, 2005-",
+   "docs": 4,
+   "count": 7,
+   "examples": [
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D167-Project_Capella-December-2008_djvu.txt",
+     "context": "C platforms under DOS. His catalogue eventually reached almost 20,000 entries. \u2022 In France the GEPAN (now GEiPAN) group under the CNES, implemented an ACCESS database available to a \"College of Experts\" under password acc"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D168-BAASS_Project_Management_Plan-December_2008_djvu.txt",
+     "context": "to acquire a subset of the approximately 20 databases, including those created by NIDS, MUFON, UFOCAT, GEIPAN and NARCAP. Initially, these databases will be purged of all cases that do not conform to BAASS requiremen"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D170-BAASS_Montly_Report_April_2009_djvu.txt",
+     "context": "or used \u2022\u2022\u26661ithout prior '.\u2666..Fitten consent from the Operating Manager of BAAss\u2022. \u2022 Throughout 2005-2008, GEIPAN, a department of CNES (French civilian space agency), released about 100,000 pages comprising the investig"
+    },
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D171-BAASS_Monthly_Report_June_2009_djvu.txt",
+     "context": "o About a paragraph regarding each case with dates ranging from 1992-2009 o Cases blurb very similar to GEIPAN Summary of case, it usually has a time, date, event description, and sometimes contact information."
+    }
+   ]
+  },
+  "tr-3b": {
+   "tier": "ALLEGED",
+   "note": "triangular craft; no primary document",
+   "docs": 1,
+   "count": 1,
+   "examples": [
+    {
+     "doc": "pursue/Release_07__DOW-UAP-D173-BAASS_Monthly_Report_November_2009_djvu.txt",
+     "context": "INGS OF THIS REPORT: A case for the 3 helicopters and arrays: A Case for Jets and flares: A Case for TR-3B: A case for the unknown: Figure 18 (General Reference) photo- Lines of Sights from witness intersect s"
+    }
+   ]
+  }
+ },
+ "markings": {
+  "banner_C": {
+   "docs": 19,
+   "count": 63
+  },
+  "banner_U": {
+   "docs": 72,
+   "count": 3059
+  },
+  "decl_date": {
+   "docs": 1,
+   "count": 2
+  },
+  "portion_U": {
+   "docs": 29,
+   "count": 74
+  },
+  "banner_S": {
+   "docs": 58,
+   "count": 295
+  },
+  "portion_S": {
+   "docs": 27,
+   "count": 197
+  },
+  "portion_C": {
+   "docs": 20,
+   "count": 47
+  },
+  "banner_TS": {
+   "docs": 9,
+   "count": 12
+  },
+  "cav_NOFORN": {
+   "docs": 22,
+   "count": 249
+  },
+  "redact_b": {
+   "docs": 48,
+   "count": 964
+  },
+  "cav_RELTO": {
+   "docs": 16,
+   "count": 191
+  },
+  "cav_FVEY": {
+   "docs": 16,
+   "count": 191
+  },
+  "cav_FOUO": {
+   "docs": 17,
+   "count": 96
+  },
+  "portion_TS": {
+   "docs": 1,
+   "count": 25
+  },
+  "cav_ORCON": {
+   "docs": 1,
+   "count": 1
+  },
+  "cav_PROPIN": {
+   "docs": 1,
+   "count": 1
+  },
+  "cav_SCI": {
+   "docs": 2,
+   "count": 6
+  },
+  "cav_CUI": {
+   "docs": 3,
+   "count": 4
+  }
+ },
+ "discovered_unknown": {
+  "BOOSTER \nCOMMAND": 56,
+  "CUM": 11,
+  "BOOSTBR \nCOMMAND": 6,
+  "COM": 4,
+  "INHERENT RESOLVE": 3,
+  "QLI FACILITY": 3,
+  "KNOWN": 2,
+  "DEPARTMENT": 2,
+  "FIRE": 2,
+  "BOOSTRR \nCOMMAND": 2,
+  "BOOSTER": 2,
+  "QLI": 2
+ },
+ "per_doc": {
+  "pursue/Release_01__059UAP00011_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_C": 1,
+    "banner_U": 3,
+    "decl_date": 2
+   },
+   "chars": 8847
+  },
+  "pursue/Release_01__059UAP00012_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_U": 12,
+    "portion_U": 1
+   },
+   "chars": 8009
+  },
+  "pursue/Release_01__059UAP00013_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 2,
+    "portion_U": 4
+   },
+   "chars": 12866
+  },
+  "pursue/Release_01__18_100754_ General 1946-7_Vol_2_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 1
+   },
+   "chars": 32665
+  },
+  "pursue/Release_01__18_6369445_General_1948_Vol_1_djvu.txt": {
+   "codenames": {
+    "project sign": 1
+   },
+   "markings": {
+    "banner_C": 1
+   },
+   "chars": 26505
+  },
+  "pursue/Release_01__255_413270_UFO's_and_Defense_What_Should_we_Prepare_For_djvu.txt": {
+   "codenames": {
+    "blue book": 10,
+    "condon report": 4,
+    "gepan": 31,
+    "sepra": 42,
+    "pursue": 9
+   },
+   "markings": {
+    "portion_S": 1,
+    "portion_C": 2
+   },
+   "chars": 314657
+  },
+  "pursue/Release_01__255_t_763_r1b_transcripts_djvu.txt": {
+   "codenames": {
+    "bogey": 5
+   },
+   "markings": {},
+   "chars": 2436
+  },
+  "pursue/Release_01__331_120752_Numeric_Files_1944\u20131945_37153_German_Armament_Equipment_Documents_djvu.txt": {
+   "codenames": {
+    "bogey": 1
+   },
+   "markings": {
+    "banner_S": 2
+   },
+   "chars": 20843
+  },
+  "pursue/Release_01__341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_TS": 2,
+    "banner_S": 2
+   },
+   "chars": 5023
+  },
+  "pursue/Release_01__342_HS1-416511228_box186_319.1-Flying-Discs-1949_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 1,
+    "banner_C": 4,
+    "portion_S": 1,
+    "cav_NOFORN": 1
+   },
+   "chars": 67148
+  },
+  "pursue/Release_01__65_HS1-101634279_100-DE-26505_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "redact_b": 1
+   },
+   "chars": 9421
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_SUB_A_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 3
+   },
+   "chars": 265403
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_10_djvu.txt": {
+   "codenames": {
+    "project blue book": 10,
+    "blue book": 12
+   },
+   "markings": {
+    "banner_TS": 1,
+    "banner_S": 4,
+    "portion_C": 2
+   },
+   "chars": 403380
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_1_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_C": 1
+   },
+   "chars": 157486
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_2_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_C": 1
+   },
+   "chars": 191072
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_3_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_C": 4,
+    "portion_S": 2,
+    "redact_b": 2
+   },
+   "chars": 233634
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_4_djvu.txt": {
+   "codenames": {
+    "project grudge": 1
+   },
+   "markings": {
+    "banner_C": 1
+   },
+   "chars": 222031
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_5_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_C": 8,
+    "portion_S": 1,
+    "portion_C": 2,
+    "redact_b": 6
+   },
+   "chars": 167168
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_6_djvu.txt": {
+   "codenames": {
+    "project blue book": 1,
+    "blue book": 1,
+    "project twinkle": 1,
+    "aaro": 5,
+    "aurora": 1
+   },
+   "markings": {
+    "banner_C": 4,
+    "portion_S": 1,
+    "cav_NOFORN": 1
+   },
+   "chars": 327090
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_7_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {
+    "banner_C": 1,
+    "portion_C": 1,
+    "redact_b": 3
+   },
+   "chars": 226236
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_8_djvu.txt": {
+   "codenames": {
+    "project blue book": 1,
+    "blue book": 1,
+    "pursue": 1
+   },
+   "markings": {
+    "banner_C": 1,
+    "portion_S": 1,
+    "redact_b": 14
+   },
+   "chars": 208632
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Section_9_djvu.txt": {
+   "codenames": {
+    "blue book": 1,
+    "pursue": 2
+   },
+   "markings": {
+    "banner_S": 1,
+    "portion_C": 1,
+    "cav_NOFORN": 3
+   },
+   "chars": 280419
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Serial_130_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_C": 5,
+    "portion_S": 2
+   },
+   "chars": 177292
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Serial_164_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "portion_S": 1
+   },
+   "chars": 163578
+  },
+  "pursue/Release_01__65_HS1-834228961_62-HQ-83894_Serial_449_djvu.txt": {
+   "codenames": {
+    "project blue book": 1,
+    "blue book": 1
+   },
+   "markings": {
+    "banner_TS": 1,
+    "banner_S": 2
+   },
+   "chars": 106966
+  },
+  "pursue/Release_01__DOS-UAP-D1-Cable-1-Papua-New-Guinea-January-1985_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 11
+   },
+   "chars": 2974
+  },
+  "pursue/Release_01__DOS-UAP-D2-Cable-2-Kazakhstan-January-1994_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 17
+   },
+   "chars": 3939
+  },
+  "pursue/Release_01__DOW-UAP-D10-Mission-Report-Middle-East-May-2022_djvu.txt": {
+   "codenames": {
+    "aaro": 6
+   },
+   "markings": {
+    "banner_S": 18,
+    "cav_RELTO": 18,
+    "cav_FVEY": 18,
+    "redact_b": 18
+   },
+   "chars": 7496
+  },
+  "pursue/Release_01__DOW-UAP-D12-Mission-Report-Iraq-May-2022_djvu.txt": {
+   "codenames": {
+    "aaro": 6
+   },
+   "markings": {
+    "banner_S": 13,
+    "portion_S": 5,
+    "portion_U": 1,
+    "cav_RELTO": 13,
+    "cav_FVEY": 13,
+    "redact_b": 17
+   },
+   "chars": 7537
+  },
+  "pursue/Release_01__DOW-UAP-D14-Mission-Report-Iraq-May-2022_djvu.txt": {
+   "codenames": {
+    "aaro": 9
+   },
+   "markings": {
+    "banner_S": 14,
+    "portion_S": 5,
+    "portion_U": 1,
+    "cav_NOFORN": 1,
+    "cav_RELTO": 14,
+    "cav_FVEY": 14,
+    "redact_b": 11
+   },
+   "chars": 13000
+  },
+  "pursue/Release_01__DOW-UAP-D16-Mission-Report-Syria-July-2022_djvu.txt": {
+   "codenames": {
+    "aaro": 7
+   },
+   "markings": {
+    "redact_b": 14
+   },
+   "chars": 11661
+  },
+  "pursue/Release_01__DOW-UAP-D18-Mission-Report-Iraq-December-2022_djvu.txt": {
+   "codenames": {
+    "aaro": 6
+   },
+   "markings": {
+    "portion_U": 2,
+    "redact_b": 12
+   },
+   "chars": 7548
+  },
+  "pursue/Release_01__DOW-UAP-D19-Mission-Report-Syria-February-21-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 10
+   },
+   "markings": {
+    "banner_S": 1,
+    "cav_RELTO": 1,
+    "cav_FVEY": 2,
+    "redact_b": 16
+   },
+   "chars": 13082
+  },
+  "pursue/Release_01__DOW-UAP-D20-Mission-Report-Iraq-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 6
+   },
+   "markings": {
+    "portion_U": 4,
+    "redact_b": 8
+   },
+   "chars": 8351
+  },
+  "pursue/Release_01__DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 2
+   },
+   "markings": {
+    "portion_S": 2,
+    "cav_NOFORN": 2,
+    "cav_FOUO": 18,
+    "redact_b": 7
+   },
+   "chars": 12777
+  },
+  "pursue/Release_01__DOW-UAP-D25-Mission-Report-Greece-January-2024_djvu.txt": {
+   "codenames": {
+    "aaro": 7
+   },
+   "markings": {
+    "banner_S": 21,
+    "banner_U": 4,
+    "cav_RELTO": 21,
+    "cav_FVEY": 21,
+    "redact_b": 65
+   },
+   "chars": 10434
+  },
+  "pursue/Release_01__DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 8
+   },
+   "markings": {
+    "banner_S": 13,
+    "cav_NOFORN": 23,
+    "cav_RELTO": 12,
+    "cav_FVEY": 12,
+    "redact_b": 66
+   },
+   "chars": 11383
+  },
+  "pursue/Release_01__DOW-UAP-D28-Mission-Report-East-China-Sea-2024_djvu.txt": {
+   "codenames": {
+    "aaro": 6
+   },
+   "markings": {
+    "banner_S": 14,
+    "portion_S": 2,
+    "cav_RELTO": 15,
+    "cav_FVEY": 15,
+    "redact_b": 57
+   },
+   "chars": 10024
+  },
+  "pursue/Release_01__DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 2,
+    "cav_RELTO": 1,
+    "cav_FVEY": 1,
+    "redact_b": 104
+   },
+   "chars": 6082
+  },
+  "pursue/Release_01__DOW-UAP-D32-Mission-Report,-Syria-October-2024_djvu.txt": {
+   "codenames": {
+    "aaro": 10
+   },
+   "markings": {
+    "banner_S": 31,
+    "banner_U": 12,
+    "cav_RELTO": 31,
+    "cav_FVEY": 31,
+    "redact_b": 85
+   },
+   "chars": 14333
+  },
+  "pursue/Release_01__DOW-UAP-D33-Mission-Report-Greece-October-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 7
+   },
+   "markings": {
+    "banner_U": 4,
+    "redact_b": 6
+   },
+   "chars": 8680
+  },
+  "pursue/Release_01__DOW-UAP-D35-Mission-Report-Greece-October-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 7
+   },
+   "markings": {
+    "banner_U": 4,
+    "redact_b": 9
+   },
+   "chars": 8685
+  },
+  "pursue/Release_01__DOW-UAP-D38-Range-Fouler-Debrief-Middle-East-May-2020_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {
+    "portion_S": 1
+   },
+   "chars": 3547
+  },
+  "pursue/Release_01__DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 1,
+    "portion_S": 1,
+    "cav_RELTO": 1,
+    "cav_FVEY": 1,
+    "redact_b": 3
+   },
+   "chars": 359
+  },
+  "pursue/Release_01__DOW-UAP-D42-Range-Fouler-Debrief-Japan-2023_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "cav_FOUO": 1
+   },
+   "chars": 3411
+  },
+  "pursue/Release_01__DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "redact_b": 3
+   },
+   "chars": 3489
+  },
+  "pursue/Release_01__DOW-UAP-D48-Report-September-1996_djvu.txt": {
+   "codenames": {
+    "aurora": 1
+   },
+   "markings": {
+    "portion_S": 2
+   },
+   "chars": 389149
+  },
+  "pursue/Release_01__DOW-UAP-D49-Launch-Summary-February-2000_djvu.txt": {
+   "codenames": {
+    "aurora": 1
+   },
+   "markings": {},
+   "chars": 194189
+  },
+  "pursue/Release_01__DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "portion_S": 2,
+    "redact_b": 1
+   },
+   "chars": 458
+  },
+  "pursue/Release_01__DOW-UAP-D50-Email-Correspondence-INDOPACOM-April-2025_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 8,
+    "cav_NOFORN": 3,
+    "redact_b": 9
+   },
+   "chars": 1270
+  },
+  "pursue/Release_01__DOW-UAP-D51-Email-Correspondence-Pacific-Time-Zone-March-2023_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 2,
+    "cav_NOFORN": 3,
+    "redact_b": 7
+   },
+   "chars": 3161
+  },
+  "pursue/Release_01__DOW-UAP-D52-Email-Correspondance-NA-August-2024_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 2,
+    "cav_NOFORN": 2,
+    "redact_b": 5
+   },
+   "chars": 837
+  },
+  "pursue/Release_01__DOW-UAP-D54-Mission-Report-Mediterranean-Sea-NA_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "cav_NOFORN": 4
+   },
+   "chars": 536
+  },
+  "pursue/Release_01__DOW-UAP-D55-Mission-Report-Syria-November-2016_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {},
+   "chars": 1631
+  },
+  "pursue/Release_01__DOW-UAP-D56-Range-Fouler-Debrief-Arabian-Sea-August-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "redact_b": 1
+   },
+   "chars": 3642
+  },
+  "pursue/Release_01__DOW-UAP-D57-Mission-Report-Gulf-of-Aden-September-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "cav_FOUO": 1
+   },
+   "chars": 3217
+  },
+  "pursue/Release_01__DOW-UAP-D58-Range-Fouler-Debrief-NA-October-2020_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {
+    "redact_b": 2
+   },
+   "chars": 3461
+  },
+  "pursue/Release_01__DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "portion_S": 1
+   },
+   "chars": 249
+  },
+  "pursue/Release_01__DOW-UAP-D60-Mission-Report-Persian-Gulf-August-2020_djvu.txt": {
+   "codenames": {
+    "aaro": 6
+   },
+   "markings": {
+    "redact_b": 1
+   },
+   "chars": 6817
+  },
+  "pursue/Release_01__DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "redact_b": 6
+   },
+   "chars": 8357
+  },
+  "pursue/Release_01__DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "portion_U": 2,
+    "redact_b": 2
+   },
+   "chars": 10571
+  },
+  "pursue/Release_01__DOW-UAP-D63-Mission-Report-Strait-of-Hormuz-October-2020_djvu.txt": {
+   "codenames": {
+    "aaro": 8
+   },
+   "markings": {
+    "portion_U": 1,
+    "cav_FOUO": 6,
+    "redact_b": 3
+   },
+   "chars": 8911
+  },
+  "pursue/Release_01__DOW-UAP-D64-Mission-Report-Iran-November-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "portion_U": 1,
+    "cav_FOUO": 14
+   },
+   "chars": 8745
+  },
+  "pursue/Release_01__DOW-UAP-D65-Mission-Report-Persian-Gulf-July-2020_djvu.txt": {
+   "codenames": {
+    "aaro": 8
+   },
+   "markings": {
+    "cav_FOUO": 1,
+    "redact_b": 4
+   },
+   "chars": 8297
+  },
+  "pursue/Release_01__DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 1
+   },
+   "chars": 484
+  },
+  "pursue/Release_01__DOW-UAP-D74-Mission-Report-Syria-November-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 10
+   },
+   "markings": {
+    "banner_S": 7,
+    "banner_U": 8,
+    "cav_NOFORN": 25,
+    "cav_RELTO": 6,
+    "cav_FVEY": 6,
+    "cav_FOUO": 20,
+    "redact_b": 34
+   },
+   "chars": 13503
+  },
+  "pursue/Release_01__DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024_djvu.txt": {
+   "codenames": {
+    "aaro": 8
+   },
+   "markings": {
+    "banner_S": 17,
+    "portion_S": 7,
+    "cav_RELTO": 23,
+    "cav_FVEY": 23,
+    "cav_FOUO": 16,
+    "redact_b": 26
+   },
+   "chars": 10750
+  },
+  "pursue/Release_01__DOW-UAP-D8-Mission-Report-Djibouti-2025_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 2,
+    "cav_RELTO": 2,
+    "cav_FVEY": 2
+   },
+   "chars": 502
+  },
+  "pursue/Release_01__DOW-UAP-PR20_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {},
+   "chars": 332
+  },
+  "pursue/Release_01__NASA-UAP-D4-Apollo-11-Technical-Crew-Debriefing-1969_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_C": 1,
+    "portion_U": 1
+   },
+   "chars": 11796
+  },
+  "pursue/Release_01__NASA-UAP-D6-Apollo-17-Technical-Crew-Debriefing-1973_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "portion_U": 1
+   },
+   "chars": 1950
+  },
+  "pursue/Release_01__USPER-Statement-Redacted_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_S": 3,
+    "cav_NOFORN": 6
+   },
+   "chars": 7341
+  },
+  "pursue/Release_01__Western_US_Event_Slides_5.08.2026_djvu.txt": {
+   "codenames": {
+    "aaro": 3,
+    "pursue": 1
+   },
+   "markings": {},
+   "chars": 5871
+  },
+  "pursue/Release_02__DOE-UAP-D002_JamesTuck_Correspondence_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "redact_b": 1
+   },
+   "chars": 1224
+  },
+  "pursue/Release_02__DOW-UAP-D017_General_Correspondence_Of_Sandia_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 1,
+    "portion_U": 1
+   },
+   "chars": 172055
+  },
+  "pursue/Release_02__ODNI-UAP-D001_USPER_Narrative_Senior_USIC_djvu.txt": {
+   "codenames": {
+    "pursue": 2
+   },
+   "markings": {},
+   "chars": 5668
+  },
+  "pursue/Release_03__CIA-UAP-002_Scientific-Advisory-Panel-on-Unidentified-Flying-Objects_Report_1952-1953_djvu.txt": {
+   "codenames": {
+    "aurora": 3
+   },
+   "markings": {},
+   "chars": 52360
+  },
+  "pursue/Release_03__CIA-UAP-003-THE_CENTRAL_INTELLIGENCE_AGENCY_AND_OVERHEAD_RECONNAISSANCE-THE_U-2_AND_OXCART_PROGRAMS_1954-1974_djvu.txt": {
+   "codenames": {
+    "blue book": 5,
+    "pursue": 1,
+    "skunk works": 12,
+    "oxcart": 262,
+    "aquatone": 29
+   },
+   "markings": {
+    "portion_S": 122,
+    "portion_TS": 25,
+    "portion_C": 1,
+    "portion_U": 15,
+    "cav_NOFORN": 112,
+    "cav_ORCON": 1,
+    "cav_PROPIN": 1,
+    "cav_SCI": 5
+   },
+   "chars": 777251
+  },
+  "pursue/Release_03__CIA-UAP-013-Report_of_Unusual_Flying_Object_Sightings_and_Attendant_Scientific_Activity_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 1
+   },
+   "chars": 2875
+  },
+  "pursue/Release_03__CIA-UAP-014_British_Activity_in_the_Field_of_Unidentified_Flying_Objects_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 1
+   },
+   "chars": 3621
+  },
+  "pursue/Release_03__CIA-UAP-015-Project_Blue_Book_Special_Report_No_14_djvu.txt": {
+   "codenames": {
+    "project blue book": 1,
+    "blue book": 1
+   },
+   "markings": {
+    "portion_S": 4,
+    "portion_U": 1,
+    "cav_NOFORN": 1,
+    "cav_CUI": 2
+   },
+   "chars": 922337
+  },
+  "pursue/Release_03__CIA-UAP-017_Placement_on_High_Alert_Due_to_Perceived_Aggressive_Foreign_Posturing_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 2,
+    "cav_NOFORN": 1
+   },
+   "chars": 3841
+  },
+  "pursue/Release_03__CIA-UAP-019-Australian_Dept_of_Defense_Scientific_and_Intel_Aspects_of_the_UFO_Problem_djvu.txt": {
+   "codenames": {
+    "project sign": 1,
+    "project grudge": 4,
+    "project blue book": 5,
+    "blue book": 11,
+    "project stork": 1,
+    "condon report": 3
+   },
+   "markings": {},
+   "chars": 40253
+  },
+  "pursue/Release_03__DOW-UAP-D077_Unresolved-Case-Analysis-Update_Western-United-States-Event_djvu.txt": {
+   "codenames": {
+    "aaro": 24
+   },
+   "markings": {
+    "banner_S": 1,
+    "banner_U": 8
+   },
+   "chars": 11775
+  },
+  "pursue/Release_03__DOW-UAP-D087_US-AirForce_Analysis-of-Flying-Objects-in-the-US_1-100_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {},
+   "chars": 137650
+  },
+  "pursue/Release_03__DOW-UAP-D088_US-AirForce_Analysis-of-Flying-Objects-in-the-US_101-172_djvu.txt": {
+   "codenames": {
+    "pursue": 3
+   },
+   "markings": {
+    "cav_CUI": 1
+   },
+   "chars": 198550
+  },
+  "pursue/Release_03__DoW-UAP-D079_Narrative-1_Western-US-Event_djvu.txt": {
+   "codenames": {
+    "aaro": 3
+   },
+   "markings": {
+    "banner_S": 1,
+    "banner_U": 4
+   },
+   "chars": 6352
+  },
+  "pursue/Release_03__DoW-UAP-D080_Narrative-2_Western-US-Event_djvu.txt": {
+   "codenames": {
+    "aaro": 3
+   },
+   "markings": {
+    "banner_S": 1,
+    "banner_U": 16
+   },
+   "chars": 13628
+  },
+  "pursue/Release_03__DoW-UAP-D081_Narrative-3_Western-US-Event_djvu.txt": {
+   "codenames": {
+    "aaro": 3
+   },
+   "markings": {
+    "banner_S": 1,
+    "banner_U": 3
+   },
+   "chars": 5642
+  },
+  "pursue/Release_03__DoW-UAP-D082_Narrative-4_Western-US-Event_djvu.txt": {
+   "codenames": {
+    "aaro": 3
+   },
+   "markings": {
+    "banner_S": 1,
+    "banner_U": 6
+   },
+   "chars": 8150
+  },
+  "pursue/Release_03__DoW-UAP-D083_Narrative-5_Western-US-Event_djvu.txt": {
+   "codenames": {
+    "aaro": 3
+   },
+   "markings": {
+    "banner_S": 1,
+    "banner_U": 10
+   },
+   "chars": 9054
+  },
+  "pursue/Release_03__FBI-UAP-D001_FD-302_Unresolved-UAP-Report_ColoradoSprings_2022_djvu.txt": {
+   "codenames": {
+    "aaro": 2
+   },
+   "markings": {},
+   "chars": 3488
+  },
+  "pursue/Release_03__FBI-UAP-D012_Newark-Field-Office_1952-1967_djvu.txt": {
+   "codenames": {
+    "project blue book": 1,
+    "blue book": 1
+   },
+   "markings": {},
+   "chars": 64028
+  },
+  "pursue/Release_03__FBI-UAP-D013_WA-UFO-Investigation_1952-1960_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "redact_b": 1
+   },
+   "chars": 44584
+  },
+  "pursue/Release_03__NASA-UAP-D015_Astronaut-Scientific-Debriefings_1962-1963_djvu.txt": {
+   "codenames": {
+    "blue book": 3,
+    "aurora": 1
+   },
+   "markings": {
+    "cav_FOUO": 2
+   },
+   "chars": 278528
+  },
+  "pursue/Release_03__NASA-UAP-D016_Preliminary-Gemini-4-Crew-Debriefing_Part1_1965_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "cav_NOFORN": 1
+   },
+   "chars": 389087
+  },
+  "pursue/Release_03__NASA-UAP-D017_Preliminary-Gemini-4-Crew-Debriefing_Part2_1965_djvu.txt": {
+   "codenames": {
+    "aurora": 1
+   },
+   "markings": {},
+   "chars": 331314
+  },
+  "pursue/Release_03__NASA-UAP-D018_Gemini-4_Experiment-Debriefing_1967_djvu.txt": {
+   "codenames": {
+    "blue book": 1,
+    "aurora": 2
+   },
+   "markings": {
+    "banner_U": 2,
+    "portion_C": 1
+   },
+   "chars": 251799
+  },
+  "pursue/Release_03__NASA-UAP-D019_Gemini-5-Technical-Debriefing_Part1_1965_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_C": 2,
+    "portion_U": 1
+   },
+   "chars": 245601
+  },
+  "pursue/Release_03__NASA-UAP-D020_Gemini-5-Technical-Debriefing_Part2_1965_djvu.txt": {
+   "codenames": {
+    "aurora": 7
+   },
+   "markings": {
+    "cav_SCI": 1
+   },
+   "chars": 376929
+  },
+  "pursue/Release_03__NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965_djvu.txt": {
+   "codenames": {
+    "aurora": 2
+   },
+   "markings": {},
+   "chars": 271455
+  },
+  "pursue/Release_03__NASA-UAP-D022_Gemini-9-Debriefing_1966_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 2
+   },
+   "chars": 64766
+  },
+  "pursue/Release_03__USG-UAP-D001_Congress-WhiteHouse-UFO-Correspondence_1998_djvu.txt": {
+   "codenames": {
+    "project blue book": 15,
+    "blue book": 19,
+    "condon report": 4,
+    "pursue": 2,
+    "mj-12": 1,
+    "bogey": 4
+   },
+   "markings": {
+    "banner_TS": 1,
+    "banner_S": 1,
+    "portion_S": 5,
+    "redact_b": 15
+   },
+   "chars": 159307
+  },
+  "pursue/Release_04__CIA-UAP-D020_Memorandum-on-Unconventional-Aircraft-Sightings_1955_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_TS": 1,
+    "banner_S": 1
+   },
+   "chars": 4430
+  },
+  "pursue/Release_04__CIA-UAP-D021_Analysis-of-Unconventional-Aircraft-Sightings_1955_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_TS": 1,
+    "banner_S": 1
+   },
+   "chars": 5018
+  },
+  "pursue/Release_04__DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949_djvu.txt": {
+   "codenames": {
+    "project sign": 1,
+    "pursue": 1,
+    "aurora": 1
+   },
+   "markings": {
+    "cav_CUI": 1
+   },
+   "chars": 73052
+  },
+  "pursue/Release_04__DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 1
+   },
+   "chars": 7104
+  },
+  "pursue/Release_04__DOW-UAP-D089_Range-Fouler-Debrief_Eastern-US_2020_djvu.txt": {
+   "codenames": {
+    "aaro": 3
+   },
+   "markings": {
+    "portion_C": 2
+   },
+   "chars": 2824
+  },
+  "pursue/Release_04__DOW-UAP-D092_DAF-Committee-to-Review-Project-Bluebook_1966-1967_djvu.txt": {
+   "codenames": {
+    "project blue book": 19,
+    "blue book": 27,
+    "condon report": 4,
+    "pursue": 1,
+    "aurora": 3,
+    "project pounce": 1
+   },
+   "markings": {
+    "banner_S": 3
+   },
+   "chars": 94590
+  },
+  "pursue/Release_04__DOW-UAP-D094_Analysis-of-Flying-Object-Incidents-in-the-US_1949_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_TS": 1,
+    "banner_S": 1
+   },
+   "chars": 47170
+  },
+  "pursue/Release_04__DOW-UAP-D095_Joint-US-Canadian-Aviation-Projects-and-UFO-Sighting-Reports_1954-1955_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 2
+   },
+   "chars": 15179
+  },
+  "pursue/Release_04__DOW-UAP-D096_Correspondence-Relating-to-Project-Blue-Book_1955_djvu.txt": {
+   "codenames": {
+    "project blue book": 3,
+    "blue book": 3
+   },
+   "markings": {
+    "banner_S": 23,
+    "portion_U": 1
+   },
+   "chars": 36732
+  },
+  "pursue/Release_04__DOW-UAP-D097_Project-Sign-Progress-Report_1948_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 1,
+    "banner_C": 9
+   },
+   "chars": 111387
+  },
+  "pursue/Release_04__FBI-UAP-D014_Correspondence-Relating-to-UFO-Sightings_1967_1974_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {},
+   "chars": 5314
+  },
+  "pursue/Release_05__CIA-UAP-D022_Unidentified-Flying-Object-Reported-near-Puerto-Rico_1965_djvu.txt": {
+   "codenames": {
+    "oxcart": 3
+   },
+   "markings": {
+    "banner_TS": 3,
+    "banner_S": 4,
+    "banner_C": 1,
+    "banner_U": 1
+   },
+   "chars": 7771
+  },
+  "pursue/Release_05__DOS-UAP-D001_Diplomatic-Cable_Brazil_November-14-1963_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 1
+   },
+   "chars": 1621
+  },
+  "pursue/Release_05__DOS-UAP-D002_Diplomatic-Cable_Brazil_November-20-1963_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 2
+   },
+   "chars": 2175
+  },
+  "pursue/Release_05__DOW-UAP-D098_Film-Analysis-of-Unidentified-Objects_1953_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_C": 3
+   },
+   "chars": 86334
+  },
+  "pursue/Release_05__DOW-UAP-D099_Intelligence-Review-of-Ghost-Rocket-Incidents_1947_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 2
+   },
+   "chars": 11584
+  },
+  "pursue/Release_05__DOW-UAP-D100_Air-Materiel-Command-Report-on-UFOs_1947-1948_djvu.txt": {
+   "codenames": {
+    "project sign": 1,
+    "pursue": 3
+   },
+   "markings": {
+    "banner_TS": 1,
+    "banner_S": 3,
+    "portion_S": 4
+   },
+   "chars": 181757
+  },
+  "pursue/Release_05__DOW-UAP-D101_IIR_Unresolved-UAP-Report-Gulf-of-Oman_2021_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {
+    "banner_S": 1,
+    "portion_U": 15,
+    "redact_b": 3
+   },
+   "chars": 14627
+  },
+  "pursue/Release_06__DOW-UAP-D102_Project-Blue-Book-File-on-Tremonton-Film-Utah-1952_djvu.txt": {
+   "codenames": {
+    "project blue book": 1,
+    "blue book": 2,
+    "aaro": 1
+   },
+   "markings": {
+    "banner_S": 2,
+    "banner_U": 52,
+    "portion_U": 1,
+    "cav_NOFORN": 1
+   },
+   "chars": 146149
+  },
+  "pursue/Release_06__DOW-UAP-D104_Final-Personnel-Record-for-Newhouse-Delbert-C-US-Navy-1957_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 3,
+    "portion_S": 15,
+    "portion_C": 1,
+    "cav_NOFORN": 3
+   },
+   "chars": 1180591
+  },
+  "pursue/Release_06__DOW-UAP-D105_US-Air-Force-Flying-Discs-File-September-December-1952_djvu.txt": {
+   "codenames": {
+    "project blue book": 21,
+    "blue book": 26
+   },
+   "markings": {
+    "banner_U": 1,
+    "portion_U": 9
+   },
+   "chars": 247706
+  },
+  "pursue/Release_06__DOW-UAP-D106_Mission-Report-Iraq-2022_djvu.txt": {
+   "codenames": {
+    "aaro": 6
+   },
+   "markings": {
+    "portion_S": 1,
+    "portion_U": 1,
+    "cav_FOUO": 6,
+    "redact_b": 8
+   },
+   "chars": 7542
+  },
+  "pursue/Release_06__DOW-UAP-D107_Mission-Report-Middle-East-2025_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 17,
+    "banner_U": 16,
+    "cav_NOFORN": 20,
+    "cav_RELTO": 16,
+    "cav_FVEY": 15,
+    "redact_b": 94
+   },
+   "chars": 10937
+  },
+  "pursue/Release_06__DOW-UAP-D108_Mission-Report-Middle-East-2025_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 2,
+    "banner_U": 18,
+    "cav_NOFORN": 33,
+    "cav_RELTO": 1,
+    "cav_FVEY": 1,
+    "redact_b": 90
+   },
+   "chars": 10622
+  },
+  "pursue/Release_06__DOW-UAP-D109_Mission-Report-Middle-East-2022_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 16,
+    "banner_U": 12,
+    "cav_RELTO": 16,
+    "cav_FVEY": 16,
+    "redact_b": 73
+   },
+   "chars": 7789
+  },
+  "pursue/Release_06__DOW-UAP-D111_AAWSAP-Solicitation-and-Original-Order-September-22-2008_djvu.txt": {
+   "codenames": {
+    "pursue": 3,
+    "baass": 1
+   },
+   "markings": {
+    "portion_C": 15,
+    "redact_b": 33
+   },
+   "chars": 262176
+  },
+  "pursue/Release_06__DOW-UAP-D112_AAWSAP-Contract-Modification-P00001-September-2-2009_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "redact_b": 1
+   },
+   "chars": 6870
+  },
+  "pursue/Release_06__DOW-UAP-D114_AAWSAP-Contract-Modification-P00003-May-18- 2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "redact_b": 10
+   },
+   "chars": 5601
+  },
+  "pursue/Release_06__DOW-UAP-D116_AAWSAP-Contract-Modification-P00005-September-28-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "redact_b": 5
+   },
+   "chars": 7902
+  },
+  "pursue/Release_06__DOW-UAP-D117_AAWSAP-DIRD-Metallic-Glasses-for-Aerospace-Applications-December-14-2009_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 59
+   },
+   "chars": 73461
+  },
+  "pursue/Release_06__DOW-UAP-D118_AAWSAP-DIRD-Aerospace-Applications-of-Programmable-Matter-December-14-2009_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 39
+   },
+   "chars": 50858
+  },
+  "pursue/Release_06__DOW-UAP-D119_AAWSAP-DIRD-Biomaterials-January-7-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 64,
+    "cav_FOUO": 1
+   },
+   "chars": 67835
+  },
+  "pursue/Release_06__DOW-UAP-D120_AAWSAP-DIRD-Materials-for-Advanced-Aerospace-Platforms-January-12-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 54
+   },
+   "chars": 81616
+  },
+  "pursue/Release_06__DOW-UAP-D121_AAWSAP-DIRD-Pulsed-High-Power-Microwave-Source-Technology-January-28-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 74
+   },
+   "chars": 104774
+  },
+  "pursue/Release_06__DOW-UAP-D122_AAWSAP-DIRD-Invisibility-Cloaking-Theory-and-Experiments-March-2-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 57,
+    "portion_C": 1,
+    "cav_FOUO": 2
+   },
+   "chars": 56245
+  },
+  "pursue/Release_06__DOW-UAP-D123_AAWSAP-DIRD-Positron-Aerospace-Propulsion-March-2-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 69,
+    "cav_FOUO": 1
+   },
+   "chars": 68562
+  },
+  "pursue/Release_06__DOW-UAP-D124_AAWSAP-DIRD-Space Access-Where-Weve-Been-and-Where-We-Could-Go-March-8-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 112
+   },
+   "chars": 134325
+  },
+  "pursue/Release_06__DOW-UAP-D125_AAWSA-DIRD-Inertial-Electrostatic-Confinement-Fusion-March-10-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 6
+   },
+   "markings": {
+    "banner_U": 144
+   },
+   "chars": 195497
+  },
+  "pursue/Release_06__DOW-UAP-D126_AAWSAP-DIRD-Advanced-Nuclear-Propulsion-for-Manned-Deep-Space-Missions-March-11-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 74
+   },
+   "chars": 83758
+  },
+  "pursue/Release_06__DOW-UAP-D127_AAWSAP-DIRD-An-Introduction-to-the-Statistical-Drake-Equation-March-11-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 110
+   },
+   "chars": 125748
+  },
+  "pursue/Release_06__DOW-UAP-D128_AAWSAP-DIRD-Anomalous-Acute-and-Subacute-Field-Effects-on-Human-Biological-Tissues-March-11-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 72,
+    "portion_S": 1,
+    "portion_U": 1,
+    "cav_NOFORN": 1
+   },
+   "chars": 91892
+  },
+  "pursue/Release_06__DOW-UAP-D129_AAWSAP-DIRD-Metallic-Spintronics-March-23-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 54
+   },
+   "chars": 74521
+  },
+  "pursue/Release_06__DOW-UAP-D130_AAWSAP-DIRD-Technological-Approaches-to-Controlling-External-Devices-March-23-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 2
+   },
+   "markings": {
+    "banner_U": 72,
+    "portion_C": 1
+   },
+   "chars": 108808
+  },
+  "pursue/Release_06__DOW-UAP-D131_AAWSAP-DIRD-The-Role-of-Superconductors-in-Gravity-Research-March-23-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 32
+   },
+   "chars": 52305
+  },
+  "pursue/Release_06__DOW-UAP-D132_AAWSAP-DIRD-Advanced-Space-Propulsion-Based-on-Vacuum-Spacetime Metric-Engineering-March-29-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 34
+   },
+   "chars": 41165
+  },
+  "pursue/Release_06__DOW-UAP-D133_AAWSAP-DIRD-The-Space-Communication-Implications-of-Quantum-Entanglement-and-Nonlocality-March-30-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 64
+   },
+   "chars": 83197
+  },
+  "pursue/Release_06__DOW-UAP-D134_AAWSAP-DIRD-Maverick-Inventor-Versus-Corporate-Inventor-Where-Will-the-Next-Major-Innovations-Arise-March-30-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 5,
+    "skunk works": 1
+   },
+   "markings": {
+    "banner_U": 37
+   },
+   "chars": 52497
+  },
+  "pursue/Release_06__DOW-UAP-D135_ AAWSAP-DIRD-Antigravity-for-Aerospace-Applications-March-30-2010-V2_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_U": 87
+   },
+   "chars": 123455
+  },
+  "pursue/Release_06__DOW-UAP-D136_AAWSAP-DIRD-Biosensors-and-BioMEMS-A-Survey-of-the-Present-Field-March-31-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 90,
+    "portion_C": 1
+   },
+   "chars": 91483
+  },
+  "pursue/Release_06__DOW-UAP-D137_AAWSAP-DIRD-State-of-the-Art-and-Evolution-of-High-Energy-Lasers-March-31-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 2
+   },
+   "markings": {
+    "banner_U": 62
+   },
+   "chars": 66851
+  },
+  "pursue/Release_06__DOW-UAP-D138_AAWSAP-DIRD-Warp-Drive-Dark-Energy-and-the-Manipulation-of-Extra-Dimensions-April-2-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 66
+   },
+   "chars": 89265
+  },
+  "pursue/Release_06__DOW-UAP-D139_AAWSAP-DIRD-Traversable-Wormholes-Stargates-and-Negative-Energy-April-6-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 1,
+    "stargate": 24
+   },
+   "markings": {
+    "banner_U": 43
+   },
+   "chars": 110123
+  },
+  "pursue/Release_06__DOW-UAP-D140_AAWSAP-DIRD-High-Frequency-Gravitational-Wave-Communications-April-6-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 114
+   },
+   "chars": 146351
+  },
+  "pursue/Release_06__DOW-UAP-D141_AAWSAP-DIRD-Metamaterials-for-Aerospace-Applications-April-6-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_U": 74
+   },
+   "chars": 92324
+  },
+  "pursue/Release_06__DOW-UAP-D142_AAWSAP-DIRD-Concepts-for-Extracting-Energy-from-the-Quantum-Vacuum-April-6-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 2
+   },
+   "markings": {
+    "banner_U": 114
+   },
+   "chars": 156878
+  },
+  "pursue/Release_06__DOW-UAP-D143_AAWSAP-DIRD-Laser-Lightcraft-Nanosatellites-November-1-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_U": 154,
+    "portion_U": 1
+   },
+   "chars": 164838
+  },
+  "pursue/Release_06__DOW-UAP-D144_AAWSAP-DIRD-Cockpits-in-the-Era-of-Breakthrough-Flight-November-1-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 113,
+    "portion_U": 1,
+    "cav_FOUO": 1
+   },
+   "chars": 143891
+  },
+  "pursue/Release_06__DOW-UAP-D145_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-I-November-1-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 95,
+    "portion_U": 1
+   },
+   "chars": 100858
+  },
+  "pursue/Release_06__DOW-UAP-D146_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-II-November-1-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_U": 72,
+    "portion_U": 2,
+    "cav_FOUO": 1
+   },
+   "chars": 75575
+  },
+  "pursue/Release_06__DOW-UAP-D147_AAWSAP-DIRD-Ultracapacitors-as-Energy-and-Power-Storage-Devices-November-1-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 4,
+    "portion_U": 1
+   },
+   "chars": 84364
+  },
+  "pursue/Release_06__DOW-UAP-D148_AAWSAP-DIRD-Detection-and-High-Resolution-Tracking-of-Vehicles-at-Hypersonic-Velocities-November-20-2010_djvu.txt": {
+   "codenames": {
+    "aaro": 1,
+    "pursue": 1,
+    "aurora": 2
+   },
+   "markings": {
+    "banner_U": 90
+   },
+   "chars": 95152
+  },
+  "pursue/Release_06__DOW-UAP-D149_AAWSAP-DIRD-MHD-Air-Breathing-Propulsion-and-Power-for-Aerospace-Applications-November-21-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 58,
+    "portion_U": 1,
+    "cav_FOUO": 3
+   },
+   "chars": 83075
+  },
+  "pursue/Release_06__DOW-UAP-D150_AAWSAP-DIRD-Quantum-Computing-and-Utilizing-Organic-Molecules-in-Automation-Technology-December-10-2010_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_U": 108,
+    "portion_C": 2,
+    "cav_FOUO": 2
+   },
+   "chars": 131168
+  },
+  "pursue/Release_06__DOW-UAP-D151_AAWSAP-DIRD-Cognitive-Limits-on-Simultaneous-Control-of-Multiple-Unmanned-Spacecraft-December-15-2010_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 60
+   },
+   "chars": 75210
+  },
+  "pursue/Release_06__DOW-UAP-D152_AAWSAP-DIRD-Negative-Mass-Propulsion-January-3-2011_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 83,
+    "portion_U": 1
+   },
+   "chars": 61346
+  },
+  "pursue/Release_06__DOW-UAP-D153_AAWSAP-DIRD-Quantum-Tomography-of-Negative-Energy-States-in-the-Vacuum-January-11-2011_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 102
+   },
+   "chars": 122589
+  },
+  "pursue/Release_06__DOW-UAP-D154_Transcript-of-a-Presentation-by-Captain-Edward-J-Ruppelt-1952_djvu.txt": {
+   "codenames": {
+    "blue book": 1,
+    "aurora": 2
+   },
+   "markings": {
+    "banner_S": 1
+   },
+   "chars": 64043
+  },
+  "pursue/Release_06__LLE-UAP-D001_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {
+    "banner_S": 1
+   },
+   "chars": 1191
+  },
+  "pursue/Release_06__LLE-UAP-D002_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {
+    "banner_S": 1,
+    "portion_C": 1
+   },
+   "chars": 3228
+  },
+  "pursue/Release_06__LLE-UAP-D003_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {
+    "banner_S": 1
+   },
+   "chars": 1207
+  },
+  "pursue/Release_06__LLE-UAP-D004_Transcript-of-an-Unresolved-UAP-Report-Colorado-January-2024_djvu.txt": {
+   "codenames": {
+    "aaro": 1
+   },
+   "markings": {
+    "banner_S": 1,
+    "portion_C": 1,
+    "redact_b": 2
+   },
+   "chars": 1729
+  },
+  "pursue/Release_07__DOW-UAP-D155-Air_Intelligence_Information_Report_Saudi_Arabia-1957_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 3
+   },
+   "chars": 8082
+  },
+  "pursue/Release_07__DOW-UAP-D157-Air-Intelligence_Information-Report-Italy-1953_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 1
+   },
+   "chars": 14514
+  },
+  "pursue/Release_07__DOW-UAP-D163-Air_Intelligence_Information_Report_Sweden-1953_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_U": 1
+   },
+   "chars": 7886
+  },
+  "pursue/Release_07__DOW-UAP-D166-MUFON-Reports_Prepared_for_BAASS-November_2008_djvu.txt": {
+   "codenames": {
+    "baass": 13
+   },
+   "markings": {
+    "banner_C": 11
+   },
+   "chars": 59440
+  },
+  "pursue/Release_07__DOW-UAP-D167-Project_Capella-December-2008_djvu.txt": {
+   "codenames": {
+    "project blue book": 3,
+    "blue book": 6,
+    "gepan": 1,
+    "geipan": 3,
+    "pursue": 1,
+    "baass": 12
+   },
+   "markings": {
+    "portion_S": 1
+   },
+   "chars": 89547
+  },
+  "pursue/Release_07__DOW-UAP-D168-BAASS_Project_Management_Plan-December_2008_djvu.txt": {
+   "codenames": {
+    "project blue book": 7,
+    "blue book": 8,
+    "geipan": 1,
+    "baass": 124
+   },
+   "markings": {},
+   "chars": 71070
+  },
+  "pursue/Release_07__DOW-UAP-D169-BAASS_Monthly_Report-March_2009_djvu.txt": {
+   "codenames": {
+    "project blue book": 1,
+    "blue book": 4,
+    "pursue": 3,
+    "baass": 98
+   },
+   "markings": {},
+   "chars": 60933
+  },
+  "pursue/Release_07__DOW-UAP-D170-BAASS_Montly_Report_April_2009_djvu.txt": {
+   "codenames": {
+    "geipan": 1,
+    "baass": 111
+   },
+   "markings": {},
+   "chars": 83019
+  },
+  "pursue/Release_07__DOW-UAP-D171-BAASS_Monthly_Report_June_2009_djvu.txt": {
+   "codenames": {
+    "geipan": 2,
+    "pursue": 2,
+    "baass": 99
+   },
+   "markings": {},
+   "chars": 212368
+  },
+  "pursue/Release_07__DOW-UAP-D173-BAASS_Monthly_Report_November_2009_djvu.txt": {
+   "codenames": {
+    "baass": 35,
+    "tr-3b": 1
+   },
+   "markings": {},
+   "chars": 174217
+  },
+  "pursue/Release_07__DOW-UAP-D174-Utah_Ranch_Investigation_Report_April_2010_djvu.txt": {
+   "codenames": {
+    "baass": 21
+   },
+   "markings": {},
+   "chars": 75512
+  },
+  "pursue/Release_07__DOW-UAP-D175-BAASS_Self-Assessment_of_UAP_Analysis_Capabilities_November_2010_djvu.txt": {
+   "codenames": {
+    "project sign": 4,
+    "project grudge": 2,
+    "project blue book": 3,
+    "blue book": 7,
+    "project twinkle": 1,
+    "baass": 135,
+    "skunk works": 2
+   },
+   "markings": {
+    "cav_NOFORN": 2
+   },
+   "chars": 158628
+  },
+  "pursue/Release_07__DOW-UAP-D176-Triangular_UAP_AARO_MFR_2026_djvu.txt": {
+   "codenames": {
+    "aaro": 2
+   },
+   "markings": {
+    "banner_S": 3,
+    "portion_C": 6
+   },
+   "chars": 9466
+  },
+  "pursue/Release_07__DOW-UAP-D180_Final-Personnel-Record-for-McCoy-Howard-M-US-Air-Force-1954_djvu.txt": {
+   "codenames": {
+    "pursue": 1
+   },
+   "markings": {
+    "banner_S": 11,
+    "banner_U": 1,
+    "portion_S": 6,
+    "portion_C": 3,
+    "portion_U": 1
+   },
+   "chars": 766107
+  },
+  "pursue/Release_07__USG-UAP-D002-Interagency_Correspondence_Concerning_Space_Fragments-1962_1964_djvu.txt": {
+   "codenames": {},
+   "markings": {
+    "banner_S": 6,
+    "banner_C": 4,
+    "banner_U": 1,
+    "portion_C": 2
+   },
+   "chars": 57037
+  },
+  "geipan_tep/Analyse LDP-R.txt": {
+   "codenames": {
+    "gepan": 5
+   },
+   "markings": {},
+   "chars": 16383
+  },
+  "geipan_tep/Note techn16-R.txt": {
+   "codenames": {
+    "gepan": 19
+   },
+   "markings": {
+    "portion_C": 1
+   },
+   "chars": 107391
+  }
+ }
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "tier": "L5",
+  "mode": "unmatched",
+  "n_each_arm": 106,
+  "median_tok_D": 52.5,
+  "median_tok_notD": 37.0,
+  "bal_acc": 0.6839424141749724,
+  "null_mean": 0.49410132890365444,
+  "null_sd": 0.042243306071720214,
+  "z": 4.4939921356772565,
+  "p": 0.0016638935108153079,
+  "effect": 0.18394241417497237,
+  "mdd_effect": 0.10497461558822473,
+  "detectable": true
+ },
+ {
+  "tier": "L5",
+  "mode": "length_matched",
+  "n_each_arm": 106,
+  "median_tok_D": 52.5,
+  "median_tok_notD": 52.0,
+  "bal_acc": 0.6795127353266889,
+  "null_mean": 0.49209043927648577,
+  "null_sd": 0.042731944537281706,
+  "z": 4.385999703025112,
+  "p": 0.0016638935108153079,
+  "effect": 0.17951273532668888,
+  "mdd_effect": 0.10618888217514504,
+  "detectable": true
+ }
+]
