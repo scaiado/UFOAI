@@ -1,0 +1,761 @@
+{
+ "D117": {
+  "title": "Metallic Glasses for Aerospace Applications",
+  "chars": 73461,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 70,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 3,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DWO-3) ",
+   "Caltech"
+  ]
+ },
+ "D118": {
+  "title": "Aerospace Applications of Programmable Matter",
+  "chars": 50858,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 5,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0- 3) "
+  ]
+ },
+ "D119": {
+  "title": "Biomaterials",
+  "chars": 67835,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 20,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D120": {
+  "title": "Materials for Advanced Aerospace Platforms",
+  "chars": 81616,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 28,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Boeing",
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D121": {
+  "title": "Pulsed High Power Microwave Source Technology",
+  "chars": 104774,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 22,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Sandia",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D122": {
+  "title": "Invisibility Cloaking Theory and Experiments",
+  "chars": 56245,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 44,
+  "closed_refs": 2,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D123": {
+  "title": "Positron Aerospace Propulsion",
+  "chars": 68562,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 18,
+  "closed_refs": 1,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Livermore",
+   "Northrop"
+  ]
+ },
+ "D124": {
+  "title": "Space_Access Where Weve Been and Where We Could Go",
+  "chars": 134325,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 20,
+  "closed_refs": 2,
+  "feasibility": {
+   "infeasible_now": 2,
+   "far_future": 0,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "Lockheed",
+   "Defense Intelligence Agency",
+   "Boeing"
+  ]
+ },
+ "D125": {
+  "title": "Inertial Electrostatic Confinement Fusion",
+  "chars": 195497,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 1,
+  "performance_contexts": [
+   "in Section VI. Figure 1.6. RF Gun Attached to an IEC Chamber in Figure 1.7. Photo of Center Spot Formation. The the UIUC Laboratory main beam observed is a direct path along the injector angle. Other faint light channels indicate beams for scattering of the central core region. CLOSING REMARKS As seen, a wealth of"
+  ],
+  "open_refs": 38,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 4,
+   "far_future": 1,
+   "near_term": 10
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Los Alamos",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D126": {
+  "title": "Advanced Nuclear Propulsion for Manned Deep Space Missions",
+  "chars": 83758,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 9,
+  "closed_refs": 7,
+  "feasibility": {
+   "infeasible_now": 1,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Los Alamos",
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D127": {
+  "title": "An Introduction to the Statistical Drake Equation",
+  "chars": 125748,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 8,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 1,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D128": {
+  "title": "Anomalous Acute and Subacute Field Effects on Human Biological Tissues",
+  "chars": 91892,
+  "uap_mentions": 14,
+  "uap_contexts": [
+   "....... 11 c. Some thoughts on neurological correlates ................................................... 12 Appendix A: Schuessler Catalog of UFO-Related Human Physiological Effects Appendix B: Green/Morris Example to Show the Global Breadth of Available Older Chapter Four: Applicable Sub",
+   "s, photophobia viii Spaceflight and possible weapons applications were of great concern, and sources indicate, that there was concern of reported UFO/Anomalous effects at the time [24)). ix \"Severe Anxiety\" as assessed clinically to require medication and hospitalization is a marker for broadban",
+   "ffects of acute exposure to ultrahigh radiofrequency radiation on three antenna engineers\" Occup. Environ. Med 1997;54;281-284 [2] J. Schuessler, UFO-Related Human Physiological Effects (Geo Graphics Printing Co., La Porte, TX, 1996). [3] P. A. Sturrock, \"Physical evidence related to UFO report",
+   "ssler, UFO-Related Human Physiological Effects (Geo Graphics Printing Co., La Porte, TX, 1996). [3] P. A. Sturrock, \"Physical evidence related to UFO reports: The Proceedings of a workshop held at Pocantico Conference Center, Tarrytown, NY, Sept. 29 - Oct. 4, 1998,: Jour. Sci. Exploration 22, pp."
+  ],
+  "performance_as_driver": 3,
+  "performance_contexts": [
+   "cation & disabling effects o Noise and central neurocognitive • Analysis of clinical diagnostic codes together with environmental conditions observed during anomalous events are clustered in meaningful ways. UNCLASSIFIED/fFOA OFFIQI.t.k Wili Qfslk¥ vi UNCLASSIFIED//POil OPPICliltL t.tSI! OHL¥",
+   "nergy deposition accidents [vide infra] is congruent with the anomalous vehicle reports. This means that one can not discount the claimed and often observed injuries as being real-world (although current and likely advanced beyond public information) technologies, and which are causes of these effects and injuries. D.",
+   "An observation made often, in the literature of aerospace related reports of anomalous object after-effects, clinically valid, but not linked to any observed heating effect, is the appearance of what appear to be 1-3 cm localized circumscribed erythematous, occasionally gangrenous, and sub-dermal wheals, boils,"
+  ],
+  "open_refs": 15,
+  "closed_refs": 14,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) ",
+   "MIT"
+  ]
+ },
+ "D129": {
+  "title": "Metallic Spintronics",
+  "chars": 74521,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 81,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D130": {
+  "title": "Technological Approaches to Controlling External Devices",
+  "chars": 108808,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 55,
+  "closed_refs": 1,
+  "feasibility": {
+   "infeasible_now": 1,
+   "far_future": 1,
+   "near_term": 4
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D131": {
+  "title": "The Role of Superconductors in Gravity Research",
+  "chars": 52305,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 2,
+  "performance_contexts": [
+   "nexplained residual signal persisted that exhibited several unexpected features, including a relatively large coupling constant of 10-s between the observed acceleration effect and the applied angular velocity. The effect appears to be proportional to angular momentum and inversely proportional to temperature after",
+   "y a Materials Property?,\" 15th European Conference on Thermophysical Properties, Wuerzburg, Germany, Sept 1999 33 Reiss, H. D., \"Weight Anomalies Observed during Cool-Down of High Temperature Superconductors,\" Phys. Essays, Vol. 16, 2003, pp. 236-253 34 Podkletnov, E. and Modanese, G., \"Impulse Gravity Gen"
+  ],
+  "open_refs": 34,
+  "closed_refs": 6,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) ",
+   "Boeing"
+  ]
+ },
+ "D132": {
+  "title": "Advanced Space Propulsion Based on Vacuum Spacetime_Metric Engineering",
+  "chars": 41165,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 26,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D133": {
+  "title": "The Space Communication Implications of Quantum Entanglement and Nonlocality",
+  "chars": 83197,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 31,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 2,
+   "far_future": 0,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D134": {
+  "title": "Maverick Inventor Versus Corporate Inventor Where Will the Next Major Innovati",
+  "chars": 52497,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 23,
+  "closed_refs": 2,
+  "feasibility": {
+   "infeasible_now": 1,
+   "far_future": 2,
+   "near_term": 2
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "MIT",
+   "Livermore"
+  ]
+ },
+ "D135": {
+  "title": "DOW UAP D135__AAWSAP DIRD Antigravity for Aerospace Applications",
+  "chars": 123455,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 67,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 1,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D136": {
+  "title": "Biosensors and BioMEMS A Survey of the Present Field",
+  "chars": 91483,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 41,
+  "closed_refs": 4,
+  "feasibility": {
+   "infeasible_now": 2,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Sandia",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D137": {
+  "title": "State of the Art and Evolution of High Energy Lasers",
+  "chars": 66851,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 8,
+  "closed_refs": 2,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 2
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Boeing",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D138": {
+  "title": "Warp Drive Dark Energy and the Manipulation of Extra Dimensions",
+  "chars": 89265,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 58,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 1,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) ",
+   "MIT"
+  ]
+ },
+ "D139": {
+  "title": "Traversable Wormholes Stargates and Negative Energy",
+  "chars": 110123,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 65,
+  "closed_refs": 1,
+  "feasibility": {
+   "infeasible_now": 3,
+   "far_future": 0,
+   "near_term": 2
+  },
+  "performer_hints": [
+   "Livermore",
+   "Defense Intelligence Agency",
+   "Acquisition support Division (DW0-3) "
+  ]
+ },
+ "D140": {
+  "title": "High Frequency Gravitational Wave Communications",
+  "chars": 146351,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 69,
+  "closed_refs": 1,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 1,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "earthtech",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D141": {
+  "title": "Metamaterials for Aerospace Applications",
+  "chars": 92324,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 35,
+  "closed_refs": 2,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Acquisition Support Division (DW0-3) "
+  ]
+ },
+ "D142": {
+  "title": "Concepts for Extracting Energy from the Quantum Vacuum",
+  "chars": 156878,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 1,
+  "performance_contexts": [
+   "the immediate collapse of the entire universe. Thus they argue that such enormous vacuum energy cannot be real due to the fact that our universe is observed to be undergoing accelerated expansion. However, such arguments are spurious because numerous studies in quantum field theory show that it is the low-frequency ZPF"
+  ],
+  "open_refs": 100,
+  "closed_refs": 4,
+  "feasibility": {
+   "infeasible_now": 2,
+   "far_future": 0,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "Lockheed",
+   "Defense Intelligence Agency",
+   "EarthTech"
+  ]
+ },
+ "D143": {
+  "title": "Laser Lightcraft Nanosatellites",
+  "chars": 164838,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 46,
+  "closed_refs": 1,
+  "feasibility": {
+   "infeasible_now": 4,
+   "far_future": 0,
+   "near_term": 3
+  },
+  "performer_hints": [
+   "Northrop",
+   "Defense Intelligence Agency",
+   "Lockheed"
+  ]
+ },
+ "D144": {
+  "title": "Cockpits in the Era of Breakthrough Flight",
+  "chars": 143891,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 5,
+  "performance_contexts": [
+   "d this is the central message of this study. The most significant differences from legacy cockpits are identified and then used to set the baseline design requirements. Additionally, substantial lessons about human-machine interfaces are reviewed and applied to this notional cockpit. Most of this progress relie",
+   "ity unknowns needing deeper study. References to specific ideas and issues cite that book and other original works. Setting Ideal Performance as Design Target This report focuses on the most significant likely differences between contemporary cockpits and cockpits in the era of breakthrough flight. Poss",
+   "for breakthrough flight, this study focuses on adapting the cockpit to address natural human characteristics. This forces attention on the cockpit design requirements. Numerous references about human factors were consulted, focusing on those details most relevant to this study. Since similar assertions were ec"
+  ],
+  "open_refs": 88,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 1,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "MIT",
+   "Defense Intelligence Agency",
+   "Technology Warning Division (DW0-4) "
+  ]
+ },
+ "D145": {
+  "title": "Aneutronic Fusion Propulsion I",
+  "chars": 100858,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 20,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "Bae",
+   "Defense Intelligence Agency",
+   "Technology Warning Division (DW0-4) "
+  ]
+ },
+ "D146": {
+  "title": "Aneutronic Fusion Propulsion II",
+  "chars": 75575,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 34,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 1,
+   "far_future": 0,
+   "near_term": 7
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Technology Warning Division (DW0-4) ",
+   "Los Alamos"
+  ]
+ },
+ "D147": {
+  "title": "Ultracapacitors as Energy and Power Storage Devices",
+  "chars": 84364,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 1,
+  "performance_contexts": [
+   "de better performance at a competitive price. Electrolytes will likely move toward additional organic materials and ultracaps with high temperature performance requirements likely will use ionic liquids. In the near term, a transition to the asymmetric design is expected. Continued improvements to the electrodes and"
+  ],
+  "open_refs": 37,
+  "closed_refs": 2,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 2
+  },
+  "performer_hints": [
+   "Lockheed",
+   "Defense Intelligence Agency",
+   "Technology Warning Division (DW0-4) "
+  ]
+ },
+ "D148": {
+  "title": "Detection and High Resolution Tracking of Vehicles at Hypersonic Velocities",
+  "chars": 95152,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 1,
+  "performance_contexts": [
+   ". QFFIEl.t.L: Uii QD:I! X Chapter 3: Detection Technologies Hypersonic objects passing through the Earth's atmosphere leave traces that can be observed using a number of detection methods. The bow shock introduced by such objects reflects and refracts radio waves, RADAR pulses, and visible light. The ion"
+  ],
+  "open_refs": 22,
+  "closed_refs": 1,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Boeing",
+   "Los Alamos"
+  ]
+ },
+ "D149": {
+  "title": "MHD Air Breathing Propulsion and Power for Aerospace Applications",
+  "chars": 83075,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 28,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 1,
+   "far_future": 0,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Lockheed",
+   "Technology Warning Division (OWO-4) "
+  ]
+ },
+ "D150": {
+  "title": "Quantum Computing and Utilizing Organic Molecules in Automation Technology",
+  "chars": 131168,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 0,
+  "performance_contexts": [],
+  "open_refs": 151,
+  "closed_refs": 1,
+  "feasibility": {
+   "infeasible_now": 3,
+   "far_future": 0,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Technology Warning Division (DW0-4) ",
+   "Bae"
+  ]
+ },
+ "D151": {
+  "title": "Cognitive Limits on Simultaneous Control of Multiple Unmanned Spacecraft",
+  "chars": 75210,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 1,
+  "performance_contexts": [
+   "t.!l! 014Ei Skin Measurements The ANS controls the opening and closing of sweat glands in response to stress and anxiety. These changes can be observed by measuring electrodermal activity, typically skin conductance response (SCR), 17 but also skin potentials (SP) and skin temperature (ST). A standard score of"
+  ],
+  "open_refs": 44,
+  "closed_refs": 1,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Technology Warning Division (DW0-4) ",
+   "BAE"
+  ]
+ },
+ "D152": {
+  "title": "Negative Mass Propulsion",
+  "chars": 61346,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 1,
+  "performance_contexts": [
+   "mall. This might explain why the initial entropy of the universe is very small. The Planck aether hypothesis gives a plausible explanation for the observed vanishing of the sum of all charges, like the electric, color and weak charges. With the phenomenon of charge explained to result from the zero point flu"
+  ],
+  "open_refs": 12,
+  "closed_refs": 0,
+  "feasibility": {
+   "infeasible_now": 0,
+   "far_future": 0,
+   "near_term": 0
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Technology Warning Division (DW0-4) "
+  ]
+ },
+ "D153": {
+  "title": "Quantum Tomography of Negative Energy States in the Vacuum",
+  "chars": 122589,
+  "uap_mentions": 0,
+  "uap_contexts": [],
+  "performance_as_driver": 2,
+  "performance_contexts": [
+   "investigators have successfully controlled or suppressed quantum decoherence to such a high degree that Schrodinger cat states were experimentally observed and measured using optical homodyne tomography [55, 56]. Figure 7 shows the experimentally reconstructed Wigner functions for two Schrodinger cat states that have dif",
+   "to demonstrate the quantum nature of light is the simple optical beam splitter. A large number of strange quantum effects have been experimentally observed by splitting or recombining photons using a small cube of glass. The beam splitter also serves as a theoretical model for other linear optical devices such as i"
+  ],
+  "open_refs": 69,
+  "closed_refs": 1,
+  "feasibility": {
+   "infeasible_now": 2,
+   "far_future": 0,
+   "near_term": 1
+  },
+  "performer_hints": [
+   "Defense Intelligence Agency",
+   "Technology Warning Division (DW0-4) "
+  ]
+ }
+}
