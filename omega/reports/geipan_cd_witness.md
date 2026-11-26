@@ -71,17 +71,43 @@ confound, since D means *unexplained despite adequate information*.
 Single-draw tiers are unreliable here (see below), so the load-bearing numbers
 are the **24-seed** distributions at a fixed tier.
 
-**W3, length-matched, 24 matcher seeds:**
-
-| corpus | n/arm | mean effect | sd | seeds p<0.05 | sign flips |
-|---|---|---|---|---|---|
-| `pv` gendarmerie | 21–23 | **+0.0259** | 0.039 | **0/24 (0%)** | yes |
-| `enquete` GEIPAN | 18–20 | **+0.1499** | 0.101 | **14/24 (58%)** | no |
-
-At the same tier, same transformation, comparable arm sizes: **GEIPAN's analyst
-reports discriminate C from D; gendarmerie procès-verbaux do not.**
+| corpus | tier | n/arm | mean effect | sd | seeds p<0.05 | sign flips |
+|---|---|---|---|---|---|---|
+| `pv` gendarmerie | W3 length | 21–23 | +0.0259 | 0.039 | **0/24 (0%)** | yes |
+| `pv` gendarmerie | W6 qual+length | 12–18 | +0.1008 | 0.059 | 10/24 (42%) | yes |
+| `enquete` GEIPAN | W3 length | 18–20 | +0.1499 | 0.101 | 14/24 (58%) | no |
+| `enquete` GEIPAN | W6 qual+length | 18–20 | **+0.2321** | 0.068 | **22/24 (92%)** | no |
 
 `questionnaire` is flat at every tier (max 1.22σ, n_D=19).
+
+### The positive control works
+
+**`enquete` W6 is a stable, strong, detectable effect**: 22 of 24 matcher draws
+significant, mean +0.2321, median +0.2393, **minimum +0.05, never negative**.
+At n/arm ≈ 19 the instrument has ~92% empirical power on that corpus.
+
+That is what makes the `pv` numbers interpretable rather than a shrug. The same
+pipeline, the same tier machinery, the same permutation null and comparable arm
+sizes detect a real signal 92% of the time in GEIPAN's analyst reports — and at
+the most controlled tier give **less than half the effect (+0.1008 vs +0.2321)
+and 42% instead of 92%** in gendarmerie procès-verbaux. At W3 the gap is wider
+still: 0% versus 58%.
+
+**Ordering is consistent at both tiers: analyst prose > witness prose, by
+2.3× at W6 and ~5.8× at W3.**
+
+### But `pv` is not a clean null
+
+W6 at 42% of draws significant with mean +0.1008 is not nothing. So the correct
+statement is **not** "witness text carries no C/D signal". It is: *C/D is
+robustly discriminable from GEIPAN's own analyst reasoning and only weakly and
+unstably from the gendarmerie's record of what was seen, under identical
+measurement.* Whether a smaller genuine witness-level effect exists is not
+settled by 28 cases.
+
+Note also that within `pv`, adding quality-matching **raised** the effect
+(W3 +0.0259 → W6 +0.1008) while n/arm fell 22 → 16. Either a second suppression
+or a small-n artefact; this corpus cannot tell them apart.
 
 ## Suppression — and it inverts the expectation
 
@@ -128,13 +154,19 @@ averaged.** This should be re-run before §1.4's numbers are quoted further.
 
 ## Disposition
 
-- **Not a demonstrated null for witness text, and not a content result either.**
-  The PV corpus is robustly null at W3 (0/24 seeds significant) but PV W6 is
-  not (mean +0.1008, 10/24 significant, n/arm 12–18), so the corpus is not
-  uniformly empty and double-matching may select an odd subset.
-- **The honest ceiling is set by disclosure, not by method.** 28 of 106 D cases
-  carry a PV; the MDD runs 0.19–0.27 against §1.4's 0.107 and against the
-  +0.1795 effect size of interest. The test is power-limited by the
-  non-disclosure measured in §1.10, which is itself the finding.
-- **The CADA request is the way to raise the power**, not further tiering of
-  this corpus: `omega/reports/cada_request_draft.md`, 56 named case IDs.
+- **Positive control established.** `enquete` W6: mean +0.2321, 22/24 draws
+  significant, never negative, at n/arm ≈ 19. The instrument detects real signal
+  at these sample sizes, so the weaker `pv` numbers are a measurement rather
+  than an absence of measurement.
+- **The contrast is the result.** Analyst prose separates C from D 2.3–5.8×
+  more strongly than witness prose under identical treatment. This supports
+  §1.4's core claim — that the analyst-prose signal is about the analyst — while
+  leaving open whether a smaller witness-level effect exists.
+- **`pv` is not a demonstrated null.** W3 is robustly null (0/24) but W6 is not
+  (42%). 28 D cases cannot resolve an effect of the +0.1795 size that matters.
+- **The ceiling is disclosure, not method.** 28 of 106 D cases carry a PV, and
+  §1.10 showed the 56 undisclosed D dossiers are the re-examined ones. The CADA
+  request is the way to raise the power — `omega/reports/cada_request_draft.md`,
+  56 named case IDs — not further tiering of this corpus.
+- **§1.4 needs re-running with seed-averaged matching** before its L4/L5 numbers
+  are quoted again. See the debt section above.

@@ -41,14 +41,31 @@ US_STATES = set("AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD 
 CA_PROV = set("AB BC MB NB NL NS NT NU ON PE QC SK YT".split())
 
 
-def geocode(city, state):
-    cc = "us" if state in US_STATES else "ca" if state in CA_PROV else ""
+COUNTRY_CC = {
+    "United States": "us", "Canada": "ca", "United Kingdom": "gb",
+    "Australia": "au", "New Zealand": "nz", "Mexico": "mx", "India": "in",
+    "Ireland": "ie", "Germany": "de", "France": "fr", "Japan": "jp",
+    "Brazil": "br", "South Africa": "za", "Netherlands": "nl", "Spain": "es",
+    "Italy": "it", "Philippines": "ph", "Puerto Rico": "pr",
+}
+
+
+def geocode(city, state, country=""):
+    cc = ("us" if state in US_STATES else "ca" if state in CA_PROV
+          else COUNTRY_CC.get(country, ""))
     args = ["curl", "-sS", "-A", UA, "-G", "--max-time", "45",
             "--data-urlencode", f"city={city}",
             "--data-urlencode", "format=jsonv2",
             "--data-urlencode", "limit=1"]
     if state:
         args += ["--data-urlencode", f"state={state}"]
+    elif country and not cc:
+        # No state and no recognised country code: hand Nominatim the country
+        # name as a free-text component. NUFORC leaves `state_provinces` blank
+        # for non-US/CA sightings, so for those rows country is the ONLY
+        # disambiguator available -- without it "London" and "Perth" resolve by
+        # Nominatim's own popularity ordering rather than by the data.
+        args += ["--data-urlencode", f"country={country}"]
     if cc:
         args += ["--data-urlencode", f"countrycodes={cc}"]
     args += ["-w", "\n__H__%{http_code}", EP]
@@ -92,12 +109,22 @@ def main():
         if key in cache:
             stats["cached"] += 1
             continue
-        city, _, state = key.rpartition("|")
+        # The first run cached under the 2-field key "city|state"; the worklist
+        # now carries "city|state|country". Reuse those entries rather than
+        # re-querying ~1,200 resolved pairs.
+        legacy = "|".join(key.split("|")[:2])
+        if legacy in cache:
+            cache[key] = cache[legacy]
+            stats["cached_legacy"] += 1
+            continue
+        parts = key.split("|")
+        city, state = parts[0], parts[1] if len(parts) > 1 else ""
+        country = parts[2] if len(parts) > 2 else ""
         if not city.strip():
             cache[key] = None
             stats["empty_city"] += 1
             continue
-        res, why = geocode(city.strip(), state.strip())
+        res, why = geocode(city.strip(), state.strip(), country.strip())
         cache[key] = res
         stats[why] += 1
         time.sleep(SLEEP)
@@ -116,7 +143,12 @@ def main():
     for key, v in cache.items():
         if not v:
             continue
-        city, _, state = key.rpartition("|")
+        parts = key.split("|")
+        city, state = parts[0], parts[1] if len(parts) > 1 else ""
+        # Skip the first run's malformed self-referential keys ("London|London"):
+        # their state field is really a city name and would create a bogus file.
+        if state and city and state == city:
+            continue
         bystate[state.strip() or "XX"].append(
             {"name": city.strip(), "lat": v["lat"], "lon": v["lon"], "pop": None})
     os.makedirs("data/raw/gazetteer", exist_ok=True)
