@@ -1,10 +1,16 @@
 # PROJECT OMEGA — session handoff
 
-*Updated 2026-11-26 (session 2). Sections 1.9–1.11 and the rewritten 2.1/2.2/4
-are from session 2; sections 1.1–1.8 are from session 1.*
+*Updated 2026-11-26 (session 4). §1.14–1.15 and the rewritten §2–§5 are from
+session 4; §1.12–1.13 from session 3; §1.9–1.11 from session 2; §1.1–1.8 from
+session 1.*
 
-Everything below is on branch `claude/magical-gauss-wzgdqd` in
-`tfawhellen-sudo/UFOAI`. Read this file first in a new session.
+Current branch: **`claude/gallant-lamport-0tu52r`** in `tfawhellen-sudo/UFOAI`
+(session 3's `claude/magical-gauss-wzgdqd` was fast-forwarded into it; see §2).
+Read this file first in a new session.
+
+**Session 4 corrected numbers that earlier sections of this file state in their
+own voice.** §1.4's ladder is superseded by §1.14 — the table in §1.4 carries the
+seed-averaged values now, but if any figure disagrees, **§1.14 wins.**
 
 ---
 
@@ -505,31 +511,179 @@ ALLEGED→OFFICIAL.
 - **A file can be tracked AND gitignored.** `git add` then silently refuses
   without `-f`, and the committed copy goes stale.
 
-## 2. In flight when session 3 ended
+### 1.14 Session 4 — the debt paid, and two audits
 
-**NOTHING.** Every background job completed. Working tree clean, all pushed.
-Last commit `78ffee8`. Both session-2 jobs (`geipan_harvest.py`,
-`gazetteer.py`) are **finished** — see §2.1/§2.2 notes below for what they
-produced and the bugs they hid.
+**Environment first: the setup script WORKS. This was the open question.**
+`UFOAI Omega research` (`env_018sxdcbBHMGqCRwh6KXDi6D`) was `is_current: true`,
+and tesseract 5.3.4 + `fra` + poppler 24.02 + scipy 1.18.1 + sklearn 1.9.1 were
+all present. Attributed, not assumed: scipy's `dist-info` was created 05:23
+against a container boot of 05:21, so pip ran two minutes after boot. `fra` is
+installed (its `traineddata` mtime is the upstream package's 2019 date, which is
+not evidence either way — the dist-info timestamp is). `archive.org` and
+`www.geipan.fr` both answer 200. **Start future sessions on this environment and
+stop re-verifying the toolchain.**
 
-### 2.1 `geipan_harvest.py` — COMPLETE
-146 of 150 cases, 290 files. 223 witness-class PDFs OCR'd (4.3 MB). The
-C-vs-D witness test ran: see §1.12 and `omega/reports/geipan_cd_witness.md`.
+#### 1. §1.4 seed-averaging — PAID
+`omega/geipan_tier_seed_stability.py`, `omega/reports/geipan_tier_seed_stability.md`,
+`evidence_vault/09_SEED_STABILITY/`.
 
-### 2.2 `gazetteer.py` — COMPLETE, after five bugs
-1,740,621 entries, 67/67 units, zero failures. NUFORC join **123,771 of
-134,906 = 91.7%**, all day-precision, provenance per record. The five bugs
-(wrong Q-ids BC/PE, truthy-only `wdt:P625`, `mul`-coded labels, oversized
-responses, admin unit absent from its own result set) are documented in the
-script. The original "needs a `strict=False` fix" diagnosis was wrong on both
-counts: the real failure was HTTP 504 and zero labels contain control
-characters.
+The debt was **larger than §5 stated**. §5 named one seed (the length matcher,
+`seed=5`). There are two: `balanced_cv_acc(seed=11)` downsamples the 1,020-case
+C arm to 106, so **all six tiers** rested on a single draw, not just the two
+matched ones. Both were swept, 24 seeds each; because the published value is a
+low draw on both axes, L4/L5 also got a **joint** sweep varying both together —
+neither marginal mean is the estimate.
 
-## 3. Ephemeral data — what is now DURABLE, and what still is not
+| tier | was | **now** |
+|---|---|---|
+| L0 | +0.3494 | **+0.3387 ± 0.0229** |
+| L1 | +0.3019 | **+0.2771 ± 0.0300** |
+| L2 | +0.3113 | **+0.2628 ± 0.0318** |
+| L3 | +0.2643 | **+0.2333 ± 0.0308** |
+| L4 | +0.2176 | **+0.2135 ± 0.0276** (42nd pctile — that draw was fine) |
+| L5 | **+0.1795** | **+0.1972 ± 0.0271** (38th pctile — a low draw) |
 
-**Everything expensive is in `evidence_vault/` (145 MB, committed).** The
-session-2 lesson — that `data/raw/` is gitignored and cost us the TEP dossier —
-is paid off.
+- **The residual ROSE.** The upper bound was understated, not inflated.
+- **"51% is identifiable leakage" → 42% ± 9%.**
+- **The L1 > L2 inversion was noise.** Seed-averaged the ladder is monotone;
+  there was never anything to explain.
+- **Adjacent tiers are NOT distinguishable.** Within-tier range 0.094–0.113;
+  tier steps 0.016–0.020. Only the endpoints separate.
+- **"The gradient has not plateaued" is WITHDRAWN** as the reason the residual
+  is an upper bound. The real reason is stronger: the C/D criterion *is*
+  informational adequacy, so no stripping rule can remove from the text a
+  property defined on the text.
+- **24/24 seeds significant at every tier.** Existence was never seed-dependent.
+
+§5's inventory of affected documents was itself wrong — it named the BAASS,
+Trans-en-Provence and DIRD reports, **none of which cite the number.** The real
+list (tree-wide search for `0.1795|0.2176|0.6795|0.7176`) is `HANDOFF.md`,
+`HANDOVER_PROMPT.md`, `geipan_acquisition_and_disposition.md`,
+`geipan_cd_witness.md`, `geipan_cd_witness.py`. All corrected.
+
+#### 2. Redaction slot analysis — what is withheld, not how much
+`omega/redaction_slots.py`, `omega/reports/redaction_slots.md`,
+`evidence_vault/05_SCRUBBED_CONTENT/redaction_slots.json`.
+
+**The route in was structure, not grammar.** §5 proposed inferring the withheld
+token's class from surrounding syntax. Unnecessary: the DOW mission reports are
+**MISREP forms**, so a redaction sits in a **named field that states what was
+removed**. 167 labels recur across ≥3 of 33 parsed forms.
+
+| slot | withheld | released | rate |
+|---|---|---|---|
+| **CALLSIGN** | 98 | 10 | **0.91** |
+| PERSONNEL | 131 | 78 | 0.63 |
+| NARRATIVE | 79 | 115 | 0.41 |
+| GEO | 40 | 105 | 0.28 |
+| OPERATION | 42 | 119 | 0.26 |
+| UNIT_ORG | 48 | 370 | 0.11 |
+| TIME | 29 | 288 | 0.09 |
+
+Never once released: Email 52, Full Name 33, Aircraft Callsign 33, Callsign 32,
+Phone 28, Asset Type (Aircraft) 8, Number of Aircraft 4.
+Released essentially always: Country Tasked 0/24, Activity Description 0/22,
+Service 2/70, Rank 4/62, Wing 7/52, Takeoff Time 1/21, MAJCOM 1/20.
+
+**The release gives which country, service, wing, rank, mission type and times,
+and never which aircraft, under what callsign, how many, or who by name.** That
+is ordinary OPSEC on force composition, **not concealment of phenomenon data** —
+`Gentext`, which carries the UAP description, is released 115 times against 37
+withheld. **Reported as a negative: it cuts against a suppression reading.**
+
+Validated against the releasing authority's own exemption code (an independent
+label): **443/575 = 77.0% agreement.** That is a FLOOR — 83% of the largest
+disagreement class ((b)(6) on unit fields) is OCR field-absorption, a lost
+bullet separator making a unit field swallow the next personnel field.
+
+#### 3. AAWSAP contract audit — the capstone deliverable is absent
+`omega/aawsap_contract_audit.py`, `omega/reports/aawsap_contract_audit.md`,
+`evidence_vault/01_PURSUE_PRIMARY/aawsap_contract_audit.json`.
+
+**All 26 FY2009 deliverables are present.** D188 records 26 delivered; D117–D142
+is exactly 26. Title matching cannot prove it (DIA retitled on publication) and a
+square assignment matches everything by construction. The proof is that **the
+release pseudonymised authors consistently across documents** — D188's Enclosure
+1 gives `MP Person NN` per title, each DIRD names `AAP Person NN`, one namespace,
+assigned by the government. **Author ID agrees 26/26, zero disagreements**, and
+resolves the three pairs titles could not (D121=64, D132=57, D119=65).
+
+**THE CAPSTONE IS MISSING.** D182 §11(d)'s Comprehensive Integrated Threat
+Assessment has its own CLIN and money in both years — **0004 at $240,000, 1004
+at $220,200, $460,200 contracted.** A corpus-wide search returns 4 hits, *all in
+the contract documents themselves*. No report, no briefing, and D188's review of
+deliverables to the DIRECTOR, DIA never mentions it. **Its due condition was
+reached**: D116/P00005 extends the contract under FAR 52.217-8 to **21 Dec
+2010**, and D150–D153 were published either side of that date. Most specific
+checkable gap since D66–D73, and nameable by CLIN.
+
+Also established:
+- **The contract ran two of five anticipated years.** D182 planned base + four
+  option years to 30 Sep 2013. Actual: base, option year 1, then a three-month
+  FAR 52.217-8 service extension to 21 Dec 2010. Options 2–4 never exercised.
+- **What was released is DIA's published version, not the contractor's.** Each
+  DIRD carries a DIA control number and `ICOD: 1 December 2009`; D188 predates
+  the earliest by six weeks. The as-delivered BAASS research reports, and the
+  §11(c) executive summaries, are unreleased.
+- **The 60-day overview papers cost more than the reports they preview.** CLIN
+  1002 ($4.76M) is 1.66× CLIN 1003 ($2.87M) and the contract's largest item.
+  The only deliverable stating a threat judgement is 2.7% of the base year.
+- Year one was **unclassified only**; 5 of 26 reports had outside review,
+  including **three Sandia National Laboratories** staff; all reviews positive.
+  FY2010 intent included "classified experimental verification by BAASS".
+
+### 1.15 Operational lessons from session 4
+
+1. **A background job's "completed, exit 0" was wrong three times.** With
+   `nohup … &`, the harness notification fires when the *wrapper* exits, not the
+   work. Each time, the python process was still running at 100% CPU and the
+   result file was a stale copy from an earlier smoke test. **Verify with
+   `ps -eo pid,etime,cmd` and the output file's mtime before reading a result.**
+   To block properly: `until [ ! -d /proc/<pid> ]; do sleep 5; done`.
+2. **Check the instrument before believing a negative.** An affiliation
+   cross-check returned 0/8 "unconfirmed", which looked like a failed
+   reconciliation. The DIRDs carry **no institution line at all** — the metric
+   was impossible, not failing. Replacing it with the author-pseudonym check
+   gave 26/26.
+3. **An OCR-legibility proxy ranked clean text as damaged.** Scoring by share of
+   all-alphabetic tokens penalised `0823Z`, `SECRET//REL` and `432 AEW` —
+   correct military format. It called the modern mission reports worse than
+   degraded 1950s FBI scans.
+4. **A non-hit in garbage is not evidence of disclosure.** The first marker
+   regex matched only clean `(b)(n)`, so `(b}(6)`, `(bl(6}` and bare `! 1.4a`
+   were scored as RELEASED — fabricating "categorically protected fields: 0".
+   Habit #2's complement: an explicit **UNREADABLE** class is required.
+5. **A greedy best-match is not an assignment.** It gave D135 to two different
+   titles and D123 to two more, inflating the match count while the true
+   counterparts went unclaimed. Use `scipy.optimize.linear_sum_assignment`, and
+   remember a square assignment matches everything by construction — the count
+   is then structural and proves nothing without an independent identifier.
+6. **Two FOIA targets were withdrawn before they stood.** "No PMP and no monthly
+   status reports were released" was false: D168 is a consolidated PMP and
+   D169/D170/D171/D173 are monthly reports. Check filenames before asserting a
+   gap.
+7. **`data/processed/` is gitignored (`.gitignore:6`).** Session 2's lesson
+   recurred live — the seed-stability JSON would have been lost. It is in
+   `evidence_vault/09_SEED_STABILITY/`.
+
+---
+
+## 2. In flight when session 4 ended
+
+**NOTHING.** Every background job completed and was verified complete by process
+state, not by notification. Working tree clean, all pushed. Last commit on
+`claude/gallant-lamport-0tu52r`.
+
+**Branch note:** session 3's work was on `claude/magical-gauss-wzgdqd` at
+`ede32f9`. Session 4's assigned development branch was
+`claude/gallant-lamport-0tu52r`, so that branch was fast-forwarded to `ede32f9`
+and all session-4 commits sit on it. Both branches exist on the remote;
+`claude/gallant-lamport-0tu52r` is the current tip.
+
+## 3. Ephemeral data — what is DURABLE, and what is not
+
+**Everything expensive is in `evidence_vault/` (now ~145 MB + the session-4
+additions, committed).**
 
 | in the vault, no re-fetch needed | size |
 |---|---|
@@ -539,113 +693,103 @@ is paid off.
 | TEP dossier, 10 files / 177 pp | 14 MB gz |
 | trace-control dossiers, 16 files | 69 MB gz |
 | NUFORC unified, 134,906 recs | 11.6 MB gz |
-| GEIPAN case DB, codename index, 434-list, all analyses | in-tree |
+| GEIPAN case DB, codename index, 434-list | in-tree |
+| **seed-stability sweeps (session 4)** | `09_SEED_STABILITY/` |
+| **redaction slot analysis (session 4)** | `05_SCRUBBED_CONTENT/redaction_slots.json` |
+| **AAWSAP contract audit (session 4)** | `01_PURSUE_PRIMARY/aawsap_contract_audit.json` |
 
 **Still ephemeral, and cheap to rebuild:**
 
 | what | recovery | cost |
 |---|---|---|
+| the 286 PURSUE texts, unpacked | `tar xzf evidence_vault/01_PURSUE_PRIMARY/pursue_server_ocr_286.tar.gz` into a scratch dir, then pass it as `OMEGA_PURSUE_TXT` | seconds |
+| `data/raw/pursue_ocr/txt` (40 OCR'd Release_07/08 docs) | re-OCR via `omega/pursue_ocr.sh` | ~40 min |
 | NUFORC raw CSV | `archive.org/cors/data-world-snapshot-20260713-agent-drastimehta/nuforc-ufo-event-sightings-csv.zip` | 1 min |
 | Wikidata gazetteer, 1.74 M entries | `python3 -I omega/gazetteer.py` | ~20 min |
-| JP2 bundles | `scratchpad/jp2_fetch.py` | 2 min |
-| PURSUE manifest | `archive.org/metadata/pursue-uap-documents-2026` | instant |
 | DIRD **PDFs** (1,779.6 MB — deliberately not stored) | `01_PURSUE_PRIMARY/FETCH_MANIFEST.json` | ~30 min |
 
-**Toolchain** (`apt`: tesseract-ocr tesseract-ocr-fra poppler-utils; `pip`:
-scipy scikit-learn) is in the `UFOAI Omega research` environment setup script —
-**still unproven**, since a setup script never runs on the machine that creates
-it. Verify on first boot; if it failed, run those commands by hand.
+**NOTE:** `omega/redaction_slots.py` and `omega/aawsap_contract_audit.py` read
+the PURSUE texts from `$OMEGA_PURSUE_TXT` (falling back to
+`data/raw/pursue_ocr/txt`). Untar the vault copy and set that variable.
 
 ## 4. Environment
 
-Allowlisted (17): `arxiv.org`, `export.arxiv.org`, `www.sidc.be`,
-`earthquake.usgs.gov`, `en.wikipedia.org`, `earth-search.aws.element84.com`,
-`query.wikidata.org`, `nominatim.openstreetmap.org`, `archive.org`,
-`nuforc.org` (403s), `www.cropcircleconnector.com`, `services.swpc.noaa.gov`,
-`www.geipan.fr`, `geipan.fr`, `cnes.fr`.
-
-**Blocked:**
-- `web.archive.org` — proxy 403. The CDX API exists nowhere else, so **Wayback
-  snapshot comparison cannot run.** `archive.org/wayback/available` works but
-  returns only the single closest snapshot, not a time series.
-  `archive.org/cdx/...` 404s.
-- `www.cnes-geipan.fr` — proxy 403. GEIPAN's second host, serves current forms.
-  Nothing needed so far was behind it.
-- An `update_environment` request to add both was **rejected by the
-  environments service**. Do not re-ask in chat.
-
-**2026-11-26: THE ENTIRE ALLOWLIST WAS EMPTY AT SESSION START.** `get_environment`
-returned `allowed_hosts: []` on the Default environment — all 15 hosts above
-were gone, and `archive.org` answered `connect_rejected, HTTP 403`. **scipy and
-scikit-learn were also missing**, which breaks every statistical script in
-`omega/` (the C-vs-D test needs both).
-
-Fixed by creating a personal environment **`UFOAI Omega research`**
-(`env_018sxdcbBHMGqCRwh6KXDi6D`) with the 8 hosts the §5 queue needs —
+**`UFOAI Omega research`** (`env_018sxdcbBHMGqCRwh6KXDi6D`), personal, 8 hosts:
 `archive.org`, `www.geipan.fr`, `geipan.fr`, `cnes.fr`, `query.wikidata.org`,
 `nominatim.openstreetmap.org`, `earth-search.aws.element84.com`,
-`en.wikipedia.org` — and a **setup script** carrying
-`tesseract-ocr tesseract-ocr-fra poppler-utils` + `pip install scipy
-scikit-learn`. **Start future sessions on that environment, not Default.**
+`en.wikipedia.org`. Package managers and MCP hosts allowed.
 
-The setup script has never actually run — it does not execute on the machine
-that creates it. **Verify it on the first fresh session** that starts on this
-environment; if it failed, run its commands by hand and fix it.
+**The setup script is VERIFIED WORKING as of session 4** — tesseract 5.3.4 with
+`fra`, poppler 24.02, scipy 1.18.1, sklearn 1.9.1, installed ~2 min after boot.
+Do not re-litigate this; just use it.
 
-Notes: combined remove+add `update_environment` calls are rejected — do them
+**Blocked, unchanged:**
+- `web.archive.org` — proxy 403. The CDX API exists nowhere else, so **Wayback
+  snapshot comparison cannot run.** `archive.org/cdx/...` 404s.
+- `www.cnes-geipan.fr` — proxy 403.
+- An `update_environment` request to add both was **rejected by the environments
+  service.** Do not re-ask in chat.
+- `war.gov`, `aaro.mil`, `nuforc.org`, CIA/FBI/NRO/NASA reading rooms,
+  `arxiv.org`, ESA WorldCover.
+
+**Worth asking the user for:** `arxiv.org` (to verify the VASCO/Doherty chain
+from source rather than memory) and a landcover raster host (Track 2 matching is
+currently a spectral proxy).
+
+Note: combined remove+add `update_environment` calls are rejected — do them
 separately.
 
 ---
 
-## 5. Next, in priority order — RUN ITEM 1 FIRST
+## 5. Next, in priority order
 
-### 1. **§1.4 SEED-AVERAGING — the debt. Do this before quoting any number.**
-§1.4's **L4 (+0.2176)** and **L5 (+0.1795)** were *single* length-matched draws
-with one seed. Session 3 measured matched tiers varying **±0.1** across matcher
-seeds (enquête W3's single draw hit +0.2607 against a 24-seed mean of +0.150;
-pv W3's hit −0.0444 against +0.024). **+0.1795 is quoted as the project's upper
-bound on content in the handoff, the BAASS report, the TEP report and the DIRD
-report.** It is overprecise until seed-averaged.
-Use `omega/geipan_cd_seed_stability.py` as the pattern — 24 seeds, report
-mean ± sd and the fraction of seeds reaching p<0.05. Cheap now that `toks()` is
-memoised. **Then correct every downstream citation.**
+### 1. **Per-area assignment of the 37 DIRDs** — finishes the contract audit
+§7 of `aawsap_contract_audit.md` reports area coverage as **untrustworthy and
+flagged not to quote**: a keyword map puts one report into several areas, so the
+counts are inflated. The qualitative finding (no contracted area went
+undelivered) stands. A clean one-area-per-report assignment, read from each
+document's own framing rather than its title, closes the only loose end in that
+audit. 37 documents, all on disk. Cheap and bounded.
 
-### 2. **Redaction slot analysis — novel, and the only route left into content**
-982 inline redactions, each with **surrounding grammar intact**. The *class* of
-withheld content is inferable without the value:
-`AT 0823Z, (b)(1)1.4a TOOK OFF FROM OJMS VIA SLR` — the removed token is the
-grammatical subject of "took off", i.e. a platform or callsign. At 982
-instances you get a distribution: platforms, locations, times, personnel,
-sensor specs? Combined with **§1.4(a) = 224 vs §1.4(c) = 1**, this says what is
-being protected. Not seen done anywhere.
+### 2. **Draft the CLIN-named FOIA requests** — the audit produced five targets
+`aawsap_contract_audit.md` §8. The sharpest is the **Comprehensive Integrated
+Threat Assessment, CLIN 0004 and CLIN 1004, contract HHM402-08-C-0072** — a
+deliverable identified by line item, priced twice, whose due condition
+(21 Dec 2010, per D116/P00005) was reached, absent from a release containing all
+37 subsidiary reports. Then the per-area Project Management Plans (~24, the
+contract's largest line item at $8.36M), the ~20 missing monthly status reports,
+the as-delivered BAASS versions with their §11(c) executive summaries, and the
+Sandia reviews in D188 Enclosure 2. Add to `omega/reports/foia_request_drafts.md`.
+**Drafted, not filed.**
 
-### 3. **AAWSAP contract audit — three primary documents, never compared**
-`D182` (Statement of Work, Aug 2008) → the 37 DIRDs → `D186–D188` (which
-include a **contract-deliverables review**). A closed loop: contracted vs
-delivered vs the government's own assessment. All on disk.
+### 3. **Redaction slots on the FY2010 DIRD wave and the 1950s scans**
+`redaction_slots.py` covers 33 MISREP forms. 226 field instances are UNREADABLE
+and carry no claim; the 1950s FBI scans (14 hits) were excluded by the spine
+gate. Two extensions: re-OCR the worst forms at higher dpi to convert UNREADABLE
+into decidable, and build a prose-mode slot reader for the non-form documents,
+which is the original §5 item-2 grammar approach now that the structural route
+is exhausted.
 
-### 4. **Track 2, REPOINTED** — historical sites are temporally impossible
+### 4. **OCR the 23 declared image-only PURSUE docs** (`_imgonly` suffix),
+including the D60/D63/D65 mission reports. `tesseract -l eng`, and
+`OMP_THREAD_LIMIT=1`. These would feed straight into the slot analysis.
+
+### 5. **Track 2, REPOINTED** — historical sites are temporally impossible
 (34–51 yr gap). Run the existing control methodology on the **34,898 geocoded
 Sentinel-2-era NUFORC records**. Control set code: `omega/track2_controls.py`.
 
-### 5. **OCR the 23 declared image-only PURSUE docs** (`_imgonly` suffix),
-including the D60/D63/D65 mission reports. `tesseract -l eng`, and
-`OMP_THREAD_LIMIT=1`.
-
-### 6. **Remaining periodical work** — the 860 texts are vaulted. Build the
-full provenance graph for the 434-event retained-sample list, tracing each to
-its earliest primary source.
+### 6. **Remaining periodical work** — the 860 texts are vaulted. Build the full
+provenance graph for the 434-event retained-sample list, tracing each to its
+earliest primary source.
 
 ### 7. **NHI Proof Report** — write it last, from the vault.
 
 ### Blocked, not pending
-`war.gov`, `aaro.mil`, `nuforc.org`, CIA/FBI/NRO/NASA reading rooms,
-`arxiv.org`, `web.archive.org`, ESA WorldCover. **Ask the user to allowlist
-`arxiv.org`** (to verify the VASCO/Doherty chain from source rather than
-memory) and a landcover raster host (Track 2 matching is currently a spectral
-proxy). The retained-sample assay is blocked on *physical custody*, not
-chemistry — CUFOS/APRO/GEPAN/university archives are unreachable.
+The retained-sample assay is blocked on *physical custody*, not chemistry —
+CUFOS/APRO/GEPAN/university archives are unreachable. Wayback snapshot
+comparison is blocked on `web.archive.org`.
 
+---
 ## 6. Established results so far (do not re-derive)
 
 Falsified: nuclear proximity (contamination — 0.6% of records produced 100% of
