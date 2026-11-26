@@ -1,0 +1,461 @@
+[
+ {
+  "archive_path": "Release_02/DOE-UAP-D001_PANTEX_Image.pdf",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D001_PANTEX_Image.pdf",
+  "size": 164108,
+  "sha1_upstream": "f613fff8f48e728440206eb91c514e09acd9aea2",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_02/DOE-UAP-D001_PANTEX_Image.pdf",
+  "sha1_local": "f613fff8f48e728440206eb91c514e09acd9aea2",
+  "bytes_local": 164108
+ },
+ {
+  "archive_path": "Release_02/DOE-UAP-D001_PANTEX_Image_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D001_PANTEX_Image_djvu.txt",
+  "size": 452,
+  "sha1_upstream": "a7fbb03359089ad37e35dd9b6ff0dadc4a6c0a8c",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_02/DOE-UAP-D001_PANTEX_Image_djvu.txt",
+  "sha1_local": "a7fbb03359089ad37e35dd9b6ff0dadc4a6c0a8c",
+  "bytes_local": 452
+ },
+ {
+  "archive_path": "Release_02/DOE-UAP-D002_JamesTuck_Correspondence.pdf",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D002_JamesTuck_Correspondence.pdf",
+  "size": 554461,
+  "sha1_upstream": "15d612761cc80efe77038992b5b6cef67b899f7d",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_02/DOE-UAP-D002_JamesTuck_Correspondence.pdf",
+  "sha1_local": "15d612761cc80efe77038992b5b6cef67b899f7d",
+  "bytes_local": 554461
+ },
+ {
+  "archive_path": "Release_02/DOE-UAP-D002_JamesTuck_Correspondence_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D002_JamesTuck_Correspondence_djvu.txt",
+  "size": 1239,
+  "sha1_upstream": "a8d42e344bbd2fab6f6d0b95f1c881db541e3cd5",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_02/DOE-UAP-D002_JamesTuck_Correspondence_djvu.txt",
+  "sha1_local": "a8d42e344bbd2fab6f6d0b95f1c881db541e3cd5",
+  "bytes_local": 1239
+ },
+ {
+  "archive_path": "Release_02/DOE-UAP-D003_Pajarito_Astronomers.pdf",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D003_Pajarito_Astronomers.pdf",
+  "size": 360462,
+  "sha1_upstream": "723e797576e3ccd064ed56c248dcf73518a58599",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_02/DOE-UAP-D003_Pajarito_Astronomers.pdf",
+  "sha1_local": "723e797576e3ccd064ed56c248dcf73518a58599",
+  "bytes_local": 360462
+ },
+ {
+  "archive_path": "Release_02/DOE-UAP-D003_Pajarito_Astronomers_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D003_Pajarito_Astronomers_djvu.txt",
+  "size": 603,
+  "sha1_upstream": "70fc11bac8deaa39e612732db95e174606f61172",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_02/DOE-UAP-D003_Pajarito_Astronomers_djvu.txt",
+  "sha1_local": "70fc11bac8deaa39e612732db95e174606f61172",
+  "bytes_local": 603
+ },
+ {
+  "archive_path": "Release_04/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949.pdf",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949.pdf",
+  "size": 5192634,
+  "sha1_upstream": "421db75cec56fc23e8aab0a12b4bfc2c4e6c0437",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_04/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949.pdf",
+  "sha1_local": "421db75cec56fc23e8aab0a12b4bfc2c4e6c0437",
+  "bytes_local": 5192634
+ },
+ {
+  "archive_path": "Release_04/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949_djvu.txt",
+  "size": 73855,
+  "sha1_upstream": "c78133ab8ac955fd792099b2f0be392093a722ed",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_04/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949_djvu.txt",
+  "sha1_local": "c78133ab8ac955fd792099b2f0be392093a722ed",
+  "bytes_local": 73855
+ },
+ {
+  "archive_path": "Release_04/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015.pdf",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015.pdf",
+  "size": 1244028,
+  "sha1_upstream": "55c4b0eae9ff474d3fbc756c1bc71d5fc048da7b",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_04/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015.pdf",
+  "sha1_local": "55c4b0eae9ff474d3fbc756c1bc71d5fc048da7b",
+  "bytes_local": 1244028
+ },
+ {
+  "archive_path": "Release_04/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/nuclear_facility/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015_djvu.txt",
+  "size": 7132,
+  "sha1_upstream": "8db0a2ca0e9aef3f260ea376caba099d8021b7bf",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_04/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015_djvu.txt",
+  "sha1_local": "8db0a2ca0e9aef3f260ea376caba099d8021b7bf",
+  "bytes_local": 7132
+ },
+ {
+  "archive_path": "Release_04/DOW-UAP-D089_Range-Fouler-Debrief_Eastern-US_2020.pdf",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/range_fouler/DOW-UAP-D089_Range-Fouler-Debrief_Eastern-US_2020.pdf",
+  "size": 1931453,
+  "sha1_upstream": "35e6bd9e1ce69964215dabf22d64190a8e5bf983",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_04/DOW-UAP-D089_Range-Fouler-Debrief_Eastern-US_2020.pdf",
+  "sha1_local": "35e6bd9e1ce69964215dabf22d64190a8e5bf983",
+  "bytes_local": 1931453
+ },
+ {
+  "archive_path": "Release_04/DOW-UAP-D089_Range-Fouler-Debrief_Eastern-US_2020_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/range_fouler/DOW-UAP-D089_Range-Fouler-Debrief_Eastern-US_2020_djvu.txt",
+  "size": 2831,
+  "sha1_upstream": "0bbbde32cac6520ac87c990ba68ffaacbae4260d",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_04/DOW-UAP-D089_Range-Fouler-Debrief_Eastern-US_2020_djvu.txt",
+  "sha1_local": "0bbbde32cac6520ac87c990ba68ffaacbae4260d",
+  "bytes_local": 2831
+ },
+ {
+  "archive_path": "Release_04/DOW-UAP-D090_Range-Fouler-Debrief_Eastern-US_2019.pdf",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/range_fouler/DOW-UAP-D090_Range-Fouler-Debrief_Eastern-US_2019.pdf",
+  "size": 1449537,
+  "sha1_upstream": "24284503fc0cabf471c2133d9e7bd1d7b0dbb67c",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_04/DOW-UAP-D090_Range-Fouler-Debrief_Eastern-US_2019.pdf",
+  "sha1_local": "24284503fc0cabf471c2133d9e7bd1d7b0dbb67c",
+  "bytes_local": 1449537
+ },
+ {
+  "archive_path": "Release_04/DOW-UAP-D090_Range-Fouler-Debrief_Eastern-US_2019_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/range_fouler/DOW-UAP-D090_Range-Fouler-Debrief_Eastern-US_2019_djvu.txt",
+  "size": 3098,
+  "sha1_upstream": "7f60dd42ff666e8c6082609e5abe75723fc4c84b",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_04/DOW-UAP-D090_Range-Fouler-Debrief_Eastern-US_2019_djvu.txt",
+  "sha1_local": "7f60dd42ff666e8c6082609e5abe75723fc4c84b",
+  "bytes_local": 3098
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D117_AAWSAP-DIRD-Metallic-Glasses-for-Aerospace-Applications-December-14-2009_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D117_AAWSAP-DIRD-Metallic-Glasses-for-Aerospace-Applications-December-14-2009_djvu.txt",
+  "size": 73541,
+  "sha1_upstream": "4f365ca71e94ad9005ca0bbdba51004cd81210f1",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D117_AAWSAP-DIRD-Metallic-Glasses-for-Aerospace-Applications-December-14-2009_djvu.txt",
+  "sha1_local": "4f365ca71e94ad9005ca0bbdba51004cd81210f1",
+  "bytes_local": 73541
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D118_AAWSAP-DIRD-Aerospace-Applications-of-Programmable-Matter-December-14-2009_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D118_AAWSAP-DIRD-Aerospace-Applications-of-Programmable-Matter-December-14-2009_djvu.txt",
+  "size": 50953,
+  "sha1_upstream": "6081be6bcd55fd6d347cac6ac6ad5128183bec7c",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D118_AAWSAP-DIRD-Aerospace-Applications-of-Programmable-Matter-December-14-2009_djvu.txt",
+  "sha1_local": "6081be6bcd55fd6d347cac6ac6ad5128183bec7c",
+  "bytes_local": 50953
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D119_AAWSAP-DIRD-Biomaterials-January-7-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D119_AAWSAP-DIRD-Biomaterials-January-7-2010_djvu.txt",
+  "size": 67947,
+  "sha1_upstream": "646aa27c9e0ec0be5ffa2be22c49db9dc221621c",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D119_AAWSAP-DIRD-Biomaterials-January-7-2010_djvu.txt",
+  "sha1_local": "646aa27c9e0ec0be5ffa2be22c49db9dc221621c",
+  "bytes_local": 67947
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D120_AAWSAP-DIRD-Materials-for-Advanced-Aerospace-Platforms-January-12-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D120_AAWSAP-DIRD-Materials-for-Advanced-Aerospace-Platforms-January-12-2010_djvu.txt",
+  "size": 81726,
+  "sha1_upstream": "f1bbeb497015c8e7f39588af60780c802360aeee",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D120_AAWSAP-DIRD-Materials-for-Advanced-Aerospace-Platforms-January-12-2010_djvu.txt",
+  "sha1_local": "f1bbeb497015c8e7f39588af60780c802360aeee",
+  "bytes_local": 81726
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D121_AAWSAP-DIRD-Pulsed-High-Power-Microwave-Source-Technology-January-28-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D121_AAWSAP-DIRD-Pulsed-High-Power-Microwave-Source-Technology-January-28-2010_djvu.txt",
+  "size": 104883,
+  "sha1_upstream": "cbd938105c07a653057346548e331215e83736a2",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D121_AAWSAP-DIRD-Pulsed-High-Power-Microwave-Source-Technology-January-28-2010_djvu.txt",
+  "sha1_local": "cbd938105c07a653057346548e331215e83736a2",
+  "bytes_local": 104883
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D122_AAWSAP-DIRD-Invisibility-Cloaking-Theory-and-Experiments-March-2-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D122_AAWSAP-DIRD-Invisibility-Cloaking-Theory-and-Experiments-March-2-2010_djvu.txt",
+  "size": 56302,
+  "sha1_upstream": "d62fa246ce6611759f8e69aa1dd9a23088aae680",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D122_AAWSAP-DIRD-Invisibility-Cloaking-Theory-and-Experiments-March-2-2010_djvu.txt",
+  "sha1_local": "d62fa246ce6611759f8e69aa1dd9a23088aae680",
+  "bytes_local": 56302
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D123_AAWSAP-DIRD-Positron-Aerospace-Propulsion-March-2-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D123_AAWSAP-DIRD-Positron-Aerospace-Propulsion-March-2-2010_djvu.txt",
+  "size": 68824,
+  "sha1_upstream": "fc204ef51e9da14130fa88cb94f7b3f692776865",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D123_AAWSAP-DIRD-Positron-Aerospace-Propulsion-March-2-2010_djvu.txt",
+  "sha1_local": "fc204ef51e9da14130fa88cb94f7b3f692776865",
+  "bytes_local": 68824
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D124_AAWSAP-DIRD-Space Access-Where-Weve-Been-and-Where-We-Could-Go-March-8-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D124_AAWSAP-DIRD-Space_Access-Where-Weve-Been-and-Where-We-Could-Go-March-8-2010_djvu.txt",
+  "size": 134623,
+  "sha1_upstream": "6a0bc823e62cf30322e5fa5002cbf4e31980b016",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D124_AAWSAP-DIRD-Space%20Access-Where-Weve-Been-and-Where-We-Could-Go-March-8-2010_djvu.txt",
+  "sha1_local": "6a0bc823e62cf30322e5fa5002cbf4e31980b016",
+  "bytes_local": 134623
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D125_AAWSA-DIRD-Inertial-Electrostatic-Confinement-Fusion-March-10-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D125_AAWSA-DIRD-Inertial-Electrostatic-Confinement-Fusion-March-10-2010_djvu.txt",
+  "size": 195805,
+  "sha1_upstream": "adc11df824c6a8d83388d602fe46959d5b1342a6",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D125_AAWSA-DIRD-Inertial-Electrostatic-Confinement-Fusion-March-10-2010_djvu.txt",
+  "sha1_local": "adc11df824c6a8d83388d602fe46959d5b1342a6",
+  "bytes_local": 195805
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D126_AAWSAP-DIRD-Advanced-Nuclear-Propulsion-for-Manned-Deep-Space-Missions-March-11-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D126_AAWSAP-DIRD-Advanced-Nuclear-Propulsion-for-Manned-Deep-Space-Missions-March-11-2010_djvu.txt",
+  "size": 83987,
+  "sha1_upstream": "39e8b0cb984818740e01149cef7af1c98e4e9264",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D126_AAWSAP-DIRD-Advanced-Nuclear-Propulsion-for-Manned-Deep-Space-Missions-March-11-2010_djvu.txt",
+  "sha1_local": "39e8b0cb984818740e01149cef7af1c98e4e9264",
+  "bytes_local": 83987
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D127_AAWSAP-DIRD-An-Introduction-to-the-Statistical-Drake-Equation-March-11-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D127_AAWSAP-DIRD-An-Introduction-to-the-Statistical-Drake-Equation-March-11-2010_djvu.txt",
+  "size": 126126,
+  "sha1_upstream": "bab81122f63452476ce80cd07338f92381c183ce",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D127_AAWSAP-DIRD-An-Introduction-to-the-Statistical-Drake-Equation-March-11-2010_djvu.txt",
+  "sha1_local": "bab81122f63452476ce80cd07338f92381c183ce",
+  "bytes_local": 126126
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D128_AAWSAP-DIRD-Anomalous-Acute-and-Subacute-Field-Effects-on-Human-Biological-Tissues-March-11-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D128_AAWSAP-DIRD-Anomalous-Acute-and-Subacute-Field-Effects-on-Human-Biological-Tissues-March-11-2010_djvu.txt",
+  "size": 92337,
+  "sha1_upstream": "cbe518d544b0e3525c1bef897501cf9a187030fb",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D128_AAWSAP-DIRD-Anomalous-Acute-and-Subacute-Field-Effects-on-Human-Biological-Tissues-March-11-2010_djvu.txt",
+  "sha1_local": "cbe518d544b0e3525c1bef897501cf9a187030fb",
+  "bytes_local": 92337
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D129_AAWSAP-DIRD-Metallic-Spintronics-March-23-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D129_AAWSAP-DIRD-Metallic-Spintronics-March-23-2010_djvu.txt",
+  "size": 74624,
+  "sha1_upstream": "68cbad2efe390d529335350ade5dd016c2978d96",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D129_AAWSAP-DIRD-Metallic-Spintronics-March-23-2010_djvu.txt",
+  "sha1_local": "68cbad2efe390d529335350ade5dd016c2978d96",
+  "bytes_local": 74624
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D130_AAWSAP-DIRD-Technological-Approaches-to-Controlling-External-Devices-March-23-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D130_AAWSAP-DIRD-Technological-Approaches-to-Controlling-External-Devices-March-23-2010_djvu.txt",
+  "size": 108885,
+  "sha1_upstream": "ec637af1fe067f27a978af5e5ed9685cce67485e",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D130_AAWSAP-DIRD-Technological-Approaches-to-Controlling-External-Devices-March-23-2010_djvu.txt",
+  "sha1_local": "ec637af1fe067f27a978af5e5ed9685cce67485e",
+  "bytes_local": 108885
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D131_AAWSAP-DIRD-The-Role-of-Superconductors-in-Gravity-Research-March-23-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D131_AAWSAP-DIRD-The-Role-of-Superconductors-in-Gravity-Research-March-23-2010_djvu.txt",
+  "size": 52343,
+  "sha1_upstream": "cea5e5a472ee53c7810be5d3861e6bbdb02f8bce",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D131_AAWSAP-DIRD-The-Role-of-Superconductors-in-Gravity-Research-March-23-2010_djvu.txt",
+  "sha1_local": "cea5e5a472ee53c7810be5d3861e6bbdb02f8bce",
+  "bytes_local": 52343
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D132_AAWSAP-DIRD-Advanced-Space-Propulsion-Based-on-Vacuum-Spacetime Metric-Engineering-March-29-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D132_AAWSAP-DIRD-Advanced-Space-Propulsion-Based-on-Vacuum-Spacetime_Metric-Engineering-March-29-2010_djvu.txt",
+  "size": 41230,
+  "sha1_upstream": "93f3b82b7e1d20de202d11d78a6b1aa6e543e803",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D132_AAWSAP-DIRD-Advanced-Space-Propulsion-Based-on-Vacuum-Spacetime%20Metric-Engineering-March-29-2010_djvu.txt",
+  "sha1_local": "93f3b82b7e1d20de202d11d78a6b1aa6e543e803",
+  "bytes_local": 41230
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D133_AAWSAP-DIRD-The-Space-Communication-Implications-of-Quantum-Entanglement-and-Nonlocality-March-30-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D133_AAWSAP-DIRD-The-Space-Communication-Implications-of-Quantum-Entanglement-and-Nonlocality-March-30-2010_djvu.txt",
+  "size": 83282,
+  "sha1_upstream": "48bfcf9baa8ee7e39c6b20f71d2954ef85680ec8",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D133_AAWSAP-DIRD-The-Space-Communication-Implications-of-Quantum-Entanglement-and-Nonlocality-March-30-2010_djvu.txt",
+  "sha1_local": "48bfcf9baa8ee7e39c6b20f71d2954ef85680ec8",
+  "bytes_local": 83282
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D134_AAWSAP-DIRD-Maverick-Inventor-Versus-Corporate-Inventor-Where-Will-the-Next-Major-Innovations-Arise-March-30-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D134_AAWSAP-DIRD-Maverick-Inventor-Versus-Corporate-Inventor-Where-Will-the-Next-Major-Innovations-Arise-March-30-2010_djvu.txt",
+  "size": 52533,
+  "sha1_upstream": "d1c9b59188efa8122c25bf260c944da59abab2f5",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D134_AAWSAP-DIRD-Maverick-Inventor-Versus-Corporate-Inventor-Where-Will-the-Next-Major-Innovations-Arise-March-30-2010_djvu.txt",
+  "sha1_local": "d1c9b59188efa8122c25bf260c944da59abab2f5",
+  "bytes_local": 52533
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D135_ AAWSAP-DIRD-Antigravity-for-Aerospace-Applications-March-30-2010-V2_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D135__AAWSAP-DIRD-Antigravity-for-Aerospace-Applications-March-30-2010-V2_djvu.txt",
+  "size": 123613,
+  "sha1_upstream": "2558c72662c4ce217991641b24b14d09939df0f8",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D135_%20AAWSAP-DIRD-Antigravity-for-Aerospace-Applications-March-30-2010-V2_djvu.txt",
+  "sha1_local": "2558c72662c4ce217991641b24b14d09939df0f8",
+  "bytes_local": 123613
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D136_AAWSAP-DIRD-Biosensors-and-BioMEMS-A-Survey-of-the-Present-Field-March-31-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D136_AAWSAP-DIRD-Biosensors-and-BioMEMS-A-Survey-of-the-Present-Field-March-31-2010_djvu.txt",
+  "size": 91684,
+  "sha1_upstream": "ebb1bcd028020501e61778f8438636a52c68d443",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D136_AAWSAP-DIRD-Biosensors-and-BioMEMS-A-Survey-of-the-Present-Field-March-31-2010_djvu.txt",
+  "sha1_local": "ebb1bcd028020501e61778f8438636a52c68d443",
+  "bytes_local": 91684
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D137_AAWSAP-DIRD-State-of-the-Art-and-Evolution-of-High-Energy-Lasers-March-31-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D137_AAWSAP-DIRD-State-of-the-Art-and-Evolution-of-High-Energy-Lasers-March-31-2010_djvu.txt",
+  "size": 67072,
+  "sha1_upstream": "4cfc714b2d9eeaee59a4f78d2df61fbd4b038d40",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D137_AAWSAP-DIRD-State-of-the-Art-and-Evolution-of-High-Energy-Lasers-March-31-2010_djvu.txt",
+  "sha1_local": "4cfc714b2d9eeaee59a4f78d2df61fbd4b038d40",
+  "bytes_local": 67072
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D138_AAWSAP-DIRD-Warp-Drive-Dark-Energy-and-the-Manipulation-of-Extra-Dimensions-April-2-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D138_AAWSAP-DIRD-Warp-Drive-Dark-Energy-and-the-Manipulation-of-Extra-Dimensions-April-2-2010_djvu.txt",
+  "size": 89397,
+  "sha1_upstream": "f37a30f5e6ad733c0a35d68a52178d9e6944780f",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D138_AAWSAP-DIRD-Warp-Drive-Dark-Energy-and-the-Manipulation-of-Extra-Dimensions-April-2-2010_djvu.txt",
+  "sha1_local": "f37a30f5e6ad733c0a35d68a52178d9e6944780f",
+  "bytes_local": 89397
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D139_AAWSAP-DIRD-Traversable-Wormholes-Stargates-and-Negative-Energy-April-6-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D139_AAWSAP-DIRD-Traversable-Wormholes-Stargates-and-Negative-Energy-April-6-2010_djvu.txt",
+  "size": 110305,
+  "sha1_upstream": "fae416c241dac888dd5c09f460d5743d9cd4ced8",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D139_AAWSAP-DIRD-Traversable-Wormholes-Stargates-and-Negative-Energy-April-6-2010_djvu.txt",
+  "sha1_local": "fae416c241dac888dd5c09f460d5743d9cd4ced8",
+  "bytes_local": 110305
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D140_AAWSAP-DIRD-High-Frequency-Gravitational-Wave-Communications-April-6-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D140_AAWSAP-DIRD-High-Frequency-Gravitational-Wave-Communications-April-6-2010_djvu.txt",
+  "size": 146661,
+  "sha1_upstream": "1ea8e3a8ed51b5b11c427c2222512b3a5bf51f62",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D140_AAWSAP-DIRD-High-Frequency-Gravitational-Wave-Communications-April-6-2010_djvu.txt",
+  "sha1_local": "1ea8e3a8ed51b5b11c427c2222512b3a5bf51f62",
+  "bytes_local": 146661
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D141_AAWSAP-DIRD-Metamaterials-for-Aerospace-Applications-April-6-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D141_AAWSAP-DIRD-Metamaterials-for-Aerospace-Applications-April-6-2010_djvu.txt",
+  "size": 92527,
+  "sha1_upstream": "c88728b146cc79d94e59fa026f8aacbc2c004cfd",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D141_AAWSAP-DIRD-Metamaterials-for-Aerospace-Applications-April-6-2010_djvu.txt",
+  "sha1_local": "c88728b146cc79d94e59fa026f8aacbc2c004cfd",
+  "bytes_local": 92527
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D142_AAWSAP-DIRD-Concepts-for-Extracting-Energy-from-the-Quantum-Vacuum-April-6-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D142_AAWSAP-DIRD-Concepts-for-Extracting-Energy-from-the-Quantum-Vacuum-April-6-2010_djvu.txt",
+  "size": 157036,
+  "sha1_upstream": "c5a268208aaa97d17d2439b1dc30b35a4c4269ed",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D142_AAWSAP-DIRD-Concepts-for-Extracting-Energy-from-the-Quantum-Vacuum-April-6-2010_djvu.txt",
+  "sha1_local": "c5a268208aaa97d17d2439b1dc30b35a4c4269ed",
+  "bytes_local": 157036
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D143_AAWSAP-DIRD-Laser-Lightcraft-Nanosatellites-November-1-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D143_AAWSAP-DIRD-Laser-Lightcraft-Nanosatellites-November-1-2010_djvu.txt",
+  "size": 165431,
+  "sha1_upstream": "e82e9f217eb11c4422ece34501ecc071cd233b2c",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D143_AAWSAP-DIRD-Laser-Lightcraft-Nanosatellites-November-1-2010_djvu.txt",
+  "sha1_local": "e82e9f217eb11c4422ece34501ecc071cd233b2c",
+  "bytes_local": 165431
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D144_AAWSAP-DIRD-Cockpits-in-the-Era-of-Breakthrough-Flight-November-1-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D144_AAWSAP-DIRD-Cockpits-in-the-Era-of-Breakthrough-Flight-November-1-2010_djvu.txt",
+  "size": 144386,
+  "sha1_upstream": "b4ae2f53035dbf115c00d7bcd6940a2c4604d587",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D144_AAWSAP-DIRD-Cockpits-in-the-Era-of-Breakthrough-Flight-November-1-2010_djvu.txt",
+  "sha1_local": "b4ae2f53035dbf115c00d7bcd6940a2c4604d587",
+  "bytes_local": 144386
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D145_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-I-November-1-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D145_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-I-November-1-2010_djvu.txt",
+  "size": 100999,
+  "sha1_upstream": "df129c9d897f27fbde6afc4d7bd0564acf6f4c41",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D145_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-I-November-1-2010_djvu.txt",
+  "sha1_local": "df129c9d897f27fbde6afc4d7bd0564acf6f4c41",
+  "bytes_local": 100999
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D146_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-II-November-1-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D146_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-II-November-1-2010_djvu.txt",
+  "size": 75702,
+  "sha1_upstream": "a7d4cd139e18a409faff75e22a92eca4c94ecee1",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D146_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-II-November-1-2010_djvu.txt",
+  "sha1_local": "a7d4cd139e18a409faff75e22a92eca4c94ecee1",
+  "bytes_local": 75702
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D147_AAWSAP-DIRD-Ultracapacitors-as-Energy-and-Power-Storage-Devices-November-1-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D147_AAWSAP-DIRD-Ultracapacitors-as-Energy-and-Power-Storage-Devices-November-1-2010_djvu.txt",
+  "size": 84463,
+  "sha1_upstream": "8c8010f525a736451edfdaf07f0385e1ac250e67",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D147_AAWSAP-DIRD-Ultracapacitors-as-Energy-and-Power-Storage-Devices-November-1-2010_djvu.txt",
+  "sha1_local": "8c8010f525a736451edfdaf07f0385e1ac250e67",
+  "bytes_local": 84463
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D148_AAWSAP-DIRD-Detection-and-High-Resolution-Tracking-of-Vehicles-at-Hypersonic-Velocities-November-20-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D148_AAWSAP-DIRD-Detection-and-High-Resolution-Tracking-of-Vehicles-at-Hypersonic-Velocities-November-20-2010_djvu.txt",
+  "size": 95330,
+  "sha1_upstream": "b53178cb957224fbd0b448a75fb1fc2ab72bc2e7",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D148_AAWSAP-DIRD-Detection-and-High-Resolution-Tracking-of-Vehicles-at-Hypersonic-Velocities-November-20-2010_djvu.txt",
+  "sha1_local": "b53178cb957224fbd0b448a75fb1fc2ab72bc2e7",
+  "bytes_local": 95330
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D149_AAWSAP-DIRD-MHD-Air-Breathing-Propulsion-and-Power-for-Aerospace-Applications-November-21-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D149_AAWSAP-DIRD-MHD-Air-Breathing-Propulsion-and-Power-for-Aerospace-Applications-November-21-2010_djvu.txt",
+  "size": 83189,
+  "sha1_upstream": "484fc67636fe38fc2d83802d49c03abe19108c38",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D149_AAWSAP-DIRD-MHD-Air-Breathing-Propulsion-and-Power-for-Aerospace-Applications-November-21-2010_djvu.txt",
+  "sha1_local": "484fc67636fe38fc2d83802d49c03abe19108c38",
+  "bytes_local": 83189
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D150_AAWSAP-DIRD-Quantum-Computing-and-Utilizing-Organic-Molecules-in-Automation-Technology-December-10-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D150_AAWSAP-DIRD-Quantum-Computing-and-Utilizing-Organic-Molecules-in-Automation-Technology-December-10-2010_djvu.txt",
+  "size": 131286,
+  "sha1_upstream": "f63de46611bc8cd219f7564a9886f92d0d596a06",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D150_AAWSAP-DIRD-Quantum-Computing-and-Utilizing-Organic-Molecules-in-Automation-Technology-December-10-2010_djvu.txt",
+  "sha1_local": "f63de46611bc8cd219f7564a9886f92d0d596a06",
+  "bytes_local": 131286
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D151_AAWSAP-DIRD-Cognitive-Limits-on-Simultaneous-Control-of-Multiple-Unmanned-Spacecraft-December-15-2010_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D151_AAWSAP-DIRD-Cognitive-Limits-on-Simultaneous-Control-of-Multiple-Unmanned-Spacecraft-December-15-2010_djvu.txt",
+  "size": 75272,
+  "sha1_upstream": "9c5a1a2d6eaf47daf337d29e624546b2f1cf6922",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D151_AAWSAP-DIRD-Cognitive-Limits-on-Simultaneous-Control-of-Multiple-Unmanned-Spacecraft-December-15-2010_djvu.txt",
+  "sha1_local": "9c5a1a2d6eaf47daf337d29e624546b2f1cf6922",
+  "bytes_local": 75272
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D152_AAWSAP-DIRD-Negative-Mass-Propulsion-January-3-2011_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D152_AAWSAP-DIRD-Negative-Mass-Propulsion-January-3-2011_djvu.txt",
+  "size": 61453,
+  "sha1_upstream": "e7b0a47353b30c8160523a1f0c0d1a135f5b60aa",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D152_AAWSAP-DIRD-Negative-Mass-Propulsion-January-3-2011_djvu.txt",
+  "sha1_local": "e7b0a47353b30c8160523a1f0c0d1a135f5b60aa",
+  "bytes_local": 61453
+ },
+ {
+  "archive_path": "Release_06/DOW-UAP-D153_AAWSAP-DIRD-Quantum-Tomography-of-Negative-Energy-States-in-the-Vacuum-January-11-2011_djvu.txt",
+  "vault_path": "evidence_vault/01_PURSUE_PRIMARY/AAWSAP_DIRDs/DOW-UAP-D153_AAWSAP-DIRD-Quantum-Tomography-of-Negative-Energy-States-in-the-Vacuum-January-11-2011_djvu.txt",
+  "size": 122726,
+  "sha1_upstream": "7f6374e0a1093991425d22c328fab044207ba361",
+  "url": "https://archive.org/cors/pursue-uap-documents-2026/Release_06/DOW-UAP-D153_AAWSAP-DIRD-Quantum-Tomography-of-Negative-Energy-States-in-the-Vacuum-January-11-2011_djvu.txt",
+  "sha1_local": "7f6374e0a1093991425d22c328fab044207ba361",
+  "bytes_local": 122726
+ }
+]
