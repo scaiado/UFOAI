@@ -108,28 +108,54 @@ def parse_dt(event_dt, month_year):
     return None, None, None, "none"
 
 
+# Geocode precision tiers, best first.  Recorded per record in
+# kv["GeocodeSource"] so downstream analysis can filter BY PRECISION rather
+# than trusting every coordinate equally -- section 6 records that the
+# persistence result was falsified as a cross-pipeline geocoding artefact, so
+# coordinate provenance is kept, not discarded.
+TIERS = [("SET_", "wikidata_settlement"),   # P31/P279* human settlement, via box
+         ("NOM_", "nominatim"),             # fallback geocoder
+         ("",     "wikidata_anyentity")]    # P131+ recall set, no class filter
+
+
 def load_gazetteer():
-    """{(state_code, normalised_name): (lat, lon, pop)}, best population wins."""
-    g = {}
+    """{tier_name: {(state, folded_name): (lat, lon, pop)}}, best population
+    wins within a tier.  Lookup walks TIERS in order."""
+    g = {name: {} for _, name in TIERS}
     if not os.path.isdir(GAZ):
         return g
     for fn in sorted(os.listdir(GAZ)):
         if not fn.endswith(".json"):
             continue
-        st = fn[:-5].split("_")[-1]
+        stem = fn[:-5]
+        tier = next(name for pre, name in TIERS
+                    if pre and stem.startswith(pre)) \
+            if any(pre and stem.startswith(pre) for pre, _ in TIERS) \
+            else "wikidata_anyentity"
+        st = stem.split("_")[-1]
         try:
             rows = json.load(open(os.path.join(GAZ, fn), encoding="utf-8"))
         except Exception:
             continue
+        d = g[tier]
         for r in rows:
             k = (st, norm_name(r.get("name")))
             if not k[1]:
                 continue
             pop = r.get("pop") or 0
-            old = g.get(k)
+            old = d.get(k)
             if old is None or (pop or 0) > (old[2] or 0):
-                g[k] = (r["lat"], r["lon"], pop)
+                d[k] = (r["lat"], r["lon"], pop)
     return g
+
+
+def lookup(gaz, key):
+    """-> (lat, lon, tier_name) or (None, None, "")."""
+    for _, name in TIERS:
+        hit = gaz.get(name, {}).get(key)
+        if hit:
+            return hit[0], hit[1], name
+    return None, None, ""
 
 
 def main():
@@ -143,8 +169,11 @@ def main():
     os.makedirs(OUT, exist_ok=True)
 
     gaz = load_gazetteer()
-    print(f"gazetteer entries: {len(gaz)}"
-          f"{'  (EMPTY -- records will carry no coordinates)' if not gaz else ''}")
+    ntot = sum(len(v) for v in gaz.values())
+    for _, name in TIERS:
+        print(f"  gazetteer tier {name:<24}{len(gaz.get(name, {})):>8} keys")
+    print(f"  total {ntot} keys"
+          f"{'  (EMPTY -- records will carry no coordinates)' if not ntot else ''}")
 
     recs = []
     stats = collections.Counter()
@@ -160,10 +189,12 @@ def main():
                            "Canada" if st in CA_PROV else "")
             key = (st, norm_name(city))
             pairs[f"{city}|{st}"] += 1
-            hit = gaz.get(key)
+            la, lo, tier = lookup(gaz, key)
             stats["total"] += 1
             stats[f"prec:{prec}"] += 1
-            stats["geocoded" if hit else "ungeocoded"] += 1
+            stats["geocoded" if tier else "ungeocoded"] += 1
+            if tier:
+                stats[f"tier:{tier}"] += 1
             if country:
                 stats["has_country"] += 1
             desc = WS.sub(" ", str(row.get("summary") or "")).strip()
@@ -172,7 +203,7 @@ def main():
                 "source_id": str(i), "date_raw": (row.get("event_date_time") or "").strip(),
                 "year": y, "month": mo, "day": d, "prec": prec,
                 "date_uncertain": prec in ("year", "none"),
-                "lat": hit[0] if hit else None, "lon": hit[1] if hit else None,
+                "lat": la, "lon": lo,
                 "location": (f"{city}, {st}" if st else city)[:200],
                 "country": country[:60], "desc": desc[:4000],
                 "etype": (row.get("shape") or "").strip(),
@@ -181,7 +212,7 @@ def main():
                 "kv": {"Country": country, "Duration": (row.get("duration") or "").strip(),
                        "Shape": (row.get("shape") or "").strip(),
                        "Posted": (row.get("posted") or "").strip(),
-                       "GeocodeSource": "wikidata_gazetteer" if hit else ""},
+                       "GeocodeSource": tier},
             })
 
     json.dump({"nuforc": recs}, open(f"{OUT}/nuforc.json", "w"), ensure_ascii=False)
@@ -196,6 +227,11 @@ def main():
     print(f"  geocoded           : {stats['geocoded']} "
           f"({stats['geocoded']/stats['total']:.1%})")
     print(f"  ungeocoded         : {stats['ungeocoded']}")
+    for _, name in TIERS:
+        k = f"tier:{name}"
+        if stats[k]:
+            print(f"    via {name:<24}{stats[k]:>8} "
+                  f"({stats[k]/stats['total']:.1%})")
     print(f"  date precision     : " + ", ".join(
         f"{k.split(':')[1]}={stats[k]}" for k in sorted(stats) if k.startswith("prec:")))
     dayprec = sum(v for k, v in stats.items() if k == "prec:day")

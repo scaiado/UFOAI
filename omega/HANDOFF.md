@@ -217,21 +217,63 @@ Case pages are Drupal-rendered and take 3–28 s each, so the script batches 8 p
 curl invocation to reuse the TLS connection. Static files answer in ~0.3 s.
 Expect ~15 min for the remaining pages, then the file phase.
 
-### 2.2 `omega/gazetteer.py` — Wikidata bulk gazetteer for NUFORC
+### 2.2 `omega/gazetteer.py` — SOLVED 2026-11-26, and the old diagnosis was wrong
 
-**Purpose:** NUFORC ships no coordinates and Nominatim at 1 req/s is ~9.5 h for
-33,976 pairs. `query.wikidata.org` is allowlisted and serves the same data in
-bulk, one query per state/province (a nationwide query times out).
+**Purpose:** NUFORC ships no coordinates and Nominatim at 1 req/s is ~8.5 h for
+~31k pairs. `query.wikidata.org` is allowlisted and serves the same data in
+bulk, one query per state/province.
 
-**Progress:** 0 of 66 files. **A bug was found and fixed but the fixed version
-never ran** — Wikidata labels contain raw control characters, so
-`json.loads(...)` threw `Invalid control character`. Now `strict=False`.
-Each state query takes ~60 s, so a full run is ~66 min.
+**The previously recorded cause was WRONG on both counts.** It was not a JSON
+control-character problem:
 
-**Resume:** `python3 -I omega/gazetteer.py`
+- The real failure was **HTTP 504 "upstream request timeout" after ~65 s, for
+  every admin unit including the District of Columbia.** The query was simply
+  too expensive. The old `q()` collapsed any exception into `return None` and
+  printed a generic `FAILED`, which is exactly why the 504 stayed invisible for
+  a whole session. **A bare `except Exception: return None` cost this project a
+  session. `q()` now returns `(bindings, reason)` and reports HTTP status plus
+  the response head.**
+- **Measured across 55,045 New York rows, the number of labels containing a
+  control character is ZERO.** `strict=False` is retained only because it is
+  harmless. It fixed nothing.
 
-**Verify the fix first** — this is the one piece of code in the repo that has
-not been observed working end to end.
+**The two costly constructs** were the unbounded subclass traversal
+`wdt:P31/wdt:P279* wd:Q486972` and the statement-node coordinate form
+`p:P625/psv:P625 [...]`. Replaced by plain `wdt:P625` with `geof:latitude` /
+`geof:longitude`:
+
+| unit | before | after |
+|---|---|---|
+| DC | 504 timeout at 65 s | **1.8 s** (3,054 rows) |
+| Rhode Island | 504 timeout | **0.9 s** (3,996 rows) |
+| New York | 504 timeout | **23.7 s** (55,045 rows) |
+
+Dropping the settlement class is deliberate — it buys recall (20k–76k
+coordinate-bearing entities per state). The cost is precision: only ~2–3% of
+those carry a population (P1082), so there is no signal to prefer a town called
+Springfield over a creek of the same name. Because §6 records that the
+persistence result was falsified as a **cross-pipeline geocoding artefact**,
+that gap gets a guard: `omega/gazetteer_settlements.py` adds a high-precision
+settlement overlay using `SERVICE wikibase:box`, which tolerates the class
+traversal the `P131+` path does not (Rhode Island box + `P279*` = 8.3 s), with
+each state's bounding box computed from the recall files already on disk.
+
+`omega/nuforc_ingest.py` resolves in **three precision tiers** —
+`wikidata_settlement`, `nominatim`, `wikidata_anyentity` — and records which
+one produced each coordinate in `kv["GeocodeSource"]`, so downstream work can
+filter by geocode precision instead of trusting every coordinate equally.
+
+`omega/gazetteer_nominatim.py` is the documented fallback: 1 req/s, honest UA,
+resumable per-pair cache, pairs in descending record-count order so it can be
+stopped at any point with a known coverage figure.
+
+**NUFORC ingest is verified end to end:** 134,906 records, **100%
+day-precision**, 99.1% with a country resolved from the parenthetical in `city`,
+30,787 distinct `city|state` pairs after name folding. It is **deliberately NOT
+registered in `corpus.CATALOG_META`** — adding a 134,906-record catalogue to
+`load_all` would silently change every established result in §6. The arm is
+opt-in. `Rec.summary` is forced `True` on every record because NUFORC's
+`summary` column is a summary line, not a narrative.
 
 ---
 
@@ -270,10 +312,26 @@ Allowlisted (17): `arxiv.org`, `export.arxiv.org`, `www.sidc.be`,
 - An `update_environment` request to add both was **rejected by the
   environments service**. Do not re-ask in chat.
 
+**2026-11-26: THE ENTIRE ALLOWLIST WAS EMPTY AT SESSION START.** `get_environment`
+returned `allowed_hosts: []` on the Default environment — all 15 hosts above
+were gone, and `archive.org` answered `connect_rejected, HTTP 403`. **scipy and
+scikit-learn were also missing**, which breaks every statistical script in
+`omega/` (the C-vs-D test needs both).
+
+Fixed by creating a personal environment **`UFOAI Omega research`**
+(`env_018sxdcbBHMGqCRwh6KXDi6D`) with the 8 hosts the §5 queue needs —
+`archive.org`, `www.geipan.fr`, `geipan.fr`, `cnes.fr`, `query.wikidata.org`,
+`nominatim.openstreetmap.org`, `earth-search.aws.element84.com`,
+`en.wikipedia.org` — and a **setup script** carrying
+`tesseract-ocr tesseract-ocr-fra poppler-utils` + `pip install scipy
+scikit-learn`. **Start future sessions on that environment, not Default.**
+
+The setup script has never actually run — it does not execute on the machine
+that creates it. **Verify it on the first fresh session** that starts on this
+environment; if it failed, run its commands by hand and fix it.
+
 Notes: combined remove+add `update_environment` calls are rejected — do them
-separately. `tesseract` 5.3.4 + `eng`/`fra` and `poppler-utils` were installed
-this session via `apt-get update && apt-get install -y tesseract-ocr
-tesseract-ocr-fra` — **they are NOT in a setup script and must be reinstalled.**
+separately.
 
 ---
 

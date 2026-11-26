@@ -242,3 +242,33 @@ A mandated reporting channel with an empty archive, on the record, in 2009.
 3. **Claim decay**: D175, *BAASS Self-Assessment of UAP Analysis Capabilities*,
    Nov 2010 — 15 months later, same organisation, same subject.
 4. **668-case NIDS database** — named deliverable; check whether it is in PURSUE.
+
+---
+
+## 8. OCR validation of D172
+
+**The cross-derivation check cannot run. Reported as null.**
+
+Archive.org has, since the previous session, derived text for 25 Release_07
+documents — `DOW-UAP-D155` through `D181` — which raised the possibility of
+validating our tesseract output against an independent derivation. It does not
+work: the two sets are **exactly complementary**. Archive.org derived D155–D181
+*except* D165 and D172; our OCR covers D165, D172 and D182–D213. Overlap is
+**zero documents**. D165 and D172 are precisely the two files in that range
+archive.org's deriver still cannot handle, which is why we OCR'd them in the
+first place.
+
+**Two validations that do work, both favourable.**
+
+**(a) The arithmetic checks are an OCR test on the numerals.** §2's MUFON CMS
+check summed a 4-class × 5-level table of 20 independently-OCR'd integers to
+8,753, and the document's separately-printed pie-chart percentages reproduce on
+that total to within 0.07 pp (CE 25.51% vs stated 25.5%; AN 12.03% vs stated
+12.1%). Twenty corrupted digits do not sum to a total that reproduces two
+independently-printed percentages. The numerals in this document read correctly.
+
+**(b) The load-bearing figure is attested twice, 64 pages apart.** The D count
+appears at **p219** ("BAASS has translated and analyzed 68 of the 205 Category D
+cases") and again at **p283** ("D cases: 205 cases for 23 regions"). Two
+independent passages, two different sections, same figure. `323` appears twice
+and `68` thirteen times. The §1 result does not rest on a single OCR'd token.

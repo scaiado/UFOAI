@@ -24,12 +24,24 @@ PRE-REGISTERED PREDICTION (recorded before the first run):
   Genuine content result only if phenomenon descriptors (shape, motion, colour,
   sound) discriminate AFTER information-quantity control.  Predicted: they will
   not.
+
+SECOND PREMISE RISK, MEASURED AND GUARDED (2026-11-26)
+  GEIPAN's dossier PDFs are mixed: 1951-1954 procès-verbaux carry NO embedded
+  text layer, while a 1993 PV carries 12,548 characters of poor-quality
+  embedded text ("CROQUIS DE L'ÉTAT DES LIEUX" -> "C R O Q U I S  D E
+  L 'E'I'A'i'").  Text-layer availability therefore correlates with ERA, and D
+  cases skew older.  A "pdftotext first, OCR if short" rule would run two text
+  pipelines split along a line correlated with the label -- structurally the
+  cross-pipeline defect that falsified the persistence result.  So every
+  document is re-OCR'd through one pipeline (geipan_pv_extract.py), and OCR
+  QUALITY IS CHECKED BETWEEN ARMS here before any effect is interpreted.  Tier
+  W6 additionally matches the arms on quality.
   POWER WARNING: ~50 D cases carry documents, against 106 D total.  Section 1.4
   reached MDD 0.107 at 106 D vs 1017 C.  At n~50 vs ~100 expect MDD 0.15-0.22.
   A true effect of +0.10 would be invisible.  If MDD lands there the result is
   UNDERPOWERED (failure mode #2), not null, and is reported as such.
 """
-import os, re, sys, json, random, collections
+import os, re, sys, json, math, random, collections
 sys.path.insert(0, "/home/user/UFOAI")
 import numpy as np
 from omega.geipan import toks
@@ -73,7 +85,7 @@ def load_witness():
     """One record per case: all witness-class documents concatenated."""
     idx = json.load(open(f"{PV}/index.json", encoding="utf-8"))
     by = collections.defaultdict(lambda: {"txt": [], "arm": None, "year": None,
-                                          "files": [], "methods": []})
+                                          "files": [], "methods": [], "q": []})
     for r in idx:
         if not r["witness"]:
             continue
@@ -89,24 +101,27 @@ def load_witness():
         e["year"] = r["year"]
         e["files"].append(r["file"])
         e["methods"].append(r["method"])
+        e["q"].append((r.get("q") or {}).get("score", 0.0))
     out = []
     for cid, e in by.items():
         out.append({"cid": cid, "arm": e["arm"], "year": e["year"],
                     "files": e["files"], "methods": e["methods"],
+                    "qual": (sum(e["q"]) / len(e["q"])) if e["q"] else 0.0,
                     "raw": norm("\n".join(e["txt"]))})
     return out
 
 
-def length_matched(data, tol=0.20, seed=5):
+def _matched(data, keyfn, tol, floor, seed=5):
+    """Greedy 1:1 nearest matching of D cases to C cases on keyfn."""
     rng = random.Random(seed)
     D = [(r, y) for r, y in data if y == "D"]
     N = [(r, y) for r, y in data if y == "C"]
-    plen = [len(toks(x[0]["_txt"])) for x in N]
+    pk = [keyfn(x[0]) for x in N]
     used, out = set(), []
     for r, y in D:
-        L = len(toks(r["_txt"]))
-        c = [i for i, pl in enumerate(plen)
-             if i not in used and abs(pl - L) <= max(10, tol * L)]
+        L = keyfn(r)
+        c = [i for i, v in enumerate(pk)
+             if i not in used and abs(v - L) <= max(floor, tol * abs(L))]
         if not c:
             continue
         j = rng.choice(c)
@@ -115,14 +130,27 @@ def length_matched(data, tol=0.20, seed=5):
     return out
 
 
+def length_matched(data, tol=0.20, seed=5):
+    return _matched(data, lambda r: len(toks(r["_txt"])), tol, 10, seed)
+
+
+def quality_matched(data, tol=0.25, seed=7):
+    """Match on OCR quality AND then on length, so neither can carry it."""
+    q = _matched(data, lambda r: r.get("qual", 0.0), tol, 0.03, seed)
+    return _matched(q, lambda r: len(toks(r["_txt"])), 0.25, 12, seed + 1)
+
+
 def tier(recs, name, fn, matched=False):
+    """matched: False | "length" | "quality" """
     data = []
     for r in recs:
         t = fn(r["raw"])
         if len(toks(t)) >= 10:
             data.append((dict(r, _txt=t), r["arm"]))
-    if matched:
+    if matched == "length":
         data = length_matched(data)
+    elif matched == "quality":
+        data = quality_matched(data)
     arms = collections.Counter(y for _, y in data)
     if len(arms) < 2 or min(arms.values()) < 8:
         return {"tier": name, "status": "insufficient", "arms": dict(arms)}
@@ -133,7 +161,11 @@ def tier(recs, name, fn, matched=False):
     p = float((np.sum(null >= obs - 1e-12) + 1) / (NPERM + 1))
     tD = [len(toks(r["_txt"])) for r, y in data if y == "D"]
     tC = [len(toks(r["_txt"])) for r, y in data if y == "C"]
+    qD = [r.get("qual", 0.0) for r, y in data if y == "D"]
+    qC = [r.get("qual", 0.0) for r, y in data if y == "C"]
     return {"tier": name, "status": "ok", "n_D": arms["D"], "n_C": arms["C"],
+            "median_qual_D": round(float(np.median(qD)), 4) if qD else None,
+            "median_qual_C": round(float(np.median(qC)), 4) if qC else None,
             "n_each_arm": m, "bal_acc": round(obs, 4),
             "effect": round(obs - 0.5, 4), "null_mean": round(float(null.mean()), 4),
             "null_sd": round(sd, 4), "p": round(p, 5),
@@ -167,13 +199,28 @@ def main():
     print("  (in `Détails`, `manquons` was 163/1017 C vs 0/106 D -- "
           "if that asymmetry reappears here the premise fails)")
 
+    print("\n=== PREMISE CHECK 2: does OCR quality differ between arms? ===")
+    qD = np.array([r["qual"] for r in recs if r["arm"] == "D"])
+    qC = np.array([r["qual"] for r in recs if r["arm"] == "C"])
+    tD = np.array([len(toks(r["raw"])) for r in recs if r["arm"] == "D"])
+    tC = np.array([len(toks(r["raw"])) for r in recs if r["arm"] == "C"])
+    for lbl, a, b in (("quality score", qD, qC), ("token count", tD, tC)):
+        if len(a) > 1 and len(b) > 1:
+            sp = math.sqrt(a.var(ddof=1) / len(a) + b.var(ddof=1) / len(b))
+            z = (a.mean() - b.mean()) / sp if sp else float("nan")
+            print(f"  {lbl:<16} D med={np.median(a):>9.3f} C med={np.median(b):>9.3f}"
+                  f"   D mean={a.mean():>9.3f} C mean={b.mean():>9.3f}   z={z:+.3f}")
+    print("  (a large quality z means OCR characteristics track the label and")
+    print("   tier W6 -- quality-matched -- is the only interpretable row)")
+
     TIERS = [
         ("W0 raw witness text",        lambda t: t,                          False),
         ("W1 verdict phrasing out",    lambda t: norm(VERDICT_RX.sub(" ", t)), False),
         ("W2 + leak lexicon out",      lambda t: norm(LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t))), False),
-        ("W3 + length matched",        lambda t: norm(LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t))), True),
-        ("W4 + numerals out",          lambda t: norm(NUMERAL.sub(" ", LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t)))), True),
-        ("W5 descriptors only",        lambda t: norm(" ".join(DESCRIPTOR.findall(t))), True),
+        ("W3 + length matched",        lambda t: norm(LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t))), "length"),
+        ("W4 + numerals out",          lambda t: norm(NUMERAL.sub(" ", LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t)))), "length"),
+        ("W5 descriptors only",        lambda t: norm(" ".join(DESCRIPTOR.findall(t))), "length"),
+        ("W6 quality+length matched",  lambda t: norm(NUMERAL.sub(" ", LEAK_LEX.sub(" ", VERDICT_RX.sub(" ", t)))), "quality"),
     ]
     out = []
     print(f"\n=== TIERS (permutation null, {NPERM} draws) ===")
