@@ -77,6 +77,27 @@ TMPL = """SELECT ?l ?lat ?lon ?pop WHERE {
   FILTER(LANG(?l) IN ("en","mul"))
   OPTIONAL { ?c wdt:P1082 ?pop }
 }"""
+# Fallback for admin units whose single response is too large to return.
+# LIMIT/OFFSET paging DOES NOT WORK here: stable pages need ORDER BY, and
+# ordering ~90k rows is itself too expensive -- measured, California answered
+# http_504 at 65 s for `ORDER BY ?l LIMIT 40000 OFFSET 0`.  Partitioning on
+# the first character of the label works instead: the parts are
+# deterministic, non-overlapping and need no sort.  Measured on California,
+# letter 'L' returns 5,420 rows in 45 s (Los Angeles present) and 'S'
+# returns 8,162 in 50 s (San Diego and San Francisco present).
+_PART = TMPL.rstrip()[:-1] + """  FILTER(%s)
+}"""
+LETTERS = [chr(c) for c in range(ord("A"), ord("Z") + 1)]
+
+
+def partitions(qid):
+    """(label, sparql) per partition: A-Z by initial, then everything else."""
+    for L in LETTERS:
+        yield L, _PART % (qid, 'STRSTARTS(?l,"%s")' % L)
+    rest = " && ".join('!STRSTARTS(?l,"%s")' % L for L in LETTERS)
+    yield "other", _PART % (qid, rest)
+
+
 def q(sparql, timeout=180):
     """-> (bindings, reason).  bindings is None on failure; reason is never
     generic, because a generic reason is what hid the 504 for a whole session."""
@@ -104,6 +125,41 @@ def main():
             continue
         t0 = time.time()
         rows, why = q(TMPL % qid)
+
+        # Two real failure modes seen in practice, both surfaced only because
+        # q() reports a reason instead of returning None:
+        #   * California: the single response is large enough to be truncated
+        #     mid-JSON, giving parse_JSONDecodeError.
+        #   * Michigan: a transient http_502 from the endpoint.
+        # Retry once for a transient error, then fall back to LIMIT/OFFSET
+        # paging, which fixes the truncation case.
+        if rows is None and why.startswith("http_5"):
+            print(f"  {cc}/{code} transient {why.split(':')[0]}, retrying once",
+                  flush=True)
+            time.sleep(8)
+            rows, why = q(TMPL % qid)
+
+        if rows is None:
+            print(f"  {cc}/{code} single query failed ({why.split(':')[0]}); "
+                  f"partitioning by initial letter", flush=True)
+            rows, bad = [], []
+            for lbl, sq in partitions(qid):
+                part, why2 = q(sq, timeout=300)
+                if part is None:
+                    bad.append(f"{lbl}:{why2.split(':')[0]}")
+                    continue
+                rows.extend(part)
+                time.sleep(0.5)
+            if bad:
+                # A partial partition set is NOT silently accepted: name the
+                # missing parts so the file is never mistaken for complete.
+                print(f"  {cc}/{code} PARTITIONS FAILED: {', '.join(bad)}"
+                      f" -- file will be INCOMPLETE", flush=True)
+            print(f"  {cc}/{code} partitioned: {len(rows)} rows from "
+                  f"{27 - len(bad)}/27 partitions", flush=True)
+            if not rows:
+                rows = None
+
         if rows is None:
             print(f"  {cc}/{code} FAILED  {why}", flush=True)
             time.sleep(3); continue
